@@ -223,6 +223,58 @@ D:\dsh workspace\
 - 目录结构见上文「模块结构 → 目录结构」；测试运行方式：`node tools/test_words.js`（74 项）
 - 子应用的内嵌协议：`?embed=1` 使子应用隐藏自身品牌栏（详见各自 README）
 
+## 学习记录的存储与跨设备同步
+
+### 数据存在哪里
+
+全部学习记录保存在浏览器的 **localStorage**，本站**不发起任何网络请求**，数据不会离开你的设备。
+
+| 模块 | 存储键 | 内容 |
+|------|--------|------|
+| 单词 · 阅读538词汇 | `ielts_words_progress_v1` | 每个词的 SRS 状态（掌握度星级 / 复习间隔 / 到期时间） |
+| 单词 · 阅读538词汇 | `ielts_settings_v1`、`ielts_scope_v1`、`ielts_sort_v1` | 发音口音与语速、复习范围、排序偏好 |
+| 听力 · 单词听写 | `ielts_tingxie_srs_v1` | 每个词的掌握度与错误次数 |
+| 听力 · 单词听写 | `ielts_tingxie_exams_v1`、`ielts_tingxie_mistakes_v1`、`ielts_tingxie_settings_v1` | 模考记录、错题本、设置 |
+| 单词 · 100句记7000词 | （无） | 纯浏览型，不记录进度 |
+
+### ⚠️ 重要使用提醒（单设备使用）
+
+localStorage 按 **设备 × 浏览器 × 域名(origin)** 三重隔离，因此：
+
+1. **进度不会在设备之间同步**，也不会随浏览器账号（Chrome/Edge 账号同步）同步；
+2. 同一台机器上 `file://`、`localhost:8080`、`localhost:8000`、`*.github.io` 是**四个不同域名**，
+   各自一套独立记录 —— 建议**固定用同一个地址**学习（推荐固定域名 + 固定端口，例如始终用 Pages 地址或始终用 `localhost:8080`）；
+3. **清除浏览器数据、使用无痕模式**会丢失全部进度，请避免；
+4. 建议始终在**同一台主设备**上学习，保持记录连续。
+
+### 手动备份 / 迁移进度（无需改代码）
+
+在旧设备的浏览器控制台（F12 → Console）执行，导出为一段文本：
+
+```js
+copy(JSON.stringify(Object.fromEntries(
+  Object.entries(localStorage).filter(([k]) => k.startsWith('ielts_'))
+)))
+```
+
+把输出的文本保存好（或发给自己）；在新设备**同一地址**打开站点后，控制台执行：
+
+```js
+(() => { const d = JSON.parse(prompt('粘贴进度数据')); Object.entries(d).forEach(([k, v]) => localStorage.setItem(k, v)); location.reload(); })()
+```
+
+即可完整迁移单词与听力的全部进度。
+
+### 将来想加自动同步可选的三条路
+
+| 方案 | 原理 | 代价 |
+|------|------|------|
+| ① 导出/导入 | 生成进度码/文件，另一台设备导入并按「取更熟练的一方」合并 | 需新增约 100 行代码；手动同步，但离线可用 |
+| ② GitHub Gist | 用仅 `gist` 权限的令牌把进度写进私有 Gist，各设备自动拉取/上传 | 每台设备需粘贴一次令牌；需联网 |
+| ③ Supabase（同步码） | 免费云数据库，用自定义同步码代替账号 | 需注册免费项目并提供 URL + anon key；数据存于第三方 |
+
+三种方案可以叠加（①作为离线兜底，②或③做自动同步），互不冲突。
+
 ## 上传到 GitHub
 
 本仓库已推送到私有仓库：**https://github.com/Jeremy94264/ielts-study-site**（分支 `main`）。
