@@ -223,6 +223,37 @@ D:\dsh workspace\
 - 目录结构见上文「模块结构 → 目录结构」；测试运行方式：`node tools/test_words.js`（74 项）
 - 子应用的内嵌协议：`?embed=1` 使子应用隐藏自身品牌栏（详见各自 README）
 
+## 上传到 GitHub
+
+本仓库已推送到私有仓库：**https://github.com/Jeremy94264/ielts-study-site**（分支 `main`）。
+
+### 将来更新时的推送命令
+
+```powershell
+cd "D:\dsh workspace"
+$env:GIT_SSH = 'C:\Windows\System32\OpenSSH\ssh.exe'   # 必须：本机需绕过 git 自带的 sh
+git add -A
+git commit -m "更新说明"
+git push
+```
+
+### 本机网络环境说明
+
+- `github.com` 的 22/443 端口被代理工具通过 DNS 劫持到 `127.0.0.1`，直连不通；
+  已在 `~/.ssh/config` 中配置 `github.com → ssh.github.com:443`（GitHub 官方备用端口）绕过。
+- 沙箱/受限环境下 git 无法通过 `sh` 传参给 ssh，因此用 `GIT_SSH` 直接指定 ssh 可执行文件。
+- 连接时若提示 `Failed to add the host to the list of known hosts`，属已知的写权限限制，
+  不影响推送；如需消除，可自行执行：
+  ```
+  ssh-keyscan -p 443 ssh.github.com >> %USERPROFILE%\.ssh\known_hosts
+  ```
+
+### 版权资料
+
+`materials/pdf/` 下的 4 份商业教材 PDF 已由 `.gitignore` 排除，**不会**上传。
+站点运行所需的全部数据（词库、句子数据、听写词表）均已提取并包含在仓库中。
+若确需在私有仓库中备份 PDF，可执行 `git add -f materials/pdf/xxx.pdf`。
+
 ## 待办（后续迭代）
 
 - [ ] 语法模块：三大从句 / 非谓语 / 长难句拆解 + 专项练习
