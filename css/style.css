@@ -359,6 +359,23 @@ a.nav-btn { text-decoration: none; display: inline-flex; align-items: center; }
 .res-name { display: block; font-weight: 700; font-size: 14.5px; margin-bottom: 3px; }
 .res-desc { display: block; color: var(--text-light); font-size: 12.5px; line-height: 1.6; }
 
+/* ============ 在线版（GitHub Pages）：本地专属资料降级提示 ============ */
+.local-only-hint {
+  display: none;
+  font-size: 12.5px; line-height: 1.75; color: #8a5a00;
+  background: #fff7e6; border: 1px solid #ffe0a3; border-radius: 10px;
+  padding: 10px 14px; margin-bottom: 10px;
+}
+.local-only-hint b { color: #a86400; }
+html.pages-online .local-only-hint { display: block; }
+html.pages-online .res-item.local-only {
+  opacity: .5; cursor: not-allowed; background: #f7f8fb; border-style: dashed;
+}
+html.pages-online .res-item.local-only:hover { border-color: var(--border); background: #f7f8fb; transform: none; }
+html.pages-online .res-item.local-only .res-name::after {
+  content: "（仅本地可用）"; font-size: 11.5px; font-weight: 500; color: var(--red); margin-left: 6px;
+}
+
 @media (max-width: 860px) {
   .topbar-inner { height: auto; padding: 10px 14px; flex-wrap: wrap; gap: 8px; }
   .main-nav { justify-content: flex-start; }
