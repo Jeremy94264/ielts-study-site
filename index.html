@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的雅思学习站</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-logo">IELTS</span>
+      <span class="brand-name">我的雅思学习站</span>
+    </div>
+    <nav class="main-nav">
+      <button class="nav-btn active" data-section="words">📖 单词</button>
+      <button class="nav-btn" data-section="grammar">📐 语法</button>
+      <button class="nav-btn" data-section="listening">🎧 听力</button>
+      <button class="nav-btn" data-section="reading">📄 阅读</button>
+      <button class="nav-btn" data-section="writing">✍️ 写作</button>
+      <button class="nav-btn" data-section="speaking">🗣️ 口语</button>
+      <button class="nav-btn" data-section="materials">📚 资料</button>
+      <button class="nav-btn nav-btn-settings" id="btn-settings" title="设置">⚙️</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ============================================================
+       模块 1 · 单词（子模块：阅读538词汇 / 100句记7000词）
+       ============================================================ -->
+  <section id="section-words" class="section active">
+    <div class="sub-tabs" id="word-subtabs">
+      <button class="sub-tab active" data-sub="s538">
+        📖 阅读538词汇<span class="sub-tab-note">376 词 · 三类考点词</span>
+      </button>
+      <button class="sub-tab" data-sub="s100">
+        📝 100句记7000词<span class="sub-tab-note">Sentence 01–100</span>
+      </button>
+    </div>
+
+    <!-- ---------- 子模块 1：阅读538词汇（闪卡复习 + 词汇表） ---------- -->
+    <div id="sub-s538" class="sub-panel active">
+      <div class="words-header">
+        <div class="mode-tabs">
+          <button class="mode-tab active" data-mode="cards">🎴 闪卡复习</button>
+          <button class="mode-tab" data-mode="list">📚 词汇表</button>
+        </div>
+        <div class="stats-bar" id="stats-bar"></div>
+      </div>
+
+      <!-- 闪卡复习模式 -->
+      <div id="mode-cards" class="mode-panel active">
+        <div class="scope-bar">
+          <span class="scope-label">复习范围</span>
+          <div class="scope-btns" id="scope-btns">
+            <button class="scope-btn active" data-scope="all">全部随机 <span class="scope-count" id="count-all">—</span></button>
+            <button class="scope-btn" data-scope="第1类考点词">第1类考点词 <span class="scope-count" id="count-t1">—</span></button>
+            <button class="scope-btn" data-scope="第2类考点词">第2类考点词 <span class="scope-count" id="count-t2">—</span></button>
+            <button class="scope-btn" data-scope="第3类考点词">第3类考点词 <span class="scope-count" id="count-t3">—</span></button>
+          </div>
+        </div>
+
+        <div class="cards-layout">
+          <div class="card-panel">
+            <div id="card-session-info" class="card-session-info"></div>
+
+            <div class="flashcard-wrap">
+              <div id="flashcard" class="flashcard">
+                <div class="card-face card-front" id="card-front">
+                  <div class="card-star" id="card-star"></div>
+                  <div class="card-word" id="card-word">—</div>
+                  <div class="card-hint">点击卡片查看释义</div>
+                </div>
+                <div class="card-face card-back">
+                  <div class="card-word-back" id="card-word-back">—</div>
+                  <div class="card-pos" id="card-pos"></div>
+                  <div class="card-meaning" id="card-meaning"></div>
+                  <div class="card-syn" id="card-syn"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pron-row">
+              <button class="pron-btn" id="btn-pron-uk" title="播放英式发音">🔊 英音</button>
+              <button class="pron-btn" id="btn-pron-us" title="播放美式发音">🔊 美音</button>
+              <span class="pron-note" id="pron-note"></span>
+            </div>
+
+            <div id="answer-buttons" class="answer-buttons hidden">
+              <button class="btn btn-again" id="btn-again">😵 不认识</button>
+              <button class="btn btn-hard" id="btn-hard">🤔 认识</button>
+              <button class="btn btn-good" id="btn-good">✅ 已掌握</button>
+            </div>
+
+            <div id="session-done" class="session-done hidden">
+              <div class="done-icon">🎉</div>
+              <p id="session-done-text">今日单词复习完成！</p>
+              <button class="btn btn-primary" id="btn-continue">继续学习新词</button>
+            </div>
+          </div>
+
+          <aside class="side-panel">
+            <div class="side-title">当前范围进度</div>
+            <div id="progress-summary" class="progress-summary"></div>
+            <div class="side-title">三类考点词掌握分布</div>
+            <div class="cat-legend-top">
+              <span class="lg lg-green">已掌握</span>
+              <span class="lg lg-yellow">学习中</span>
+              <span class="lg lg-red">未学习</span>
+            </div>
+            <div id="cat-progress" class="cat-progress"></div>
+            <div class="side-title">今日待复习</div>
+            <div id="due-list" class="due-list"></div>
+            <div class="side-title">复习间隔规则</div>
+            <ul class="rule-list">
+              <li><b>不认识</b>：10分钟后再次出现</li>
+              <li><b>认识</b>：1天后复习</li>
+              <li><b>已掌握</b>：3天 → 6天 → 12天…（翻倍，上限30天）</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+
+      <!-- 词汇表模式 -->
+      <div id="mode-list" class="mode-panel">
+        <div class="list-toolbar">
+          <input type="text" id="search-input" class="search-input" placeholder="🔍 搜索单词（中英文均可）…">
+          <div class="filter-group" id="star-filter">
+            <span class="filter-label">掌握度</span>
+            <button class="filter-btn active" data-star="all">全部</button>
+            <button class="filter-btn" data-star="5">5★</button>
+            <button class="filter-btn" data-star="4">4★</button>
+            <button class="filter-btn" data-star="3">3★</button>
+            <button class="filter-btn" data-star="2">2★</button>
+            <button class="filter-btn" data-star="1">1★</button>
+          </div>
+          <div class="filter-group" id="sort-group">
+            <span class="filter-label">排序</span>
+            <button class="filter-btn active" data-sort="alpha">字母顺序</button>
+            <button class="filter-btn" data-sort="star-desc">掌握度 高→低</button>
+            <button class="filter-btn" data-sort="star-asc">掌握度 低→高</button>
+          </div>
+          <div class="filter-group" id="type-filter">
+            <span class="filter-label">类别</span>
+            <button class="filter-btn active" data-type="all">全部</button>
+            <button class="filter-btn" data-type="第1类考点词">第1类考点词</button>
+            <button class="filter-btn" data-type="第2类考点词">第2类考点词</button>
+            <button class="filter-btn" data-type="第3类考点词">第3类考点词</button>
+          </div>
+        </div>
+        <div class="list-hint">
+          <b>星级 = 掌握程度</b>（由复习情况自动计算）：1★ 未学习 → 2★ 认识(1天) → 3★ 已掌握(3天) → 4★ 6天 → 5★ ≥12天长期记忆
+        </div>
+        <div id="word-list" class="word-list"></div>
+      </div>
+    </div>
+
+    <!-- ---------- 子模块 2：100句记7000词（内嵌句子学习页） ---------- -->
+    <div id="sub-s100" class="sub-panel">
+      <div class="embed-bar">
+        <div class="embed-info">
+          <b>100个句子记完7000个雅思单词</b>
+          <small>Sentence 01–100 · 句子翻译 / 语法结构 / 重点单词 / 主题单词（769 核心词条 · 186 主题分组）</small>
+        </div>
+        <a class="embed-open" href="apps/ielts-sentences/index.html" target="_blank" rel="noopener">↗ 全屏打开</a>
+      </div>
+      <div class="embed-wrap">
+        <iframe id="frame-s100" class="embed-frame" data-src="apps/ielts-sentences/index.html?embed=1"
+                title="100个句子记完7000个雅思单词"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       模块 2 · 语法
+       ============================================================ -->
+  <section id="section-grammar" class="section">
+    <div class="placeholder">
+      <div class="placeholder-icon">📐</div>
+      <h2>语法</h2>
+      <p>规划内容：<br>
+        句子成分与基本句型 / 三大从句（名词性 · 定语 · 状语） / 非谓语动词<br>
+        时态与语态 / 虚拟语气与倒装 / 长难句拆解训练<br>
+        配套：语法点专项练习与错题解析</p>
+      <p class="placeholder-note">模块规划中，敬请期待</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       模块 3 · 听力（内嵌听写训练营）
+       ============================================================ -->
+  <section id="section-listening" class="section">
+    <div class="embed-bar">
+      <div class="embed-info">
+        <b>雅思听力语料库 · 单词听写训练营</b>
+        <small>《雅思王听力语料库》Chapter 3 · Test Paper 1–9 · 共 1114 词（只听发音、键盘拼写、自动判分）</small>
+      </div>
+      <a class="embed-open" href="apps/tingxie/index.html" target="_blank" rel="noopener">↗ 全屏打开</a>
+    </div>
+    <div class="embed-wrap">
+      <iframe id="frame-tingxie" class="embed-frame" data-src="apps/tingxie/index.html?embed=1"
+              title="雅思听力语料库 · 听写训练营"></iframe>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       模块 4 · 阅读
+       ============================================================ -->
+  <section id="section-reading" class="section">
+    <div class="placeholder">
+      <div class="placeholder-icon">📄</div>
+      <h2>阅读</h2>
+      <p>规划内容：<br>
+        题型专项：判断题 / 填空题 / 匹配题 / 段落标题题 / 选择题<br>
+        精读训练：剑桥雅思真题逐句精读与同义替换标注<br>
+        模考：限时作答、自动评分、错题解析</p>
+      <p class="placeholder-note">模块规划中，敬请期待</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       模块 5 · 写作
+       ============================================================ -->
+  <section id="section-writing" class="section">
+    <div class="placeholder">
+      <div class="placeholder-icon">✍️</div>
+      <h2>写作</h2>
+      <p>规划内容：<br>
+        Task 1：图表题 / 流程图 / 地图题 的句式与范文<br>
+        Task 2：议论文结构、论点论据、高分句型与替换词<br>
+        语料积累：常用表达与话题词汇库</p>
+      <p class="placeholder-note">模块规划中，敬请期待</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       模块 6 · 口语
+       ============================================================ -->
+  <section id="section-speaking" class="section">
+    <div class="placeholder">
+      <div class="placeholder-icon">🗣️</div>
+      <h2>口语</h2>
+      <p>规划内容：<br>
+        Part 1 常见话题问答 / Part 2 答题卡（Cue Card）素材<br>
+        Part 3 深入讨论与思路拓展<br>
+        练习：计时作答、录音回放、示例答案</p>
+      <p class="placeholder-note">模块规划中，敬请期待</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       模块 7 · 资料（本地资料索引）
+       ============================================================ -->
+  <section id="section-materials" class="section">
+    <div class="panel-card">
+      <h2 class="panel-card-title">📚 本地学习资料</h2>
+      <p class="panel-card-desc">
+        本站各模块的原始资料与数据。文件已按类型归档到 <code>materials/</code> 目录，点击在新窗口打开。
+      </p>
+
+      <div class="res-group">📄 已处理的 PDF 原文<span class="res-group-note">均已提取为站内可用的学习数据</span></div>
+      <div class="res-list">
+        <a class="res-item" href="materials/pdf/kaodianciku.pdf" target="_blank" rel="noopener">
+          <span class="res-name">雅思阅读考点词库 · kaodianciku.pdf<span class="res-tag">1.0 MB</span></span>
+          <span class="res-desc">→ 单词 / 阅读538词汇　｜　提取 376 词：第1类 20 + 第2类 100 + 第3类 256</span>
+        </a>
+        <a class="res-item" href="materials/pdf/雅思王听力语料库-3.pdf" target="_blank" rel="noopener">
+          <span class="res-name">雅思王听力语料库 Chapter 3<span class="res-tag">9.9 MB</span></span>
+          <span class="res-desc">→ 听力 / 单词听写　｜　31 页扫描版，OCR 提取 1114 词（Test Paper 1–9）</span>
+        </a>
+        <a class="res-item" href="materials/pdf/100个句子记完7000个雅思单词001-010.pdf" target="_blank" rel="noopener">
+          <span class="res-name">100个句子记完7000个雅思单词 · 第 1 册<span class="res-tag">4.1 MB</span></span>
+          <span class="res-desc">→ 单词 / 100句记7000词　｜　Sentence 01–10</span>
+        </a>
+        <a class="res-item" href="materials/pdf/100个句子记完7000个雅思单词_011-100.pdf" target="_blank" rel="noopener">
+          <span class="res-name">100个句子记完7000个雅思单词 · 第 2 册<span class="res-tag">24.4 MB</span></span>
+          <span class="res-desc">→ 单词 / 100句记7000词　｜　Sentence 11–100</span>
+        </a>
+      </div>
+
+      <div class="res-group">🗺 思维导图</div>
+      <div class="res-list">
+        <a class="res-item" href="materials/mindmap/雅思阅读538考点词_第一讲_思维导图.md" target="_blank" rel="noopener">
+          <span class="res-name">雅思阅读538考点词 · 第一讲思维导图（.md）</span>
+          <span class="res-desc">Markmap 格式，可粘贴到 markmap.js.org 生成交互式导图</span>
+        </a>
+        <a class="res-item" href="materials/mindmap/雅思阅读538考点词_第一讲_思维导图.mm" target="_blank" rel="noopener">
+          <span class="res-name">雅思阅读538考点词 · 第一讲思维导图（.mm）</span>
+          <span class="res-desc">FreeMind 格式，可导入 XMind / MindMaster</span>
+        </a>
+      </div>
+
+      <div class="res-group">🧩 结构化数据</div>
+      <div class="res-list">
+        <a class="res-item" href="materials/data/words_pdf_only.json" target="_blank" rel="noopener">
+          <span class="res-name">阅读538词条结构化数据（words_pdf_only.json）</span>
+          <span class="res-desc">由 PDF 提取的 376 个词条：单词 / 词性 / 释义 / 真题同义替换（js/words-data.js 的生成来源）</span>
+        </a>
+      </div>
+
+      <div class="res-group">📖 站点说明</div>
+      <div class="res-list">
+        <a class="res-item" href="README.md" target="_blank" rel="noopener">
+          <span class="res-name">本站使用说明（README.md）</span>
+          <span class="res-desc">模块说明、目录结构、数据来源与本地存储说明</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= 设置弹窗（作用于「阅读538词汇」子模块） ================= -->
+<div id="settings-modal" class="modal-mask hidden">
+  <div class="modal">
+    <div class="modal-header">
+      <span>⚙️ 设置</span>
+      <button class="modal-close" id="btn-settings-close">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="setting-row">
+        <div class="setting-label">
+          <b>默认发音</b>
+          <small>闪卡出现新单词时优先朗读的口音</small>
+        </div>
+        <div class="setting-control setting-control-col">
+          <label class="radio"><input type="radio" name="accent" value="uk" id="accent-uk"> <span>🇬🇧 英音（en-GB）</span></label>
+          <label class="radio"><input type="radio" name="accent" value="us" id="accent-us"> <span>🇺🇸 美音（en-US）</span></label>
+        </div>
+      </div>
+
+      <div class="setting-row">
+        <div class="setting-label">
+          <b>自动朗读</b>
+          <small>出现新单词时自动播放发音</small>
+        </div>
+        <div class="setting-control">
+          <label class="switch">
+            <input type="checkbox" id="auto-speak">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="setting-row">
+        <div class="setting-label">
+          <b>语速</b>
+          <small id="rate-value">0.9×</small>
+        </div>
+        <div class="setting-control">
+          <input type="range" id="speech-rate" min="0.5" max="1.3" step="0.05" value="0.9" class="range">
+        </div>
+      </div>
+
+      <div class="setting-row">
+        <div class="setting-label">
+          <b>学习进度</b>
+          <small>清除「阅读538词汇」的全部复习记录（不可恢复）</small>
+        </div>
+        <div class="setting-control">
+          <button class="btn btn-danger-small" id="btn-reset-progress">清除进度</button>
+        </div>
+      </div>
+
+      <div class="setting-row setting-row-note">
+        <div id="tts-status" class="tts-status"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>我的雅思学习站 · 单词 / 语法 / 听力 / 阅读 / 写作 / 口语 / 资料 ｜ 全部数据保存在浏览器本地</p>
+</footer>
+
+<script src="js/words-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

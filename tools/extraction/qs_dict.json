@@ -1,0 +1,8130 @@
+{
+ "ability": {
+  "ipa": "[əˈbɪləti]",
+  "mean": "n.能力；才能；才智"
+ },
+ "altitude": {
+  "ipa": "[ˈæltɪtju:d]",
+  "mean": "n.海拔高度；高处"
+ },
+ "article": {
+  "ipa": "[ˈɑ:tɪkl]",
+  "mean": "n.文章，物品，条款；冠词"
+ },
+ "basement": {
+  "ipa": "[ˈbeɪsmənt]",
+  "mean": "n.地下室，地窖；建筑物的基部"
+ },
+ "blanket": {
+  "ipa": "[ˈblæŋkɪt]",
+  "mean": "n.毛毯，覆盖物；排字版；vt.用毯子裹，扑灭，挡风， 覆盖，使包含；adj.包含所有的，适用于所有情形的"
+ },
+ "cab": {
+  "ipa": "[kæb]",
+  "mean": "n.计程车，出租车，出租单马车；vi.乘出租马车"
+ },
+ "carving": {
+  "ipa": "[ˈkɑ:vɪŋ]",
+  "mean": "n.雕刻品，雕花"
+ },
+ "checklist": {
+  "ipa": "[ˈtʃeklɪst]",
+  "mean": "n.清单"
+ },
+ "climate": {
+  "ipa": "[ˈklaɪmət]",
+  "mean": "n.气候，民意状况，社会趋势，风土"
+ },
+ "concert": {
+  "ipa": "[ˈkɒnsət]",
+  "mean": "n.音乐会；一致，和谐；vt.制定计划，通过协商达成一致；vi.合作"
+ },
+ "abstract": {
+  "ipa": "[ˈæbstrækt]",
+  "mean": "adj.抽象的；n.摘要，梗概；vt.提取；摘录要点"
+ },
+ "accountant": {
+  "ipa": "[əˈkaʊntənt]",
+  "mean": "n.会计员，会计师"
+ },
+ "acid": {
+  "ipa": "[ˈæsɪd]",
+  "mean": "n.酸；酸性物质；adj.酸的，酸性的"
+ },
+ "action": {
+  "ipa": "[ˈækʃn]",
+  "mean": "n.动作；情节；作用；举动"
+ },
+ "activity": {
+  "ipa": "[ækˈtɪvəti]",
+  "mean": "n.活动"
+ },
+ "actor": {
+  "ipa": "[ˈæktə(r)]",
+  "mean": "n.演员（尤指男演员）；行动者；参与者"
+ },
+ "adult": {
+  "ipa": "[ˈædʌlt]",
+  "mean": "adj.成年的，成熟的；n.成年人"
+ },
+ "advice": {
+  "ipa": "[ədˈvaɪs]",
+  "mean": "n.忠告，建议，劝告"
+ },
+ "age": {
+  "ipa": "[eɪdʒ]",
+  "mean": "n.年龄；时代；老年；长时间；vt.（使）变老；vi.成熟；变老"
+ },
+ "agency": {
+  "ipa": "[ˈeɪdʒənsi]",
+  "mean": "n.经办；代理；代理处"
+ },
+ "agreement": {
+  "ipa": "[əˈgri:mənt]",
+  "mean": "n.协定；协议；契约；达成协议；同意，一致"
+ },
+ "agriculture": {
+  "ipa": "[ˈægrɪkʌltʃə(r)]",
+  "mean": "n.农学；农业"
+ },
+ "aid": {
+  "ipa": "[eɪd]",
+  "mean": "n. 帮助,有帮助的事物； vt. 援助,帮助；vi.帮助； abbr.=Agency for International Development 国际开发署[美]"
+ },
+ "aim": {
+  "ipa": "[eɪm]",
+  "mean": "n.目标，对准；v.对准目标，打算"
+ },
+ "air": {
+  "ipa": "[eə(r)]",
+  "mean": "n.空气"
+ },
+ "allergy": {
+  "ipa": "[ˈælədʒi]",
+  "mean": "n.(因食物、药物等而引起的)过敏症"
+ },
+ "alley": {
+  "ipa": "[ˈæli]",
+  "mean": "n.小巷，胡同；小径，小路"
+ },
+ "allowance": {
+  "ipa": "[əˈlaʊəns]",
+  "mean": "n.津贴，补贴，零用钱"
+ },
+ "alteration": {
+  "ipa": "[ˌɔ:ltəˈreɪʃn]",
+  "mean": "n.变更，改变；蚀变"
+ },
+ "ambition": {
+  "ipa": "[æmˈbɪʃn]",
+  "mean": "n.大志，雄心；野心"
+ },
+ "ambulance": {
+  "ipa": "[ˈæmbjələns]",
+  "mean": "n.救护车"
+ },
+ "amount": {
+  "ipa": "[əˈmaʊnt]",
+  "mean": "n.数量，总额；v.总计，等于"
+ },
+ "analysis": {
+  "ipa": "[əˈnæləsɪs]",
+  "mean": "n.分解，分析，解析"
+ },
+ "analyst": {
+  "ipa": "[ˈænəlɪst]",
+  "mean": "n.分析家，化验员；心理分析学家"
+ },
+ "anger": {
+  "ipa": "[ˈæŋgə(r)]",
+  "mean": "n.生气，怒，愤怒；vt.使发怒；vi. 发怒"
+ },
+ "animal": {
+  "ipa": "[ˈænɪml]",
+  "mean": "n.动物，兽，畜生"
+ },
+ "ankle": {
+  "ipa": "[ˈæŋkl]",
+  "mean": "n.踝，踝节部"
+ },
+ "answer": {
+  "ipa": "[ˈɑ:nsə(r)]",
+  "mean": "n.答案；回答；vt.回答；vi.回答；符合"
+ },
+ "Antarctica": {
+  "ipa": "[æn'tɑ:ktɪkə]",
+  "mean": "n.南极洲"
+ },
+ "ape": {
+  "ipa": "[eɪp]",
+  "mean": "n.猿；类人猿；vt.模仿"
+ },
+ "appearance": {
+  "ipa": "[əˈpɪərəns]",
+  "mean": "n.出现，露面；容貌"
+ },
+ "architect": {
+  "ipa": "[ˈɑ:kɪtekt]",
+  "mean": "n.建筑师，设计者，造物主"
+ },
+ "architecture": {
+  "ipa": "[ˈɑ:kɪtektʃə(r)]",
+  "mean": "n.建筑学，建筑术；建筑物；组织，结构"
+ },
+ "area": {
+  "ipa": "[ˈeəriə]",
+  "mean": "n.地区，区域，面积，方面"
+ },
+ "argument": {
+  "ipa": "[ˈɑ:gjumənt]",
+  "mean": "n.辩论，争论，论据，理由"
+ },
+ "aristocrat": {
+  "ipa": "[ˈærɪstəkræt]",
+  "mean": "n.贵族，有贵族气派的人，上层人物"
+ },
+ "army": {
+  "ipa": "[ˈɑ:mi]",
+  "mean": "n.军队，陆军，正规军，野战军"
+ },
+ "art": {
+  "ipa": "[ɑ:t]",
+  "mean": "n.美术；艺术"
+ },
+ "aspirin": {
+  "ipa": "[ˈæsprɪn]",
+  "mean": "n.阿司匹林"
+ },
+ "assignment": {
+  "ipa": "[əˈsaɪnmənt]",
+  "mean": "n.任务，作业；分配，指定"
+ },
+ "atlas": {
+  "ipa": "[ˈætləs]",
+  "mean": "n.地图册，图表集"
+ },
+ "audience": {
+  "ipa": "[ˈɔ:diəns]",
+  "mean": "n.听众，观众，读者；谒见，接见；倾听，听取"
+ },
+ "auditorium": {
+  "ipa": "[ˌɔ:dɪˈtɔ:riəm]",
+  "mean": "n.观众席，听众席；会堂，礼堂"
+ },
+ "author": {
+  "ipa": "[ˈɔ:θə(r)]",
+  "mean": "n.作者，创造者；vt.创造，写作"
+ },
+ "authority": {
+  "ipa": "[ɔ:ˈθɒrəti]",
+  "mean": "n.当局，官方；权力，权威，威信；当权者"
+ },
+ "average": {
+  "ipa": "[ˈævərɪdʒ]",
+  "mean": "n.平均数，平均水平；adj.一般的，通常的，平均的；vt.取平均值，达到平均水平；vi.平均为；呈中间色"
+ },
+ "award": {
+  "ipa": "[əˈwɔ:d]",
+  "mean": "n.奖，奖品；vi.授予，给予；vt.授予"
+ },
+ "bachelor": {
+  "ipa": "[ˈbætʃələ(r)]",
+  "mean": "n.单身汉，未婚者；学士学位"
+ },
+ "background": {
+  "ipa": "[ˈbækgraʊnd]",
+  "mean": "n.背景，后台，不重要或不引人注目的地方或位置"
+ },
+ "bacteria": {
+  "ipa": "[bækˈtɪəriə]",
+  "mean": "n.(单数bacterium)细菌"
+ },
+ "badminton": {
+  "ipa": "[ˈbædmɪntən]",
+  "mean": "n.羽毛球，羽毛球运动"
+ },
+ "backpack": {
+  "ipa": "[ˈbækpæk]",
+  "mean": "n.双肩背包"
+ },
+ "band": {
+  "ipa": "[bænd]",
+  "mean": "n.带子，队，乐队；v.联合，结合"
+ },
+ "bandage": {
+  "ipa": "[ˈbændɪdʒ]",
+  "mean": "n.绷带；包扎带"
+ },
+ "bank": {
+  "ipa": "[bæŋk]",
+  "mean": "n.银行，堤，岸"
+ },
+ "banquet": {
+  "ipa": "[ˈbæŋkwɪt]",
+  "mean": "n.宴会，盛会，酒席"
+ },
+ "base": {
+  "ipa": "[beɪs]",
+  "mean": "vt.以...为根据；n.基部；基地；基础；adj.基本的，基础的"
+ },
+ "basis": {
+  "ipa": "[ˈbeɪsɪs]",
+  "mean": "n.基础，主要成分"
+ },
+ "bath": {
+  "ipa": "[bɑ:θ]",
+  "mean": "n.沐浴，洗澡；浴缸；vt.给…洗澡"
+ },
+ "battery": {
+  "ipa": "[ˈbætri]",
+  "mean": "n.电池；一批；金属物件；群；【律】殴打"
+ },
+ "beach": {
+  "ipa": "[bi:tʃ]",
+  "mean": "n.海滩，沙滩；vt.拖（船）上岸；vi.搁浅；定居"
+ },
+ "beard": {
+  "ipa": "[bɪəd]",
+  "mean": "n.（下巴上的）胡须；络腮胡子；vt.使长胡须，公开反对"
+ },
+ "beauty": {
+  "ipa": "[ˈbju:ti]",
+  "mean": "n.美；美景；美好的人或事物"
+ },
+ "bed": {
+  "ipa": "[bed]",
+  "mean": "n.床，床位；圃；河床"
+ },
+ "bedroom": {
+  "ipa": "[ˈbedru:m]",
+  "mean": "n.寝室；卧室"
+ },
+ "bedsit": {
+  "ipa": "[ˈbedsɪt]",
+  "mean": "起居兼卧室两用房间"
+ },
+ "behaviour": {
+  "ipa": "[bɪˈheɪvjə(r)]",
+  "mean": "n.(=behavior)行为；举止；习性"
+ },
+ "belt": {
+  "ipa": "[belt]",
+  "mean": "n.带子，皮带，腰带；vt.系腰带，抽打；vi. 猛击"
+ },
+ "benefit": {
+  "ipa": "[ˈbenɪfɪt]",
+  "mean": "n.好处，益处，福利；vt.有益于，对…有益；vi.受益于"
+ },
+ "beverage": {
+  "ipa": "[ˈbevərɪdʒ]",
+  "mean": "n.(水，酒等之外的)饮料"
+ },
+ "bibliography": {
+  "ipa": "[ˌbɪbliˈɒgrəfi]",
+  "mean": "n.参考书目；(有关某一专题的)书目"
+ },
+ "bicycle": {
+  "ipa": "[ˈbaɪsɪkl]",
+  "mean": "n.自行车，脚踏车，单车"
+ },
+ "bill": {
+  "ipa": "[bɪl]",
+  "mean": "(Bill)比尔(男名)；n.帐单，钞票，票据，清单；议案，法案；广告；鸟嘴，喙；vt.开帐单，用海报宣传，把...列成表"
+ },
+ "biologist": {
+  "ipa": "[baɪˈɒlədʒɪst]",
+  "mean": "n.生物学家"
+ },
+ "bird": {
+  "ipa": "[bɜ:d]",
+  "mean": "n.鸟，禽类"
+ },
+ "birth": {
+  "ipa": "[bɜ:θ]",
+  "mean": "n.出身，血统，出生，诞生，出现，起源"
+ },
+ "blast": {
+  "ipa": "[blɑ:st]",
+  "mean": "vt.炸毁，摧毁；n.爆炸，爆破，一阵，汽笛声"
+ },
+ "block": {
+  "ipa": "[blɒk]",
+  "mean": "n.街区；vt.阻塞；adj. 成批的，大块的；交通堵塞的"
+ },
+ "blouse": {
+  "ipa": "[blaʊz]",
+  "mean": "n.女衬衫；童衫；宽松的上衣"
+ },
+ "board": {
+  "ipa": "[bɔ:d]",
+  "mean": "n.董事会；木板；甲板；膳食；vi.寄宿；vt.上（飞机、车、船等）；用板盖上；给提供膳宿；"
+ },
+ "boarder": {
+  "ipa": "['bɔ:də]",
+  "mean": "n.寄宿者；寄生者"
+ },
+ "boat": {
+  "ipa": "[bəʊt]",
+  "mean": "n.小船；艇；小轮船"
+ },
+ "bone": {
+  "ipa": "[bəʊn]",
+  "mean": "n.骨，骨骼；vt.剔去（鱼等的）骨；vi. 苦学；专心致志"
+ },
+ "bowl": {
+  "ipa": "[bəʊl]",
+  "mean": "n.碗，钵；碗状物，盆"
+ },
+ "bowling": {
+  "ipa": "[ˈbəʊlɪŋ]",
+  "mean": "n.保龄球运动"
+ },
+ "branch": {
+  "ipa": "[brɑ:ntʃ]",
+  "mean": "n.分支，树枝；vt/vi.分支，分岔"
+ },
+ "breakfast": {
+  "ipa": "[ˈbrekfəst]",
+  "mean": "n.早餐"
+ },
+ "brick": {
+  "ipa": "[brɪk]",
+  "mean": "n.砖；vt.用砖砌，用砖堵住"
+ },
+ "bridge": {
+  "ipa": "[brɪdʒ]",
+  "mean": "n.桥，鼻梁，桥牌；vt.渡过，架桥"
+ },
+ "brochure": {
+  "ipa": "[ˈbrəʊʃə(r)]",
+  "mean": "n.假订本，小册子，小册"
+ },
+ "building": {
+  "ipa": "[ˈbɪldɪŋ]",
+  "mean": "n.建筑物，大楼；建筑"
+ },
+ "bungalow": {
+  "ipa": "[ˈbʌŋgələʊ]",
+  "mean": "n.平房，周围有阳台的木造小平房"
+ },
+ "burger": {
+  "ipa": "['bə:gə]",
+  "mean": "汉堡包"
+ },
+ "burglar": {
+  "ipa": "[ˈbɜ:glə(r)]",
+  "mean": "n.窃贼，破门盗窃者"
+ },
+ "bus": {
+  "ipa": "[bʌs]",
+  "mean": "n.公共汽车"
+ },
+ "cabinet": {
+  "ipa": "[ˈkæbɪnət]",
+  "mean": "n.内阁，内阁会议；(带玻璃门存物品的)橱柜"
+ },
+ "cable": {
+  "ipa": "[ˈkeɪbl]",
+  "mean": "n.缆绳，索；电缆；电报；vt.电汇，打电报"
+ },
+ "cafe": {
+  "ipa": "[ˈkæfeɪ]",
+  "mean": "n.小餐馆；咖啡厅"
+ },
+ "cafeteria": {
+  "ipa": "[ˌkæfəˈtɪəriə]",
+  "mean": "n.自助餐厅"
+ },
+ "cage": {
+  "ipa": "[keɪdʒ]",
+  "mean": "n.笼子；v.关入笼中；vt.把...关入笼内"
+ },
+ "Cambridge": {
+  "ipa": "['keimbridʒ]",
+  "mean": "剑桥(大学)"
+ },
+ "camel": {
+  "ipa": "[ˈkæml]",
+  "mean": "n.骆驼"
+ },
+ "camera": {
+  "ipa": "[ˈkæmərə]",
+  "mean": "n.照相机，摄相机"
+ },
+ "camp": {
+  "ipa": "[kæmp]",
+  "mean": "n.宿营；野营；营地；vi.露营，扎营"
+ },
+ "campus": {
+  "ipa": "[ˈkæmpəs]",
+  "mean": "n.大学校园，学校校园；大学"
+ },
+ "candidate": {
+  "ipa": "[ˈkændɪdət]",
+  "mean": "n.候选人；候补者；投考者，申请求职者"
+ },
+ "candle": {
+  "ipa": "[ˈkændl]",
+  "mean": "n.蜡烛；烛形物；烛光"
+ },
+ "canteen": {
+  "ipa": "[kænˈti:n]",
+  "mean": "n.军中福利社，临时流动餐馆，小卖部"
+ },
+ "capital": {
+  "ipa": "[ˈkæpɪtl]",
+  "mean": "n.资本，资金，资方；首都，首府，中心；大写字母；adj.主要的；资本的；大写的"
+ },
+ "capsule": {
+  "ipa": "[ˈkæpsju:l]",
+  "mean": "n.太空舱；胶囊"
+ },
+ "carbon": {
+  "ipa": "[ˈkɑ:bən]",
+  "mean": "n.碳元素"
+ },
+ "care": {
+  "ipa": "[keə(r)]",
+  "mean": "n.小心，照料，忧虑；v.关心，照顾，喜爱，介意"
+ },
+ "career": {
+  "ipa": "[kəˈrɪə(r)]",
+  "mean": "n.事业；生涯"
+ },
+ "carpet": {
+  "ipa": "[ˈkɑ:pɪt]",
+  "mean": "n.毯子，地毯，地毯般覆盖物；vt.铺盖.覆盖"
+ },
+ "cashier": {
+  "ipa": "[kæˈʃɪə(r)]",
+  "mean": "n.出纳员，收银员"
+ },
+ "castle": {
+  "ipa": "[ˈkɑ:sl]",
+  "mean": "n.城堡，象棋中的车；vt.置于城堡中，筑城堡防御"
+ },
+ "category": {
+  "ipa": "[ˈkætəgəri]",
+  "mean": "n.种类；类别；范畴"
+ },
+ "cathedral": {
+  "ipa": "[kəˈθi:drəl]",
+  "mean": "n.教区总教堂；大教堂"
+ },
+ "cause": {
+  "ipa": "[kɔ:z]",
+  "mean": "pron.造成，使发生"
+ },
+ "cave": {
+  "ipa": "[keɪv]",
+  "mean": "n.洞穴；窑洞"
+ },
+ "cent": {
+  "ipa": "[sent]",
+  "mean": "n.（钱币）美分"
+ },
+ "century": {
+  "ipa": "[ˈsentʃəri]",
+  "mean": "n.世纪；百年"
+ },
+ "certificate": {
+  "ipa": "[səˈtɪfɪkət]",
+  "mean": "n.证书，证明书；vt.发给证明书，认可，鉴定"
+ },
+ "chair": {
+  "ipa": "[tʃeə(r)]",
+  "mean": "n.椅子；（会议的）主席；vt.当...的主席，主持"
+ },
+ "chance": {
+  "ipa": "[tʃɑ:ns]",
+  "mean": "n.机会，意外；运气；风险；vi.偶然发生；vt.偶然发生，冒险"
+ },
+ "chancellor": {
+  "ipa": "['tʃɑ:nsələ(r)]",
+  "mean": "n.(英)大臣；法官；(德、奥)总理；大学校长"
+ },
+ "channel": {
+  "ipa": "[ˈtʃænl]",
+  "mean": "n.(无线电、电视)波段；波道；频道"
+ },
+ "chapter": {
+  "ipa": "[ˈtʃæptə(r)]",
+  "mean": "n.章，篇，重要章节"
+ },
+ "character": {
+  "ipa": "[ˈkærəktə(r)]",
+  "mean": "n.（书、剧本、电影等中的）人物，角色；（汉）字，字体；品格"
+ },
+ "charge": {
+  "ipa": "[tʃɑ:dʒ]",
+  "mean": "n.指控；费用；冲锋；电荷；炸药；主管；被托管人；嘱咐；vt.控诉，加罪于；使充满"
+ },
+ "charity": {
+  "ipa": "[ˈtʃærəti]",
+  "mean": "n.慈悲，博爱，慈善团体，施舍"
+ },
+ "chart": {
+  "ipa": "[tʃɑ:t]",
+  "mean": "n.图表，图解，海图；vt.制成图表"
+ },
+ "chat": {
+  "ipa": "[tʃæt]",
+  "mean": "n.闲谈；vi.闲谈，聊天"
+ },
+ "check": {
+  "ipa": "[tʃek]",
+  "mean": "vt.检查；核对；vi.核实，查核；中止；n.（美）支票；制止"
+ },
+ "cheese": {
+  "ipa": "[tʃi:z]",
+  "mean": "n.干酪，乳酪，奶酪"
+ },
+ "chemist&#39;s": {
+  "ipa": "[]",
+  "mean": "n. 药店"
+ },
+ "chest": {
+  "ipa": "[tʃest]",
+  "mean": "n.胸，大箱子，金库，资金，一箱，密封室，衣橱"
+ },
+ "chick": {
+  "ipa": "[tʃɪk]",
+  "mean": "n.小鸡，幼雏；小孩；adj.胆小的，懦弱的"
+ },
+ "chicken": {
+  "ipa": "[ˈtʃɪkɪn]",
+  "mean": "n.鸡肉；鸡，小鸡，小鸟"
+ },
+ "child": {
+  "ipa": "[tʃaɪld]",
+  "mean": "n.（ [pl.] children）小孩，儿童；儿女"
+ },
+ "chin": {
+  "ipa": "[tʃɪn]",
+  "mean": "n.下巴，下颚，不气馁，不灰心"
+ },
+ "chocolate": {
+  "ipa": "[ˈtʃɒklət]",
+  "mean": "n.巧克力；巧克力糖；深褐色"
+ },
+ "choice": {
+  "ipa": "[tʃɔɪs]",
+  "mean": "n.选择，抉择；精选品"
+ },
+ "church": {
+  "ipa": "[tʃɜ:tʃ]",
+  "mean": "n.教堂，礼拜堂；教会"
+ },
+ "cinema": {
+  "ipa": "[ˈsɪnəmə]",
+  "mean": "n.电影院"
+ },
+ "circle": {
+  "ipa": "[ˈsɜ:kl]",
+  "mean": "n.圆，圈，环"
+ },
+ "ity": {
+  "ipa": "[]",
+  "mean": "suf. 表示“状态”或“性质”"
+ },
+ "clarity": {
+  "ipa": "[ˈklærəti]",
+  "mean": "n.清澈，透明，明晰"
+ },
+ "cleaner": {
+  "ipa": "[ˈkli:nə(r)]",
+  "mean": "n.清洁剂，清洁工"
+ },
+ "cleaning": {
+  "ipa": "[ˈkli:nɪŋ]",
+  "mean": "n.清洁，打扫；（家畜等的）胞衣v.（使）清洁( clean的现在分词 )；变干净；除去…的灰尘；使…干净"
+ },
+ "client": {
+  "ipa": "[ˈklaɪənt]",
+  "mean": "n.委托人，当事人，顾客"
+ },
+ "cliff": {
+  "ipa": "[klɪf]",
+  "mean": "n.悬崖，峭壁"
+ },
+ "clinic": {
+  "ipa": "[ˈklɪnɪk]",
+  "mean": "n.诊所；临床讲课；特殊病例的分析讨论课"
+ },
+ "clock": {
+  "ipa": "[klɒk]",
+  "mean": "n.时钟，计时器"
+ },
+ "loth": {
+  "ipa": "[ləuθ]",
+  "mean": "a.不愿意的  =loath"
+ },
+ "clothing": {
+  "ipa": "[ˈkləʊðɪŋ]",
+  "mean": "n.(总称)衣服"
+ },
+ "club": {
+  "ipa": "[klʌb]",
+  "mean": "n社团；俱乐部，夜总会，社；棍棒，（高尔夫球等的）球棒， （扑克牌）梅花；vt.棍打，把...当棍棒用；协作，联合"
+ },
+ "coach": {
+  "ipa": "[kəʊtʃ]",
+  "mean": "n.大巴，教练；(火车)客车车厢，四轮马车，经济舱；vt.训练，指导；vi.训练，指导"
+ },
+ "coast": {
+  "ipa": "[kəʊst]",
+  "mean": "n.海岸，海滨，滑坡；vt.沿海岸而行；vi.下滑"
+ },
+ "code": {
+  "ipa": "[kəʊd]",
+  "mean": "n.代码，代号，密码；法典，法规，规划"
+ },
+ "Coke": {
+  "ipa": "[kəʊk]",
+  "mean": "（=Coca-Cola）n.（口语）可口可乐"
+ },
+ "colleague": {
+  "ipa": "[ˈkɒli:g]",
+  "mean": "n.同僚，同事"
+ },
+ "college": {
+  "ipa": "[ˈkɒlɪdʒ]",
+  "mean": "n.学院；高等专科学校"
+ },
+ "comedy": {
+  "ipa": "[ˈkɒmədi]",
+  "mean": "n.喜剧，趣事，趣闻"
+ },
+ "commercial": {
+  "ipa": "[kəˈmɜ:ʃl]",
+  "mean": "adj.商业的，商用的，商品化的；n.广告节目"
+ },
+ "commuter": {
+  "ipa": "[kə'mju:tə]",
+  "mean": "n.(尤指市郊之间)乘公交车辆上下班者"
+ },
+ "companion": {
+  "ipa": "[kəmˈpæniən]",
+  "mean": "n.朋友，陪伴，指南手册，升降口；vt.陪伴"
+ },
+ "company": {
+  "ipa": "[ˈkʌmpəni]",
+  "mean": "n.公司"
+ },
+ "plaint": {
+  "ipa": "[]",
+  "mean": "n.[诗]悲叹, 抱怨,诉状"
+ },
+ "complex": {
+  "ipa": "[ˈkɒmpleks]",
+  "mean": "adj.复杂的，合成的，综合的；n.联合体"
+ },
+ "computer": {
+  "ipa": "[kəmˈpju:tə(r)]",
+  "mean": "n.电脑，计算机"
+ },
+ "conclusion": {
+  "ipa": "[kənˈklu:ʒn]",
+  "mean": "n.总结，结束，决定，结论"
+ },
+ "condition": {
+  "ipa": "[kənˈdɪʃn]",
+  "mean": "n.条件，状况，情况，地位；vt.调节，制约，以…为条件"
+ },
+ "conference": {
+  "ipa": "[ˈkɒnfərəns]",
+  "mean": "n.（正式的）会议；讨论"
+ },
+ "confidence": {
+  "ipa": "[ˈkɒnfɪdəns]",
+  "mean": "n.信任，信托，自信，信心，把握，大胆，厚颜，过于自信，狂妄"
+ },
+ "confirmation": {
+  "ipa": "[ˌkɒnfəˈmeɪʃn]",
+  "mean": "n.证实，确认，批准"
+ },
+ "congestion": {
+  "ipa": "[kənˈdʒestʃən]",
+  "mean": "n.阻塞，消化不良"
+ },
+ "conqueror": {
+  "ipa": "[ˈkɒŋkərə(r)]",
+  "mean": "n.征服者，胜利者"
+ },
+ "conquest": {
+  "ipa": "[ˈkɒŋkwest]",
+  "mean": "n.征服；克服；掠取物；征服的土地或人们"
+ },
+ "conversation": {
+  "ipa": "[ˌkɒnvəˈseɪʃn]",
+  "mean": "n.谈话，交谈"
+ },
+ "conservation": {
+  "ipa": "[ˌkɒnsəˈveɪʃn]",
+  "mean": "n.保存，保持，守恒"
+ },
+ "construction": {
+  "ipa": "[kənˈstrʌkʃn]",
+  "mean": "n.建筑，建筑物，解释，造句"
+ },
+ "consultant": {
+  "ipa": "[kənˈsʌltənt]",
+  "mean": "n.顾问；会诊医师，专科医生"
+ },
+ "consumption": {
+  "ipa": "[kənˈsʌmpʃn]",
+  "mean": "n.消费，消耗，消费额，消耗量，结核病"
+ },
+ "contact": {
+  "ipa": "[ˈkɒntækt]",
+  "mean": "n.联系，交际，熟人，接触；vi.接触，联系；vt.使接触"
+ },
+ "country": {
+  "ipa": "[ˈkʌntri]",
+  "mean": "adj.国家（的），农村（的）；n.国家"
+ },
+ "damage": {
+  "ipa": "[ˈdæmɪdʒ]",
+  "mean": "n.(pl.)赔偿金，损坏，毁坏；vt.损害，毁坏"
+ },
+ "description": {
+  "ipa": "[dɪˈskrɪpʃn]",
+  "mean": "n.描述，记述；描绘，描写，刻划；种类"
+ },
+ "discount": {
+  "ipa": "[ˈdɪskaʊnt]",
+  "mean": "vi.折扣，打折扣，贴现，不重视，低估；vt.打折扣；将…贴现；n.折扣；贴现率"
+ },
+ "drug": {
+  "ipa": "[drʌg]",
+  "mean": "n.药，毒品；vt.下药，使...服麻醉药；vi.吸毒"
+ },
+ "employee": {
+  "ipa": "[ɪmˈplɔɪi:]",
+  "mean": "n.职员，员工，受雇人员"
+ },
+ "excuse": {
+  "ipa": "[ɪkˈskju:s]",
+  "mean": "n.理由，借口；vt.原谅；为…辩解；使…免去"
+ },
+ "fan": {
+  "ipa": "[fæn]",
+  "mean": "n.风扇，迷，狂热者；vt.煽，煽动，刺激；vi. 成扇形散开；飘动"
+ },
+ "firm": {
+  "ipa": "[fɜ:m]",
+  "mean": "n.公司，商号；adj.坚定的，坚强的，牢固的，结实的，坚硬的，坚挺的，严格的"
+ },
+ "container": {
+  "ipa": "[kənˈteɪnə(r)]",
+  "mean": "n.容器；集装箱"
+ },
+ "contaminant": {
+  "ipa": "[kənˈtæmɪnənt]",
+  "mean": "n. 杂质(污染物质,沾染物)"
+ },
+ "contamination": {
+  "ipa": "[kənˌtæmi'neiʃən]",
+  "mean": "n.污染"
+ },
+ "content": {
+  "ipa": "['kɒntent]",
+  "mean": "n.内容，满足，意义；adj.满足的，满意的，意义的；vt.使...满足，使...安心；"
+ },
+ "continent": {
+  "ipa": "[ˈkɒntɪnənt]",
+  "mean": "n.大陆，洲，(the Continent)欧洲大陆"
+ },
+ "controversy": {
+  "ipa": "[ˈkɒntrəvɜ:si]",
+  "mean": "n.争论，辩论，争吵"
+ },
+ "convenience": {
+  "ipa": "[kənˈvi:niəns]",
+  "mean": "n.便利，方便，有益，有用的，方便的用具、机械、安排等"
+ },
+ "cooperation": {
+  "ipa": "[kəʊˌɒpəˈreɪʃn]",
+  "mean": "n.合作，协力，合作社"
+ },
+ "cop": {
+  "ipa": "[kɒp]",
+  "mean": "n.警察；vt.抓住"
+ },
+ "copy": {
+  "ipa": "[ˈkɒpi]",
+  "mean": "n.副本，幕仿，一册；（计算机）DOS命令:复制或组合文件，拷贝；v.复印，抄袭；"
+ },
+ "corporation": {
+  "ipa": "[ˌkɔ:pəˈreɪʃn]",
+  "mean": "n.公司，企业，社团，团体"
+ },
+ "corpse": {
+  "ipa": "[kɔ:ps]",
+  "mean": "n.尸体，死尸"
+ },
+ "correspondence": {
+  "ipa": "[ˌkɒrəˈspɒndəns]",
+  "mean": "n.信件，通信（联系）符合，一致，相似"
+ },
+ "cost": {
+  "ipa": "[kɒst]",
+  "mean": "n.价钱，费用，成本；损失，牺牲"
+ },
+ "costume": {
+  "ipa": "[ˈkɒstju:m]",
+  "mean": "n.装束，服装"
+ },
+ "cot": {
+  "ipa": "[kɒt]",
+  "mean": "n.儿童床"
+ },
+ "cottage": {
+  "ipa": "[ˈkɒtɪdʒ]",
+  "mean": "n.村舍，小屋；别墅"
+ },
+ "cough": {
+  "ipa": "[kɒf]",
+  "mean": "n.咳嗽；vi.咳嗽；vt.咳出"
+ },
+ "council": {
+  "ipa": "[ˈkaʊnsl]",
+  "mean": "n.理事会，委员会，议事机构"
+ },
+ "course": {
+  "ipa": "[kɔ:s]",
+  "mean": "n.课程，讲座，过程，路线，一道(菜)"
+ },
+ "crack": {
+  "ipa": "[kræk]",
+  "mean": "vi.发破裂声；噼啪地响；vt.（使）开裂；破裂；n.裂缝，缝隙；爆裂声，破裂声，劈啪声"
+ },
+ "craft": {
+  "ipa": "[krɑ:ft]",
+  "mean": "n.工艺，手艺；小船，飞机；行业；诡计"
+ },
+ "cream": {
+  "ipa": "[kri:m]",
+  "mean": "n.乳脂，(鲜)奶油；奶油色"
+ },
+ "credit": {
+  "ipa": "[ˈkredɪt]",
+  "mean": "n.信用，荣誉，贷款，学分；vt.归功于，赞颂，信任"
+ },
+ "creek": {
+  "ipa": "[kri:k]",
+  "mean": "n.小溪，小河，小湾"
+ },
+ "crime": {
+  "ipa": "[kraɪm]",
+  "mean": "n.犯罪，罪行，罪恶"
+ },
+ "crisis": {
+  "ipa": "[ˈkraɪsɪs]",
+  "mean": "n.危机，危急关头，决定性时刻，关键阶段"
+ },
+ "crocodile": {
+  "ipa": "[ˈkrɒkədaɪl]",
+  "mean": "n.鳄鱼"
+ },
+ "crop": {
+  "ipa": "[krɒp]",
+  "mean": "vt.剪切，收割，修剪，种植；n.农作物，产量，平头 vi.收获"
+ },
+ "cultivation": {
+  "ipa": "[ˌkʌltɪˈveɪʃn]",
+  "mean": "n.耕作，培养，栽培（法），养成"
+ },
+ "culture": {
+  "ipa": "[ˈkʌltʃə(r)]",
+  "mean": "n.文化，教养，种植；vt.培养"
+ },
+ "cup": {
+  "ipa": "[kʌp]",
+  "mean": "n.杯子，小杯子；(一)杯；奖杯"
+ },
+ "cupboard": {
+  "ipa": "[ˈkʌbəd]",
+  "mean": "n.碗柜；橱柜（放食物或衣物等）"
+ },
+ "curtain": {
+  "ipa": "[ˈkɜ:tn]",
+  "mean": "n.帐，幕，窗帘，门帘，幕布；vt.装帘子于，遮掉"
+ },
+ "customer": {
+  "ipa": "[ˈkʌstəmə(r)]",
+  "mean": "n.顾客，主顾；家伙"
+ },
+ "cutlery": {
+  "ipa": "['kʌtləri]",
+  "mean": "n.(西餐的)刀叉餐具"
+ },
+ "cycle": {
+  "ipa": "[ˈsaɪkl]",
+  "mean": "n.周期，循环，自行车；vi.循环，轮转，骑自行车；vt.使循环"
+ },
+ "cycling": {
+  "ipa": "[ˈsaɪklɪŋ]",
+  "mean": "n.自行车赛；骑自行车兜风"
+ },
+ "danger": {
+  "ipa": "[ˈdeɪndʒə(r)]",
+  "mean": "n.危险，危险物，威胁"
+ },
+ "data": {
+  "ipa": "[ˈdeɪtə]",
+  "mean": "n.数据，论据，资料"
+ },
+ "date": {
+  "ipa": "[deɪt]",
+  "mean": "n.日期；枣；vt.确定…年代；和…约会；vi.过时；注明日期"
+ },
+ "day": {
+  "ipa": "[deɪ]",
+  "mean": "n．天，日；白天；节日"
+ },
+ "deadline": {
+  "ipa": "[ˈdedlaɪn]",
+  "mean": "n.最后期限，截止日期"
+ },
+ "debate": {
+  "ipa": "[dɪˈbeɪt]",
+  "mean": "vt.争论，辩论；vi. 辩论；n.争论，辩论"
+ },
+ "debt": {
+  "ipa": "[det]",
+  "mean": "n.债务，义务，负债状态，罪，过失"
+ },
+ "decade": {
+  "ipa": "[ˈdekeɪd]",
+  "mean": "n.十年，十年期"
+ },
+ "decision": {
+  "ipa": "[dɪˈsɪʒn]",
+  "mean": "n.决定，决心"
+ },
+ "decline": {
+  "ipa": "[dɪˈklaɪn]",
+  "mean": "n.衰微，跌落，下降；vt.使降低，婉谢；vi.下降，衰落，偏斜"
+ },
+ "decoration": {
+  "ipa": "[ˌdekəˈreɪʃn]",
+  "mean": "n.装饰，装饰品；装饰，装璜；勋章，奖章"
+ },
+ "delay": {
+  "ipa": "[dɪˈleɪ]",
+  "mean": "vi. 延期；耽搁 vt. 延期；耽搁 n. 延期；耽搁；被耽搁或推迟的时间"
+ },
+ "delegate": {
+  "ipa": "[ˈdelɪgət]",
+  "mean": "n.代表，会议代表；vt.委派...为代表，授权"
+ },
+ "delivery": {
+  "ipa": "[dɪˈlɪvəri]",
+  "mean": "n.交付；投递；分娩；解救者；演讲的风格"
+ },
+ "demonstration": {
+  "ipa": "[ˌdemənˈstreɪʃn]",
+  "mean": "n.表明，示范，论证，示威"
+ },
+ "dentist": {
+  "ipa": "[ˈdentɪst]",
+  "mean": "n.牙科医生"
+ },
+ "department": {
+  "ipa": "[dɪˈpɑ:tmənt]",
+  "mean": "n.（行政、企业等的）部；局；处；科；部门；系"
+ },
+ "deposit": {
+  "ipa": "[dɪˈpɒzɪt]",
+  "mean": "n.定金，存款，矿藏；vt.使沉淀，寄存，储蓄"
+ },
+ "depth": {
+  "ipa": "[depθ]",
+  "mean": "n.深度；深奥；深厚，深切，深"
+ },
+ "desert": {
+  "ipa": "[ˈdezət]",
+  "mean": "n.沙漠；v.舍弃，放弃"
+ },
+ "design": {
+  "ipa": "[dɪˈzaɪn]",
+  "mean": "vt.设计，构思，绘制；vi. 计划，谋划；设计，构思，绘制；n.设计，图样；计划，企图"
+ },
+ "designer": {
+  "ipa": "[dɪˈzaɪnə(r)]",
+  "mean": "n.设计者，制图者"
+ },
+ "desire": {
+  "ipa": "[dɪˈzaɪə(r)]",
+  "mean": "vt.愿望，期望，希望；要求，请求；n.愿望，心愿；请求，要求"
+ },
+ "desk": {
+  "ipa": "[desk]",
+  "mean": "n. 书桌，课桌；办公桌"
+ },
+ "destination": {
+  "ipa": "[ˌdestɪˈneɪʃn]",
+  "mean": "n.目的地，目标，目的"
+ },
+ "detail": {
+  "ipa": "[ˈdi:teɪl]",
+  "mean": "n.细节，详情；vt.详述，详细说明"
+ },
+ "diary": {
+  "ipa": "[ˈdaɪəri]",
+  "mean": "n.日记，日记簿"
+ },
+ "dictation": {
+  "ipa": "[dɪkˈteɪʃn]",
+  "mean": "n.听写，口述，命令"
+ },
+ "diet": {
+  "ipa": "[ˈdaɪət]",
+  "mean": "n.饮食，节食，议会vt.照规定饮食vi. 忌食"
+ },
+ "dinner": {
+  "ipa": "[ˈdɪnə(r)]",
+  "mean": "n. 正餐，主餐；宴会；晚餐"
+ },
+ "dioxide": {
+  "ipa": "[daɪˈɒksaɪd]",
+  "mean": "n.二氧化物"
+ },
+ "direction": {
+  "ipa": "[dəˈrekʃn]",
+  "mean": "n.方向；方位；指令；说明"
+ },
+ "director": {
+  "ipa": "[dəˈrektə(r)]",
+  "mean": "n.主管，导演；主任；理事；董事；处长"
+ },
+ "disagreement": {
+  "ipa": "[ˌdɪsəˈgri:mənt]",
+  "mean": "n.不一致；分歧；意见不合"
+ },
+ "disaster": {
+  "ipa": "[dɪˈzɑ:stə(r)]",
+  "mean": "n.灾难，灾祸"
+ },
+ "discipline": {
+  "ipa": "[ˈdɪsəplɪn]",
+  "mean": "n.纪律，风纪，训练，训诫；教养，修养，学科"
+ },
+ "disco": {
+  "ipa": "[ˈdɪskəʊ]",
+  "mean": "n.迪斯科舞厅，迪斯科舞会"
+ },
+ "discomfort": {
+  "ipa": "[dɪsˈkʌmfət]",
+  "mean": "n.不舒服，不安，难过，困难，不方便"
+ },
+ "discovery": {
+  "ipa": "[dɪˈskʌvəri]",
+  "mean": "n.发现，发觉；被发现的事物；发明"
+ },
+ "disease": {
+  "ipa": "[dɪˈzi:z]",
+  "mean": "n.疾病，弊端"
+ },
+ "dish": {
+  "ipa": "[dɪʃ]",
+  "mean": "n.盘子；一样菜，一道菜；vt.上菜"
+ },
+ "disposal": {
+  "ipa": "[dɪˈspəʊzl]",
+  "mean": "n.处理，消除，销毁，处置；弃菜碾碎器"
+ },
+ "dispute": {
+  "ipa": "[dɪˈspju:t]",
+  "mean": "n.争端，分歧；vt.争论，争吵，辩论，辩驳；vi.争论"
+ },
+ "distance": {
+  "ipa": "[ˈdɪstəns]",
+  "mean": "n.距离；路程"
+ },
+ "divorce": {
+  "ipa": "[dɪ'vɔ:s]",
+  "mean": "n.离婚；分离；vi.离婚；vt.离婚；脱离"
+ },
+ "document": {
+  "ipa": "[ˈdɒkjumənt]",
+  "mean": "n.文件，公文；vt.记载，用文件等证明；[计算机]文档"
+ },
+ "documentary": {
+  "ipa": "[ˌdɒkjuˈmentri]",
+  "mean": "adj.文献的；n.纪录片"
+ },
+ "donation": {
+  "ipa": "[dəʊˈneɪʃn]",
+  "mean": "n.捐赠，捐献，捐助；捐赠物"
+ },
+ "donkey": {
+  "ipa": "[ˈdɒŋki]",
+  "mean": "n.驴子；蠢人；顽固的人"
+ },
+ "draft": {
+  "ipa": "[drɑ:ft]",
+  "mean": "vt.起草，作...的草稿；n.草稿，草图，草案"
+ },
+ "drama": {
+  "ipa": "[ˈdrɑ:mə]",
+  "mean": "n.戏剧；戏剧艺术"
+ },
+ "draw": {
+  "ipa": "[drɔ:]",
+  "mean": "vt.画；拉；vi.拉；拖；n. 平局；抽签"
+ },
+ "drawer": {
+  "ipa": "[drɔ:(r)]",
+  "mean": "n.抽屉"
+ },
+ "drink": {
+  "ipa": "[drɪŋk]",
+  "mean": "vt.&vi.（drank,drunk）喝，饮；n.饮料；喝酒"
+ },
+ "drinking": {
+  "ipa": "['drɪŋkɪŋ]",
+  "mean": "n.喝饮料，喝酒v.喝（酒）( drink的现在分词 )；饮；喝酒；（尤指）酗酒"
+ },
+ "driver": {
+  "ipa": "[ˈdraɪvə(r)]",
+  "mean": "n.司机，驾驶员"
+ },
+ "driving": {
+  "ipa": "[ˈdraɪvɪŋ]",
+  "mean": "n.操纵，驾驶adj.推进的；强劲的；雨、雪等猛烈的；倾泻而下的v.强迫( drive的现在分词)；驱使；驱赶；消除"
+ },
+ "drum": {
+  "ipa": "[drʌm]",
+  "mean": "n.鼓； 鼓状物； 鼓声；vt.击鼓； 连打； 反复讲；vi.击鼓；连打； 拍翅"
+ },
+ "due": {
+  "ipa": "[dju:]",
+  "mean": "n.应得物；adj.预定的，应付的，到期的，应有的"
+ },
+ "duration": {
+  "ipa": "[djuˈreɪʃn]",
+  "mean": "n.持久；期间；持续时间"
+ },
+ "dust": {
+  "ipa": "[dʌst]",
+  "mean": "n.灰尘，尘埃，粉末，花粉，土，骚乱vt.拂去灰尘，撒，弄成粉末vi. 拂去灰尘"
+ },
+ "duty": {
+  "ipa": "[ˈdju:ti]",
+  "mean": "n.职责；责任"
+ },
+ "eagle": {
+  "ipa": "[ˈi:gl]",
+  "mean": "n.鹰"
+ },
+ "ear": {
+  "ipa": "[ɪə(r)]",
+  "mean": "n.耳朵"
+ },
+ "east": {
+  "ipa": "[i:st]",
+  "mean": "n.东，东方；adj.东方的"
+ },
+ "eating": {
+  "ipa": "[ˈi:tɪŋ]",
+  "mean": "n. adj.吃；食物；食用的；可生食的v.吃，喝，吃饭( eat的现在分词 )；（食物）吃起来感到；咬；（人）感到苦恼（或烦恼）"
+ },
+ "economy": {
+  "ipa": "[ɪˈkɒnəmi]",
+  "mean": "n.经济；节俭；秩序；机体"
+ },
+ "editor": {
+  "ipa": "[ˈedɪtə(r)]",
+  "mean": "n.编者，编辑，主笔；编辑器"
+ },
+ "education": {
+  "ipa": "[ˌedʒuˈkeɪʃn]",
+  "mean": "n.教育；培养"
+ },
+ "elbow": {
+  "ipa": "[ˈelbəʊ]",
+  "mean": "n.手肘，急弯，扶手；v.用手肘推开，推挤"
+ },
+ "elder": {
+  "ipa": "[ˈeldə(r)]",
+  "mean": "adj.年龄较大的，年长的；n.长者，长辈"
+ },
+ "electricity": {
+  "ipa": "[ɪˌlekˈtrɪsəti]",
+  "mean": "n.电；电学"
+ },
+ "element": {
+  "ipa": "[ˈelɪmənt]",
+  "mean": "n.元素；组成部分，成分；零件，元件"
+ },
+ "elevator": {
+  "ipa": "[ˈelɪveɪtə(r)]",
+  "mean": "n.电梯；升降机"
+ },
+ "motion": {
+  "ipa": "[ˈməʊʃn]",
+  "mean": "n.打手势，示意，移动，动作，提议，大便；v.运动，向...打手势，示意"
+ },
+ "emperor": {
+  "ipa": "[ˈempərə(r)]",
+  "mean": "n.皇帝，君主"
+ },
+ "employer": {
+  "ipa": "[ɪmˈplɔɪə(r)]",
+  "mean": "n.雇用方，雇主"
+ },
+ "encyclopedia": {
+  "ipa": "[ɪnˌsaɪklə'pi:dɪə]",
+  "mean": "n.百科全书"
+ },
+ "ending": {
+  "ipa": "[ˈendɪŋ]",
+  "mean": "n.结尾，结局；最后"
+ },
+ "energy": {
+  "ipa": "[ˈenədʒi]",
+  "mean": "n.活力，精力，能力，能，能量"
+ },
+ "engine": {
+  "ipa": "[ˈendʒɪn]",
+  "mean": "n.引擎，发动机，机车，机械；vt.安装发动机于"
+ },
+ "engineer": {
+  "ipa": "[ˌendʒɪˈnɪə(r)]",
+  "mean": "n.工程师；vt.操纵，设计，建造"
+ },
+ "entrance": {
+  "ipa": "[ˈentrəns]",
+  "mean": "n.入口；入场；进入"
+ },
+ "epidemic": {
+  "ipa": "[ˌepɪˈdemɪk]",
+  "mean": "n.流行病；盛行；adj.流行性的，流传极广的"
+ },
+ "equipment": {
+  "ipa": "[ɪˈkwɪpmənt]",
+  "mean": "n.装备，设备"
+ },
+ "ethic": {
+  "ipa": "[ˈeθɪk]",
+  "mean": "n.道德标准，行为准则"
+ },
+ "evening": {
+  "ipa": "[ˈi:vnɪŋ]",
+  "mean": "n.晚上，傍晚，黄昏"
+ },
+ "event": {
+  "ipa": "[ɪˈvent]",
+  "mean": "n.事变，大事件"
+ },
+ "evidence": {
+  "ipa": "[ˈevɪdəns]",
+  "mean": "n.明显，显著，明白，迹象，根据，[物]证据，证物"
+ },
+ "examination": {
+  "ipa": "[ɪgˌzæmɪˈneɪʃn]",
+  "mean": "n.考试，考查，试题；检查，调查"
+ },
+ "example": {
+  "ipa": "[ɪgˈzɑ:mpl]",
+  "mean": "n.榜样，例子"
+ },
+ "exception": {
+  "ipa": "[ɪkˈsepʃn]",
+  "mean": "n.例外,除外"
+ },
+ "exchange": {
+  "ipa": "[ɪksˈtʃeɪndʒ]",
+  "mean": "n.交换，汇兑，交易所；v.交换，交易，兑换"
+ },
+ "excitement": {
+  "ipa": "[ɪkˈsaɪtmənt]",
+  "mean": "n.刺激；兴奋；激动"
+ },
+ "excursion": {
+  "ipa": "[ɪkˈskɜ:ʃn]",
+  "mean": "n.远足，短途旅行"
+ },
+ "exercise": {
+  "ipa": "[ˈeksəsaɪz]",
+  "mean": "n.练习，作业，运动；v.练习，运动，运用"
+ },
+ "exhibition": {
+  "ipa": "[ˌeksɪˈbɪʃn]",
+  "mean": "n.展览；展览会"
+ },
+ "existence": {
+  "ipa": "[ɪgˈzɪstəns]",
+  "mean": "n.存在，生存，生活，生活方式"
+ },
+ "existing": {
+  "ipa": "[ɪgˈzɪstɪŋ]",
+  "mean": "adj.目前的；现存的v.存在( exist的现在分词)；持续存在"
+ },
+ "expansion": {
+  "ipa": "[ɪkˈspænʃn]",
+  "mean": "n.扩张，扩充；扩大；扩充物；扩展部"
+ },
+ "expense": {
+  "ipa": "[ɪkˈspens]",
+  "mean": "n.（不可数）花费，消费，消耗；（可数）开支，经费；费钱之物"
+ },
+ "experiment": {
+  "ipa": "[ɪkˈsperɪmənt]",
+  "mean": "n.实验，试验，尝试；v.实验，尝试"
+ },
+ "expert": {
+  "ipa": "[ˈekspɜ:t]",
+  "mean": "n.专家，能手；adj.熟练的，有经验的；专门的，内行的"
+ },
+ "explanation": {
+  "ipa": "[ˌekspləˈneɪʃn]",
+  "mean": "n.解释，解说，说明"
+ },
+ "explosion": {
+  "ipa": "[ɪkˈspləʊʒn]",
+  "mean": "n.爆发，发出，爆炸"
+ },
+ "exposition": {
+  "ipa": "[ˌekspəˈzɪʃn]",
+  "mean": "n.说明，讲解，展览（会），陈列"
+ },
+ "exposure": {
+  "ipa": "[ɪkˈspəʊʒə(r)]",
+  "mean": "n.暴露，面临；揭露，揭发；曝光"
+ },
+ "extension": {
+  "ipa": "[ɪkˈstenʃn]",
+  "mean": "n.伸长，扩大，伸展；延长，延期；延长部分，扩大部分；电话分机"
+ },
+ "facility": {
+  "ipa": "[fəˈsɪləti]",
+  "mean": "n.容易，便利，设施，设备；熟练，灵巧"
+ },
+ "factor": {
+  "ipa": "[ˈfæktə(r)]",
+  "mean": "n.因素；要素；因子；因数；系数"
+ },
+ "factory": {
+  "ipa": "[ˈfæktri]",
+  "mean": "n.工厂，产生地，代理店"
+ },
+ "faculty": {
+  "ipa": "[ˈfæklti]",
+  "mean": "n.才能；学院，系；(学院或系的)全体教学人员"
+ },
+ "failure": {
+  "ipa": "[ˈfeɪljə(r)]",
+  "mean": "n.失败，失败者；缺乏，失灵；故障，破产，疏忽；（美）不及格"
+ },
+ "falcon": {
+  "ipa": "[ˈfɔ:lkən]",
+  "mean": "n.隼，猎鹰"
+ },
+ "fare": {
+  "ipa": "[feə(r)]",
+  "mean": "n.费用，食物；vi.进展，进步，经营"
+ },
+ "farm": {
+  "ipa": "[fɑ:m]",
+  "mean": "n.农场，农庄，牧场；vt.耕作，经营农场；vi.种田，务农"
+ },
+ "farmer": {
+  "ipa": "[ˈfɑ:mə(r)]",
+  "mean": "n.农夫，农场主，牧场主"
+ },
+ "farming": {
+  "ipa": "[ˈfɑ:mɪŋ]",
+  "mean": "n.农事；耕作"
+ },
+ "fashion": {
+  "ipa": "[ˈfæʃn]",
+  "mean": "n.流行，风尚，时样，时装；v.形成，造，作"
+ },
+ "fat": {
+  "ipa": "[fæt]",
+  "mean": "n.脂肪；肥肉；（食用的）动植物油；adj.胖的；油腻的"
+ },
+ "feast": {
+  "ipa": "[fi:st]",
+  "mean": "n.盛宴，筵席，节日"
+ },
+ "feather": {
+  "ipa": "[ˈfeðə(r)]",
+  "mean": "n.羽毛；翎毛；羽状物"
+ },
+ "feature": {
+  "ipa": "[ˈfi:tʃə(r)]",
+  "mean": "n.特征，特色"
+ },
+ "feedback": {
+  "ipa": "[ˈfi:dbæk]",
+  "mean": "n.回授，反馈，反应"
+ },
+ "fellowship": {
+  "ipa": "[ˈfeləʊʃɪp]",
+  "mean": "n.伙伴关系，团体，奖学金，研究员职位"
+ },
+ "female": {
+  "ipa": "[ˈfi:meɪl]",
+  "mean": "adj.雌的，女(性)的；n.雌性的动物，女子"
+ },
+ "ferry": {
+  "ipa": "[ˈferi]",
+  "mean": "n.渡船，渡口；v.渡运；(越海)空运"
+ },
+ "festival": {
+  "ipa": "[ˈfestɪvl]",
+  "mean": "adj.节日的，喜庆的，快乐的；n.节日，庆祝及祭祀，欢宴"
+ },
+ "field": {
+  "ipa": "[fi:ld]",
+  "mean": "n.田地，田野；adj.野外的，田间的"
+ },
+ "figure": {
+  "ipa": "[ˈfɪgə(r)]",
+  "mean": "n.数字，算术，图解；轮廓；vi.计算，出现，扮演角色；vt.计算在内，估计，推测，认为"
+ },
+ "film": {
+  "ipa": "[fɪlm]",
+  "mean": "n.影片，电影"
+ },
+ "find": {
+  "ipa": "[faɪnd]",
+  "mean": "vt.找到；发现；vi.裁决；n.发现"
+ },
+ "finger": {
+  "ipa": "[ˈfɪŋgə(r)]",
+  "mean": "n.手指；vt.用指触摸，抚摸"
+ },
+ "flash": {
+  "ipa": "[flæʃ]",
+  "mean": "n.闪光，闪现，一瞬间；vi.闪光，闪现，反射；vt.使闪光，反射"
+ },
+ "fishing": {
+  "ipa": "[ˈfɪʃɪŋ]",
+  "mean": "n.捕鱼；钓鱼，渔业；adj.钓鱼的"
+ },
+ "flag": {
+  "ipa": "[flæg]",
+  "mean": "n.旗帜，标志(记)，特征(位)"
+ },
+ "flat": {
+  "ipa": "[flæt]",
+  "mean": "adj.平的；平坦的；n.（英）公寓住宅；单元住宅"
+ },
+ "flight": {
+  "ipa": "[flaɪt]",
+  "mean": "n.飞行，飞机的航程，航班；逃跑"
+ },
+ "flood": {
+  "ipa": "[flʌd]",
+  "mean": "n.洪水，水灾；v.灌溉，淹没，泛滥"
+ },
+ "flooding": {
+  "ipa": "[flʌdɪŋ]",
+  "mean": "n.泛滥；[化]溢流；[医]血崩；产后出血v.淹没(flood的现在分词)；充满；溢出"
+ },
+ "flour": {
+  "ipa": "[ˈflaʊə(r)]",
+  "mean": "n.面粉，粉；粉状物质"
+ },
+ "flourish": {
+  "ipa": "[ˈflʌrɪʃ]",
+  "mean": "vi.茂盛，繁荣，兴旺；vt.挥动(以引起注意)；n. 兴旺；茂盛；挥舞；炫耀；华饰"
+ },
+ "flow": {
+  "ipa": "[fləʊ]",
+  "mean": "n.流，水流，流量；vi.流，流动；vt.淹没"
+ },
+ "flu": {
+  "ipa": "[flu:]",
+  "mean": "n.流行性感冒"
+ },
+ "fly": {
+  "ipa": "[flaɪ]",
+  "mean": "vi.飞；乘飞机；vt.驾驶(飞机)；放（风筝）；飘扬，逃跑；n.苍蝇"
+ },
+ "forest": {
+  "ipa": "[ˈfɒrɪst]",
+  "mean": "n.森林，园林"
+ },
+ "forestry": {
+  "ipa": "[ˈfɒrɪstri]",
+  "mean": "n.森林学；林业"
+ },
+ "form": {
+  "ipa": "[fɔ:m]",
+  "mean": "n.形式，形状，表格；v.形成，组成，建立"
+ },
+ "formula": {
+  "ipa": "[ˈfɔ:mjələ]",
+  "mean": "n.公式；配方，外方；规则，一定的做法"
+ },
+ "goal": {
+  "ipa": "[gəʊl]",
+  "mean": "n.目标，目的；球门；终点；得分"
+ },
+ "handout": {
+  "ipa": "[ˈhændaʊt]",
+  "mean": "n.散发的文字材料；救济品"
+ },
+ "horse": {
+  "ipa": "[hɔ:s]",
+  "mean": "n.马；vt.使骑马；捉弄；vi.骑马；作弄人"
+ },
+ "infection": {
+  "ipa": "[ɪnˈfekʃn]",
+  "mean": "n.传染，影响，传染病"
+ },
+ "island": {
+  "ipa": "[ˈaɪlənd]",
+  "mean": "adj.岛（国）的；n.岛"
+ },
+ "knife": {
+  "ipa": "[naɪf]",
+  "mean": "n.小刀，匕首；vt.用刀切割，伤害，切，戳；vi.劈开，穿过"
+ },
+ "lesson": {
+  "ipa": "[ˈlesn]",
+  "mean": "n.课，教训；vt.给...上课，教训"
+ },
+ "majority": {
+  "ipa": "[məˈdʒɒrəti]",
+  "mean": "n.大多数；过半数"
+ },
+ "measurement": {
+  "ipa": "[ˈmeʒəmənt]",
+  "mean": "n.测量，衡量；(量得的)尺寸，大小"
+ },
+ "fortnight": {
+  "ipa": "[ˈfɔ:tnaɪt]",
+  "mean": "n.两星期，十四天"
+ },
+ "fortune": {
+  "ipa": "[ˈfɔ:tʃu:n]",
+  "mean": "n.财富，运气，兴隆，大量财产，好运，命运"
+ },
+ "foyer": {
+  "ipa": "[ˈfɔɪeɪ]",
+  "mean": "n.门厅，休息室"
+ },
+ "freedom": {
+  "ipa": "[ˈfri:dəm]",
+  "mean": "n.自由，自主"
+ },
+ "freshman": {
+  "ipa": "[ˈfreʃmən]",
+  "mean": "n.大学一年级学生(可兼指男女)，新手"
+ },
+ "fruit": {
+  "ipa": "[fru:t]",
+  "mean": "n.水果"
+ },
+ "fur": {
+  "ipa": "[fɜ:(r)]",
+  "mean": "n.毛皮；毛；软毛"
+ },
+ "furniture": {
+  "ipa": "[ˈfɜ:nɪtʃə(r)]",
+  "mean": "n.家具(总称)"
+ },
+ "future": {
+  "ipa": "[ˈfju:tʃə(r)]",
+  "mean": "adj.将来的，未来的；n.将来，未来"
+ },
+ "gallery": {
+  "ipa": "[ˈgæləri]",
+  "mean": "n.美术馆，画廊"
+ },
+ "gap": {
+  "ipa": "[gæp]",
+  "mean": "n.缺口；间隔；差距；不足，缺陷"
+ },
+ "garage": {
+  "ipa": "[ˈgærɑ:ʒ]",
+  "mean": "n.汽车库，汽车间，汽车修理厂"
+ },
+ "garbage": {
+  "ipa": "[ˈgɑ:bɪdʒ]",
+  "mean": "n.垃圾；费料"
+ },
+ "garden": {
+  "ipa": "[ˈgɑ:dn]",
+  "mean": "n.花园，果园，菜园"
+ },
+ "gasoline": {
+  "ipa": "[ˈgæsəli:n]",
+  "mean": "n.(美)汽油"
+ },
+ "gender": {
+  "ipa": "[ˈdʒendə(r)]",
+  "mean": "n.（生理上的）性，（名词、代词等的）性"
+ },
+ "germ": {
+  "ipa": "[dʒɜ:m]",
+  "mean": "n.细菌，病菌，微生物；(想法等的)起源"
+ },
+ "gesture": {
+  "ipa": "[ˈdʒestʃə(r)]",
+  "mean": "n.手势，姿态；vi.作手势，作姿态；vt.用动作表示"
+ },
+ "glass": {
+  "ipa": "[glɑ:s]",
+  "mean": "n.玻璃，玻璃杯；pl.眼镜；玻璃制品"
+ },
+ "gold": {
+  "ipa": "[gəʊld]",
+  "mean": "n.金，黄金；金币；金黄色；adj.金的，金制的"
+ },
+ "golf": {
+  "ipa": "[gɒlf]",
+  "mean": "n.高尔夫球；vi.打高尔夫球"
+ },
+ "grade": {
+  "ipa": "[greɪd]",
+  "mean": "n.年级；等级；vt.给...分等级"
+ },
+ "graduate": {
+  "ipa": "[ˈgrædʒuət]",
+  "mean": "vt. 授予…学位；分等级；标上刻度 vi. 毕业；渐变 n. 研究生；毕业生"
+ },
+ "grain": {
+  "ipa": "[greɪn]",
+  "mean": "n.谷物，粮食；颗，粒；些微，一点儿；纹理；脾气，特性"
+ },
+ "grass": {
+  "ipa": "[grɑ:s]",
+  "mean": "n.草；青草；草地；告密者；vt.喂（草）；用草覆盖；告发"
+ },
+ "green": {
+  "ipa": "[gri:n]",
+  "mean": "adj.绿色的；未成熟的；环保的；n.绿色；植物；vi.变绿；vt.使…变绿"
+ },
+ "ground": {
+  "ipa": "[graʊnd]",
+  "mean": "n.土地，战场，场地；adj.土地的，地面上的；v.放在地上，使...搁浅，打基础"
+ },
+ "group": {
+  "ipa": "[gru:p]",
+  "mean": "n.小组，这里指演出流行一组演员"
+ },
+ "growth": {
+  "ipa": "[grəʊθ]",
+  "mean": "n.生长，栽培"
+ },
+ "guest": {
+  "ipa": "[gest]",
+  "mean": "n.客人，宾客，顾客，旅客"
+ },
+ "guide": {
+  "ipa": "[gaɪd]",
+  "mean": "n.向导；指南，手册；导游者"
+ },
+ "gulf": {
+  "ipa": "[gʌlf]",
+  "mean": "n.海湾；深渊，鸿沟；分歧，隔阂"
+ },
+ "guy": {
+  "ipa": "[gaɪ]",
+  "mean": "n.(美，口语)家伙；青年；男人"
+ },
+ "gym": {
+  "ipa": "[dʒɪm]",
+  "mean": "abbr.(gymnasium)体操馆；(gymnastics)体育"
+ },
+ "habit": {
+  "ipa": "[ˈhæbɪt]",
+  "mean": "n.习惯，癖好，恶习，毒瘾；服装，衣服"
+ },
+ "hand": {
+  "ipa": "[hænd]",
+  "mean": "n.手；掌握；协助；vt.支持；交给"
+ },
+ "handball": {
+  "ipa": "['hændbɔ:l]",
+  "mean": "手球"
+ },
+ "handbook": {
+  "ipa": "[ˈhændbʊk]",
+  "mean": "n.手册，便览，指南"
+ },
+ "hat": {
+  "ipa": "[hæt]",
+  "mean": "n.帽子（一般指带边的）"
+ },
+ "headache": {
+  "ipa": "[ˈhedeɪk]",
+  "mean": "n.头痛，令人头痛之事"
+ },
+ "heading": {
+  "ipa": "[ˈhedɪŋ]",
+  "mean": "n.上标题，标题，起始字，方向"
+ },
+ "health": {
+  "ipa": "[helθ]",
+  "mean": "n.健康；健康状况"
+ },
+ "hearing": {
+  "ipa": "[ˈhɪərɪŋ]",
+  "mean": "n.听，听见，听到，听说，听取；听力，听证会，诉讼，审讯v. 听见（hear的ing形式）"
+ },
+ "heart": {
+  "ipa": "[hɑ:t]",
+  "mean": "n.心，中心，要点；v.鼓起勇气，激励"
+ },
+ "heating": {
+  "ipa": "[ˈhi:tɪŋ]",
+  "mean": "n.加热，供暖，暖气装置；adj.加热的，供暖的"
+ },
+ "hen": {
+  "ipa": "[hen]",
+  "mean": "n.母鸡，雌禽"
+ },
+ "herb": {
+  "ipa": "[hɜ:b]",
+  "mean": "n.草本植物，药草，香草"
+ },
+ "hero": {
+  "ipa": "[ˈhɪərəʊ]",
+  "mean": "n.英雄；男主角；男主人公"
+ },
+ "heroine": {
+  "ipa": "[ˈherəʊɪn]",
+  "mean": "n.女英雄；女主角，女主人公"
+ },
+ "hike": {
+  "ipa": "[haɪk]",
+  "mean": "n.徒步旅行，远足，涨价；v.健行，徒步旅行，使...高涨"
+ },
+ "hiking": {
+  "ipa": "[ˈhaɪkɪŋ]",
+  "mean": "n.徒步旅行"
+ },
+ "hint": {
+  "ipa": "[hɪnt]",
+  "mean": "n.暗示，示意；[pl]建议；线索，迹象；vi.暗示；vt.暗示；示意"
+ },
+ "historian": {
+  "ipa": "[hɪˈstɔ:riən]",
+  "mean": "n.历史学家，编史家"
+ },
+ "hit": {
+  "ipa": "[hɪt]",
+  "mean": "vt.打击，击中，碰撞"
+ },
+ "hobby": {
+  "ipa": "[ˈhɒbi]",
+  "mean": "n.业余爱好，嗜好，兴趣"
+ },
+ "holiday": {
+  "ipa": "[ˈhɒlədeɪ]",
+  "mean": "n.假日，节日，假期；vi.休假，外出度假"
+ },
+ "hospital": {
+  "ipa": "[ˈhɒspɪtl]",
+  "mean": "n.医院"
+ },
+ "housework": {
+  "ipa": "[ˈhaʊswɜ:k]",
+  "mean": "n.家务，家事(不可数)"
+ },
+ "housing": {
+  "ipa": "[ˈhaʊzɪŋ]",
+  "mean": "n.房屋，住宅；住房建筑；外壳，外罩"
+ },
+ "household": {
+  "ipa": "[ˈhaʊshəʊld]",
+  "mean": "n.家庭，家族，王室；adj.家庭的，家族的，家属的"
+ },
+ "hour": {
+  "ipa": "[ˈaʊə(r)]",
+  "mean": "n.钟头，小时"
+ },
+ "hotel": {
+  "ipa": "[həʊˈtel]",
+  "mean": "n.旅馆；宾馆；饭店"
+ },
+ "hotline": {
+  "ipa": "[ˈhɒtlaɪn]",
+  "mean": "n.热线"
+ },
+ "hunt": {
+  "ipa": "[hʌnt]",
+  "mean": "vt./vi./n.打猎，猎取；搜寻"
+ },
+ "hunting": {
+  "ipa": "['hʌntiŋ]",
+  "mean": "n.搜寻"
+ },
+ "idea": {
+  "ipa": "[aɪˈdɪə]",
+  "mean": "n.主意，办法；理想，思想，概念，意见"
+ },
+ "identification": {
+  "ipa": "[aɪˌdentɪfɪˈkeɪʃn]",
+  "mean": "n.视为同一，证明同一，确认"
+ },
+ "identify": {
+  "ipa": "[aɪˈdentɪfaɪ]",
+  "mean": "vt.识别，认明，鉴定，使等同于；vi.一致，变成一致"
+ },
+ "image": {
+  "ipa": "[ˈɪmɪdʒ]",
+  "mean": "n.图象；肖像；形象"
+ },
+ "impact": {
+  "ipa": "[ˈɪmpækt]",
+  "mean": "n.冲击，碰撞；影响；vt.装紧，压紧"
+ },
+ "import": {
+  "ipa": "[ˈɪmpɔ:t]",
+  "mean": "vt.进口，输入；意味，表明；对…重要；vi.有关系；n.输入品，进口货；重要性（不可数）输入，进口"
+ },
+ "inability": {
+  "ipa": "[ˌinə'biliti]",
+  "mean": "n.无能(力)，无能为力"
+ },
+ "incoming": {
+  "ipa": "['inkʌmiŋ]",
+  "mean": "进入的，输入的"
+ },
+ "index": {
+  "ipa": "[ˈɪndeks]",
+  "mean": "n.食指；索引；标志；指数；vt.把...编索引，vi.做索引"
+ },
+ "industry": {
+  "ipa": "[ˈɪndəstri]",
+  "mean": "n.工业；行业；产业"
+ },
+ "influence": {
+  "ipa": "[ˈɪnfluəns]",
+  "mean": "vt.影响，感化；n.影响力，感化力，势力，权势"
+ },
+ "information": {
+  "ipa": "[ˌɪnfəˈmeɪʃn]",
+  "mean": "n.起诉；信息，消息；知识；报告，通知，情报"
+ },
+ "injection": {
+  "ipa": "[ɪnˈdʒekʃn]",
+  "mean": "n.注射，注入；注射液"
+ },
+ "injury": {
+  "ipa": "[ˈɪndʒəri]",
+  "mean": "n.受伤处，损害，伤害"
+ },
+ "inland": {
+  "ipa": "[ˌɪnˈlænd]",
+  "mean": "adj.内地的；内陆的 adv.在内地；向内地"
+ },
+ "insect": {
+  "ipa": "[ˈɪnsekt]",
+  "mean": "n.昆虫，卑鄙的人"
+ },
+ "insomnia": {
+  "ipa": "[ɪnˈsɒmniə]",
+  "mean": "n.失眠，失眠症"
+ },
+ "institute": {
+  "ipa": "[ˈɪnstɪtju:t]",
+  "mean": "n.学会，协会；讲习会，讲座；vt.建立，设立；开始"
+ },
+ "institution": {
+  "ipa": "[ˌɪnstɪˈtju:ʃn]",
+  "mean": "n.(慈善、宗教等性质的)公共机构；学校"
+ },
+ "instruction": {
+  "ipa": "[ɪnˈstrʌkʃn]",
+  "mean": "n.说明，须知，指令，教学"
+ },
+ "instructor": {
+  "ipa": "[ɪnˈstrʌktə(r)]",
+  "mean": "n.指导者，教员，教练"
+ },
+ "instrument": {
+  "ipa": "[ˈɪnstrəmənt]",
+  "mean": "n.乐器，工具，仪器，器械"
+ },
+ "interest": {
+  "ipa": "[ˈɪntrəst]",
+  "mean": "vt.引起…关注；使…感兴趣"
+ },
+ "internet": {
+  "ipa": "['intənet]",
+  "mean": "n.因特网；互联网络"
+ },
+ "interviewer": {
+  "ipa": "[ˈɪntəvju:ə(r)]",
+  "mean": "n.接见者；会见者；面谈者；记者"
+ },
+ "introduction": {
+  "ipa": "[ˌɪntrəˈdʌkʃn]",
+  "mean": "n.(to)介绍；传入，引进；导言，导论，绪论"
+ },
+ "investigator": {
+  "ipa": "[ɪnˈvestɪgeɪtə(r)]",
+  "mean": "n.研究者，调查者，审查者"
+ },
+ "investment": {
+  "ipa": "[ɪnˈvestmənt]",
+  "mean": "n.投资，投资额；(时间、精力等的)投入"
+ },
+ "irrigation": {
+  "ipa": "[ˌɪrɪ'ɡeɪʃn]",
+  "mean": "n.灌溉，冲洗"
+ },
+ "isolation": {
+  "ipa": "[ˌaɪsəˈleɪʃn]",
+  "mean": "n.隔离，孤立，分解，分离"
+ },
+ "item": {
+  "ipa": "[ˈaɪtəm]",
+  "mean": "n.项目；条款；（消息，情报等的）一条"
+ },
+ "jacket": {
+  "ipa": "[ˈdʒækɪt]",
+  "mean": "n.短上衣；外套"
+ },
+ "jam": {
+  "ipa": "[dʒæm]",
+  "mean": "n.果酱；拥挤；卡住；vt.塞进；vi.挤入"
+ },
+ "jaw": {
+  "ipa": "[dʒɔ:]",
+  "mean": "n.颚，颌，说教，流言蜚语；v.喋喋不休，教训"
+ },
+ "jean": {
+  "ipa": "[dʒein]",
+  "mean": "n.(pl.)牛仔裤"
+ },
+ "journal": {
+  "ipa": "[ˈdʒɜ:nl]",
+  "mean": "n.日志，日记；议事录；日记帐；杂志，定期刊物"
+ },
+ "judge": {
+  "ipa": "[dʒʌdʒ]",
+  "mean": "n.裁判员；法官，审判官；推事；vt.判断，判决，裁定，审理，鉴定；vi.下判断，作评价"
+ },
+ "juice": {
+  "ipa": "[dʒu:s]",
+  "mean": "n.（水果、蔬菜、肉等的）汁；果汁"
+ },
+ "junction": {
+  "ipa": "[ˈdʒʌŋkʃn]",
+  "mean": "n.连接，接合；交叉点，接合处，枢纽站"
+ },
+ "junior": {
+  "ipa": "[ˈdʒu:niə(r)]",
+  "mean": "adj.年少的，较年幼的；资历较浅的；三年级的；n.年少者；等级较低者；三年级学生"
+ },
+ "keeper": {
+  "ipa": "[ˈki:pə(r)]",
+  "mean": "n.管理人，看守人，看护人，饲养员"
+ },
+ "kelp": {
+  "ipa": "[kelp]",
+  "mean": "n. 一种大海草, 海草灰"
+ },
+ "keyword": {
+  "ipa": "['ki:wə:d]",
+  "mean": "n.重要字， 关键字， 中心字， 检索词"
+ },
+ "kid": {
+  "ipa": "[kɪd]",
+  "mean": "n.小孩；v.开玩笑，哄骗，嘲弄"
+ },
+ "king": {
+  "ipa": "[kɪŋ]",
+  "mean": "n.君主，国王"
+ },
+ "kiosk": {
+  "ipa": "[ˈki:ɒsk]",
+  "mean": "n.亭，凉亭，报摊"
+ },
+ "kit": {
+  "ipa": "[kɪt]",
+  "mean": "n.用具包，成套工具；随身携带物"
+ },
+ "kitchen": {
+  "ipa": "[ˈkɪtʃɪn]",
+  "mean": "n.厨房；全套炊具"
+ },
+ "knowledge": {
+  "ipa": "[ˈnɒlɪdʒ]",
+  "mean": "n.知识，学识，学问；知晓，了解"
+ },
+ "koala": {
+  "ipa": "[kəʊˈɑ:lə]",
+  "mean": "n.考拉，树袋熊"
+ },
+ "lab": {
+  "ipa": "[læb]",
+  "mean": "n.实验室"
+ },
+ "lamp": {
+  "ipa": "[læmp]",
+  "mean": "n.灯，灯泡；电子管"
+ },
+ "land": {
+  "ipa": "[lænd]",
+  "mean": "n.陆地，国土，土地；v.登陆，登岸，卸货"
+ },
+ "landmark": {
+  "ipa": "[ˈlændmɑ:k]",
+  "mean": "n.陆标，划时代的事，地界标"
+ },
+ "landscape": {
+  "ipa": "[ˈlændskeɪp]",
+  "mean": "n.风景；山水画；地形；前景"
+ },
+ "language": {
+  "ipa": "[ˈlæŋgwɪdʒ]",
+  "mean": "n.语言"
+ },
+ "laptop": {
+  "ipa": "[ˈlæptɒp]",
+  "mean": "n.笔记本电脑"
+ },
+ "laser": {
+  "ipa": "[ˈleɪzə(r)]",
+  "mean": "n.激光"
+ },
+ "lava": {
+  "ipa": "[ˈlɑ:və]",
+  "mean": "n.熔岩，火山岩"
+ },
+ "lawyer": {
+  "ipa": "[ˈlɔ:jə(r)]",
+  "mean": "n.律师，法学家"
+ },
+ "layer": {
+  "ipa": "[ˈleɪə(r)]",
+  "mean": "adj.层，层次"
+ },
+ "lecture": {
+  "ipa": "[ˈlektʃə(r)]",
+  "mean": "n.讲座，讲课；演讲"
+ },
+ "lecturer": {
+  "ipa": "[ˈlektʃərə(r)]",
+  "mean": "n.讲演者"
+ },
+ "leisure": {
+  "ipa": "[ˈleʒə(r)]",
+  "mean": "n.空闲时间，空暇；悠闲，安逸"
+ },
+ "lemon": {
+  "ipa": "[ˈlemən]",
+  "mean": "n.柠檬"
+ },
+ "lender": {
+  "ipa": "['lendə]",
+  "mean": "n.出借人，贷方"
+ },
+ "length": {
+  "ipa": "[leŋθ]",
+  "mean": "n.长度，长；期间，一段；程度，范围"
+ },
+ "letter": {
+  "ipa": "[ˈletə(r)]",
+  "mean": "n.字母，信"
+ },
+ "level": {
+  "ipa": "[ˈlevl]",
+  "mean": "n.水平，水准，标准；adj.同高的，平坦的，齐平的；vi.弄平，瞄准，对准；vt.使同等；对准；弄平"
+ },
+ "library": {
+  "ipa": "[ˈlaɪbrəri]",
+  "mean": "n.图书馆，图书室"
+ },
+ "line": {
+  "ipa": "[laɪn]",
+  "mean": "n.线；排，行"
+ },
+ "lion": {
+  "ipa": "[ˈlaɪən]",
+  "mean": "n.狮子"
+ },
+ "list": {
+  "ipa": "[lɪst]",
+  "mean": "n.目录，名单；清单，货单；vt.列表，列举"
+ },
+ "loan": {
+  "ipa": "[ləʊn]",
+  "mean": "n.贷款；借出的东西；借；vt.借出；贷予"
+ },
+ "location": {
+  "ipa": "[ləʊˈkeɪʃn]",
+  "mean": "n.地点，位置，定位"
+ },
+ "lock": {
+  "ipa": "[lɒk]",
+  "mean": "vt. 锁；锁上；使固定；隐藏；vi. 卡住，不动；n. 锁；水闸；一撮"
+ },
+ "loss": {
+  "ipa": "[lɒs]",
+  "mean": "n.损失，遗失，失败，输，浪费，错过，[军]伤亡，降低"
+ },
+ "lounge": {
+  "ipa": "[laʊndʒ]",
+  "mean": "n.休闲室，休息室，长沙发；v.闲荡，闲散地度过，混日子"
+ },
+ "loyalty": {
+  "ipa": "[ˈlɔɪəlti]",
+  "mean": "n.忠诚，忠心"
+ },
+ "luck": {
+  "ipa": "[lʌk]",
+  "mean": "n.运气，幸运，吉祥之物；v.侥幸成功"
+ },
+ "lunch": {
+  "ipa": "[lʌntʃ]",
+  "mean": "n.中餐，午饭"
+ },
+ "lung": {
+  "ipa": "[lʌŋ]",
+  "mean": "n.肺，肺脏，空地"
+ },
+ "machine": {
+  "ipa": "[məˈʃi:n]",
+  "mean": "n.机器，机械装置，机械般工作的人；v.以机器制造；（计算机）机器"
+ },
+ "magazine": {
+  "ipa": "[ˌmægəˈzi:n]",
+  "mean": "n.期刊，杂志"
+ },
+ "maid": {
+  "ipa": "[meɪd]",
+  "mean": "n.少女，未婚女子，女仆"
+ },
+ "mail": {
+  "ipa": "[meɪl]",
+  "mean": "n.邮件；v.邮寄"
+ },
+ "making": {
+  "ipa": "['meɪkɪŋ]",
+  "mean": "n.制造；产生的过程；成功改进的手段；原料，材料v.“make”的现在分词"
+ },
+ "male": {
+  "ipa": "[meɪl]",
+  "mean": "n.男人，雄性动物；adj.男性的，属于雄性的，有力的"
+ },
+ "manager": {
+  "ipa": "[ˈmænɪdʒə(r)]",
+  "mean": "n.经理；负责人"
+ },
+ "mane": {
+  "ipa": "[meɪn]",
+  "mean": "n.马鬃"
+ },
+ "manufacture": {
+  "ipa": "[ˌmænjuˈfæktʃə(r)]",
+  "mean": "n.产品，制造，制造业；vt.制造，加工；vi.参与制造"
+ },
+ "map": {
+  "ipa": "[mæp]",
+  "mean": "n.地图；图；天体图"
+ },
+ "margin": {
+  "ipa": "[ˈmɑ:dʒɪn]",
+  "mean": "n.页边空白；差额；余地，余裕；边，边缘"
+ },
+ "mark": {
+  "ipa": "[mɑ:k]",
+  "mean": "n.标志，分数，马克；v.做标记于，留意，打分数"
+ },
+ "market": {
+  "ipa": "[ˈmɑ:kɪt]",
+  "mean": "n.市场；集市"
+ },
+ "marketing": {
+  "ipa": "[ˈmɑ:kɪtɪŋ]",
+  "mean": "n.行销，在市场的买卖，买东西"
+ },
+ "marsh": {
+  "ipa": "[mɑ:ʃ]",
+  "mean": "n.沼泽，湿地"
+ },
+ "master": {
+  "ipa": "[ˈmɑ:stə(r)]",
+  "mean": "n.(男)主人，雇主；能手，名家，大师；[M-]硕士；v.精通，掌握"
+ },
+ "mat": {
+  "ipa": "[mæt]",
+  "mean": "n.席子，垫子，团；vt.遮盖；vi.缠结；adj.粗糙的；暗淡的"
+ },
+ "matching": {
+  "ipa": "[ˈmætʃɪŋ]",
+  "mean": "v.使…相配(match的ing形式)adj.相配的；一致的；相称的n.匹配"
+ },
+ "material": {
+  "ipa": "[məˈtɪəriəl]",
+  "mean": "n.材料，原料；物质；素材，题材，资料；adj.物质的，实体的"
+ },
+ "maturity": {
+  "ipa": "[məˈtʃʊərəti]",
+  "mean": "n.成熟；完成；(支票、债券等)到期"
+ },
+ "maximum": {
+  "ipa": "[ˈmæksɪməm]",
+  "mean": "n.极点，最大量，极大；adj.最高的，最大极限的；"
+ },
+ "meal": {
+  "ipa": "[mi:l]",
+  "mean": "n.膳食，一餐，谷物粗粉；vi.进餐"
+ },
+ "measure": {
+  "ipa": "[ˈmeʒə(r)]",
+  "mean": "n.尺寸；措施；vt.测量；测度"
+ },
+ "meat": {
+  "ipa": "[mi:t]",
+  "mean": "n.(猪、牛、羊等的)肉"
+ },
+ "media": {
+  "ipa": "[ˈmi:diə]",
+  "mean": "n.(medium的复数)媒体，新闻媒介，传播媒介"
+ },
+ "medication": {
+  "ipa": "[ˌmedɪˈkeɪʃn]",
+  "mean": "n.药物，药剂"
+ },
+ "medium": {
+  "ipa": "[ˈmi:diəm]",
+  "mean": "n.媒体，方法，媒介；adj.适中的，中等的"
+ },
+ "method": {
+  "ipa": "[ˈmeθəd]",
+  "mean": "n.方法，办法；类函数，类成员函数(计算机)"
+ },
+ "microphone": {
+  "ipa": "[ˈmaɪkrəfəʊn]",
+  "mean": "n.扩音器，麦克风，话筒"
+ },
+ "migration": {
+  "ipa": "[maɪˈgreɪʃn]",
+  "mean": "n.迁移，移居，（鸟类等的）迁徙"
+ },
+ "mile": {
+  "ipa": "[maɪl]",
+  "mean": "n.英里"
+ },
+ "mileage": {
+  "ipa": "[ˈmaɪlɪdʒ]",
+  "mean": "n.里程，英里数；好处，利润"
+ },
+ "milk": {
+  "ipa": "[mɪlk]",
+  "mean": "n.牛奶"
+ },
+ "ine": {
+  "ipa": "[]",
+  "mean": "国际网工程备忘录"
+ },
+ "mineral": {
+  "ipa": "[ˈmɪnərəl]",
+  "mean": "n.矿物，无机物，苏打水；adj.矿物的，似矿物的"
+ },
+ "ill": {
+  "ipa": "[ɪl]",
+  "mean": "adj.有病的；坏的；恶意的；adv.坏地；不利地"
+ },
+ "minimum": {
+  "ipa": "[ˈmɪnɪməm]",
+  "mean": "adj.最低的，最小的；n.最小量，最低限度"
+ },
+ "minute": {
+  "ipa": "['mɪnɪt]",
+  "mean": "n.分钟"
+ },
+ "mixture": {
+  "ipa": "[ˈmɪkstʃə(r)]",
+  "mean": "n.（不可数）混合；混合物，混合剂"
+ },
+ "model": {
+  "ipa": "[ˈmɒdl]",
+  "mean": "n.模型，模范，模特儿；adj.模范的，作模型用的；v.做模型，塑造，模仿"
+ },
+ "neck": {
+  "ipa": "[nek]",
+  "mean": "n.脖子，颈"
+ },
+ "ocean": {
+  "ipa": "[ˈəʊʃn]",
+  "mean": "n.洋，海洋；许多，大量"
+ },
+ "panic": {
+  "ipa": "[ˈpænɪk]",
+  "mean": "n.恐慌，惊惶；adj.惊慌的，没有理由的，恐慌的；vt.使惊慌，使狂热；vi.惊慌"
+ },
+ "perk": {
+  "ipa": "[pɜ:k]",
+  "mean": "n.额外津贴；赏钱；小费；"
+ },
+ "placement": {
+  "ipa": "['pleismənt]",
+  "mean": "n.安置"
+ },
+ "particular": {
+  "ipa": "[pəˈtɪkjələ(r)]",
+  "mean": "adj.个别的，各个的；独有的，特殊的，特别的"
+ },
+ "profit": {
+  "ipa": "[ˈprɒfɪt]",
+  "mean": "n.利润，赢利，利益；vi.有益，获利，赚钱；vt.有益于"
+ },
+ "radio": {
+  "ipa": "[ˈreɪdiəʊ]",
+  "mean": "n.收音机；无线电报，无线电话；vi.用无线电进行通信；vt.用无线电发送"
+ },
+ "region": {
+  "ipa": "[ˈri:dʒən]",
+  "mean": "n.地区，地带，区域；范围，幅度"
+ },
+ "money": {
+  "ipa": "[ˈmʌni]",
+  "mean": "n.钱，财产，货币"
+ },
+ "monopoly": {
+  "ipa": "[məˈnɒpəli]",
+  "mean": "n.垄断，专卖，垄断物（商品），专卖商品"
+ },
+ "month": {
+  "ipa": "[mʌnθ]",
+  "mean": "n.月，月份"
+ },
+ "mood": {
+  "ipa": "[mu:d]",
+  "mean": "n.心情，情绪，心地，兴致"
+ },
+ "morality": {
+  "ipa": "[məˈræləti]",
+  "mean": "n.道德（性），德行，品行，道德观（规范）"
+ },
+ "mosquito": {
+  "ipa": "[məˈski:təʊ]",
+  "mean": "n.蚊子"
+ },
+ "motel": {
+  "ipa": "[məʊˈtel]",
+  "mean": "n.汽车游客旅馆"
+ },
+ "mountain": {
+  "ipa": "[ˈmaʊntən]",
+  "mean": "n.山，高山；（pl.）山脉；大量"
+ },
+ "moustache": {
+  "ipa": "[məˈstɑ:ʃ]",
+  "mean": "n.髭；小胡子；八字胡；触须"
+ },
+ "mouse": {
+  "ipa": "[maʊs]",
+  "mean": "n.老鼠；胆小怕事的人；鼠标；vi. 捕鼠，窥探；vt.探出"
+ },
+ "movie": {
+  "ipa": "[ˈmu:vi]",
+  "mean": "n.电影"
+ },
+ "muscle": {
+  "ipa": "[ˈmʌsl]",
+  "mean": "n.肌肉，膂力；v.硬挤"
+ },
+ "museum": {
+  "ipa": "[mjuˈzi:əm]",
+  "mean": "n.博物馆，博物院"
+ },
+ "music": {
+  "ipa": "[ˈmju:zɪk]",
+  "mean": "n.音乐，乐曲"
+ },
+ "musical": {
+  "ipa": "[ˈmju:zɪkl]",
+  "mean": "adj.音乐的，爱好音乐的；悦耳的；有音乐才能的"
+ },
+ "musician": {
+  "ipa": "[mjuˈzɪʃn]",
+  "mean": "n.音乐家，擅长音乐音乐的人；乐师，作曲家"
+ },
+ "nap": {
+  "ipa": "[næp]",
+  "mean": "n.(白天)打瞌睡，打盹；细毛；孤注一掷"
+ },
+ "nature": {
+  "ipa": "[ˈneɪtʃə(r)]",
+  "mean": "n.自然，自然界，自然状态；本性，天性，性质；质；性格；性；本质"
+ },
+ "naught": {
+  "ipa": "[nɔ:t]",
+  "mean": "n.无，零 [=nought]"
+ },
+ "net": {
+  "ipa": "[net]",
+  "mean": "n.网，网状物，罗网，净利，实价；adj.净余的，纯粹的；vt.用网捕，撒网；净赚"
+ },
+ "newspaper": {
+  "ipa": "[ˈnju:zpeɪpə(r)]",
+  "mean": "n.报纸；新闻纸"
+ },
+ "night": {
+  "ipa": "[naɪt]",
+  "mean": "n.夜晚，晚上"
+ },
+ "noise": {
+  "ipa": "[nɔɪz]",
+  "mean": "n.响声，喧闹声，嘈杂声"
+ },
+ "north": {
+  "ipa": "[nɔ:θ]",
+  "mean": "n./adj.北；北方（的）"
+ },
+ "northeast": {
+  "ipa": "['nɔ:θ'i:st]",
+  "mean": "n.东北；adj.东北的，向东北的，来自东北的；adv.向东北，来自东北"
+ },
+ "northwest": {
+  "ipa": "['nɔ:θ'west]",
+  "mean": "n.西北，西北方；adj.西北的，在西北的，来自西北的；adv. 向西北"
+ },
+ "nose": {
+  "ipa": "[nəʊz]",
+  "mean": "n.鼻子"
+ },
+ "note": {
+  "ipa": "[nəʊt]",
+  "mean": "n.笔记，注解，备忘录；音符，音调；票据；便条；纸币；vt. 记录，注解；注意"
+ },
+ "notice": {
+  "ipa": "[ˈnəʊtɪs]",
+  "mean": "n.通知，布告；注意，认识；vt.看到，注意到"
+ },
+ "nurse": {
+  "ipa": "[nɜ:s]",
+  "mean": "n.护士；褓姆，奶妈；vt.&vi.看护，照顾；栽培"
+ },
+ "nursery": {
+  "ipa": "[ˈnɜ:səri]",
+  "mean": "n.托儿所；苗圃"
+ },
+ "nursing": {
+  "ipa": "[ˈnɜ:sɪŋ]",
+  "mean": "n.看护，养育，授乳"
+ },
+ "nut": {
+  "ipa": "[nʌt]",
+  "mean": "n.坚果；果仁；螺母，螺帽；难对付的人（事）"
+ },
+ "nutrition": {
+  "ipa": "[njuˈtrɪʃn]",
+  "mean": "n.营养，营养学"
+ },
+ "objective": {
+  "ipa": "[əbˈdʒektɪv]",
+  "mean": "adj.客观的；n.目标，目的"
+ },
+ "occasion": {
+  "ipa": "[əˈkeɪʒn]",
+  "mean": "n.场合，时机，机会，诱因，理由；vt.惹起，引起"
+ },
+ "occupation": {
+  "ipa": "[ˌɒkjuˈpeɪʃn]",
+  "mean": "n.职业，工作；占领，占据；占用"
+ },
+ "occupant": {
+  "ipa": "['ɔkjupənt]",
+  "mean": "n.居住者，占用者"
+ },
+ "oculist": {
+  "ipa": "[ˈɒkjəlɪst]",
+  "mean": "n.眼科医生"
+ },
+ "ointment": {
+  "ipa": "[ˈɔɪntmənt]",
+  "mean": "n.药膏，油膏，软膏"
+ },
+ "option": {
+  "ipa": "[ˈɒpʃn]",
+  "mean": "n.选择，取舍，选择权，选择的自由"
+ },
+ "order": {
+  "ipa": "[ˈɔ:də(r)]",
+  "mean": "n.订单；命令；n.顺序，整齐；勋章；阶级，决议；vt.命令； 调整；定购"
+ },
+ "ordinary": {
+  "ipa": "[ˈɔ:dnri]",
+  "mean": "adj.平常的，普通的；n.常事，常例，普通的人"
+ },
+ "organizer": {
+  "ipa": "['ɔ:ɡənaɪzə(r)]",
+  "mean": "n.组织者，编制者，创立者"
+ },
+ "original": {
+  "ipa": "[əˈrɪdʒənl]",
+  "mean": "adj.最初的，原始的；有独创性的"
+ },
+ "outline": {
+  "ipa": "[ˈaʊtlaɪn]",
+  "mean": "n.大纲，轮廓，概要，要点；v.描画轮廓，描述要点"
+ },
+ "overdraft": {
+  "ipa": "[ˈəʊvədrɑ:ft]",
+  "mean": "n.透支，透支额"
+ },
+ "owner": {
+  "ipa": "[ˈəʊnə(r)]",
+  "mean": "n.拥有者；所有者"
+ },
+ "ownership": {
+  "ipa": "[ˈəʊnəʃɪp]",
+  "mean": "n.所有(权)，所有制"
+ },
+ "Oxford": {
+  "ipa": "['ɒksfəd]",
+  "mean": "n.牛津（英国城市）"
+ },
+ "package": {
+  "ipa": "[ˈpækɪdʒ]",
+  "mean": "n.包裹，整批交易；vt.把...打包，把...进行推销"
+ },
+ "page": {
+  "ipa": "[peɪdʒ]",
+  "mean": "n.页，页码"
+ },
+ "paint": {
+  "ipa": "[peɪnt]",
+  "mean": "n.油漆；颜料；vt.涂颜色；绘画；vi.油漆；描绘；绘画；化妆"
+ },
+ "painting": {
+  "ipa": "[ˈpeɪntɪŋ]",
+  "mean": "n.绘画；油画；上色，着色；颜料，油漆"
+ },
+ "pair": {
+  "ipa": "[peə(r)]",
+  "mean": "n.一对，一双，一副，一条"
+ },
+ "pal": {
+  "ipa": "[pæl]",
+  "mean": "n.朋友，伙伴，同志；vi.结为友"
+ },
+ "palace": {
+  "ipa": "[ˈpæləs]",
+  "mean": "n.皇宫；官殿；豪华大厦"
+ },
+ "paper": {
+  "ipa": "[ˈpeɪpə(r)]",
+  "mean": "n.纸，报纸"
+ },
+ "parcel": {
+  "ipa": "[ˈpɑ:sl]",
+  "mean": "n.小包；包裹；vt.分配；打包；adj.部分的；adv.局部地"
+ },
+ "parent": {
+  "ipa": "[ˈpeərənt]",
+  "mean": "n.父母，父母亲，根源"
+ },
+ "park": {
+  "ipa": "[pɑ:k]",
+  "mean": "n.公园；v.停放（车辆）"
+ },
+ "parking": {
+  "ipa": "[ˈpɑ:kɪŋ]",
+  "mean": "n.停车，停机，停放"
+ },
+ "participant": {
+  "ipa": "[pɑ:ˈtɪsɪpənt]",
+  "mean": "n.参加者，参与者，比赛的人"
+ },
+ "passage": {
+  "ipa": "[ˈpæsɪdʒ]",
+  "mean": "n.通道，走廊，一段文章，旅程；vi.通过；vt.通过"
+ },
+ "passenger": {
+  "ipa": "[ˈpæsɪndʒə(r)]",
+  "mean": "n.乘客，旅客"
+ },
+ "pastime": {
+  "ipa": "[ˈpɑ:staɪm]",
+  "mean": "n.消遣，娱乐"
+ },
+ "patient": {
+  "ipa": "[ˈpeɪʃnt]",
+  "mean": "n.病人；adj.有耐心的，能容忍的"
+ },
+ "payment": {
+  "ipa": "[ˈpeɪmənt]",
+  "mean": "n.付款，支付，偿还，偿还，报应"
+ },
+ "pedestrian": {
+  "ipa": "[pəˈdestriən]",
+  "mean": "n.步行者，行人；adj.徒步的，平淡无奇的，一般的"
+ },
+ "pension": {
+  "ipa": "[ˈpenʃn]",
+  "mean": "n.退休金，年金，抚恤金；vt.发给退休金"
+ },
+ "pensioner": {
+  "ipa": "[ˈpenʃənə(r)]",
+  "mean": "n.领养老金的人"
+ },
+ "percent": {
+  "ipa": "[pə'sent]",
+  "mean": "adj./adv.百分之一，(与基数词连用)百分之...；n.百分之..."
+ },
+ "performer": {
+  "ipa": "[pəˈfɔ:mə(r)]",
+  "mean": "n.执行者，表演者"
+ },
+ "perfume": {
+  "ipa": "[ˈpɜ:fju:m]",
+  "mean": "n.香水(料，气)；vt.使充满芳香；洒香水"
+ },
+ "period": {
+  "ipa": "[ˈpɪəriəd]",
+  "mean": "n.学时，课时；一段时间，时期，周期；句点"
+ },
+ "periodical": {
+  "ipa": "[ˌpɪəriˈɒdɪkl]",
+  "mean": "n.期刊；adj.定期的，时而发生的"
+ },
+ "permit": {
+  "ipa": "[pəˈmɪt]",
+  "mean": "n.许可证，许可，执照；vt.允许，容许；vi.容许"
+ },
+ "person": {
+  "ipa": "[ˈpɜ:sn]",
+  "mean": "n.人；本人；身体"
+ },
+ "personality": {
+  "ipa": "[ˌpɜ:səˈnæləti]",
+  "mean": "n.个性，人格，名人"
+ },
+ "pet": {
+  "ipa": "[pet]",
+  "mean": "n.宠物；受宠的人；adj.宠爱的；表示亲昵的"
+ },
+ "petrol": {
+  "ipa": "[ˈpetrəl]",
+  "mean": "n.（英）汽油（[美]gasoline）"
+ },
+ "petroleum": {
+  "ipa": "[pəˈtrəʊliəm]",
+  "mean": "n.原油，石油"
+ },
+ "philosopher": {
+  "ipa": "[fəˈlɒsəfə(r)]",
+  "mean": "n.哲学家，哲人"
+ },
+ "photo": {
+  "ipa": "[ˈfəʊtəʊ]",
+  "mean": "n.[口]照片 （=photograph）"
+ },
+ "photograph": {
+  "ipa": "[ˈfəʊtəgrɑ:f]",
+  "mean": "n.相片；vi.照相，摄影；vt.给...照相"
+ },
+ "physician": {
+  "ipa": "[fɪˈzɪʃn]",
+  "mean": "n.医师，内科医师"
+ },
+ "physics": {
+  "ipa": "[ˈfɪzɪks]",
+  "mean": "n.物理学；物理过程"
+ },
+ "pianist": {
+  "ipa": "[ˈpɪənɪst]",
+  "mean": "n.钢琴家，钢琴演奏家"
+ },
+ "piano": {
+  "ipa": "[piˈænəʊ]",
+  "mean": "n.钢琴"
+ },
+ "picnic": {
+  "ipa": "[ˈpɪknɪk]",
+  "mean": "n.野餐，郊游；vi.（去）野餐"
+ },
+ "picture": {
+  "ipa": "[ˈpɪktʃə(r)]",
+  "mean": "n.图片，照片；vt.描写；想象"
+ },
+ "pie": {
+  "ipa": "[paɪ]",
+  "mean": "n.饼图，派，馅饼；杂乱；喜鹊；爱说话的人；vt.弄乱"
+ },
+ "pill": {
+  "ipa": "[pɪl]",
+  "mean": "n.药丸，弹丸，屈辱；vt.将…做成药丸，形成丸状，使服药丸；挫败"
+ },
+ "pink": {
+  "ipa": "[pɪŋk]",
+  "mean": "adj.粉红色的，桃红色的；n.粉红色，桃红色"
+ },
+ "place": {
+  "ipa": "[pleɪs]",
+  "mean": "n.地方；名次；地位；寓所；vt.放置；订（货）"
+ },
+ "plan": {
+  "ipa": "[plæn]",
+  "mean": "n.计划，策略，方法；v.计划，设计，意欲"
+ },
+ "planner": {
+  "ipa": "['plænə]",
+  "mean": "设计者"
+ },
+ "plant": {
+  "ipa": "[plɑ:nt]",
+  "mean": "n.植物；工厂；vt.种植；培养；vi.种植"
+ },
+ "plastic": {
+  "ipa": "[ˈplæstɪk]",
+  "mean": "n.塑料；adj.塑料的"
+ },
+ "plate": {
+  "ipa": "[pleɪt]",
+  "mean": "n.盘子，碟子"
+ },
+ "player": {
+  "ipa": "[ˈpleɪə(r)]",
+  "mean": "n.运动员，做游戏的人，选手，队员，比赛者；演员，演奏者，自动演奏装置，戏子"
+ },
+ "playground": {
+  "ipa": "[ˈpleɪgraʊnd]",
+  "mean": "n.操场，运动场"
+ },
+ "pleasure": {
+  "ipa": "[ˈpleʒə(r)]",
+  "mean": "n.愉快，快乐，高兴，乐事，乐趣，意志，愿望"
+ },
+ "pocket": {
+  "ipa": "[ˈpɒkɪt]",
+  "mean": "n.口袋，钱袋，钱，容器，孤立地区；vt.装…在口袋里，隐藏，抑制，私吞，搁置"
+ },
+ "point": {
+  "ipa": "[pɔɪnt]",
+  "mean": "n.点，要点，尖端，细节，目标；vt.指出，瞄准；vi.表明；指向"
+ },
+ "police": {
+  "ipa": "[pəˈli:s]",
+  "mean": "n.警察，警察当局，治安，公安；vt.维持治安，警备，管辖"
+ },
+ "poll": {
+  "ipa": "[pəʊl]",
+  "mean": "n.民意测验，民意调查，选举投票"
+ },
+ "pollutant": {
+  "ipa": "[pəˈlu:tənt]",
+  "mean": "n.污染物质，散布污染物质者"
+ },
+ "pollute": {
+  "ipa": "[pəˈlu:t]",
+  "mean": "vt.污染，败坏，弄脏"
+ },
+ "pollution": {
+  "ipa": "[pəˈlu:ʃn]",
+  "mean": "n.污染；污染物"
+ },
+ "port": {
+  "ipa": "[pɔ:t]",
+  "mean": "n.港口，埠，舱门，避风港；左舷；炮眼，枪眼；举止，意义；vt.左转舵"
+ },
+ "position": {
+  "ipa": "[pəˈzɪʃn]",
+  "mean": "n.位置，职位；状态，立场；vt.安置，决定...的位置"
+ },
+ "post": {
+  "ipa": "[pəʊst]",
+  "mean": "n.邮政；邮局；vt.投寄，邮寄"
+ },
+ "postgraduate": {
+  "ipa": "[ˌpəʊstˈgrædʒuət]",
+  "mean": "adj.大学毕业后的，大学研究院的；n.研究生"
+ },
+ "pottery": {
+  "ipa": "[ˈpɒtəri]",
+  "mean": "n.陶器，陶器场"
+ },
+ "power": {
+  "ipa": "[ˈpaʊə(r)]",
+  "mean": "n.电力，动力；能力，力量，权力"
+ },
+ "precaution": {
+  "ipa": "[prɪˈkɔ:ʃn]",
+  "mean": "n.预防，防备，预防措施"
+ },
+ "precision": {
+  "ipa": "[prɪˈsɪʒn]",
+  "mean": "n.精确，准确；adj.精密的，确切的"
+ },
+ "preference": {
+  "ipa": "[ˈprefrəns]",
+  "mean": "n.偏爱，优先，优先权，优先的选择"
+ },
+ "preposition": {
+  "ipa": "[ˌprepəˈzɪʃn]",
+  "mean": "n.介词"
+ },
+ "prescription": {
+  "ipa": "[prɪˈskrɪpʃn]",
+  "mean": "n.处方，开药；指示，规定"
+ },
+ "presentation": {
+  "ipa": "[ˌpreznˈteɪʃn]",
+  "mean": "n.赠与，陈述，介绍；表演，展示"
+ },
+ "preservation": {
+  "ipa": "[ˌprezəˈveɪʃn]",
+  "mean": "n.保护，维护，保存，保留，保持"
+ },
+ "president": {
+  "ipa": "[ˈprezɪdənt]",
+  "mean": "n.总统；总裁；校长；院长；会(社)长；主席"
+ },
+ "prevention": {
+  "ipa": "[prɪˈvenʃn]",
+  "mean": "n.阻止，妨碍，预防"
+ },
+ "printing": {
+  "ipa": "[ˈprɪntɪŋ]",
+  "mean": "n.印刷，印刷术；动词print的现在分词"
+ },
+ "priority": {
+  "ipa": "[praɪˈɒrəti]",
+  "mean": "n.优先处理的事，居先，优先（权）"
+ },
+ "privacy": {
+  "ipa": "[ˈprɪvəsi]",
+  "mean": "n.私人权利，个人自由，隐私权"
+ },
+ "prize": {
+  "ipa": "[praɪz]",
+  "mean": "n.奖，奖品，战利品；v.珍视，捕获"
+ },
+ "problem": {
+  "ipa": "[ˈprɒbləm]",
+  "mean": "n.问题；难题"
+ },
+ "product": {
+  "ipa": "[ˈprɒdʌkt]",
+  "mean": "n.产品，成果，乘积"
+ },
+ "production": {
+  "ipa": "[prəˈdʌkʃn]",
+  "mean": "n.生产，产品，产量，作品，成果"
+ },
+ "professor": {
+  "ipa": "[prəˈfesə(r)]",
+  "mean": "n.教授，公开表示信仰的人"
+ },
+ "project": {
+  "ipa": "[ˈprɒdʒekt]",
+  "mean": "n.（学校的)课题，作业；项目，计划；方案；工程"
+ },
+ "promotion": {
+  "ipa": "[prəˈməʊʃn]",
+  "mean": "n.提升，晋级；促销，宣传"
+ },
+ "prone": {
+  "ipa": "[prəʊn]",
+  "mean": "adj.(to)易于…的，很可能…的；俯卧的"
+ },
+ "property": {
+  "ipa": "[ˈprɒpəti]",
+  "mean": "n.财产，所有物，所有权，性质，特性，（小）道具"
+ },
+ "prospectus": {
+  "ipa": "[prəˈspektəs]",
+  "mean": "n.计划书；说明书；慕股书"
+ },
+ "protein": {
+  "ipa": "[ˈprəʊti:n]",
+  "mean": "n.蛋白质；adj.蛋白质的"
+ },
+ "psychiatrist": {
+  "ipa": "[saɪˈkaɪətrɪst]",
+  "mean": "n.精神病专家；精神病医师"
+ },
+ "psychologist": {
+  "ipa": "[saɪˈkɒlədʒɪst]",
+  "mean": "n.心理学家；心理学研究者"
+ },
+ "psychotherapy": {
+  "ipa": "[ˌsaikəu'θerəpi]",
+  "mean": "n.心理疗法，精神疗法"
+ },
+ "publication": {
+  "ipa": "[ˌpʌblɪˈkeɪʃn]",
+  "mean": "n.出版，发行；出版；公布，发表"
+ },
+ "pump": {
+  "ipa": "[pʌmp]",
+  "mean": "n.抽水机，打气筒；v.抽水，打气，盘问"
+ },
+ "purpose": {
+  "ipa": "[ˈpɜ:pəs]",
+  "mean": "n.目的，意图；意志，决心；议题；vt.打算，决意"
+ },
+ "purse": {
+  "ipa": "[pɜ:s]",
+  "mean": "n.(女式)钱包"
+ },
+ "quality": {
+  "ipa": "[ˈkwɒləti]",
+  "mean": "n.品质，特性，才能，质量；adj.优质的"
+ },
+ "quantity": {
+  "ipa": "[ˈkwɒntəti]",
+  "mean": "n.量，数量，许多，大量"
+ },
+ "quarter": {
+  "ipa": "[ˈkwɔ:tə(r)]",
+  "mean": "n.四分之一；一刻钟"
+ },
+ "question": {
+  "ipa": "[ˈkwestʃən]",
+  "mean": "n.问题，疑问，疑问句；vt.&vi.询问，审问，怀疑"
+ },
+ "radar": {
+  "ipa": "[ˈreɪdɑ:(r)]",
+  "mean": "n.雷达，无线电探测器"
+ },
+ "radiator": {
+  "ipa": "[ˈreɪdieɪtə(r)]",
+  "mean": "n.暖气片，散热器"
+ },
+ "railway": {
+  "ipa": "[ˈreɪlweɪ]",
+  "mean": "n.铁路；v.由铁道运输"
+ },
+ "rain": {
+  "ipa": "[reɪn]",
+  "mean": "n.雨，下雨，雨天；vi.下雨；vt.使大量落下"
+ },
+ "rainfall": {
+  "ipa": "[ˈreɪnfɔ:l]",
+  "mean": "n.一场雨；降雨量"
+ },
+ "range": {
+  "ipa": "[reɪndʒ]",
+  "mean": "n.山脉，行列，范围，射程；vt.排列，归类于，使并列，放牧；vi.平行，延伸，漫游"
+ },
+ "rank": {
+  "ipa": "[ræŋk]",
+  "mean": "n.军衔，社会阶层；排；vt.分级，分类；排列；vi.列为；列队"
+ },
+ "rat": {
+  "ipa": "[ræt]",
+  "mean": "n.鼠，卑鄙的人，变节者；vi.背叛，捕鼠；vt.弄蓬松，告发"
+ },
+ "rate": {
+  "ipa": "[reɪt]",
+  "mean": "n.比率，率，速度，价格，费用，等级；vt.估价，认为，鉴定等级，责骂；vi.被评价"
+ },
+ "ray": {
+  "ipa": "[reɪ]",
+  "mean": "n.光线，放射线；闪烁，光辉；微量；vi.射出光线，浮现，放射光线；vt.放射，显出"
+ },
+ "reader": {
+  "ipa": "[ˈri:də(r)]",
+  "mean": "n.读物，读本，读者"
+ },
+ "reading": {
+  "ipa": "[ˈri:dɪŋ]",
+  "mean": "n.阅读，知识，读物，表演，对法律条文的解释；adj.阅读的"
+ },
+ "reason": {
+  "ipa": "[ˈri:zn]",
+  "mean": "n.原因，理由，理智，道理；v.劝说，推理"
+ },
+ "reception": {
+  "ipa": "[rɪˈsepʃn]",
+  "mean": "n.接待，招待会，接收"
+ },
+ "recipe": {
+  "ipa": "[ˈresəpi]",
+  "mean": "n.食谱，处方，秘诀"
+ },
+ "recycle": {
+  "ipa": "[ˌri:ˈsaɪkl]",
+  "mean": "vt. 使再循环；使…重新利用 vi. 重复利用"
+ },
+ "referee": {
+  "ipa": "[ˌrefəˈri:]",
+  "mean": "n.裁判员．仲裁人，代表人，鉴定人"
+ },
+ "reference": {
+  "ipa": "[ˈrefrəns]",
+  "mean": "n.提到，说到，暗示，查看，查阅"
+ },
+ "reflectance": {
+  "ipa": "[rɪˈflektəns]",
+  "mean": "反射系数"
+ },
+ "reform": {
+  "ipa": "[rɪˈfɔ:m]",
+  "mean": "n.改革，改正，感化；vt.改革，改过，革新，改善，重新组成；vi.革新，改过，重组"
+ },
+ "refuge": {
+  "ipa": "[ˈrefju:dʒ]",
+  "mean": "n.避难（处），庇护（所）；v.庇护，避难（所）"
+ },
+ "regulation": {
+  "ipa": "[ˌregjuˈleɪʃn]",
+  "mean": "n.规则，规章；调节，校准；adj.规定的，普通的"
+ },
+ "relation": {
+  "ipa": "[rɪˈleɪʃn]",
+  "mean": "n.关系，亲戚；参考，陈述，故事"
+ },
+ "relationship": {
+  "ipa": "[rɪˈleɪʃnʃɪp]",
+  "mean": "n.关系，联系；家属关系，亲属关系"
+ },
+ "relaxation": {
+  "ipa": "[ˌri:lækˈseɪʃn]",
+  "mean": "n.松弛，放松；休息；消遣；娱乐"
+ },
+ "relief": {
+  "ipa": "[rɪˈli:f]",
+  "mean": "n.减轻，解除，救济，安慰，调剂，浮雕，换班，地势的起伏"
+ },
+ "religion": {
+  "ipa": "[rɪˈlɪdʒən]",
+  "mean": "n.宗教，信仰；信念，关心的事"
+ },
+ "remark": {
+  "ipa": "[rɪˈmɑ:k]",
+  "mean": "n.注释，备注，评论，注意；vt.评论，注意，谈及；vi.评论，谈论"
+ },
+ "removal": {
+  "ipa": "[rɪˈmu:vl]",
+  "mean": "n.去除，消除；挪走，移走，搬迁"
+ },
+ "renewal": {
+  "ipa": "[rɪˈnju:əl]",
+  "mean": "adj.(契约)延期，续订，更新，复活，重来"
+ },
+ "rent": {
+  "ipa": "[rent]",
+  "mean": "n.租金；vi.出租；vt.出租，租用"
+ },
+ "rental": {
+  "ipa": "[ˈrentl]",
+  "mean": "n.租赁，出租，出租业"
+ },
+ "repetition": {
+  "ipa": "[ˌrepəˈtɪʃn]",
+  "mean": "n.重复；反复"
+ },
+ "replacement": {
+  "ipa": "[rɪˈpleɪsmənt]",
+  "mean": "n.取代，替换，交换；替代品，代用品"
+ },
+ "report": {
+  "ipa": "[rɪˈpɔ:t]",
+  "mean": "n.报告，汇报；传说，传阅；v.报告，报到"
+ },
+ "reproduce": {
+  "ipa": "[ˌri:prəˈdju:s]",
+  "mean": "vt. 复制；再生；生殖；使…在脑海中重现 vi. 复制；繁殖"
+ },
+ "research": {
+  "ipa": "[rɪˈsɜ:tʃ]",
+  "mean": "n.探索；调查；研究 vt./vi.调查；研究"
+ },
+ "reservation": {
+  "ipa": "[ˌrezəˈveɪʃn]",
+  "mean": "n.保留条件，限制条件；预订座位"
+ },
+ "reserve": {
+  "ipa": "[rɪˈzɜ:v]",
+  "mean": "n.储备（物），储藏量，预备队；vt.储备，保存，保留，预定，预约"
+ },
+ "residence": {
+  "ipa": "[ˈrezɪdəns]",
+  "mean": "n.住处，住宅；居住，(合法)居住资格"
+ },
+ "route": {
+  "ipa": "[ru:t]",
+  "mean": "n.路径，途径，路线；vt.确定路线，按规定路线发送"
+ },
+ "scholar": {
+  "ipa": "[ˈskɒlə(r)]",
+  "mean": "n.学者，公费生，有文化者，学习者"
+ },
+ "sewage": {
+  "ipa": "[ˈsu:ɪdʒ]",
+  "mean": "n.污水，污物"
+ },
+ "simulation": {
+  "ipa": "[ˌsimju'leiʃən]",
+  "mean": "n.模拟"
+ },
+ "south": {
+  "ipa": "[saʊθ]",
+  "mean": "n.南，南方"
+ },
+ "statement": {
+  "ipa": "[ˈsteɪtmənt]",
+  "mean": "n.陈述；声明；综述"
+ },
+ "suburb": {
+  "ipa": "[ˈsʌbɜ:b]",
+  "mean": "n.郊区，郊外，近郊"
+ },
+ "tax": {
+  "ipa": "[tæks]",
+  "mean": "n.税，重负；vt.课以税，使...负重荷，斥责"
+ },
+ "therapy": {
+  "ipa": "[ˈθerəpi]",
+  "mean": "n.治疗；疗法"
+ },
+ "resident": {
+  "ipa": "[ˈrezɪdənt]",
+  "mean": "adj.居住的，居留的；住校的，住院的；n.居民"
+ },
+ "resource": {
+  "ipa": "[rɪˈsɔ:s]",
+  "mean": "n.资源，财力"
+ },
+ "respondent": {
+  "ipa": "[rɪˈspɒndənt]",
+  "mean": "adj.回答的，应答的，感应的；n. 应答者, 被告"
+ },
+ "response": {
+  "ipa": "[rɪˈspɒns]",
+  "mean": "n.反应，回答，响应"
+ },
+ "restaurant": {
+  "ipa": "[ˈrestrɒnt]",
+  "mean": "n.餐馆，饭店，菜馆"
+ },
+ "result": {
+  "ipa": "[rɪˈzʌlt]",
+  "mean": "n.结果，成绩，答案；v.产生，起于，致使"
+ },
+ "retirement": {
+  "ipa": "[rɪˈtaɪəmənt]",
+  "mean": "n.退休，退职"
+ },
+ "return": {
+  "ipa": "[rɪˈtɜ:n]",
+  "mean": "vi.返回，回来；送还；回复，恢复；vt.归还，送还；n.返回，归来；偿还，归还；回复"
+ },
+ "review": {
+  "ipa": "[rɪˈvju:]",
+  "mean": "n.检讨，复习，回顾，评审；v.温习，检讨，评论"
+ },
+ "revision": {
+  "ipa": "[rɪˈvɪʒn]",
+  "mean": "n.修订版，校订，修正，修订本"
+ },
+ "rice": {
+  "ipa": "[raɪs]",
+  "mean": "n.稻子，大米，米饭"
+ },
+ "rider": {
+  "ipa": "[ˈraɪdə(r)]",
+  "mean": "n.骑士，附件，扶手"
+ },
+ "risk": {
+  "ipa": "[rɪsk]",
+  "mean": "n.冒险；危险性，风险；vt.使遭受……的危险"
+ },
+ "river": {
+  "ipa": "[ˈrɪvə(r)]",
+  "mean": "n.江，河，河流；生与死的界河，界河"
+ },
+ "robot": {
+  "ipa": "[ˈrəʊbɒt]",
+  "mean": "n.机器人"
+ },
+ "rock": {
+  "ipa": "[rɒk]",
+  "mean": "n.岩石，岩礁，巨石；vt.摇摆，摇动；vi.摇动；摇晃"
+ },
+ "rocket": {
+  "ipa": "[ˈrɒkɪt]",
+  "mean": "n.火箭，烟火；v.发射火箭，猛涨"
+ },
+ "role": {
+  "ipa": "[rəʊl]",
+  "mean": "n.角色；任务"
+ },
+ "roommate": {
+  "ipa": "['rʊmmeɪt]",
+  "mean": "n.室友"
+ },
+ "rule": {
+  "ipa": "[ru:l]",
+  "mean": "n.规则；vt.统治；管理；vi.统治；管辖"
+ },
+ "safari": {
+  "ipa": "[səˈfɑ:ri]",
+  "mean": "n.远征旅行(探险、考察)；探险队，狩猎队"
+ },
+ "safety": {
+  "ipa": "[ˈseɪfti]",
+  "mean": "vt.保护；n.安全，保险机，安全打"
+ },
+ "sailing": {
+  "ipa": "[ˈseɪlɪŋ]",
+  "mean": "n.航行，航海术，启航"
+ },
+ "salad": {
+  "ipa": "[ˈsæləd]",
+  "mean": "n.沙拉，色拉（西餐中的一种凉拌菜）"
+ },
+ "salary": {
+  "ipa": "[ˈsæləri]",
+  "mean": "n.工资，薪水，薪晌，薪金"
+ },
+ "sale": {
+  "ipa": "[seɪl]",
+  "mean": "n.出售；卖出；廉售；贱卖"
+ },
+ "salt": {
+  "ipa": "[sɔ:lt]",
+  "mean": "n.盐；adj.含盐的"
+ },
+ "sample": {
+  "ipa": "[ˈsɑ:mpl]",
+  "mean": "n.标本，样品，例子；vt.取样，采样，抽取...的样品，试验的一部分，尝试"
+ },
+ "sandal": {
+  "ipa": "[ˈsændl]",
+  "mean": "n.凉鞋，草鞋，檀香木；vt.穿以便鞋"
+ },
+ "satellite": {
+  "ipa": "[ˈsætəlaɪt]",
+  "mean": "n.卫星"
+ },
+ "sauce": {
+  "ipa": "[sɔ:s]",
+  "mean": "n.酱油，酱汁；调味汁"
+ },
+ "saving": {
+  "ipa": "[ˈseɪvɪŋ]",
+  "mean": "n.节省，节约；[pl.]储蓄金，存款；adj.节约的；挽救的；补偿的；保留的"
+ },
+ "scale": {
+  "ipa": "[skeɪl]",
+  "mean": "n.比例；程度；范围"
+ },
+ "scandal": {
+  "ipa": "[ˈskændl]",
+  "mean": "n.丑事，丑闻，流言蜚语，反感，愤慨"
+ },
+ "scar": {
+  "ipa": "[skɑ:(r)]",
+  "mean": "n.伤疤，伤痕，创伤"
+ },
+ "scent": {
+  "ipa": "[sent]",
+  "mean": "n.气味，香味，香水，线索，嗅觉；vt.嗅，发觉；vi.发出…的气味；有…的迹象；嗅着气味追赶"
+ },
+ "schedule": {
+  "ipa": "[ˈʃedju:l]",
+  "mean": "n.时间表，进度表，计划表，议事日程；vt.预定，编制目录，为某事安排时间"
+ },
+ "scheme": {
+  "ipa": "[ski:m]",
+  "mean": "n.安排，配置，计划，阴谋，方案，图解，摘要；v.计划，设计，图谋，策划"
+ },
+ "scholarship": {
+  "ipa": "[ˈskɒləʃɪp]",
+  "mean": "n.学问，学术成就，奖学金"
+ },
+ "science": {
+  "ipa": "[ˈsaɪəns]",
+  "mean": "n.科学，学科，学问，自然科学；"
+ },
+ "scientist": {
+  "ipa": "[ˈsaɪəntɪst]",
+  "mean": "n.(自然)科学家"
+ },
+ "score": {
+  "ipa": "[skɔ:(r)]",
+  "mean": "n.(比赛中)得分，分数；(测验中)成绩"
+ },
+ "script": {
+  "ipa": "[skrɪpt]",
+  "mean": "n.剧本，广播稿；文字体系；笔迹，手迹"
+ },
+ "sculpture": {
+  "ipa": "[ˈskʌlptʃə(r)]",
+  "mean": "n.雕刻，雕塑；vt.雕刻，雕塑；vi.当雕刻师"
+ },
+ "sea": {
+  "ipa": "[si:]",
+  "mean": "n.海，海洋，海浪，大量"
+ },
+ "season": {
+  "ipa": "[ˈsi:zn]",
+  "mean": "n.季节，时期；vt.调味，使...适用；vi 变得成熟；变干燥"
+ },
+ "seat": {
+  "ipa": "[si:t]",
+  "mean": "n.座，座位，位子，席位；所在地；vt.使坐下，使就座，设座于"
+ },
+ "second": {
+  "ipa": "[ˈsekənd]",
+  "mean": "num.第二；adj.第二的；别的；n.第二；秒；片刻"
+ },
+ "secretary": {
+  "ipa": "[ˈsekrətri]",
+  "mean": "n.秘书，部长，大臣，书记"
+ },
+ "section": {
+  "ipa": "[ˈsekʃn]",
+  "mean": "n.部分，章节，地段；断面，剖面；部门，科；阶层，界；vt.把…分成段"
+ },
+ "sector": {
+  "ipa": "[ˈsektə(r)]",
+  "mean": "n.部门，部分；防御地段，防区；扇形"
+ },
+ "selection": {
+  "ipa": "[sɪˈlekʃn]",
+  "mean": "n.选择，挑选，精选品，可选择的东西"
+ },
+ "seminar": {
+  "ipa": "[ˈsemɪnɑ:(r)]",
+  "mean": "n.研究小组，研讨会，(大学的)研究班"
+ },
+ "sense": {
+  "ipa": "[sens]",
+  "mean": "n.侦测，感应，感觉，感官，意识，观念，情理，知觉，理智；vt.感觉，觉察，了解"
+ },
+ "sentence": {
+  "ipa": "[ˈsentəns]",
+  "mean": "n.句子；判决，宣判 vt.宣判，判决"
+ },
+ "servant": {
+  "ipa": "[ˈsɜ:vənt]",
+  "mean": "n.仆人，有用物，公务员，雇员"
+ },
+ "service": {
+  "ipa": "[ˈsɜ:vɪs]",
+  "mean": "n.服务，公务部门，服役；vt.维护，保养"
+ },
+ "sewer": {
+  "ipa": "[ˈsu:ə(r)]",
+  "mean": "n.排水沟，下水道"
+ },
+ "sex": {
+  "ipa": "[seks]",
+  "mean": "n.性别，男性或女性，性欲；vt.区别…的性别，引起…的性欲"
+ },
+ "shade": {
+  "ipa": "[ʃeɪd]",
+  "mean": "n.荫，阴暗，荫凉处，遮光物，灯罩，帘，浓淡，些微；vi. 渐变；vt.使阴暗，使渐变"
+ },
+ "sheep": {
+  "ipa": "[ʃi:p]",
+  "mean": "n.羊；绵羊"
+ },
+ "sheet": {
+  "ipa": "[ʃi:t]",
+  "mean": "n.床单，张，纸张，印刷品，表格，薄片；vt.盖上被单，遍布；vi.大片落下；adj.片状的"
+ },
+ "shelf": {
+  "ipa": "[ʃelf]",
+  "mean": "n.（墙壁，书橱等的）架子，搁板"
+ },
+ "shell": {
+  "ipa": "[ʃel]",
+  "mean": "n.（贝、卵、坚果等的）壳；外壳；炮弹；（人的）表面性格；vt.去壳，脱落；炮击；vi.剥皮；炮轰"
+ },
+ "shelter": {
+  "ipa": "[ˈʃeltə(r)]",
+  "mean": "n.掩蔽，掩蔽处，避身处；庇护所，避难所，庇护；vt.庇护，保护，隐匿；vi.躲避"
+ },
+ "ship": {
+  "ipa": "[ʃɪp]",
+  "mean": "n.轮船；vt.把...装上船；运送"
+ },
+ "shoe": {
+  "ipa": "[ʃu:]",
+  "mean": "n.鞋；（马）蹄铁"
+ },
+ "shoplifter": {
+  "ipa": "['sɔpˌliftə]",
+  "mean": "n.商店扒手"
+ },
+ "shopper": {
+  "ipa": "[ˈʃɒpə(r)]",
+  "mean": "n.购物者，顾客"
+ },
+ "shortage": {
+  "ipa": "[ˈʃɔ:tɪdʒ]",
+  "mean": "n.缺少，缺乏，不足"
+ },
+ "shower": {
+  "ipa": "[ˈʃaʊə(r)]",
+  "mean": "n.阵雨，淋浴；vt.淋浴，大量地给予；下骤雨；vi.淋浴；下阵雨"
+ },
+ "side": {
+  "ipa": "[saɪd]",
+  "mean": "n.边，旁边；面，侧面"
+ },
+ "sight": {
+  "ipa": "[saɪt]",
+  "mean": "n.景观，视力，眼界；vt.看见，观看；vi.瞄准"
+ },
+ "sign": {
+  "ipa": "[saɪn]",
+  "mean": "vt.签名；vi. 签署；签名；n.符号，标记；踪迹，迹象"
+ },
+ "signature": {
+  "ipa": "[ˈsɪgnətʃə(r)]",
+  "mean": "n.签名，署名，信号"
+ },
+ "silence": {
+  "ipa": "[ˈsaɪləns]",
+  "mean": "n.沉默，无声，静寂，湮没，无声息；vt.使缄默；int.安静！"
+ },
+ "single": {
+  "ipa": "[ˈsɪŋgl]",
+  "mean": "adj.单人的；单一的，单个的；未婚的，独身的"
+ },
+ "site": {
+  "ipa": "[saɪt]",
+  "mean": "n.位置，场所，地点；vt.定位；（指INTERNET上的某台主机）"
+ },
+ "size": {
+  "ipa": "[saɪz]",
+  "mean": "n.尺寸，大小；v.按大小排列或分类"
+ },
+ "skating": {
+  "ipa": "[ˈskeɪtɪŋ]",
+  "mean": "n.溜冰；如履薄冰；身处险境；冒着危险；v.溜冰，滑冰（ skate的现在分词）"
+ },
+ "skeleton": {
+  "ipa": "[ˈskelɪtn]",
+  "mean": "n.骨骼，框架，骨干，梗概，提要"
+ },
+ "skill": {
+  "ipa": "[skɪl]",
+  "mean": "n.技能，技巧，手艺"
+ },
+ "skin": {
+  "ipa": "[skɪn]",
+  "mean": "n.皮肤，皮"
+ },
+ "skirt": {
+  "ipa": "[skɜ:t]",
+  "mean": "n.裙子"
+ },
+ "slang": {
+  "ipa": "[slæŋ]",
+  "mean": "n.俚语，行话；vt.使用俚语，辱骂；vi.辱骂"
+ },
+ "slave": {
+  "ipa": "[sleɪv]",
+  "mean": "n.奴隶，附件，卑鄙的人；vi.拼命工作"
+ },
+ "sleep": {
+  "ipa": "[sli:p]",
+  "mean": "vi.睡，睡觉；n.睡眠"
+ },
+ "sleeping": {
+  "ipa": "['sli:pɪŋ]",
+  "mean": "n.睡眠adj.睡着的；供睡觉用的；不要多事；不要自找麻烦v.为…提供床位( sleep的现在分词 )"
+ },
+ "slip": {
+  "ipa": "[slɪp]",
+  "mean": "n.滑倒，事故，片，纸片；vi.滑动，滑倒，失足；减退；vt.使滑动，滑过，摆脱，闪开，塞入；adj.滑动的，活络的，有活结的"
+ },
+ "smell": {
+  "ipa": "[smel]",
+  "mean": "n.味道，气味，嗅；vt.闻，探出，发臭；vi.闻，发臭"
+ },
+ "smoke": {
+  "ipa": "[sməʊk]",
+  "mean": "n.烟；vt.吸烟；冒烟；vi.冒烟，吸烟；抽烟；弥漫"
+ },
+ "snack": {
+  "ipa": "[snæk]",
+  "mean": "n.小吃，点心，快餐；vi. 吃零食，吃快餐"
+ },
+ "soil": {
+  "ipa": "[sɔɪl]",
+  "mean": "n.土壤；土地"
+ },
+ "solution": {
+  "ipa": "[səˈlu:ʃn]",
+  "mean": "n.解答，解决办法，解决方案；溶解；溶液"
+ },
+ "source": {
+  "ipa": "[sɔ:s]",
+  "mean": "n.来源，水源；原始资料"
+ },
+ "southeast": {
+  "ipa": "[ˌsaʊθ'i:st]",
+  "mean": "n.东南，东南地区；adj.东南的，向东南的，来自东南的； adv.往东南，来自东南"
+ },
+ "southwest": {
+  "ipa": "[ˌsaʊθ'west]",
+  "mean": "n.西南，西南风，西南地区；adj.西南的，来自西南方的；adv.往西南，来自西南"
+ },
+ "space": {
+  "ipa": "[speɪs]",
+  "mean": "n.太空，宇宙空间"
+ },
+ "speaker": {
+  "ipa": "[ˈspi:kə(r)]",
+  "mean": "n.说话者，发言者；说某种语言者；扬声器"
+ },
+ "speaking": {
+  "ipa": "['spi:kɪŋ]",
+  "mean": "n.说话；讲话；谈话；演讲adj.演讲的；富于表情的；（肖像）栩栩如生的；雄辩的v.讲，谈(speak的现在分词 )"
+ },
+ "spending": {
+  "ipa": "[ˈspendɪŋ]",
+  "mean": "n.开销，花费v.用钱，花钱( spend的现在分词 )；花费；消耗；花（时间）"
+ },
+ "spider": {
+  "ipa": "[ˈspaɪdə(r)]",
+  "mean": "n.蜘蛛；三角架"
+ },
+ "sponsor": {
+  "ipa": "[ˈspɒnsə(r)]",
+  "mean": "vt.发起，主办；资助；n.发起者，资助人"
+ },
+ "spoon": {
+  "ipa": "[spu:n]",
+  "mean": "n.匙，汤匙，调羹"
+ },
+ "sportsman": {
+  "ipa": "[ˈspɔ:tsmən]",
+  "mean": "n.运动员"
+ },
+ "spot": {
+  "ipa": "[spɒt]",
+  "mean": "n.班点，污点，地点，场所，现场；vt.沾污，弄脏，侦察；认出，发现；vi. 沾上污渍；满是斑点"
+ },
+ "stability": {
+  "ipa": "[stəˈbɪləti]",
+  "mean": "n.稳定，稳固"
+ },
+ "stack": {
+  "ipa": "[stæk]",
+  "mean": "n.堆叠，堆；vt.堆积，成叠放在；vi.堆成一堆"
+ },
+ "stage": {
+  "ipa": "[steɪdʒ]",
+  "mean": "n.阶段，舞台，时期；vt.上演，表演"
+ },
+ "stair": {
+  "ipa": "[steə(r)]",
+  "mean": "n.(阶梯的)一级；楼梯"
+ },
+ "standard": {
+  "ipa": "[ˈstændəd]",
+  "mean": "n.标准，水准，水平；规格，规范，规定；旗帜；adj.标准的，一般的"
+ },
+ "star": {
+  "ipa": "[stɑ:(r)]",
+  "mean": "n.星星；明星；v.担任主角，主演"
+ },
+ "starter": {
+  "ipa": "[ˈstɑ:tə(r)]",
+  "mean": "n.第一道菜；开端；起动器"
+ },
+ "state": {
+  "ipa": "[steɪt]",
+  "mean": "n.州，国，情形；adj.国家的，州的，正式的；vt.说，陈述，声明，规定"
+ },
+ "station": {
+  "ipa": "[ˈsteɪʃn]",
+  "mean": "n.车站，站，位置；vt.安置，配置"
+ },
+ "status": {
+  "ipa": "[ˈsteɪtəs]",
+  "mean": "n.状态，情形，地位；"
+ },
+ "steak": {
+  "ipa": "[steɪk]",
+  "mean": "n.牛排，鱼排，肉排"
+ },
+ "steam": {
+  "ipa": "[sti:m]",
+  "mean": "n.蒸汽，水汽；精力；vi.蒸发，行驶，发怒；vt.蒸，煮，散发"
+ },
+ "step": {
+  "ipa": "[step]",
+  "mean": "n.脚步；台阶；梯级"
+ },
+ "sting": {
+  "ipa": "[stɪŋ]",
+  "mean": "vt.激怒，刺痛，刺伤，蛰伤；n.刺痛，刺伤"
+ },
+ "stock": {
+  "ipa": "[stɒk]",
+  "mean": "n.存货，储备；树干；血统；股份；家畜；adj.存货的；平凡的，惯用的；股票的；畜牧的；vt.进货，采购；储存；供给；vi.出新芽；进货"
+ },
+ "stomach": {
+  "ipa": "[ˈstʌmək]",
+  "mean": "n.胃；v.忍受，容忍；vt.承受，忍受"
+ },
+ "stomachache": {
+  "ipa": "['stʌməkeɪk]",
+  "mean": "n.胃痛；腹痛；肚子痛"
+ },
+ "stone": {
+  "ipa": "[stəʊn]",
+  "mean": "n.石；石头；宝石"
+ },
+ "store": {
+  "ipa": "[stɔ:(r)]",
+  "mean": "n.商店，贮藏，仓库；v.储存，贮藏，供给"
+ },
+ "story": {
+  "ipa": "[ˈstɔ:ri]",
+  "mean": "n.故事，小说；楼层（=storey）；新闻报道"
+ },
+ "strategy": {
+  "ipa": "[ˈstrætədʒi]",
+  "mean": "n.方法，策略，战略"
+ },
+ "strength": {
+  "ipa": "[streŋθ]",
+  "mean": "n.力量，力气，长处，强度"
+ },
+ "strike": {
+  "ipa": "[straɪk]",
+  "mean": "vt./vi.(struck；struck/striken)击打；打动"
+ },
+ "style": {
+  "ipa": "[staɪl]",
+  "mean": "n.样式，风格；n.风格，时尚，文体，风度，字体，类型；vt.称呼，设计，使合潮流"
+ },
+ "subject": {
+  "ipa": "[ˈsʌbdʒɪkt]",
+  "mean": "n.科目，主题；adj.服从的，易患的"
+ },
+ "submit": {
+  "ipa": "[səbˈmɪt]",
+  "mean": "vi.(to)屈服，听从vt.呈送，提交；主张"
+ },
+ "subsidy": {
+  "ipa": "[ˈsʌbsədi]",
+  "mean": "n.补助金，津贴"
+ },
+ "sugar": {
+  "ipa": "[ˈʃʊgə(r)]",
+  "mean": "n.糖，糖块，甜言蜜语；vt.加糖于，使甜蜜，粉饰，美化；vi.制成糖"
+ },
+ "suit": {
+  "ipa": "[su:t]",
+  "mean": "n.(一套)衣服；起诉；v.合适，中..的意；相称"
+ },
+ "supervisor": {
+  "ipa": "[ˈsu:pəvaɪzə(r)]",
+  "mean": "n.监督人，管理人，检查员，督学，主管，导师"
+ },
+ "support": {
+  "ipa": "[səˈpɔ:t]",
+  "mean": "n.支持，援助，供养；vt.支援，帮助，支持"
+ },
+ "surface": {
+  "ipa": "[ˈsɜ:fɪs]",
+  "mean": "n.表面，平面；adj.表面的，肤浅的；vt.使...成平面，被露出来，在表面工作；vi 浮出水面"
+ },
+ "surgeon": {
+  "ipa": "[ˈsɜ:dʒən]",
+  "mean": "n.外科医生，军医，船上的医生"
+ },
+ "surname": {
+  "ipa": "[ˈsɜ:neɪm]",
+  "mean": "n.姓；vt.冠姓"
+ },
+ "surprise": {
+  "ipa": "[səˈpraɪz]",
+  "mean": "n.惊奇，诧异，惊人之事，奇袭；vt.使惊奇，奇袭；adj.令人惊讶的"
+ },
+ "survey": {
+  "ipa": "[ˈsɜ:veɪ]",
+  "mean": "n.调查；考察；测验"
+ },
+ "survival": {
+  "ipa": "[səˈvaɪvl]",
+  "mean": "n.留住生命，生存，残存，幸存者"
+ },
+ "sweater": {
+  "ipa": "[ˈswetə(r)]",
+  "mean": "n.毛线衣；卫生衫"
+ },
+ "switch": {
+  "ipa": "[swɪtʃ]",
+  "mean": "n.开关，电闸，转换，软枝；vt.转变，切换，摆动，转换，使转轨；vi.转换，变换，摆动"
+ },
+ "symptom": {
+  "ipa": "[ˈsɪmptəm]",
+  "mean": "n.症状，征候，征兆"
+ },
+ "syndicate": {
+  "ipa": "['sɪndɪkət]",
+  "mean": "辛迪加，企业联合组织，财团"
+ },
+ "syrup": {
+  "ipa": "[ˈsɪrəp]",
+  "mean": "n.糖浆，糖水"
+ },
+ "system": {
+  "ipa": "[ˈsɪstəm]",
+  "mean": "n.系统，体系，制度，方式，秩序，分类原则"
+ },
+ "table": {
+  "ipa": "[ˈteɪbl]",
+  "mean": "n.桌（台）子；表格；vt.提交讨论"
+ },
+ "tablet": {
+  "ipa": "[ˈtæblət]",
+  "mean": "n.平板，门牌，笔记簿，碑，匾"
+ },
+ "tape": {
+  "ipa": "[teɪp]",
+  "mean": "n.带子，胶布；磁带；vt.用带子捆；录音，录像；vi.用磁带录音"
+ },
+ "taxi": {
+  "ipa": "[ˈtæksi]",
+  "mean": "n.出租汽车"
+ },
+ "tea": {
+  "ipa": "[ti:]",
+  "mean": "n.茶，茶叶"
+ },
+ "teacher": {
+  "ipa": "[ˈti:tʃə(r)]",
+  "mean": "n.老师"
+ },
+ "team": {
+  "ipa": "[ti:m]",
+  "mean": "n.队，组；vi.协同工作；vt.使合作"
+ },
+ "jargon": {
+  "ipa": "[ˈdʒɑ:gən]",
+  "mean": "n.术语，行话"
+ },
+ "term": {
+  "ipa": "[tɜ:m]",
+  "mean": "n.学期，术语，名词，期限；vt.称，呼"
+ },
+ "technology": {
+  "ipa": "[tekˈnɒlədʒi]",
+  "mean": "n.技术，工艺(学)"
+ },
+ "teeth": {
+  "ipa": "[ti:θ]",
+  "mean": "n.牙齿(tooth的复数)"
+ },
+ "telephone": {
+  "ipa": "[ˈtelɪfəʊn]",
+  "mean": "n.电话，电话机；vi.打电话；vt.打电话给"
+ },
+ "telescope": {
+  "ipa": "[ˈtelɪskəʊp]",
+  "mean": "n.望远镜"
+ },
+ "television": {
+  "ipa": "[ˈtelɪvɪʒn]",
+  "mean": "n.电视(机) [=TV]"
+ },
+ "temper": {
+  "ipa": "[ˈtempə(r)]",
+  "mean": "n.恶劣的心情，心绪焦躁；性情，脾气"
+ },
+ "temple": {
+  "ipa": "[ˈtempl]",
+  "mean": "n.庙宇，寺院；太阳穴"
+ },
+ "text": {
+  "ipa": "[tekst]",
+  "mean": "n.本文，文件，正文，课文；vt./vi.发短信"
+ },
+ "texture": {
+  "ipa": "[ˈtekstʃə(r)]",
+  "mean": "n.(织物)质地；(材料)构造；结构；肌理"
+ },
+ "galaxy": {
+  "ipa": "[ˈgæləksi]",
+  "mean": "n.星系；银河系；一群(杰出或著名的人物)"
+ },
+ "theft": {
+  "ipa": "[θeft]",
+  "mean": "n.盗窃，盗窃罪，赃物"
+ },
+ "theory": {
+  "ipa": "[ˈθɪəri]",
+  "mean": "n.理论，原则，看法，推测"
+ },
+ "therapist": {
+  "ipa": "[ˈθerəpɪst]",
+  "mean": "n.治疗专家"
+ },
+ "thesis": {
+  "ipa": "[ˈθi:sɪs]",
+  "mean": "n.论题，论点，论文"
+ },
+ "thief": {
+  "ipa": "[θi:f]",
+  "mean": "n.贼；小偷"
+ },
+ "thinking": {
+  "ipa": "[ˈθɪŋkɪŋ]",
+  "mean": "n.思考，思想；adj.思考的，有理性的；vbl.想，思考"
+ },
+ "third": {
+  "ipa": "[θɜ:d]",
+  "mean": "num.第三"
+ },
+ "thought": {
+  "ipa": "[θɔ:t]",
+  "mean": "n.想法，思想，思维，思潮，关心，挂念；v.vbl.think的过去式和过去分词"
+ },
+ "threat": {
+  "ipa": "[θret]",
+  "mean": "n.威胁，恐吓，造成威胁的事物"
+ },
+ "thriller": {
+  "ipa": "[ˈθrɪlə(r)]",
+  "mean": "n.惊险片，恐怖片"
+ },
+ "ticket": {
+  "ipa": "[ˈtɪkɪt]",
+  "mean": "n.（影、剧、车）票"
+ },
+ "tide": {
+  "ipa": "[taɪd]",
+  "mean": "n.海潮，潮汐"
+ },
+ "tile": {
+  "ipa": "[taɪl]",
+  "mean": "n.砖瓦；vt.铺以瓦，铺以瓷砖"
+ },
+ "timber": {
+  "ipa": "[ˈtɪmbə(r)]",
+  "mean": "n.木材，原木，大木料，栋木"
+ },
+ "time": {
+  "ipa": "[taɪm]",
+  "mean": "n.时间，期限，次数，乘； vt.为...安排时间，计时，乘；adj.根据时间的"
+ },
+ "tittle": {
+  "ipa": "['tɪtl]",
+  "mean": "一点"
+ },
+ "toaster": {
+  "ipa": "[ˈtəʊstə(r)]",
+  "mean": "n.烤面包机"
+ },
+ "toilet": {
+  "ipa": "[ˈtɔɪlət]",
+  "mean": "n.厕所，盥洗室；抽水马桶"
+ },
+ "tomato": {
+  "ipa": "[təˈmɑ:təʊ]",
+  "mean": "n.（pl.tomatoes）西红柿；蕃茄"
+ },
+ "tone": {
+  "ipa": "[təʊn]",
+  "mean": "n.语气，音调，气度，色调；vt.（up）增强"
+ },
+ "trend": {
+  "ipa": "[trend]",
+  "mean": "n.趋势，倾向，方位；vi.倾向，转向"
+ },
+ "university": {
+  "ipa": "[ˌju:nɪˈvɜ:səti]",
+  "mean": "n.大学"
+ },
+ "walk": {
+  "ipa": "[wɔ:k]",
+  "mean": "n.步行，散步；vt.散步；走过；vi.走，步行；散步"
+ },
+ "welfare": {
+  "ipa": "[ˈwelfeə(r)]",
+  "mean": "n.幸福，福利，安康"
+ },
+ "tool": {
+  "ipa": "[tu:l]",
+  "mean": "n.工具，器具"
+ },
+ "top": {
+  "ipa": "[tɒp]",
+  "mean": "n.顶，顶端；首位；顶点；adj.最高的；顶上的"
+ },
+ "topic": {
+  "ipa": "[ˈtɒpɪk]",
+  "mean": "n.题目，话题，主题"
+ },
+ "total": {
+  "ipa": "[ˈtəʊtl]",
+  "mean": "n.总数；合计；adj.总的；全部的；整个的"
+ },
+ "touching": {
+  "ipa": "[ˈtʌtʃɪŋ]",
+  "mean": "adj.动人的，使人感伤的"
+ },
+ "tour": {
+  "ipa": "[tʊə(r)]",
+  "mean": "n.旅行；旅游；参观；游览"
+ },
+ "touring": {
+  "ipa": "['tʊərɪŋ]",
+  "mean": "n.转动，旋转"
+ },
+ "tourism": {
+  "ipa": "[ˈtʊərɪzəm]",
+  "mean": "n.旅游，观光；旅游业，观光业"
+ },
+ "tourist": {
+  "ipa": "[ˈtʊərɪst]",
+  "mean": "adj.旅游的；n.旅游者，观光者"
+ },
+ "towel": {
+  "ipa": "[ˈtaʊəl]",
+  "mean": "n.毛巾；vi.用毛巾擦；vt.用毛巾擦或擦干"
+ },
+ "tower": {
+  "ipa": "[ˈtaʊə(r)]",
+  "mean": "n.塔，高楼，堡垒；v.高耸，超越"
+ },
+ "town": {
+  "ipa": "[taʊn]",
+  "mean": "n.市镇，城镇"
+ },
+ "track": {
+  "ipa": "[træk]",
+  "mean": "n.轨道；足迹；痕迹；磁轨；途径；vt.循路而行；追踪；通过；用纤拉；vi.追踪"
+ },
+ "tractor": {
+  "ipa": "[ˈtræktə(r)]",
+  "mean": "n.拖拉机，牵引车"
+ },
+ "trade": {
+  "ipa": "[treɪd]",
+  "mean": "n.贸易，商业，交易；行业，同行；手工艺；主顾，(复数)信风；vi.做生意，购物，交换；vt.用某物交换，做买卖；adj.商业的，专业性的，同行的"
+ },
+ "tram": {
+  "ipa": "[træm]",
+  "mean": "n.有轨电车"
+ },
+ "tragedy": {
+  "ipa": "[ˈtrædʒədi]",
+  "mean": "n.悲剧；惨事，惨案，灾难"
+ },
+ "trailer": {
+  "ipa": "[ˈtreɪlə(r)]",
+  "mean": "n.追踪者，拖车，影片的末尾；v.用拖车运输，乘拖车式活动房屋旅行，住在拖车式房屋内"
+ },
+ "training": {
+  "ipa": "[ˈtreɪnɪŋ]",
+  "mean": "n.训练，培养，锻炼"
+ },
+ "travel": {
+  "ipa": "[ˈtrævl]",
+  "mean": "n.旅行，游历，进行；vi.旅行，行进，移动，被传播；vt.旅行，通行于，使移动"
+ },
+ "traveler": {
+  "ipa": "['trævlə]",
+  "mean": "n.旅行者"
+ },
+ "treatment": {
+  "ipa": "[ˈtri:tmənt]",
+  "mean": "n.治疗，疗法；对待，处理"
+ },
+ "trip": {
+  "ipa": "[trɪp]",
+  "mean": "n.（短途）旅行；旅程"
+ },
+ "tribe": {
+  "ipa": "[traɪb]",
+  "mean": "n.部落，种族，一伙人"
+ },
+ "tribute": {
+  "ipa": "[ˈtrɪbju:t]",
+  "mean": "n.颂词，称赞，(表示敬意的)礼物；贡品"
+ },
+ "trinity": {
+  "ipa": "[ˈtrɪnəti]",
+  "mean": "n.三位一体，三人一组"
+ },
+ "trolley": {
+  "ipa": "[ˈtrɒli]",
+  "mean": "n.手推车，台车；无轨电车；有轨电车"
+ },
+ "trouble": {
+  "ipa": "[ˈtrʌbl]",
+  "mean": "n.苦恼，麻烦；故障；动乱；vt.麻烦 vi.费神"
+ },
+ "tube": {
+  "ipa": "[tju:b]",
+  "mean": "n.（英）地铁；管，软管，隧道；vt.把…装管，使通过管子"
+ },
+ "tuition": {
+  "ipa": "[tjuˈɪʃn]",
+  "mean": "n.（某一学科的）教学，讲授，指导，学费"
+ },
+ "tune": {
+  "ipa": "[tju:n]",
+  "mean": "n.调子；和谐，协调；vt.调音，调节，调整；vi.[电子][通信] 调谐；协调"
+ },
+ "tutor": {
+  "ipa": "[ˈtju:tə(r)]",
+  "mean": "n.家庭教师，导师，助教，监护人；vt.当…的教师，教，指导，约束"
+ },
+ "type": {
+  "ipa": "[taɪp]",
+  "mean": "n.类型，型号，样式；v.打字，用打字打出"
+ },
+ "umpire": {
+  "ipa": "[ˈʌmpaɪə(r)]",
+  "mean": "n.裁判；v.做仲裁人，当裁判"
+ },
+ "understanding": {
+  "ipa": "[ˌʌndəˈstændɪŋ]",
+  "mean": "adj.能谅解的；通情达理的；n.理解"
+ },
+ "utensil": {
+  "ipa": "[ju:ˈtensl]",
+  "mean": "n.器皿，用具"
+ },
+ "uniform": {
+  "ipa": "[ˈju:nɪfɔ:m]",
+  "mean": "n.制服；校服；adj. 统一的；一致的；相同的；均衡的"
+ },
+ "union": {
+  "ipa": "[ˈju:niən]",
+  "mean": "n.联合，合并，结合，联盟，协会"
+ },
+ "usage": {
+  "ipa": "[ˈju:sɪdʒ]",
+  "mean": "n.惯用法，使用，用法"
+ },
+ "vacancy": {
+  "ipa": "[ˈveɪkənsi]",
+  "mean": "n.（旅馆的）空位，空房，（职务的）空缺"
+ },
+ "vacation": {
+  "ipa": "[vəˈkeɪʃn]",
+  "mean": "n.假期，休假；vi.度假"
+ },
+ "value": {
+  "ipa": "[ˈvælju:]",
+  "mean": "n.价值，价格，有用性，重要性；[pl.]价值观念，标准"
+ },
+ "variety": {
+  "ipa": "[vəˈraɪəti]",
+  "mean": "n.（不可数）多种多样，各种不同的；（可数）种类"
+ },
+ "vegetable": {
+  "ipa": "[ˈvedʒtəbl]",
+  "mean": "n.蔬菜，植物；adj.植物的，蔬菜的"
+ },
+ "velvet": {
+  "ipa": "[ˈvelvɪt]",
+  "mean": "n.丝绒，天鹅绒；adj.丝绒制的，柔软的"
+ },
+ "vet": {
+  "ipa": "[vet]",
+  "mean": "n.兽医，退役军人；vt.检查"
+ },
+ "video": {
+  "ipa": "[ˈvɪdiəʊ]",
+  "mean": "adj.视频的，影像的；n.视频，录像（带）"
+ },
+ "view": {
+  "ipa": "[vju:]",
+  "mean": "n.风景；视野，观点，见解；vt.观看，注视；考虑"
+ },
+ "village": {
+  "ipa": "[ˈvɪlɪdʒ]",
+  "mean": "n.乡村，村庄"
+ },
+ "vinegar": {
+  "ipa": "[ˈvɪnɪgə(r)]",
+  "mean": "n.醋"
+ },
+ "visa": {
+  "ipa": "[ˈvi:zə]",
+  "mean": "n.签证；vt.签准"
+ },
+ "visitor": {
+  "ipa": "[ˈvɪzɪtə(r)]",
+  "mean": "n.参观者，访问者"
+ },
+ "vitamin": {
+  "ipa": "[ˈvɪtəmɪn]",
+  "mean": "n.维他命，维生素"
+ },
+ "vocation": {
+  "ipa": "[vəʊˈkeɪʃn]",
+  "mean": "n.职业，行业"
+ },
+ "volunteer": {
+  "ipa": "[ˌvɒlənˈtɪə(r)]",
+  "mean": "n.志愿者；adj.志愿的；v.志愿"
+ },
+ "waist": {
+  "ipa": "[weɪst]",
+  "mean": "n.腰，腰部，腰身，背心"
+ },
+ "waiter": {
+  "ipa": "[ˈweɪtə(r)]",
+  "mean": "n.(餐厅)服务员，侍者"
+ },
+ "walking": {
+  "ipa": "[ˈwɔ:kɪŋ]",
+  "mean": "n.步行，散步；步法，步态；道路状态adj.步行（用）的；（能）行走的；解雇的，被免职的v.走，步行( walk的现在分词)"
+ },
+ "wall": {
+  "ipa": "[wɔ:l]",
+  "mean": "n.墙壁，围墙，城墙"
+ },
+ "world": {
+  "ipa": "[wɜ:ld]",
+  "mean": "n.世界"
+ },
+ "warming": {
+  "ipa": "[ˈwɔ:miŋ]",
+  "mean": "adj.（比赛前的）准备动作的，热身的n.加温，升温v.（使）变暖，被加热，暖和起来( warm的现在分词 )；（使）变得更友好，变得更可爱"
+ },
+ "washing": {
+  "ipa": "[ˈwɒʃɪŋ]",
+  "mean": "n.洗，洗涤，洗衣，洗脸，洗澡，冲洗，冲刷"
+ },
+ "wasp": {
+  "ipa": "[wɒsp]",
+  "mean": "n.黄蜂，蚂蜂"
+ },
+ "waste": {
+  "ipa": "[weɪst]",
+  "mean": "n. 浪费；废物；荒地；损耗；地面风化物 vt. 浪费；消耗；使荒芜 vi. 浪费；变消瘦；挥霍钱财"
+ },
+ "wasteland": {
+  "ipa": "[ˈweɪstlænd]",
+  "mean": "n.荒地，废墟；贫乏"
+ },
+ "water": {
+  "ipa": "[ˈwɔ:tə(r)]",
+  "mean": "n.水；vt.浇灌；给…饮水；vi.流泪，加水"
+ },
+ "wave": {
+  "ipa": "[weɪv]",
+  "mean": "n.波，波浪，波动；v.波动，挥动，起伏"
+ },
+ "wax": {
+  "ipa": "[wæks]",
+  "mean": "n.蜡，蜡状物，震怒；vi.变大，增大，月亮满；vt.用蜡涂"
+ },
+ "wealth": {
+  "ipa": "[welθ]",
+  "mean": "n.财富，资源，财产，丰富，富裕，大量"
+ },
+ "weapon": {
+  "ipa": "[ˈwepən]",
+  "mean": "n.武器，兵器；vt.武装"
+ },
+ "weather": {
+  "ipa": "[ˈweðə(r)]",
+  "mean": "n.天气，气候，气象；v.经历...而幸存"
+ },
+ "weed": {
+  "ipa": "[wi:d]",
+  "mean": "n.杂草，野草；vi.除草；vt.除…的草，剔除"
+ },
+ "week": {
+  "ipa": "[wi:k]",
+  "mean": "n.星期，周"
+ },
+ "weekday": {
+  "ipa": "[ˈwi:kdeɪ]",
+  "mean": "n.工作日；平日(星期日、星期六除外)"
+ },
+ "weekend": {
+  "ipa": "[ˌwi:kˈend]",
+  "mean": "n.周末，周末假期"
+ },
+ "weight": {
+  "ipa": "[weɪt]",
+  "mean": "n.重量，体重，重担"
+ },
+ "west": {
+  "ipa": "[west]",
+  "mean": "n.西；西方"
+ },
+ "wetland": {
+  "ipa": "[ˈwetlənd]",
+  "mean": "n.（尤指为野生动物保存的）湿地"
+ },
+ "whale": {
+  "ipa": "[weɪl]",
+  "mean": "n.鲸，大量；vi.捕鲸；vt.鞭打，打击，打败"
+ },
+ "wheel": {
+  "ipa": "[wi:l]",
+  "mean": "n.轮子，周期；vt.旋转，装以车轮，转动；vi. 旋转；突然转变方向；盘旋飞行"
+ },
+ "width": {
+  "ipa": "[wɪdθ]",
+  "mean": "n.宽度，阔度，广度；宽阔，广阔"
+ },
+ "willow": {
+  "ipa": "[ˈwɪləʊ]",
+  "mean": "n.柳树"
+ },
+ "wind": {
+  "ipa": "[wɪnd]",
+  "mean": "n.风；vt.&vi.绕，缠；上发条，旋紧"
+ },
+ "wing": {
+  "ipa": "[wɪŋ]",
+  "mean": "n.翼，翅膀；边锋；侧厅；边房"
+ },
+ "word": {
+  "ipa": "[wɜ:d]",
+  "mean": "n.词，单词，话语，消息，诺言；vt.用词，措辞"
+ },
+ "workforce": {
+  "ipa": "[ˈwɜ:kfɔ:s]",
+  "mean": "n.劳动大军，劳动力"
+ },
+ "working": {
+  "ipa": "['wɜ:kɪŋ]",
+  "mean": "adj.（涉及）工作的；（人）有工作的；（时间）用于工作上的；（想法等）可作为基础的v.（使）工作( work的现在分词)；（使）运作；运转；（使）产生效果n.工作；活动；制作；操纵"
+ },
+ "wound": {
+  "ipa": "[waʊnd]",
+  "mean": "n.创伤，伤口，伤疤，伤害，痛苦；vt.伤害，损害，使受伤；vi.打伤，伤害；wind的过去式和过去分词"
+ },
+ "writing": {
+  "ipa": "[ˈraɪtɪŋ]",
+  "mean": "n.写，写作；著作，文学作品"
+ },
+ "year": {
+  "ipa": "[jɪə(r)]",
+  "mean": "n.年，年度，学年；adj./adv.每年，一年一次"
+ },
+ "yoga": {
+  "ipa": "[ˈjəʊgə]",
+  "mean": "n.瑜珈"
+ },
+ "youth": {
+  "ipa": "[ju:θ]",
+  "mean": "n.青年，青年时期，初期，少年，青年们"
+ },
+ "zero": {
+  "ipa": "[ˈzɪərəʊ]",
+  "mean": "num.零；n.无，最低点"
+ },
+ "abnormal": {
+  "ipa": "[æbˈnɔ:ml]",
+  "mean": "adj.反常的，不正常的，不规则的"
+ },
+ "atmospheric": {
+  "ipa": "[ˌætməsˈferɪk]",
+  "mean": "adj.大气的，空气的；大气层的；大气所引起的"
+ },
+ "cheerful": {
+  "ipa": "[ˈtʃɪəfl]",
+  "mean": "adj.快活的，高兴的，兴高采烈"
+ },
+ "effective": {
+  "ipa": "[ɪˈfektɪv]",
+  "mean": "adj.有效的，有力的，实际的；n.有生力量"
+ },
+ "famous": {
+  "ipa": "[ˈfeɪməs]",
+  "mean": "adj.著名的，驰名的，闻名遐迩的；极好的；擅长的"
+ },
+ "handy": {
+  "ipa": "[ˈhændi]",
+  "mean": "adj.方便的；手边的，近便的；手巧的"
+ },
+ "inspiring": {
+  "ipa": "[in'spaiəriŋ]",
+  "mean": "adj.鼓舞人心的"
+ },
+ "martial": {
+  "ipa": "[ˈmɑ:ʃl]",
+  "mean": "adj.战争的，军事的，尚武的，威武的"
+ },
+ "oral": {
+  "ipa": "[ˈɔ:rəl]",
+  "mean": "n.口试；adj.口头的，口述的，口部的"
+ },
+ "academic": {
+  "ipa": "[ˌækəˈdemɪk]",
+  "mean": "adj.专科院校的，研究院的，学会的；学术的，理论的"
+ },
+ "accessible": {
+  "ipa": "[əkˈsesəbl]",
+  "mean": "adj.易于得到的，易于进入的，可处理的，可存取的"
+ },
+ "accountable": {
+  "ipa": "[ə'kauntəbəl]",
+  "mean": "a.负有责任的"
+ },
+ "accurate": {
+  "ipa": "[ˈækjərət]",
+  "mean": "adj.正确无误的；准确的，精确的"
+ },
+ "additional": {
+  "ipa": "[əˈdɪʃənl]",
+  "mean": "adj.添加的，额外的，另外的"
+ },
+ "adequate": {
+  "ipa": "[ˈædɪkwət]",
+  "mean": "adj.充足的，足够的；适当的，胜任的"
+ },
+ "advanced": {
+  "ipa": "[ədˈvɑ:nst]",
+  "mean": "adj.高等的，在前的，老的；"
+ },
+ "advisable": {
+  "ipa": "[ədˈvaɪzəbl]",
+  "mean": "adj.可取的，适当的，明智的"
+ },
+ "allergic": {
+  "ipa": "[əˈlɜ:dʒɪk]",
+  "mean": "adj.过敏的，变态的"
+ },
+ "alternative": {
+  "ipa": "[ɔ:lˈtɜ:nətɪv]",
+  "mean": "n.两者挑一的，可供选择的；adj.选择性的，二中择一的"
+ },
+ "amazing": {
+  "ipa": "[əˈmeɪzɪŋ]",
+  "mean": "adj.令人吃惊的；令人惊异的"
+ },
+ "ambiguous": {
+  "ipa": "[æmˈbɪgjuəs]",
+  "mean": "adj.引起歧义的，模棱两可的，含糊不清的"
+ },
+ "ambitious": {
+  "ipa": "[æmˈbɪʃəs]",
+  "mean": "adj.有雄心的，劲头十足的，有野心的"
+ },
+ "analytical": {
+  "ipa": "[ˌænəˈlɪtɪkl]",
+  "mean": "adj.分析的；用分析法的"
+ },
+ "ancient": {
+  "ipa": "[ˈeɪnʃənt]",
+  "mean": "adj.古代的，古老的；n.古人"
+ },
+ "angry": {
+  "ipa": "[ˈæŋgri]",
+  "mean": "adj.生气的，愤怒的；（天气）风雨交加的"
+ },
+ "applied": {
+  "ipa": "[əˈplaɪd]",
+  "mean": "adj.应用的；v.应用，适用"
+ },
+ "artistic": {
+  "ipa": "[ɑ:ˈtɪstɪk]",
+  "mean": "adj.艺术(家)的，美术(家)的；善于艺术创作的"
+ },
+ "ascending": {
+  "ipa": "[ə'sendiŋ]",
+  "mean": "adj.上升的，向上的"
+ },
+ "attentive": {
+  "ipa": "[əˈtentɪv]",
+  "mean": "adj.注意的，专心的；关心(别人)的，殷勤的"
+ },
+ "audio": {
+  "ipa": "[ˈɔ:diəʊ]",
+  "mean": "n./adj.音频(响)(的)；声音(的)，听觉(的)"
+ },
+ "available": {
+  "ipa": "[əˈveɪləbl]",
+  "mean": "adj.可用到的，可利用的，有用的，有空的，接受探访的"
+ },
+ "aware": {
+  "ipa": "[əˈweə(r)]",
+  "mean": "adj.意识到的，知道的，明白的，发觉的"
+ },
+ "awful": {
+  "ipa": "[ˈɔ:fl]",
+  "mean": "adj.极坏的；极讨厌的；令人畏惧的，可怕的；威严的，庄重的；极度的，非常的"
+ },
+ "auto": {
+  "ipa": "[ˈɔ:təʊ]",
+  "mean": "n.(=automobile)(口语)汽车"
+ },
+ "bald": {
+  "ipa": "[bɔ:ld]",
+  "mean": "adj.秃头的；无发的或少发的"
+ },
+ "barren": {
+  "ipa": "[ˈbærən]",
+  "mean": "adj.贫瘠的，不（生）育的，没有结果的"
+ },
+ "basic": {
+  "ipa": "[ˈbeɪsɪk]",
+  "mean": "adj.基本的；n.基本；要素"
+ },
+ "beautiful": {
+  "ipa": "[ˈbju:tɪfl]",
+  "mean": "adj.美的，美丽的；出色的，完美的"
+ },
+ "biological": {
+  "ipa": "[ˌbaɪəˈlɒdʒɪkl]",
+  "mean": "adj.生物学的；n.生物制品，生物制剂"
+ },
+ "blind": {
+  "ipa": "[blaɪnd]",
+  "mean": "adj.盲目的，瞎的；n.百叶窗；v.使失明"
+ },
+ "blond": {
+  "ipa": "[blɒnd]",
+  "mean": "adj.金发的；n.白肤碧眼金发的人"
+ },
+ "British": {
+  "ipa": "[ˈbrɪtɪʃ]",
+  "mean": "adj.英国的；大不列颠的；英国人的"
+ },
+ "broad": {
+  "ipa": "[brɔ:d]",
+  "mean": "adj.宽的；辽阔的；广大的"
+ },
+ "calculating": {
+  "ipa": "['kælkjuleitiŋ]",
+  "mean": "a.深谋远虑的，精明的"
+ },
+ "casual": {
+  "ipa": "[ˈkæʒuəl]",
+  "mean": "adj.漠不关心，冷漠的；随便的，非正式的；偶然的，碰巧的"
+ },
+ "central": {
+  "ipa": "[ˈsentrəl]",
+  "mean": "adj.中心的，位于中心的；中央的；主要的，最重要的"
+ },
+ "challenging": {
+  "ipa": "[ˈtʃælɪndʒɪŋ]",
+  "mean": "adj.大胆的(复杂的，有前途的，挑战的)；n.复杂(有前途，大胆，挑战)"
+ },
+ "classical": {
+  "ipa": "[ˈklæsɪkl]",
+  "mean": "adj.古典的；古典文学的；正统派的；古典主义的"
+ },
+ "clean": {
+  "ipa": "[kli:n]",
+  "mean": "vt.打扫；vi. 打扫，清扫；adj.清洁的，干净的"
+ },
+ "clear": {
+  "ipa": "[klɪə(r)]",
+  "mean": "adj. 清楚的；清澈的；晴朗的；无罪的 vt. 通过；清除；使干净；跳过 vi. 放晴；变清澈"
+ },
+ "clever": {
+  "ipa": "[ˈklevə(r)]",
+  "mean": "adj.机灵的，聪明的"
+ },
+ "coastal": {
+  "ipa": "[ˈkəʊstl]",
+  "mean": "adj.海岸的，沿海的，沿岸的"
+ },
+ "comfortable": {
+  "ipa": "[ˈkʌmftəbl]",
+  "mean": "adj.舒适的，舒服的"
+ },
+ "common": {
+  "ipa": "[ˈkɒmən]",
+  "mean": "adj.共同的，平常的，普通的；n.平民，普通，公地，公园"
+ },
+ "commonsense": {
+  "ipa": "['kɒmən'sens]",
+  "mean": "adj.有常识的；明白事理的；注重实际的"
+ },
+ "complete": {
+  "ipa": "[kəmˈpli:t]",
+  "mean": "adj.彻底的，完整的，已完成的；v.完成，使完整"
+ },
+ "conflict": {
+  "ipa": "[ˈkɒnflɪkt]",
+  "mean": "n.冲突，矛盾，争执；vi.争执，撞斗，冲突，抵触"
+ },
+ "confident": {
+  "ipa": "[ˈkɒnfɪdənt]",
+  "mean": "adj.确信的，自信的，有信心的"
+ },
+ "conservative": {
+  "ipa": "[kənˈsɜ:vətɪv]",
+  "mean": "adj.保守的，守旧的；n.保守的人，保守派"
+ },
+ "convenient": {
+  "ipa": "[kənˈvi:niənt]",
+  "mean": "adj.便利的，方便的"
+ },
+ "cooperative": {
+  "ipa": "[kəʊ'ɒpərətɪv]",
+  "mean": "adj.有合作意向的，合作的；n.合作社（企业）等"
+ },
+ "corrupt": {
+  "ipa": "[kəˈrʌpt]",
+  "mean": "vi.贿赂，收买；vt.使腐烂；使堕落，使恶化；adj.腐败的，贪污的"
+ },
+ "costly": {
+  "ipa": "[ˈkɒstli]",
+  "mean": "adj.昂贵的，价值高的，豪华的"
+ },
+ "critical": {
+  "ipa": "[ˈkrɪtɪkl]",
+  "mean": "adj.批评的，评论的；危急的，紧要的；临界的"
+ },
+ "crucial": {
+  "ipa": "[ˈkru:ʃl]",
+  "mean": "adj.极重要的，决定性的，关键性的"
+ },
+ "curly": {
+  "ipa": "[ˈkɜ:li]",
+  "mean": "adj.卷曲的，卷缩的"
+ },
+ "current": {
+  "ipa": "[ˈkʌrənt]",
+  "mean": "n.涌流，趋势，电流，水流，气流；adj.当前的，通用的，流通的，现在的，草写的，最近的"
+ },
+ "daily": {
+  "ipa": "[ˈdeɪli]",
+  "mean": "adj.每日的，日常的；adv.每日地，日常地；n.日报"
+ },
+ "dairy": {
+  "ipa": "[ˈdeəri]",
+  "mean": "n.牛奶场，乳品店；adj.乳制品的"
+ },
+ "dangerous": {
+  "ipa": "[ˈdeɪndʒərəs]",
+  "mean": "adj.危险的，不安全的"
+ },
+ "dark": {
+  "ipa": "[dɑ:k]",
+  "mean": "adj.黑色的；暗的；黑暗的"
+ },
+ "departmental": {
+  "ipa": "[]",
+  "mean": "adj. 部门的, 各部的"
+ },
+ "dependent": {
+  "ipa": "[dɪˈpendənt]",
+  "mean": "adj.依靠的，依赖的，依赖他人生活者"
+ },
+ "detailed": {
+  "ipa": "[ˈdi:teɪld]",
+  "mean": "adj.详细的，详尽的，极注意细节的，完全的"
+ },
+ "different": {
+  "ipa": "[ˈdɪfrənt]",
+  "mean": "adj.不同的，有区别的，不一致的"
+ },
+ "direct": {
+  "ipa": "[dəˈrekt]",
+  "mean": "adj.直接的；直达的；v.指挥；知道；监督；管理"
+ },
+ "disabled": {
+  "ipa": "[dɪsˈeɪbld]",
+  "mean": "adj.肢体有残疾的，伤残的；残疾的"
+ },
+ "distant": {
+  "ipa": "[ˈdɪstənt]",
+  "mean": "adj.远的，久远的，远隔的"
+ },
+ "distinct": {
+  "ipa": "[dɪˈstɪŋkt]",
+  "mean": "adj.种类不同的，有区别的，清楚的，明显的"
+ },
+ "domestic": {
+  "ipa": "[dəˈmestɪk]",
+  "mean": "adj.家里的，国内的，本国的；n.家仆，佣人"
+ },
+ "dominant": {
+  "ipa": "[ˈdɒmɪnənt]",
+  "mean": "adj.支配的，统治的；占优势的；显性的；n.主因，要素，主要的人(或物)；显性基因"
+ },
+ "eastern": {
+  "ipa": "[ˈi:stən]",
+  "mean": "adj.东部的，东方的"
+ },
+ "economic": {
+  "ipa": "[ˌi:kəˈnɒmɪk]",
+  "mean": "adj.经济上的，实用的，节省的"
+ },
+ "educational": {
+  "ipa": "[ˌedʒuˈkeɪʃənl]",
+  "mean": "adj.教育的，教育方面的；有教育意义的"
+ },
+ "efficient": {
+  "ipa": "[ɪˈfɪʃnt]",
+  "mean": "adj.有效的，效率高的；有能力的，能胜任的"
+ },
+ "elementary": {
+  "ipa": "[ˌelɪˈmentri]",
+  "mean": "adj.初等的；初级的；初步的"
+ },
+ "empty": {
+  "ipa": "[ˈempti]",
+  "mean": "n.空的东西，空物；adj.空的，空虚的，空腹的；v.倒空，使...空；（计算机）空的"
+ },
+ "enormous": {
+  "ipa": "[ɪˈnɔ:məs]",
+  "mean": "adj.巨大的；庞大的"
+ },
+ "enthusiastic": {
+  "ipa": "[ɪnˌθju:ziˈæstɪk]",
+  "mean": "adj.热情的，热心的，热烈的"
+ },
+ "environmental": {
+  "ipa": "[ɪnˌvaɪrənˈmentl]",
+  "mean": "adj.环境的"
+ },
+ "essential": {
+  "ipa": "[ɪˈsenʃl]",
+  "mean": "adj.必要的，必不可少的；本质的，基本的；n.要素，要点"
+ },
+ "excited": {
+  "ipa": "[ɪkˈsaɪtɪd]",
+  "mean": "adj.激动的；兴奋的"
+ },
+ "exciting": {
+  "ipa": "[ɪkˈsaɪtɪŋ]",
+  "mean": "adj.使激动的；兴奋的"
+ },
+ "existent": {
+  "ipa": "[ig'zistənt]",
+  "mean": "a.存在的，目前的，现行的"
+ },
+ "expensive": {
+  "ipa": "[ɪkˈspensɪv]",
+  "mean": "adj.昂贵的，花钱多的"
+ },
+ "experienced": {
+  "ipa": "[ɪkˈspɪəriənst]",
+  "mean": "adj.有经验的；经验丰富的，熟练的"
+ },
+ "experimental": {
+  "ipa": "[ɪkˌsperɪˈmentl]",
+  "mean": "adj.实验的，用作实验的，根据实验的"
+ },
+ "extensive": {
+  "ipa": "[ɪkˈstensɪv]",
+  "mean": "adj.广泛的，广阔的，广大的"
+ },
+ "extra": {
+  "ipa": "[ˈekstrə]",
+  "mean": "adj.额外的，外加的；特大的"
+ },
+ "fair": {
+  "ipa": "[feə(r)]",
+  "mean": "adj.公平的，晴朗的，美丽的；(皮肤，毛发等)浅色的；白皙的；n.展览会，市集"
+ },
+ "fake": {
+  "ipa": "[feɪk]",
+  "mean": "vt.伪造，造假，假装；n.假货，赝品"
+ },
+ "famed": {
+  "ipa": "[feimd]",
+  "mean": "a.著名的"
+ },
+ "familiar": {
+  "ipa": "[fəˈmɪliə(r)]",
+  "mean": "adj.熟悉的，常见的，亲密的；n.熟友，常客"
+ },
+ "fancy": {
+  "ipa": "[ˈfænsi]",
+  "mean": "n.想像力，幻想；喜好，爱；adj.想像的，时髦的，华丽装饰的，奢侈的；技巧的；vt.想象，自认为，喜好"
+ },
+ "fashionable": {
+  "ipa": "[ˈfæʃnəbl]",
+  "mean": "adj.时髦的，上流社会的，流行的"
+ },
+ "favourite": {
+  "ipa": "[ˈfeɪvərɪt]",
+  "mean": "adj.最喜爱的；n.最喜爱的人/物（=favorite）"
+ },
+ "final": {
+  "ipa": "[ˈfaɪnl]",
+  "mean": "adj.最后的；n.决赛"
+ },
+ "financial": {
+  "ipa": "[faɪˈnænʃl]",
+  "mean": "adj.财政的，经济的，财务的，金融的"
+ },
+ "fine": {
+  "ipa": "[faɪn]",
+  "mean": "adj.好的，上等的；纤细的，精致的；健康的；晴朗的；n.罚款；vt.罚款；澄清"
+ },
+ "flexible": {
+  "ipa": "[ˈfleksəbl]",
+  "mean": "adj.易曲的，灵活的，柔软的，能变形的，可通融的"
+ },
+ "foreign": {
+  "ipa": "[ˈfɒrən]",
+  "mean": "adj.外国的；在外国的；来自外国的"
+ },
+ "formal": {
+  "ipa": "[ˈfɔ:ml]",
+  "mean": "adj.正式的，正规的，形式的"
+ },
+ "former": {
+  "ipa": "[ˈfɔ:mə(r)]",
+  "mean": "adj.从前的，前者的；n.形成者，模型，样板"
+ },
+ "free": {
+  "ipa": "[fri:]",
+  "mean": "adj.自由的，免费的；v.使自由；adv.随意地"
+ },
+ "frequent": {
+  "ipa": "[ˈfri:kwənt]",
+  "mean": "adj.经常的，频繁的；vt.常到，常去"
+ },
+ "fundamental": {
+  "ipa": "[ˌfʌndəˈmentl]",
+  "mean": "adj.基本的，主要的；基本原则，基本法则"
+ },
+ "further": {
+  "ipa": "[ˈfɜ:ðə(r)]",
+  "mean": "adv.（在时间或空间上）距离更大地；更远地"
+ },
+ "general": {
+  "ipa": "[ˈdʒenrəl]",
+  "mean": "n.一般，将军，大体；adj. 一般的，普遍的；v.指挥，作...将军"
+ },
+ "genetic": {
+  "ipa": "[dʒəˈnetɪk]",
+  "mean": "adj.遗传的，遗传学的"
+ },
+ "geographical": {
+  "ipa": "[ˌdʒi:ə'ɡræfɪkl]",
+  "mean": "adj.地理的；地区(性)的"
+ },
+ "global": {
+  "ipa": "[ˈgləʊbl]",
+  "mean": "adj.全球的；球形的；世界的"
+ },
+ "harmful": {
+  "ipa": "[ˈhɑ:mfl]",
+  "mean": "adj.有害的"
+ },
+ "hazardous": {
+  "ipa": "[ˈhæzədəs]",
+  "mean": "adj.(有)危险的，冒险的；碰运气的"
+ },
+ "healthy": {
+  "ipa": "[ˈhelθi]",
+  "mean": "adj.健康的，健壮的；有益健康的，合乎卫生的"
+ },
+ "heavy": {
+  "ipa": "[ˈhevi]",
+  "mean": "adj.重的，重型的；沉重的，大量的，猛烈的；adv. 大量地；笨重地"
+ },
+ "helpful": {
+  "ipa": "[ˈhelpfl]",
+  "mean": "adj.有帮助的，有用的，"
+ },
+ "herbivorous": {
+  "ipa": "[hə:'bivərəs]",
+  "mean": "a.食草的"
+ },
+ "historical": {
+  "ipa": "[hɪˈstɒrɪkl]",
+  "mean": "adj.历史的，史实的，历史上的"
+ },
+ "least": {
+  "ipa": "[li:st]",
+  "mean": "adj.最小(少)的；adv.最少(小；不)；n.最小(少)"
+ },
+ "illegal": {
+  "ipa": "[ɪˈli:gl]",
+  "mean": "adj.不合法的，非法的，犯法的"
+ },
+ "immune": {
+  "ipa": "[ɪˈmju:n]",
+  "mean": "adj.免疫的，有免疫力的，不受影响的，免除的"
+ },
+ "important": {
+  "ipa": "[ɪmˈpɔ:tnt]",
+  "mean": "adj.重要的；重大的；严重的"
+ },
+ "impossible": {
+  "ipa": "[ɪmˈpɒsəbl]",
+  "mean": "adj.不可能的，不容易的，令人无法忍受的"
+ },
+ "inaccurate": {
+  "ipa": "[ɪnˈækjərət]",
+  "mean": "adj.错误的，不正确的，不准确的"
+ },
+ "inadequate": {
+  "ipa": "[ɪnˈædɪkwət]",
+  "mean": "adj.(for,to)不充足的，不适当的"
+ },
+ "individual": {
+  "ipa": "[ˌɪndɪˈvɪdʒuəl]",
+  "mean": "adj.个人的，个体的，单独的；独特的；n.个人，个体；人"
+ },
+ "industrial": {
+  "ipa": "[ɪnˈdʌstriəl]",
+  "mean": "adj.工业的，产业的，实业的；从事工业的；工业高度发达的"
+ },
+ "informative": {
+  "ipa": "[ɪnˈfɔ:mətɪv]",
+  "mean": "adj.提供资料的，增进知识的"
+ },
+ "initial": {
+  "ipa": "[ɪˈnɪʃl]",
+  "mean": "adj.最初的，开始的，词首的；n.首字母，姓名的开头字母；vt.标注姓名的首字母于"
+ },
+ "intact": {
+  "ipa": "[ɪnˈtækt]",
+  "mean": "adj.完整无缺的，未经触动的，未受损伤的"
+ },
+ "intelligent": {
+  "ipa": "[ɪnˈtelɪdʒənt]",
+  "mean": "adj.聪明的，伶俐的，有才智的"
+ },
+ "intensive": {
+  "ipa": "[ɪnˈtensɪv]",
+  "mean": "adj.加强的，密集的；精工细作的，集约的"
+ },
+ "interesting": {
+  "ipa": "[ˈɪntrəstɪŋ]",
+  "mean": "adj.有趣的，有意思的"
+ },
+ "intermediate": {
+  "ipa": "[ˌɪntəˈmi:diət]",
+  "mean": "adj.中间的，居间的，中级的；n.中间体，媒介物"
+ },
+ "internal": {
+  "ipa": "[ɪnˈtɜ:nl]",
+  "mean": "adj.内的，内部的；国内的，内政的"
+ },
+ "international": {
+  "ipa": "[ˌɪntəˈnæʃnəl]",
+  "mean": "adj.国际的"
+ },
+ "irregular": {
+  "ipa": "[ɪˈregjələ(r)]",
+  "mean": "n.不合规格之物；adj.不规则的，不整齐的，不合法的"
+ },
+ "irritable": {
+  "ipa": "[ˈɪrɪtəbl]",
+  "mean": "adj.急躁的；过敏的；易怒的"
+ },
+ "isolated": {
+  "ipa": "['aisəleitid]",
+  "mean": "adj.与世隔绝的"
+ },
+ "key": {
+  "ipa": "[ki:]",
+  "mean": "n.答案；钥匙；关键；adj.基本的"
+ },
+ "latest": {
+  "ipa": "[ˈleɪtɪst]",
+  "mean": "adj.最新的，最近的，最后的，最迟的"
+ },
+ "legal": {
+  "ipa": "[ˈli:gl]",
+  "mean": "adj.法律的，依照法律的，合法的，法定的，正当的"
+ },
+ "little-known": {
+  "ipa": "['lɪtln'əʊn]",
+  "mean": "adj. 很少人知的"
+ },
+ "loyal": {
+  "ipa": "[ˈlɔɪəl]",
+  "mean": "adj.忠诚的，忠心的"
+ },
+ "magic": {
+  "ipa": "[ˈmædʒɪk]",
+  "mean": "adj.有魔力的；n.魔法"
+ },
+ "magical": {
+  "ipa": "[ˈmædʒɪkl]",
+  "mean": "adj.魔术的，有魔力的，不可思议的"
+ },
+ "magnificent": {
+  "ipa": "[mægˈnɪfɪsnt]",
+  "mean": "adj.壮丽的，宏伟的；华丽的；极好的"
+ },
+ "major": {
+  "ipa": "[ˈmeɪdʒə(r)]",
+  "mean": "n.主修，成年人，陆军少校；adj.主要的，较多的，大部份的；v.主修"
+ },
+ "mature": {
+  "ipa": "[məˈtʃʊə(r)]",
+  "mean": "adj.成熟的，到期的，充分考虑的；vt.使成熟；vi.成熟，到期"
+ },
+ "medical": {
+  "ipa": "[ˈmedɪkl]",
+  "mean": "adj.医学的；医疗的"
+ },
+ "mental": {
+  "ipa": "[ˈmentl]",
+  "mean": "adj.精神的，思想的，内心的；智力的，脑力的；精神病的"
+ },
+ "ID": {
+  "ipa": "['ai'di:]",
+  "mean": "n.(identity的缩写)身份(证)"
+ },
+ "migratory": {
+  "ipa": "[ˈmaɪgrətri]",
+  "mean": "n.候鸟，迁移"
+ },
+ "military": {
+  "ipa": "[ˈmɪlətri]",
+  "mean": "n.军队；adj.军事的，军人的，好战的"
+ },
+ "miserable": {
+  "ipa": "[ˈmɪzrəbl]",
+  "mean": "adj.悲惨的，痛苦的；可怜的，糟糕的"
+ },
+ "mobile": {
+  "ipa": "[ˈməʊbaɪl]",
+  "mean": "adj.可移动的，易变的，机动的；n.运动物体"
+ },
+ "moderate": {
+  "ipa": "[ˈmɒdərət]",
+  "mean": "adj.适度的，稳健的，温和的，中等的；vt.节制，使...稳定，使...缓和；vi. 变缓和，变弱；"
+ },
+ "modern": {
+  "ipa": "[ˈmɒdn]",
+  "mean": "n.现代人，有思想的人；adj.现代的，时髦的"
+ },
+ "natural": {
+  "ipa": "[ˈnætʃrəl]",
+  "mean": "adj.自然的，正常的，天生的；n.有天赋的人"
+ },
+ "negative": {
+  "ipa": "[ˈnegətɪv]",
+  "mean": "adj.否定的；消极的；负面的"
+ },
+ "nervous": {
+  "ipa": "[ˈnɜ:vəs]",
+  "mean": "adj.神经的；紧张不安的，神经过敏的"
+ },
+ "noble": {
+  "ipa": "[ˈnəʊbl]",
+  "mean": "n.贵族；adj.高贵的，高尚的，贵族的，辉煌的"
+ },
+ "noisy": {
+  "ipa": "[ˈnɔɪzi]",
+  "mean": "adj.嘈杂的，喧闹的"
+ },
+ "normal": {
+  "ipa": "[ˈnɔ:ml]",
+  "mean": "adj.正常的，正规的，标准的；n.正规；常态"
+ },
+ "northern": {
+  "ipa": "[ˈnɔ:ðən]",
+  "mean": "adj.在北方的；北方的"
+ },
+ "organic": {
+  "ipa": "[ɔ:ˈgænɪk]",
+  "mean": "adj.有机的，有机物的；有组织的"
+ },
+ "overall": {
+  "ipa": "[ˌəʊvərˈɔ:l]",
+  "mean": "n.工作服，工装裤；全面的，全体的"
+ },
+ "overhead": {
+  "ipa": "[ˌəʊvəˈhed]",
+  "mean": "adj.在头顶上的，悬空的；n.间接开支"
+ },
+ "overseas": {
+  "ipa": "[ˌəʊvəˈsi:z]",
+  "mean": "adj.海外的；adv.在海外"
+ },
+ "parental": {
+  "ipa": "[pəˈrentl]",
+  "mean": "adj.父母的；父的；母的"
+ },
+ "payable": {
+  "ipa": "[ˈpeɪəbl]",
+  "mean": "adj.可付的，应付的，有利益的"
+ },
+ "perfect": {
+  "ipa": "[ˈpɜ:fɪkt]",
+  "mean": "n.完成式；adj.完美的，全然的，理想的，熟练的，正确的，完成式的；vt.使完美，修改"
+ },
+ "personal": {
+  "ipa": "[ˈpɜ:sənl]",
+  "mean": "adj.个人的，私人的；本人的；身体的，容貌的"
+ },
+ "physical": {
+  "ipa": "[ˈfɪzɪkl]",
+  "mean": "adj.物理的，物质的，体力的，身体的，自然的"
+ },
+ "pleasant": {
+  "ipa": "[ˈpleznt]",
+  "mean": "adj.令人愉快的，舒适的；vi.满意，喜欢；vt.使高兴"
+ },
+ "political": {
+  "ipa": "[pəˈlɪtɪkl]",
+  "mean": "adj.政治上的，政党的，政略性的，政治的"
+ },
+ "pop": {
+  "ipa": "[pɒp]",
+  "mean": "n.取出，砰然声，流行乐曲；adj.流行的，热门的，通俗的；v.取出，发出爆裂声，突然伸出"
+ },
+ "popular": {
+  "ipa": "[ˈpɒpjələ(r)]",
+  "mean": "adj.受欢迎的；流行的；通俗的"
+ },
+ "positive": {
+  "ipa": "[ˈpɒzətɪv]",
+  "mean": "adj.肯定的；正面的，积极的；n.正片"
+ },
+ "regional": {
+  "ipa": "['ri:dʒənəl]",
+  "mean": "a.区域的，地区性的"
+ },
+ "sufficient": {
+  "ipa": "[səˈfɪʃnt]",
+  "mean": "adj.充足的，充分的"
+ },
+ "species": {
+  "ipa": "[ˈspi:ʃi:z]",
+  "mean": "n.物种，种群"
+ },
+ "uncomfortable": {
+  "ipa": "[ʌnˈkʌmftəbl]",
+  "mean": "adj.不舒服的，不合意的，不安的"
+ },
+ "Weekly": {
+  "ipa": "['wi:kli]",
+  "mean": "n.周刊，周报；adj.每周的，一周一次的，周刊的；adv.每周，一周一次；"
+ },
+ "possible": {
+  "ipa": "[ˈpɒsəbl]",
+  "mean": "adj.可能的"
+ },
+ "potential": {
+  "ipa": "[pəˈtenʃl]",
+  "mean": "n.潜在性，可能性，潜力，潜能，势，位；adj.有潜力的，可能的，潜在的"
+ },
+ "practical": {
+  "ipa": "[ˈpræktɪkl]",
+  "mean": "adj.实际的，实践的；实用的，应用的；有实际经验的"
+ },
+ "precious": {
+  "ipa": "[ˈpreʃəs]",
+  "mean": "adj.宝贵的，珍贵的，过于精致的，珍爱的"
+ },
+ "predictable": {
+  "ipa": "[pri'diktəbəl]",
+  "mean": "a.可预言的；可预料的；(贬)按老一套办事的"
+ },
+ "present": {
+  "ipa": "[ˈpreznt]",
+  "mean": "n.礼物，现在；adj.当面的，出席的，现在的；vt.赠送，提出，呈现"
+ },
+ "previous": {
+  "ipa": "[ˈpri:viəs]",
+  "mean": "adj.早先的，前面的，过急的；adv.早先，前面；"
+ },
+ "private": {
+  "ipa": "[ˈpraɪvət]",
+  "mean": "adj.私人的，私有的，个人的"
+ },
+ "professional": {
+  "ipa": "[prəˈfeʃənl]",
+  "mean": "adj.专业的；职业的；n.专业人员；职业运动员"
+ },
+ "promising": {
+  "ipa": "[ˈprɒmɪsɪŋ]",
+  "mean": "adj.有希望的，有前途的"
+ },
+ "psychiatric": {
+  "ipa": "[ˌsaɪkiˈætrɪk]",
+  "mean": "adj.精神病的"
+ },
+ "psychological": {
+  "ipa": "[ˌsaɪkəˈlɒdʒɪkl]",
+  "mean": "adj.心理的，精神上的"
+ },
+ "public": {
+  "ipa": "[ˈpʌblɪk]",
+  "mean": "adj.公开的，众所周知的，公众的；n.公共场合，公众，同好者"
+ },
+ "pure": {
+  "ipa": "[pjʊə(r)]",
+  "mean": "adj.纯的，纯粹的，纯净的，无垢的，纯洁的，完美的，抽象的"
+ },
+ "random": {
+  "ipa": "[ˈrændəm]",
+  "mean": "adj.随机的；任意的；n.偶然的(或随便的)行动"
+ },
+ "rapid": {
+  "ipa": "[ˈræpɪd]",
+  "mean": "adj.迅速的，急促的；n.急流"
+ },
+ "rare": {
+  "ipa": "[reə(r)]",
+  "mean": "adj.稀罕的，罕有的，珍贵的，稀薄的，半熟的，非常的；adv.非常"
+ },
+ "raw": {
+  "ipa": "[rɔ:]",
+  "mean": "adj.生的，未煮过的，未加工的"
+ },
+ "redundant": {
+  "ipa": "[rɪˈdʌndənt]",
+  "mean": "adj.多余的，过剩的；(食物)丰富的；被解雇的"
+ },
+ "regular": {
+  "ipa": "[ˈregjələ(r)]",
+  "mean": "adj.有规律的，有规则的，整齐的，正规的"
+ },
+ "related": {
+  "ipa": "[rɪˈleɪtɪd]",
+  "mean": "adj.有关系的，有关联的，叙述的，讲述的"
+ },
+ "relevant": {
+  "ipa": "[ˈreləvənt]",
+  "mean": "adj.有关的，贴切的"
+ },
+ "reliable": {
+  "ipa": "[rɪˈlaɪəbl]",
+  "mean": "adj.可信赖的；可靠的"
+ },
+ "remote": {
+  "ipa": "[rɪˈməʊt]",
+  "mean": "adj.遥远的，僻远的；细微的，稀少的，漠然的"
+ },
+ "resistant": {
+  "ipa": "[rɪˈzɪstənt]",
+  "mean": "adj.(to)抵抗的，有抵抗力的"
+ },
+ "reverse": {
+  "ipa": "[rɪˈvɜ:s]",
+  "mean": "n. 背面；相反；倒退；失败 vt. 颠倒；倒转 adj. 反面的；颠倒的；反身的 vi. 倒退；逆叫"
+ },
+ "royal": {
+  "ipa": "[ˈrɔɪəl]",
+  "mean": "adj.王室的，皇家的；堂皇的，盛大的；极大的，第一流的"
+ },
+ "rural": {
+  "ipa": "[ˈrʊərəl]",
+  "mean": "adj.乡下的，田园的，乡村风味的"
+ },
+ "sack": {
+  "ipa": "[sæk]",
+  "mean": "n.袋子，劫掠；vt.解雇，劫掠，把...装入袋子"
+ },
+ "safe": {
+  "ipa": "[seɪf]",
+  "mean": "adj.安全的，可靠的，平安的，无害的，稳健的，有把握的；n.保险箱，冷藏室"
+ },
+ "satisfactory": {
+  "ipa": "[ˌsætɪsˈfæktəri]",
+  "mean": "adj.令人满意的；可喜的；恰当的"
+ },
+ "scare": {
+  "ipa": "[skeə(r)]",
+  "mean": "vt.恐吓；vi.受惊吓"
+ },
+ "scarce": {
+  "ipa": "[skeəs]",
+  "mean": "adj.缺乏的，不足的；稀少的，罕见的"
+ },
+ "scientific": {
+  "ipa": "[ˌsaɪənˈtɪfɪk]",
+  "mean": "adj.科学的；符合科学规律的，精确的"
+ },
+ "seasonal": {
+  "ipa": "[ˈsi:zənl]",
+  "mean": "adj.季节的，季节性的"
+ },
+ "seasoned": {
+  "ipa": "[ˈsi:znd]",
+  "mean": "adj.调过味的；成熟的，老练的v.“season”的过去式和过去分词"
+ },
+ "secondary": {
+  "ipa": "[ˈsekəndri]",
+  "mean": "adj.中级的，中等的，次要的；n.次要位置，副手"
+ },
+ "second-hand": {
+  "ipa": "[ˈsekəndˈhænd]",
+  "mean": "adj.用过的，旧的，二手的"
+ },
+ "senior": {
+  "ipa": "[ˈsi:niə(r)]",
+  "mean": "adj.年长的；资格较老的，地位较高的；n.年长者，前辈；大学高年级学生"
+ },
+ "sensible": {
+  "ipa": "[ˈsensəbl]",
+  "mean": "adj.可察觉的，意识到的，实用的；n.可感知物"
+ },
+ "serial": {
+  "ipa": "[ˈsɪəriəl]",
+  "mean": "n.连本影片，连本电视节目；电视连续剧；adj.连续的"
+ },
+ "serious": {
+  "ipa": "[ˈsɪəriəs]",
+  "mean": "adj.认真的，严肃的，重大的，严重的"
+ },
+ "several": {
+  "ipa": "[ˈsevrəl]",
+  "mean": "adj.几个，若干，数个；各个的，各自的"
+ },
+ "sharp": {
+  "ipa": "[ʃɑ:p]",
+  "mean": "adj.刺耳的，锋利的，急剧的；adv.[时刻]正，准；夏普(财富500强公司之一，总部所在地日本，主要经营电子电气)"
+ },
+ "short": {
+  "ipa": "[ʃɔ:t]",
+  "mean": "adj.短的；矮的"
+ },
+ "sick": {
+  "ipa": "[sɪk]",
+  "mean": "adj.有病的，患病的；恶心的；厌恶的"
+ },
+ "silent": {
+  "ipa": "[ˈsaɪlənt]",
+  "mean": "adj.安静的，不吵闹的，沉默的，无言的；n.(复数)默剧"
+ },
+ "silver": {
+  "ipa": "[ˈsɪlvə(r)]",
+  "mean": "adj.银色的，银的；n.银，银币，银器；vt.镀银，变成银白色"
+ },
+ "similar": {
+  "ipa": "[ˈsɪmələ(r)]",
+  "mean": "adj.类似的；同样的"
+ },
+ "smelly": {
+  "ipa": "[ˈsmeli]",
+  "mean": "adj.(口)有臭味的，发出臭气的"
+ },
+ "social": {
+  "ipa": "[ˈsəʊʃl]",
+  "mean": "adj.社会的，群居的，社团的"
+ },
+ "solar": {
+  "ipa": "[ˈsəʊlə(r)]",
+  "mean": "adj.太阳的，日光的；利用太阳能的；根据太阳决定或测定的 n.日光浴室"
+ },
+ "soundproof": {
+  "ipa": "['saundpru:f]",
+  "mean": "a.隔音的"
+ },
+ "southern": {
+  "ipa": "[ˈsʌðən]",
+  "mean": "adj.南部的，南方的，来自南方的"
+ },
+ "spacious": {
+  "ipa": "[ˈspeɪʃəs]",
+  "mean": "adj.广阔的，宽敞的"
+ },
+ "spare": {
+  "ipa": "[speə(r)]",
+  "mean": "adj.空闲的，多余的"
+ },
+ "special": {
+  "ipa": "[ˈspeʃl]",
+  "mean": "adj.特别的；特征的，特殊的"
+ },
+ "specific": {
+  "ipa": "[spəˈsɪfɪk]",
+  "mean": "adj.明确的；具体的；特定的"
+ },
+ "spiral": {
+  "ipa": "[ˈspaɪrəl]",
+  "mean": "adj.螺旋的；n.螺旋（线）；vi.盘旋上升（或下降）"
+ },
+ "steady": {
+  "ipa": "[ˈstedi]",
+  "mean": "adj.稳定的，不动摇的，沉着的，稳固的，坚定的，可靠的；vt.使稳定"
+ },
+ "stout": {
+  "ipa": "[staʊt]",
+  "mean": "adj.强壮的，结实的，勇猛的，矮胖的"
+ },
+ "strained": {
+  "ipa": "[streind]",
+  "mean": "adj. 紧张的, 不自然的; 动词strain的过去式和过去分词"
+ },
+ "stressful": {
+  "ipa": "[ˈstresfl]",
+  "mean": "adj.紧张的，压力重的"
+ },
+ "strong": {
+  "ipa": "[strɒŋ]",
+  "mean": "adj.坚固的，强壮的"
+ },
+ "subjective": {
+  "ipa": "[səbˈdʒektɪv]",
+  "mean": "a.主观(上)的，个人的"
+ },
+ "successful": {
+  "ipa": "[səkˈsesfl]",
+  "mean": "adj.成功的，一帆风顺的，飞黄腾达的"
+ },
+ "suitable": {
+  "ipa": "[ˈsu:təbl]",
+  "mean": "adj.合适的，适当的，适宜的"
+ },
+ "super": {
+  "ipa": "[ˈsu:pə(r)]",
+  "mean": "adj.超级的，极好的"
+ },
+ "surprised": {
+  "ipa": "[səˈpraɪzd]",
+  "mean": "adj.感到惊讶的，感到惊奇的"
+ },
+ "systematic": {
+  "ipa": "[ˌsɪstəˈmætɪk]",
+  "mean": "adj.有系统的，有计划的，有方法的"
+ },
+ "technical": {
+  "ipa": "[ˈteknɪkl]",
+  "mean": "adj.技术上的，专门的，工业的，工艺的，根据法律的"
+ },
+ "theoretical": {
+  "ipa": "[ˌθɪəˈretɪkl]",
+  "mean": "adj.理论的，假设的；根据理论的"
+ },
+ "traditional": {
+  "ipa": "[trəˈdɪʃənl]",
+  "mean": "adj.传统的，惯例的"
+ },
+ "troublesome": {
+  "ipa": "[ˈtrʌblsəm]",
+  "mean": "adj.伤脑筋的，麻烦的"
+ },
+ "typical": {
+  "ipa": "[ˈtɪpɪkl]",
+  "mean": "adj.典型的，象征的，有代表性的"
+ },
+ "unanimous": {
+  "ipa": "[juˈnænɪməs]",
+  "mean": "adj.全体一致的，一致同意的"
+ },
+ "unconvincing": {
+  "ipa": "[ʌnkən'vinsiŋ]",
+  "mean": "adj.不足以令人相信的"
+ },
+ "underground": {
+  "ipa": "[ˈʌndəgraʊnd]",
+  "mean": "n.地下，地铁，地道；秘密活动；adj.地下的，秘密的；adv.在地下，秘密地"
+ },
+ "unfair": {
+  "ipa": "[ˌʌnˈfeə(r)]",
+  "mean": "adj.不公正的；不公平的； 违反规则或准则的"
+ },
+ "unhealthy": {
+  "ipa": "[ʌnˈhelθi]",
+  "mean": "adj.不健康的；不卫生的"
+ },
+ "unique": {
+  "ipa": "[juˈni:k]",
+  "mean": "adj.独一无二的，独特的；罕见的"
+ },
+ "united": {
+  "ipa": "[juˈnaɪtɪd]",
+  "mean": "adj.和谐的；团结的；联合的，统一的"
+ },
+ "unreliable": {
+  "ipa": "[ˌʌnri'laiəbl]",
+  "mean": "a.不可靠的，靠不住的；不可信赖的"
+ },
+ "unsocial": {
+  "ipa": "[ˈʌnˈsəuʃəl]",
+  "mean": "adj. 非社会的，不合群的，不善交际的"
+ },
+ "unusual": {
+  "ipa": "[ʌnˈju:ʒuəl]",
+  "mean": "adj.不平常的，异常的；与众不同的，独特的"
+ },
+ "useful": {
+  "ipa": "[ˈju:sfl]",
+  "mean": "adj.有用的；有益的"
+ },
+ "useless": {
+  "ipa": "[ˈju:sləs]",
+  "mean": "adj.无用的，无效的，无益的"
+ },
+ "usual": {
+  "ipa": "[ˈju:ʒuəl]",
+  "mean": "adj.通常的；平常的"
+ },
+ "various": {
+  "ipa": "[ˈveəriəs]",
+  "mean": "adj.各种各样的，不同的；多方面的，多种的"
+ },
+ "violent": {
+  "ipa": "[ˈvaɪələnt]",
+  "mean": "adj.暴力的，猛烈的，激烈的，极端的，凶暴的，歪曲的"
+ },
+ "virtual": {
+  "ipa": "[ˈvɜ:tʃuəl]",
+  "mean": "adj.实质上的，事实上的，实际上的"
+ },
+ "visible": {
+  "ipa": "[ˈvɪzəbl]",
+  "mean": "adj.看得见的，明显的，显然的；n.可见物"
+ },
+ "visual": {
+  "ipa": "[ˈvɪʒuəl]",
+  "mean": "adj.视力的，视觉的，观看的，直观的，看得见的，光学的"
+ },
+ "warm": {
+  "ipa": "[wɔ:m]",
+  "mean": "adj.温暖的，暖和的"
+ },
+ "wealthy": {
+  "ipa": "[ˈwelθi]",
+  "mean": "adj.富有的，丰裕的，充分的"
+ },
+ "western": {
+  "ipa": "[ˈwestən]",
+  "mean": "n.西方人；西部片；西部小说；adj.西方的，西洋的，西部的"
+ },
+ "whole": {
+  "ipa": "[həʊl]",
+  "mean": "adj.整整的；全部的；完整的"
+ },
+ "wide": {
+  "ipa": "[waɪd]",
+  "mean": "adj.广泛的，宽阔的；adv.广大地，全部地"
+ },
+ "wise": {
+  "ipa": "[waɪz]",
+  "mean": "adj.明智的，有学问的，有智慧的，聪明的"
+ },
+ "worthwhile": {
+  "ipa": "[ˌwɜ:θˈwaɪl]",
+  "mean": "adj.值得花时间的，值得做的，相宜的"
+ },
+ "worthy": {
+  "ipa": "[ˈwɜ:ði]",
+  "mean": "adj.(of)值得的，配得上的；有价值的"
+ },
+ "almost": {
+  "ipa": "[ˈɔ:lməʊst]",
+  "mean": "adv.几乎，差不多"
+ },
+ "currently": {
+  "ipa": "[ˈkʌrəntli]",
+  "mean": "adv.通常地，普遍地，当前"
+ },
+ "directly": {
+  "ipa": "[dəˈrektli]",
+  "mean": "adv.直接地，径直地；马上，立即"
+ },
+ "effectively": {
+  "ipa": "[ɪˈfektɪvli]",
+  "mean": "adv.有效地，有力地，实际上"
+ },
+ "originally": {
+  "ipa": "[əˈrɪdʒənəli]",
+  "mean": "adv.本来，原来，最初，就起源而论，独创地"
+ },
+ "physically": {
+  "ipa": "[ˈfɪzɪkli]",
+  "mean": "adj.物质上，体格上，身体上，按自然规律"
+ },
+ "professionally": {
+  "ipa": "[prəˈfeʃənəli]",
+  "mean": "adv.职业地；专业地"
+ },
+ "rapidly": {
+  "ipa": "['ræpɪdlɪ]",
+  "mean": "adv.快地，迅速地"
+ },
+ "regularly": {
+  "ipa": "[ˈregjələli]",
+  "mean": "adv.有规则地，一丝不苟地，正式地"
+ },
+ "scarcely": {
+  "ipa": "[ˈskeəsli]",
+  "mean": "adv.几乎不，简直没有，勉强"
+ },
+ "virtually": {
+  "ipa": "[ˈvɜ:tʃuəli]",
+  "mean": "adv.实际上，事实上"
+ },
+ "acknowledgement": {
+  "ipa": "[əkˈnɒlɪdʒmənt]",
+  "mean": "n.感谢，谢意；收条"
+ },
+ "defence": {
+  "ipa": "[dɪˈfens]",
+  "mean": "n.保卫，防御，辩护"
+ },
+ "kilometre": {
+  "ipa": "[ˈkɪləmi:tə(r)]",
+  "mean": "n.千米/公里（=kilometer）"
+ },
+ "sceptical": {
+  "ipa": "[ˈskeptɪkl]",
+  "mean": "adj.怀疑论的，怀疑的"
+ },
+ "automobile": {
+  "ipa": "[ˈɔ:təməbi:l]",
+  "mean": "n.汽车，机动车"
+ },
+ "greenhouse": {
+  "ipa": "[ˈgri:nhaʊs]",
+  "mean": "n.花房，温室，玻璃暖房"
+ },
+ "midterm": {
+  "ipa": "['midtə:m]",
+  "mean": "n.期中考试"
+ },
+ "landlord": {
+  "ipa": "[ˈlændlɔ:d]",
+  "mean": "n.地主，房东，(旅店)店主"
+ },
+ "psycholinguistics": {
+  "ipa": "[]",
+  "mean": "n. 心理语言学"
+ },
+ "sunblock": {
+  "ipa": "[ˈsʌnblɒk]",
+  "mean": "n. 防晒霜，紫外线防护霜"
+ },
+ "ageing": {
+  "ipa": "['eidʒiŋ]",
+  "mean": "n.老化"
+ },
+ "aeroplane": {
+  "ipa": "[ˈeərəpleɪn]",
+  "mean": "n.(英)飞机 (=airplane)"
+ },
+ "aluminium": {
+  "ipa": "[ˌæljəˈmɪniəm]",
+  "mean": "n.铝 (=aluminum)"
+ },
+ "analogue": {
+  "ipa": "[ˈænəlɒg]",
+  "mean": "n.类似物；同源语"
+ },
+ "annexe": {
+  "ipa": "[ˈæneks]",
+  "mean": "附加物，附属建筑"
+ },
+ "apologise": {
+  "ipa": "[ə'pɒlədʒaɪz]",
+  "mean": "vi.(=apologize）道歉"
+ },
+ "artefact": {
+  "ipa": "['ɑ:tifækt]",
+  "mean": "n.人工制品，赝象"
+ },
+ "axe": {
+  "ipa": "[æks]",
+  "mean": "n.斧子；vt.用斧头砍，削减"
+ },
+ "analyse": {
+  "ipa": "[ˈænəlaɪz]",
+  "mean": "vt.分析，检讨，细察"
+ },
+ "catalogue": {
+  "ipa": "[ˈkætəlɒg]",
+  "mean": "n.目录，总目；vt.编入目录"
+ },
+ "enter": {
+  "ipa": "[ˈentə(r)]",
+  "mean": "vt.进入，参加，开始；vi.进去，参加；n.回车键，输入，回车"
+ },
+ "centre": {
+  "ipa": "[ˈsentə(r)]",
+  "mean": "n.中心；中央；v.集中"
+ },
+ "cheque": {
+  "ipa": "[tʃek]",
+  "mean": "n.支票，空白支票 [美]check；总收入"
+ },
+ "chilli": {
+  "ipa": "['tʃili]",
+  "mean": "n.红辣椒"
+ },
+ "colour": {
+  "ipa": "[ˈkʌlə(r)]",
+  "mean": "n.颜色，面色，颜料，外貌；vt.把...涂上颜色，粉饰，使脸红，歪曲；vi.变色"
+ },
+ "counsellor": {
+  "ipa": "['kaunsələ]",
+  "mean": "n.顾问；(使馆等的)参赞；法律顾问"
+ },
+ "cosy": {
+  "ipa": "['kəʊzɪ]",
+  "mean": "adj.温暖而舒适的，安逸的"
+ },
+ "criticise": {
+  "ipa": "['krɪtɪsaɪz]",
+  "mean": "vt.&vi.批评，评论；非难"
+ },
+ "dialogue": {
+  "ipa": "['daɪəlɒɡ]",
+  "mean": "n.对话；vi.对话；vt.用对话表达"
+ },
+ "disc": {
+  "ipa": "[dɪsk]",
+  "mean": "n.圆盘；唱片，磁盘；adj.圆盘形"
+ },
+ "doughnut": {
+  "ipa": "['dəunʌt]",
+  "mean": "炸面圈"
+ },
+ "draught": {
+  "ipa": "[drɑ:ft]",
+  "mean": "n.拉，牵引，拖；一网（饮，吸，阵)；顿服药量，通风；v.起草，设计"
+ },
+ "emphasise": {
+  "ipa": "['emfəsaɪz]",
+  "mean": "vt.加强...的语气，强调，着重"
+ },
+ "enquiry": {
+  "ipa": "[ɪn'kwaɪərɪ]",
+  "mean": "n.问询；查询"
+ },
+ "enrol": {
+  "ipa": "[ɪnˈrəʊl]",
+  "mean": "vt. 登记；卷起；入学；使入会 vi. 注册；参军"
+ },
+ "favour": {
+  "ipa": "[ˈfeɪvə(r)]",
+  "mean": "n.亲切；宠爱；书信；容貌；偏袒；vt. 赞成；喜爱；有助于"
+ },
+ "fibre": {
+  "ipa": "[ˈfaɪbə(r)]",
+  "mean": "n.纤维；纤维制品"
+ },
+ "flavour": {
+  "ipa": "[ˈfleɪvə(r)]",
+  "mean": "n.味道；香味；调味料；风趣；特色"
+ },
+ "glamour": {
+  "ipa": "[ˈglæmə(r)]",
+  "mean": "n.魔力，魅力；vt.迷住"
+ },
+ "fulfil": {
+  "ipa": "[fulˈfil]",
+  "mean": "vt.履行(诺言、责任等)；完成；达到"
+ },
+ "grey": {
+  "ipa": "[ɡreɪ]",
+  "mean": "adj.灰色的；n.灰色；v.变成灰色（=gray）"
+ },
+ "harbour": {
+  "ipa": "['hɑ:bə(r)]",
+  "mean": "n.（=harbor）海港"
+ },
+ "jail": {
+  "ipa": "[dʒeɪl]",
+  "mean": "n.监狱，看守所；vt.监禁，拘留"
+ },
+ "jewellery": {
+  "ipa": "[ˈdʒu:əlri]",
+  "mean": "n.[总称]珠宝；珠宝饰物 (=jewelery)"
+ },
+ "judgement": {
+  "ipa": "[ˈdʒʌdʒmənt]",
+  "mean": "n.审判，判决；判断力，识别力；意见，判断"
+ },
+ "kerb": {
+  "ipa": "[kɜ:b]",
+  "mean": "n. 街头的边石"
+ },
+ "labour": {
+  "ipa": "['leɪbə(r)]",
+  "mean": "n.劳动，努力，工作；劳工，工人；分娩；vi.劳动，努力，苦干；vt.详细分析，麻烦"
+ },
+ "licence": {
+  "ipa": "[ˈlaɪsns]",
+  "mean": "n.证书；许可证，执照；vt.许可；批准"
+ },
+ "litre": {
+  "ipa": "[ˈli:tə(r)]",
+  "mean": "n. 升； 公升(容量单位) (美liter)"
+ },
+ "manoeuvre": {
+  "ipa": "[məˈnu:və(r)]",
+  "mean": "n.策略，调动；vi.用策略，调动；vt.诱使；操纵；耍花招"
+ },
+ "metre": {
+  "ipa": "['mi:tə(r)]",
+  "mean": "n.米，公尺，计量器；n.（诗的）韵律，格律；（=meter）(美)"
+ },
+ "mould": {
+  "ipa": "[məʊld]",
+  "mean": "n.模子，模型，霉，霉菌，气质；vt.浇铸"
+ },
+ "neighbour": {
+  "ipa": "['neɪbə(r)]",
+  "mean": "n.邻居；邻近的人(或物)，邻国"
+ },
+ "offence": {
+  "ipa": "[əˈfens]",
+  "mean": "n.犯法（行为），罪过，过错"
+ },
+ "organisation": {
+  "ipa": "[ˌɔ:gənaɪ'zeɪʃən]",
+  "mean": "n.组织，安排，团体，有机休"
+ },
+ "parlour": {
+  "ipa": "['pɑ:lə(r)]",
+  "mean": "n.客厅，会客室；美容院，冷食店，殡仪馆；adj.客厅的；只会空谈的"
+ },
+ "plough": {
+  "ipa": "[plaʊ]",
+  "mean": "n.犁，耕地；vi.用犁耕田，开路；vt.耕，犁，开路"
+ },
+ "practise": {
+  "ipa": "[ˈpræktɪs]",
+  "mean": "vt.实践，实行，练习，实习，训练；vi. 练习，实践；实施，实行；从事"
+ },
+ "practice": {
+  "ipa": "[ˈpræktɪs]",
+  "mean": "n.练习，实行，习惯；v.练习，实习，开业"
+ },
+ "programme": {
+  "ipa": "[ˈprəʊgræm]",
+  "mean": "n.节目；项目(美program)"
+ },
+ "pyjamas": {
+  "ipa": "[pəˈdʒɑ:məz]",
+  "mean": "n.（宽大的）睡衣裤"
+ },
+ "rigour": {
+  "ipa": "[]",
+  "mean": "n. 严格，艰苦，严密\n=rigor(美)"
+ },
+ "saviour": {
+  "ipa": "[ˈseɪvjə(r)]",
+  "mean": "n.拯救者，救星"
+ },
+ "savour": {
+  "ipa": "[ˈseɪvə(r)]",
+  "mean": "n.味道；滋味；兴趣；v.欣赏味道或风味；有…的气味"
+ },
+ "skilful": {
+  "ipa": "[ˈskɪlfl]",
+  "mean": "(=skillful)adj.灵巧的，熟练的"
+ },
+ "speciality": {
+  "ipa": "[ˌspeʃiˈæləti]",
+  "mean": "n.专业，专长，名产，特产"
+ },
+ "sulphur": {
+  "ipa": "['sʌlfə(r)]",
+  "mean": "n.[化]硫，硫磺"
+ },
+ "theatre": {
+  "ipa": "[ˈθiətə]",
+  "mean": "n.电影院，戏院；戏剧工作；演戏"
+ },
+ "traveller": {
+  "ipa": "['trævələ(r)]",
+  "mean": "n.旅馆；旅游者"
+ },
+ "tyre": {
+  "ipa": "['taɪə(r)]",
+  "mean": "n.轮胎；vt.装轮胎于"
+ },
+ "vice": {
+  "ipa": "[vaɪs]",
+  "mean": "n.坏事；恶习；[pl.]台钳，老虎钳；adj.副的"
+ },
+ "vigour": {
+  "ipa": "[ˈvɪgə(r)]",
+  "mean": "（=vigor）n.智力，体力，精力"
+ },
+ "woollen": {
+  "ipa": "['wʊlən]",
+  "mean": "adj.羊毛制的；毛线的"
+ },
+ "enrolment": {
+  "ipa": "[in'rəulmənt]",
+  "mean": "n.注册人数；注册，登记"
+ },
+ "environmentally friendly": {
+  "ipa": "[enˌvaɪrənˈmentlɪ ˈfrendli]",
+  "mean": "对环境无危害的，有利于环境的"
+ },
+ "website": {
+  "ipa": "[ˈwebsaɪt]",
+  "mean": "n.（互联网的）站点；网址"
+ },
+ "high-rise": {
+  "ipa": "['hai'raiz]",
+  "mean": "*a.多层的；高层的"
+ },
+ "high rise": {
+  "ipa": "['hai ˌraiz]",
+  "mean": "n.高楼大厦"
+ },
+ "Open Book": {
+  "ipa": "[ˈəupən buk]",
+  "mean": "一目了然的事物，易于了解的人，极坦率的人"
+ },
+ "hot dog": {
+  "ipa": "[hɔt dɔɡ]",
+  "mean": "n. 热狗（红肠面包）"
+ },
+ "second hand": {
+  "ipa": "[]",
+  "mean": "n. 中间人，助手，旧货\nn. 秒针"
+ },
+ "airport": {
+  "ipa": "[ˈeəpɔ:t]",
+  "mean": "n.飞机场"
+ },
+ "bookkeeper": {
+  "ipa": "['bukˌki:pə]",
+  "mean": "n.簿记员"
+ },
+ "bookshelf": {
+  "ipa": "[ˈbʊkʃelf]",
+  "mean": "n.书架"
+ },
+ "bookshop": {
+  "ipa": "[ˈbʊkʃɒp]",
+  "mean": "n. 书店（=bookstore）"
+ },
+ "bookstore": {
+  "ipa": "['bʊkstɔ:(r)]",
+  "mean": "n.(=bookshop)书店"
+ },
+ "boyfriend": {
+  "ipa": "[ˈbɔɪfrend]",
+  "mean": "n.男朋友"
+ },
+ "breathtaking": {
+  "ipa": "['breθˌteikiŋ]",
+  "mean": "a.激动人心的；不寻常的"
+ },
+ "chequebook": {
+  "ipa": "['tʃekbuk]",
+  "mean": "n.支票簿"
+ },
+ "childcare": {
+  "ipa": "['tʃaildˌkɛə]",
+  "mean": "n.保育事业"
+ },
+ "cocktail": {
+  "ipa": "[ˈkɒkteɪl]",
+  "mean": "n.鸡尾酒；餐前开胃小吃；混合物"
+ },
+ "countryside": {
+  "ipa": "[ˈkʌntrisaɪd]",
+  "mean": "n.乡下；农村"
+ },
+ "crossroad": {
+  "ipa": "['krɔsrəud]",
+  "mean": "n. 交叉路,岔道,十字路口"
+ },
+ "downtown": {
+  "ipa": "[ˌdaʊnˈtaʊn]",
+  "mean": "n.市中心区，市中心；adj.市中心的；adv.往闹区"
+ },
+ "extracurricular": {
+  "ipa": "[ˌekstrəkə'rikjulə]",
+  "mean": "adj.课外的"
+ },
+ "eyesight": {
+  "ipa": "[ˈaɪsaɪt]",
+  "mean": "n.视力；视觉；眼力"
+ },
+ "flashlight": {
+  "ipa": "[ˈflæʃlaɪt]",
+  "mean": "n.闪光信号灯，手电筒"
+ },
+ "footprint": {
+  "ipa": "[ˈfʊtprɪnt]",
+  "mean": "n.足迹"
+ },
+ "girlfriend": {
+  "ipa": "[ˈgɜ:lfrend]",
+  "mean": "n.女朋友；女伴侣"
+ },
+ "greyhound": {
+  "ipa": "['greihaund]",
+  "mean": "n.长腿猎狗"
+ },
+ "guidebook": {
+  "ipa": "[ˈgaɪdbʊk]",
+  "mean": "n.旅行手册；指南"
+ },
+ "headquarters": {
+  "ipa": "[ˌhedˈkwɔ:təz]",
+  "mean": "n.司令部，指挥部；总部，总店"
+ },
+ "headphone": {
+  "ipa": "['hedfəun]",
+  "mean": "n.耳机"
+ },
+ "headmaster": {
+  "ipa": "[ˌhedˈmɑ:stə(r)]",
+  "mean": "n.（英）中小学校长"
+ },
+ "heartbeat": {
+  "ipa": "['hɑ:tbi:t]",
+  "mean": "n.心搏；心跳(声)"
+ },
+ "helpline": {
+  "ipa": "[]",
+  "mean": "n. 服务热线"
+ },
+ "hothouse": {
+  "ipa": "['hɔthaus]",
+  "mean": "n.温室"
+ },
+ "house-keeping": {
+  "ipa": "[]",
+  "mean": "n. 管理家务"
+ },
+ "interlibrary": {
+  "ipa": "[]",
+  "mean": "adj. (图书馆)馆际的"
+ },
+ "interpersonal": {
+  "ipa": "[ˌintə'pə:sənəl]",
+  "mean": "a.人与人之间的，人际关系的"
+ },
+ "microbiology": {
+  "ipa": "[maikrəʊbai'ɔlədʒi]",
+  "mean": "n. 微生物学"
+ },
+ "microscope": {
+  "ipa": "[ˈmaɪkrəskəʊp]",
+  "mean": "n.显微镜；vt.仔细检查，放大，夸大"
+ },
+ "microwave": {
+  "ipa": "[ˈmaɪkrəweɪv]",
+  "mean": "n.微波，微波炉"
+ },
+ "midday": {
+  "ipa": "[ˌmɪdˈdeɪ]",
+  "mean": "n.正午，中午；adj.正午的"
+ },
+ "midmorning": {
+  "ipa": "['mid'mɔ:niŋ]",
+  "mean": "n. the middle of the morning"
+ },
+ "midsummer": {
+  "ipa": "[ˌmɪd'sʌmə(r)]",
+  "mean": "n. 夏至, 仲夏"
+ },
+ "midweek": {
+  "ipa": "[ˌmɪdˈwi:k]",
+  "mean": "周中的，一星期中段的"
+ },
+ "midwinter": {
+  "ipa": "[ˌmɪdˈwɪntə(r)]",
+  "mean": "仲冬，冬至；隆冬"
+ },
+ "minibus": {
+  "ipa": "[ˈmɪnibʌs]",
+  "mean": "n.小型公共汽车（只坐四人）"
+ },
+ "miniskirt": {
+  "ipa": "['miniskə:t]",
+  "mean": "n.超短裙"
+ },
+ "motorbike": {
+  "ipa": "[ˈməʊtəbaɪk]",
+  "mean": "n.摩托车"
+ },
+ "motorboat": {
+  "ipa": "[ˈməʊtəˌbəʊt]",
+  "mean": "n. 汽艇，摩托艇"
+ },
+ "motor car": {
+  "ipa": "[ˈməutə kɑ:]",
+  "mean": "汽车"
+ },
+ "motorcycle": {
+  "ipa": "[ˈməʊtəsaɪkl]",
+  "mean": "n.摩托车，机车"
+ },
+ "motor racing": {
+  "ipa": "[ˈməutə ˈreisiŋ]",
+  "mean": "赛车"
+ },
+ "motorway": {
+  "ipa": "[ˈməʊtəweɪ]",
+  "mean": "n.高速公路，快车道"
+ },
+ "oversea": {
+  "ipa": "['əuvə'si:]",
+  "mean": "adj. 海外的; adv. 在海外; =overseas"
+ },
+ "overstate": {
+  "ipa": "[ˌəʊvəˈsteɪt]",
+  "mean": "v.言过其实，夸大"
+ },
+ "kilogram": {
+  "ipa": "[ˈkɪləgræm]",
+  "mean": "n.千克，公斤(略作kg)"
+ },
+ "landlady": {
+  "ipa": "[ˈlændleɪdi]",
+  "mean": "n.女房东，女地主，女店主"
+ },
+ "layout": {
+  "ipa": "[ˈleɪaʊt]",
+  "mean": "n.布局，安排，设计"
+ },
+ "lifestyle": {
+  "ipa": "[ˈlaɪfstaɪl]",
+  "mean": "n.生活方式"
+ },
+ "outskirts": {
+  "ipa": "[ˈaʊtskɜ:ts]",
+  "mean": "n.郊外，郊区"
+ },
+ "loudspeaker": {
+  "ipa": "[ˌlaʊdˈspi:kə(r)]",
+  "mean": "n.扬声器，扩音器"
+ },
+ "membership": {
+  "ipa": "[ˈmembəʃɪp]",
+  "mean": "n.成员资格，会员全体，从属关系"
+ },
+ "network": {
+  "ipa": "[ˈnetwɜ:k]",
+  "mean": "n.网络；网状物；广播网；电视网"
+ },
+ "newsletter": {
+  "ipa": "['nju:zˌletə]",
+  "mean": "n.简报"
+ },
+ "newsreel": {
+  "ipa": "[ˈnju:zri:l]",
+  "mean": "n.新闻影片"
+ },
+ "notebook": {
+  "ipa": "[ˈnəʊtbʊk]",
+  "mean": "n．笔记本"
+ },
+ "noticeboard": {
+  "ipa": "[]",
+  "mean": "n.布告牌"
+ },
+ "online": {
+  "ipa": "[ˌɒnˈlaɪn]",
+  "mean": "adj./adv.在线；上网"
+ },
+ "lookout": {
+  "ipa": "[ˈlʊkaʊt]",
+  "mean": "n.注意，前途，瞭望台"
+ },
+ "painkiller": {
+  "ipa": "[ˈpeɪnkɪlə(r)]",
+  "mean": "n.止痛药"
+ },
+ "passport": {
+  "ipa": "[ˈpɑ:spɔ:t]",
+  "mean": "n.护照，手段，通行证"
+ },
+ "password": {
+  "ipa": "[ˈpɑ:swɜ:d]",
+  "mean": "n.口令"
+ },
+ "photocopy": {
+  "ipa": "[ˈfəʊtəʊkɒpi]",
+  "mean": "n.影印本；vt.影印，vt.影印，复印"
+ },
+ "postcode": {
+  "ipa": "[ˈpəʊstkəʊd]",
+  "mean": "n.邮政编码"
+ },
+ "railway station": {
+  "ipa": "[ˈreilwei ˈsteiʃən]",
+  "mean": "火车站"
+ },
+ "raincoat": {
+  "ipa": "[ˈreɪnkəʊt]",
+  "mean": "n.雨衣"
+ },
+ "raindrop": {
+  "ipa": "[ˈreɪndrɒp]",
+  "mean": "n.雨点"
+ },
+ "rainwater": {
+  "ipa": "['reinˌwɔ:tə]",
+  "mean": "n.雨水， 软水"
+ },
+ "sandglass": {
+  "ipa": "[]",
+  "mean": "n. 沙漏"
+ },
+ "sandwich": {
+  "ipa": "[ˈsænwɪtʃ]",
+  "mean": "n.三明治（夹心面包片）"
+ },
+ "seafood": {
+  "ipa": "[ˈsi:fu:d]",
+  "mean": "n.海产食品，海味，海鲜"
+ },
+ "snowboarding": {
+  "ipa": "[ˈsnəʊbɔ:dɪŋ]",
+  "mean": "n. 滑雪板\r\nvi. 用滑雪板"
+ },
+ "sportswear": {
+  "ipa": "['spɔ:tswɛə]",
+  "mean": "运动装,休闲活动穿着的衣服"
+ },
+ "storehouse": {
+  "ipa": "[ˈstɔ:haʊs]",
+  "mean": "n.仓库；知识宝库；知识丰富的人"
+ },
+ "subcommittee": {
+  "ipa": "[]",
+  "mean": "n. 委员会的附属委员会, 小组委员会"
+ },
+ "submarine": {
+  "ipa": "[ˌsʌbməˈri:n]",
+  "mean": "n.潜水艇；adj.水底的，海底的；vt.用潜艇袭击；vi.滑入...底下"
+ },
+ "subtitle": {
+  "ipa": "[ˈsʌbtaɪtl]",
+  "mean": "n.副题（书本中的），说明对白的字幕"
+ },
+ "subtopic": {
+  "ipa": "[]",
+  "mean": "n. 小标题，副主题，要点"
+ },
+ "subway": {
+  "ipa": "[ˈsʌbweɪ]",
+  "mean": "n.地下人行道；（美）地铁；vi.乘坐地下铁路"
+ },
+ "metro": {
+  "ipa": "[ˈmetrəʊ]",
+  "mean": "n.地铁；adj.大都市的；（METRO）麦德隆"
+ },
+ "sundial": {
+  "ipa": "[ˈsʌndaɪəl]",
+  "mean": "n.日规，日昝仪"
+ },
+ "sunlight": {
+  "ipa": "[ˈsʌnlaɪt]",
+  "mean": "n.日光，阳光，日照"
+ },
+ "sunscreen": {
+  "ipa": "['sʌnskri:n]",
+  "mean": "n. (防晒油中的)遮光剂"
+ },
+ "sunshade": {
+  "ipa": "[ˈsʌnʃeɪd]",
+  "mean": "n. 遮阳伞, 天棚, 帽遮"
+ },
+ "suntan": {
+  "ipa": "[ˈsʌntæn]",
+  "mean": "n.晒黑"
+ },
+ "supermarket": {
+  "ipa": "[ˈsu:pəmɑ:kɪt]",
+  "mean": "n.超级商场；自动售货商店；超市"
+ },
+ "textbook": {
+  "ipa": "[ˈtekstbʊk]",
+  "mean": "n.课本，教科书"
+ },
+ "upward": {
+  "ipa": "[ˈʌpwəd]",
+  "mean": "adj.向上的，上升的；adv.向上，上升"
+ },
+ "videotape": {
+  "ipa": "['vidiəuteip]",
+  "mean": "n.录像带"
+ },
+ "watchdog": {
+  "ipa": "['wɔtʃdɔg]",
+  "mean": "n.监视者"
+ },
+ "waterskiing": {
+  "ipa": "[]",
+  "mean": "滑水橇"
+ },
+ "waterfall": {
+  "ipa": "[ˈwɔ:təfɔ:l]",
+  "mean": "n.瀑布"
+ },
+ "waterproof": {
+  "ipa": "[ˈwɔ:təpru:f]",
+  "mean": "n.防水材料；adj.防水的；vt.使...能防水"
+ },
+ "hard-working": {
+  "ipa": "[hɑ:d 'wɜ:kɪŋ]",
+  "mean": "adj.勤勉的，努力工作的"
+ },
+ "whiteboard": {
+  "ipa": "[ˈwaɪtbɔ:d]",
+  "mean": "n. 白色书写板"
+ },
+ "wildlife": {
+  "ipa": "[ˈwaɪldlaɪf]",
+  "mean": "n.野生动物；野生植物；野生生物"
+ },
+ "workload": {
+  "ipa": "[ˈwɜ:kləʊd]",
+  "mean": "n.作业量，工作量"
+ },
+ "workshop": {
+  "ipa": "[ˈwɜ:kʃɒp]",
+  "mean": "n.车间，工场，修理厂；研讨会，讲习班"
+ },
+ "mini-series": {
+  "ipa": "[]",
+  "mean": "n. 小型系列"
+ },
+ "nonfat": {
+  "ipa": "['nɒn'fæt]",
+  "mean": "adj. 脱脂的"
+ },
+ "nonresident": {
+  "ipa": "['nɔn'rezidənt]",
+  "mean": "n.非常住人口"
+ },
+ "nonstandard": {
+  "ipa": "[nɒn'stændəd]",
+  "mean": "adj. 不标准的"
+ },
+ "non-stop": {
+  "ipa": "[ˌnɔn'stɔp]",
+  "mean": "a.&ad.不停的(地)"
+ },
+ "nonverbal": {
+  "ipa": "[ˌnɔn'və:bəl]",
+  "mean": "a.不使用语言的"
+ },
+ "self-defence": {
+  "ipa": "[ˌselfdi'fens]",
+  "mean": "n.自卫"
+ },
+ "self-sufficient": {
+  "ipa": "['selfsə'fiʃənt]",
+  "mean": "adj.自给自足的"
+ },
+ "well-organized": {
+  "ipa": "[]",
+  "mean": "adj. 组织良好的"
+ },
+ "well-being": {
+  "ipa": "[wel 'bi:ɪŋ]",
+  "mean": "n.安康，安乐，幸福"
+ },
+ "audio-visual": {
+  "ipa": "[ɔ:diəu 'viʒuəl]",
+  "mean": "a.视听教学的"
+ },
+ "closed circuit": {
+  "ipa": "[]",
+  "mean": ""
+ },
+ "close-up": {
+  "ipa": "['kləusʌp]",
+  "mean": "n.特写镜头"
+ },
+ "long-term": {
+  "ipa": "[lɒŋ tɜ:m]",
+  "mean": "adj.长远的，长期的"
+ },
+ "man-made": {
+  "ipa": "[mæn meɪd]",
+  "mean": "adj.人造的，合成的，人为的"
+ },
+ "note-taking": {
+  "ipa": "['nəʊtt'eɪkɪŋ]",
+  "mean": "n.笔记，笔录"
+ },
+ "part-time": {
+  "ipa": "[pɑ:t taɪm]",
+  "mean": "adj.兼职的，部分时间的；adv.部分时间，兼职地"
+ },
+ "full-time": {
+  "ipa": "[ˈfʊlˈtaɪm]",
+  "mean": "adj.满工作日的或工作周的，全时间的"
+ },
+ "air conditioner": {
+  "ipa": "[eə(r) kənˈdiʃənə]",
+  "mean": "空气调节器"
+ },
+ "bed-linen": {
+  "ipa": "[]",
+  "mean": "n. 床单和枕套"
+ },
+ "bed sheet": {
+  "ipa": "[]",
+  "mean": "床单,褥单"
+ },
+ "common room": {
+  "ipa": "[ˈkɔmən ru:m]",
+  "mean": "公共休息室"
+ },
+ "drop off": {
+  "ipa": "[drɒp ɒf]",
+  "mean": "入睡；（让...）下车，把...放下；下降，减少"
+ },
+ "drop out": {
+  "ipa": "[drɔp aut]",
+  "mean": "退出，退学，离去，放弃"
+ },
+ "dropout": {
+  "ipa": "[ˈdrɒpaʊt]",
+  "mean": "n.退学的学生；退学；退出者"
+ },
+ "Eye drop": {
+  "ipa": "[]",
+  "mean": "滴眼剂"
+ },
+ "head office": {
+  "ipa": "[hed ˈɔfis]",
+  "mean": "总社，银行总行，总机构"
+ },
+ "ice skating": {
+  "ipa": "[ais ˈskeɪtɪŋ]",
+  "mean": "滑冰"
+ },
+ "roller skating": {
+  "ipa": "[ˈrəulə ˈskeɪtɪŋ]",
+  "mean": "溜旱冰"
+ },
+ "abbreviation": {
+  "ipa": "[əˌbri:viˈeɪʃn]",
+  "mean": "n.（用词首字母组成的）缩写"
+ },
+ "dedication": {
+  "ipa": "[ˌdedɪˈkeɪʃn]",
+  "mean": "n.奉献，献身，致力，题献，献辞"
+ },
+ "photojournalism": {
+  "ipa": "[]",
+  "mean": "n.摄影新闻工作"
+ },
+ "technique": {
+  "ipa": "[tekˈni:k]",
+  "mean": "n.技术，技巧，方法，表演法，手法"
+ },
+ "accommodation": {
+  "ipa": "[əˌkɒməˈdeɪʃn]",
+  "mean": "n.设备，膳宿，旅馆房间；容纳，提供，适应；调解，妥协；贷款"
+ },
+ "accountancy": {
+  "ipa": "[ə'kauntənsi]",
+  "mean": "n.会计工作，会计学"
+ },
+ "administrator": {
+  "ipa": "[ədˈmɪnɪstreɪtə(r)]",
+  "mean": "n.经营管理者，行政官员"
+ },
+ "advertisement": {
+  "ipa": "[ədˈvɜ:tɪsmənt]",
+  "mean": "n.广告，启事，广告宣传"
+ },
+ "announcement": {
+  "ipa": "[əˈnaʊnsmənt]",
+  "mean": "n.宣告；公告；告示"
+ },
+ "apostrophe": {
+  "ipa": "[ə'pɔstrəfi]",
+  "mean": "n书写中撇号(’)(表示省略或所有格)"
+ },
+ "biography": {
+  "ipa": "[baɪˈɒgrəfi]",
+  "mean": "n.个人经历，传记"
+ },
+ "circulation": {
+  "ipa": "[ˌsɜ:kjəˈleɪʃn]",
+  "mean": "n.循环，流通，传播，发行，发行量"
+ },
+ "composition": {
+  "ipa": "[ˌkɒmpəˈzɪʃn]",
+  "mean": "n.构成，成分；作文，作曲；(音乐等)作品"
+ },
+ "compulsory": {
+  "ipa": "[kəmˈpʌlsəri]",
+  "mean": "n.强制的，必修的；规定的，义务的"
+ },
+ "concentration": {
+  "ipa": "[ˌkɒnsnˈtreɪʃn]",
+  "mean": "n.集中；专注；浓度；浓缩"
+ },
+ "curriculum": {
+  "ipa": "[kəˈrɪkjələm]",
+  "mean": "n.课程，（学校等的）全部课程"
+ },
+ "declaration": {
+  "ipa": "[ˌdekləˈreɪʃn]",
+  "mean": "n.宣布，宣告，宣言，声明（书），申报"
+ },
+ "deteriorate": {
+  "ipa": "[dɪˈtɪəriəreɪt]",
+  "mean": "vi.变坏；恶化；退化；vt.恶化"
+ },
+ "documentation": {
+  "ipa": "[ˌdɔkjumən'teiʃən]",
+  "mean": "n.文献资料，文件证据"
+ },
+ "emergency": {
+  "ipa": "[iˈmɜ:dʒənsi]",
+  "mean": "n.紧急情况，突然事件，非常时刻"
+ },
+ "entertainment": {
+  "ipa": "[ˌentəˈteɪnmənt]",
+  "mean": "n.娱乐，乐趣，快乐，招待；娱乐业"
+ },
+ "enthusiasm": {
+  "ipa": "[ɪnˈθju:ziæzəm]",
+  "mean": "n.热情，激情；巨大兴趣；热衷的事物"
+ },
+ "environment": {
+  "ipa": "[ɪnˈvaɪrənmənt]",
+  "mean": "n.环境，生态环境，自然环境"
+ },
+ "evolution": {
+  "ipa": "[ˌi:vəˈlu:ʃn]",
+  "mean": "n.进展，发展，演变，进化"
+ },
+ "expectancy": {
+  "ipa": "[ɪkˈspektənsi]",
+  "mean": "n.期望，预期，（根据概率统计求得）预期数额"
+ },
+ "expenditure": {
+  "ipa": "[ɪkˈspendɪtʃə(r)]",
+  "mean": "n.(时间、劳力、金钱等)支出；使用，消耗"
+ },
+ "frequency": {
+  "ipa": "[ˈfri:kwənsi]",
+  "mean": "n.次数，频率；经常发生，频繁"
+ },
+ "government": {
+  "ipa": "[ˈgʌvənmənt]",
+  "mean": "n.政府，当局，行政管理机构"
+ },
+ "gymnastics": {
+  "ipa": "[dʒɪmˈnæstɪks]",
+  "mean": "n.体操"
+ },
+ "hamburger": {
+  "ipa": "[ˈhæmbɜ:gə(r)]",
+  "mean": "n.肉饼，汉堡包，纯精牛肉，汉堡牛排"
+ },
+ "ignorance": {
+  "ipa": "[ˈɪgnərəns]",
+  "mean": "n.无知，愚昧，不了解，（of，about）不知道"
+ },
+ "incorrect": {
+  "ipa": "[ˌɪnkəˈrekt]",
+  "mean": "adj.不正确的，错误的"
+ },
+ "independence": {
+  "ipa": "[ˌɪndɪˈpendəns]",
+  "mean": "n.独立，自主；足够维持生活的收入；vt.为做索引；vi.做索引"
+ },
+ "infrastructure": {
+  "ipa": "[ˈɪnfrəstrʌktʃə(r)]",
+  "mean": "n.下部构造，下部组织，基础结构，基础设施"
+ },
+ "injunction": {
+  "ipa": "[in'dʒʌŋkʃən]",
+  "mean": "n.指令；法院禁令"
+ },
+ "intelligence": {
+  "ipa": "[ɪnˈtelɪdʒəns]",
+  "mean": "n.智力，聪明，智能；情报"
+ },
+ "interaction": {
+  "ipa": "[ˌɪntər'ækʃn]",
+  "mean": "n.交流；相互作用，相互影响，合作"
+ },
+ "intervention": {
+  "ipa": "[ˌɪntə'venʃn]",
+  "mean": "n.介入，干涉，干预"
+ },
+ "interviewee": {
+  "ipa": "[ˌɪntəvju:ˈi:]",
+  "mean": "n.被接见者；被采访者"
+ },
+ "investigation": {
+  "ipa": "[ɪnˌvestɪˈgeɪʃn]",
+  "mean": "n.调查，调查研究"
+ },
+ "journalist": {
+  "ipa": "[ˈdʒɜ:nəlɪst]",
+  "mean": "n.记者，新闻工作者，新闻记者"
+ },
+ "kangaroo": {
+  "ipa": "[ˌkæŋgəˈru:]",
+  "mean": "n.袋鼠（产于澳洲的草食哺乳动物）"
+ },
+ "literature": {
+  "ipa": "[ˈlɪtrətʃə(r)]",
+  "mean": "n.文学，文学作品；文献，图书资料"
+ },
+ "maintenance": {
+  "ipa": "[ˈmeɪntənəns]",
+  "mean": "n.维修，保养，扶养费，维持，保持"
+ },
+ "management": {
+  "ipa": "[ˈmænɪdʒmənt]",
+  "mean": "n.管理，处理，经营；资方，管理部门"
+ },
+ "mathematics": {
+  "ipa": "[ˌmæθəˈmætɪks]",
+  "mean": "n.（用作单）数学；（用作单或复）计算(能力）"
+ },
+ "Melbourne": {
+  "ipa": "['melbən]",
+  "mean": "n.墨尔本"
+ },
+ "monologue": {
+  "ipa": "['mɒnəlɒɡ]",
+  "mean": "n.长篇大论，（戏剧等中的）独白"
+ },
+ "nationality": {
+  "ipa": "[ˌnæʃəˈnæləti]",
+  "mean": "n.国籍；国家；部落；民族"
+ },
+ "navigation": {
+  "ipa": "[ˌnævɪˈgeɪʃn]",
+  "mean": "n.航行；航海；航空"
+ },
+ "neighbouring": {
+  "ipa": "['neibəriŋ]",
+  "mean": "a.邻近的，接壤的"
+ },
+ "observation": {
+  "ipa": "[ˌɒbzəˈveɪʃn]",
+  "mean": "n.观察， 观测， 观察资料（或报告）"
+ },
+ "orientation": {
+  "ipa": "[ˌɔ:riənˈteɪʃn]",
+  "mean": "n.方向，目标；熟悉，适应，情况介绍"
+ },
+ "percentage": {
+  "ipa": "[pəˈsentɪdʒ]",
+  "mean": "n.百分比，比率，部份"
+ },
+ "performance": {
+  "ipa": "[pəˈfɔ:məns]",
+  "mean": "n.履行，执行；性能，特性；表演，演出"
+ },
+ "pneumonia": {
+  "ipa": "[nju:ˈməʊniə]",
+  "mean": "n.肺炎"
+ },
+ "population": {
+  "ipa": "[ˌpɒpjuˈleɪʃn]",
+  "mean": "n.人口，人数"
+ },
+ "receptionist": {
+  "ipa": "[rɪˈsepʃənɪst]",
+  "mean": "n.接待，接待员"
+ },
+ "recommendation": {
+  "ipa": "[ˌrekəmenˈdeɪʃn]",
+  "mean": "n.推荐（信）建议，优点，长处"
+ },
+ "recreation": {
+  "ipa": "[ˌrekriˈeɪʃn]",
+  "mean": "n.娱乐，消遣，休养"
+ },
+ "refreshment": {
+  "ipa": "[rɪˈfreʃmənt]",
+  "mean": "n.恢复，精神爽快，提神之事物；（复数）refreshments:点心，茶点"
+ },
+ "refrigerator": {
+  "ipa": "[rɪˈfrɪdʒəreɪtə(r)]",
+  "mean": "n.冰箱"
+ },
+ "representative": {
+  "ipa": "[ˌreprɪˈzentətɪv]",
+  "mean": "n.代表，众议员，典型；adj.描写的，表现的，代理的，代表性的，代议制的，典型的"
+ },
+ "requirement": {
+  "ipa": "[rɪˈkwaɪəmənt]",
+  "mean": "n.需要，要求，请求，规定，必要条件"
+ },
+ "resistance": {
+  "ipa": "[rɪˈzɪstəns]",
+  "mean": "n.抵抗力，反抗，反抗行动；阻力，电阻；反对；adj.抵抗的"
+ },
+ "responsibility": {
+  "ipa": "[rɪˌspɒnsəˈbɪləti]",
+  "mean": "n.责任，职责"
+ },
+ "satisfaction": {
+  "ipa": "[ˌsætɪsˈfækʃn]",
+  "mean": "n.满意；满足；乐事，使人满意的原因"
+ },
+ "sophomore": {
+  "ipa": "[ˈsɒfəmɔ:(r)]",
+  "mean": "n.大学二年级生；adj.第二年的"
+ },
+ "souvenir": {
+  "ipa": "[ˌsu:vəˈnɪə(r)]",
+  "mean": "n.纪念品，纪念物"
+ },
+ "temperature": {
+  "ipa": "[ˈtemprətʃə(r)]",
+  "mean": "n.温度"
+ },
+ "transportation": {
+  "ipa": "[ˌtrænspɔ:ˈteɪʃn]",
+  "mean": "n.运输，运输系统，运输工具"
+ },
+ "undergraduate": {
+  "ipa": "[ˌʌndəˈgrædʒuət]",
+  "mean": "n.大学生，大学肆业生"
+ },
+ "unemployment": {
+  "ipa": "[ˌʌnɪmˈplɔɪmənt]",
+  "mean": "n.失业，失业状态"
+ },
+ "vegetarian": {
+  "ipa": "[ˌvedʒəˈteəriən]",
+  "mean": "n.素食者；adj.素食的"
+ },
+ "vocabulary": {
+  "ipa": "[vəˈkæbjələri]",
+  "mean": "n.词汇，词汇量；词汇表"
+ },
+ "westerner": {
+  "ipa": "[ˈwestənə(r)]",
+  "mean": "n.西部的人；西方人"
+ },
+ "dressing": {
+  "ipa": "[ˈdresɪŋ]",
+  "mean": "n.(食物)调料；包扎伤口的用品，敷料"
+ },
+ "assistance": {
+  "ipa": "[əˈsɪstəns]",
+  "mean": "n.援助，帮助"
+ },
+ "comment": {
+  "ipa": "[ˈkɒment]",
+  "mean": "n./vi.评论；注释；意见"
+ },
+ "dizzy": {
+  "ipa": "[ˈdɪzi]",
+  "mean": "adj.晕眩的，眼花缭乱的；vt.使晕眩"
+ },
+ "pressed": {
+  "ipa": "[prest]",
+  "mean": "adj.紧缺的；（食物）压成某种形状的；压平的；金钱（或空间、时间等） 有限v.按( press的过去式和过去分词 )；逼迫；压榨；使紧贴"
+ },
+ "hall": {
+  "ipa": "[hɔ:l]",
+  "mean": "n.会堂，礼堂，门厅"
+ },
+ "opportunity": {
+  "ipa": "[ˌɒpəˈtju:nəti]",
+  "mean": "n.机会；时机"
+ },
+ "access": {
+  "ipa": "[ˈækses]",
+  "mean": "n.接近；达到；进入；入口，通路；微软（Microsoft）数据库处理软件"
+ },
+ "accident": {
+  "ipa": "[ˈæksɪdənt]",
+  "mean": "n.事故，意外的事"
+ },
+ "affair": {
+  "ipa": "[əˈfeə(r)]",
+  "mean": "n.事情，事务；恋爱事件，外遇"
+ },
+ "assume": {
+  "ipa": "[əˈsju:m]",
+  "mean": "vt.假装；假定，设想；承担；呈现，采取"
+ },
+ "annex": {
+  "ipa": "[əˈneks]",
+  "mean": "vt.兼并，吞并；n.附属建筑物"
+ },
+ "breeding": {
+  "ipa": "['bri:diŋ]",
+  "mean": "n.繁殖"
+ },
+ "surrounding": {
+  "ipa": "[səˈraʊndɪŋ]",
+  "mean": "adj.周围的；n.环境，周围的事物"
+ },
+ "cooking": {
+  "ipa": "[ˈkʊkɪŋ]",
+  "mean": "n.烹调；烹饪"
+ },
+ "account": {
+  "ipa": "[əˈkaʊnt]",
+  "mean": "n.叙述；帐目；帐户"
+ },
+ "accounting": {
+  "ipa": "[əˈkaʊntɪŋ]",
+  "mean": "n.会计，会计学，借贷对照表"
+ },
+ "addition": {
+  "ipa": "[əˈdɪʃn]",
+  "mean": "n.加法；附加，附加物，增加部分，加"
+ },
+ "address": {
+  "ipa": "[əˈdres]",
+  "mean": "n.地址，演讲；vt.写姓名地址，演说"
+ },
+ "dress": {
+  "ipa": "[dres]",
+  "mean": "n.服装；女（童）服；连衣裙；v.穿衣"
+ },
+ "assessment": {
+  "ipa": "[əˈsesmənt]",
+  "mean": "n.评价；评估；对财产的估价，被估定的金额"
+ },
+ "admission": {
+  "ipa": "[ədˈmɪʃn]",
+  "mean": "n.允许进入；承认；入场费，入会费，入场券"
+ },
+ "commission": {
+  "ipa": "[kəˈmɪʃn]",
+  "mean": "n.委托，授权，委员会，拥金，回扣，委任状"
+ },
+ "depression": {
+  "ipa": "[dɪˈpreʃn]",
+  "mean": "n.压抑，抑制，沮丧；萧条，衰退"
+ },
+ "affect": {
+  "ipa": "[əˈfekt]",
+  "mean": "vt. 影响, 感动, 假装, 模仿, 爱好, 倾向于;n. 自觉感情;"
+ },
+ "effect": {
+  "ipa": "[ɪˈfekt]",
+  "mean": "n.结果；效果，作用 vt.产生，招致，完成"
+ },
+ "appeal": {
+  "ipa": "[əˈpi:l]",
+  "mean": "n.请求，呼吁，上诉，吸引力，要求；vi.求助，诉请，要求；vt.控诉"
+ },
+ "annual": {
+  "ipa": "[ˈænjuəl]",
+  "mean": "adj.每年的；一年的；（植物）一年生的 n.年刊；一年生植物"
+ },
+ "arrival": {
+  "ipa": "[əˈraɪvl]",
+  "mean": "n.到达，达到，到达者"
+ },
+ "applicant": {
+  "ipa": "[ˈæplɪkənt]",
+  "mean": "n.申请人，求职者，请求者"
+ },
+ "application": {
+  "ipa": "[ˌæplɪˈkeɪʃn]",
+  "mean": "n.申请，请求，申请书；应用，实施，实用性"
+ },
+ "appliance": {
+  "ipa": "[əˈplaɪəns]",
+  "mean": "n.用具，器具，器械"
+ },
+ "approach": {
+  "ipa": "[əˈprəʊtʃ]",
+  "mean": "n.接近，逼近，走进，方法，步骤，途径，通路；vt.接近，动手处理；vi.靠近"
+ },
+ "appointment": {
+  "ipa": "[əˈpɔɪntmənt]",
+  "mean": "n.约会，指定"
+ },
+ "approval": {
+  "ipa": "[əˈpru:vl]",
+  "mean": "n.赞成，同意；批准，认可"
+ },
+ "approximate": {
+  "ipa": "[əˈprɒksɪmət]",
+  "mean": "adj.大约，大致，近似的；vi.(to)近似，接近"
+ },
+ "assistant": {
+  "ipa": "[əˈsɪstənt]",
+  "mean": "n.助手，助理，助教；adj.有帮助的，辅助的，副的"
+ },
+ "associate": {
+  "ipa": "[əˈsəʊʃieɪt]",
+  "mean": "vt.使发生联系，使联合；把…联想起来；vi.交往，结交；n.合伙人，同事；adj.副的"
+ },
+ "association": {
+  "ipa": "[əˌsəʊʃiˈeɪʃn]",
+  "mean": "n.联盟，协会，社团；交往，联合；联想"
+ },
+ "attachment": {
+  "ipa": "[əˈtætʃmənt]",
+  "mean": "n.附属物，附件；依恋；依附"
+ },
+ "attack": {
+  "ipa": "[əˈtæk]",
+  "mean": "n.攻击，袭击，进攻，抨击；vt.攻击；抨击；动手干；vi.攻击；腐蚀"
+ },
+ "attempt": {
+  "ipa": "[əˈtempt]",
+  "mean": "n.企图，试图；vt.尝试，试图"
+ },
+ "attitude": {
+  "ipa": "[ˈætɪtju:d]",
+  "mean": "n.态度，看法；姿态，姿势"
+ },
+ "attend": {
+  "ipa": "[əˈtend]",
+  "mean": "vt.参加，注意，照料；vi.专心，留意，待命"
+ },
+ "attendance": {
+  "ipa": "[əˈtendəns]",
+  "mean": "n.出席，出席人数，护理，照料"
+ },
+ "attention": {
+  "ipa": "[əˈtenʃn]",
+  "mean": "n.注意，注意力，关心，关注"
+ },
+ "business": {
+  "ipa": "[ˈbɪznəs]",
+  "mean": "n.商业， 买卖， 交易， 生意， 事情， 事物， 营业， 商行"
+ },
+ "balloon": {
+  "ipa": "[bəˈlu:n]",
+  "mean": "n.气球"
+ },
+ "cartoon": {
+  "ipa": "[kɑ:ˈtu:n]",
+  "mean": "n.漫画，幽默画；动画片"
+ },
+ "billion": {
+  "ipa": "[ˈbɪljən]",
+  "mean": "num.十亿；数以十亿计；大量；一万亿"
+ },
+ "ballroom": {
+  "ipa": "[ˈbɔ:lru:m]",
+  "mean": "n.舞厅"
+ },
+ "bathroom": {
+  "ipa": "[ˈbɑ:θru:m]",
+  "mean": "n.浴室；盥洗室，卫生间"
+ },
+ "playroom": {
+  "ipa": "['pleiru:m,-rʊm]",
+  "mean": "n. 游戏室,娱乐室"
+ },
+ "barrier": {
+  "ipa": "[ˈbæriə(r)]",
+  "mean": "n.栅栏，障碍，壁垒，关卡"
+ },
+ "better": {
+  "ipa": "[ˈbetə(r)]",
+  "mean": "adj.更好的(good和well的比较级)；更熟练的；好的；健康的； adv.更好地；更妥；更恰当"
+ },
+ "buffet": {
+  "ipa": "[ˈbʊfeɪ]",
+  "mean": "n.自助餐；饮食柜台；餐台；adj.自助的；自助餐的；vt.与…搏斗；连续猛击；vi.斗争；奋勇前进"
+ },
+ "beginner": {
+  "ipa": "[bɪˈgɪnə(r)]",
+  "mean": "n.初学者，新手，生手"
+ },
+ "beginning": {
+  "ipa": "[bɪˈgɪnɪŋ]",
+  "mean": "n.开始的部分；起点"
+ },
+ "planning": {
+  "ipa": "['plæniŋ]",
+  "mean": "n.规划，设计，策划"
+ },
+ "blood": {
+  "ipa": "[blʌd]",
+  "mean": "n.血，血统，仇恨；vt.流血"
+ },
+ "bloom": {
+  "ipa": "[blu:m]",
+  "mean": "n.花，花期；vi.开花；容光焕发，显露出健康"
+ },
+ "boot": {
+  "ipa": "[bu:t]",
+  "mean": "n.长靴，踢，解雇，效用；vt.穿靴，踢，解雇，有用"
+ },
+ "book": {
+  "ipa": "[bʊk]",
+  "mean": "n.书，书籍；vt.订（票，座位，房间等），预定"
+ },
+ "booklet": {
+  "ipa": "[ˈbʊklət]",
+  "mean": "n.小册子，目录单"
+ },
+ "cannibal": {
+  "ipa": "['kænibəl]",
+  "mean": "n.食人者；同类相食的动物"
+ },
+ "connect": {
+  "ipa": "[kəˈnekt]",
+  "mean": "vt. 连接, 联合, 联系;vi. 连接, 联合, 联系;"
+ },
+ "cassette": {
+  "ipa": "[kəˈset]",
+  "mean": "n.卡式录音带盒；卡式胶卷盒，盒式磁带"
+ },
+ "cattle": {
+  "ipa": "[ˈkætl]",
+  "mean": "n.牛，牲口，畜生"
+ },
+ "classmate": {
+  "ipa": "[ˈklɑ:smeɪt]",
+  "mean": "n.同班同学"
+ },
+ "communication": {
+  "ipa": "[kəˌmju:nɪˈkeɪʃn]",
+  "mean": "n.交流；通讯；通信"
+ },
+ "community": {
+  "ipa": "[kəˈmju:nəti]",
+  "mean": "n.公社，团体，社会，（政治）共同体，共有，一致，共同体，（生物）群落"
+ },
+ "cotton": {
+  "ipa": "[ˈkɒtn]",
+  "mean": "n.棉花；v.和谐，一致；接近，亲近"
+ },
+ "coffee": {
+  "ipa": "[ˈkɒfi]",
+  "mean": "n.咖啡，咖啡豆，咖啡色"
+ },
+ "running": {
+  "ipa": "[ˈrʌnɪŋ]",
+  "mean": "n.赛跑，流出，运转；adj.流动的，跑着的，连续的"
+ },
+ "wedding": {
+  "ipa": "[ˈwedɪŋ]",
+  "mean": "n.婚礼，结婚，结婚仪式，结合"
+ },
+ "currency": {
+  "ipa": "[ˈkʌrənsi]",
+  "mean": "n.通货，流通，通用；"
+ },
+ "cooperate": {
+  "ipa": "[kəʊ'ɒpəreɪt]",
+  "mean": "vi.合作，协作，相配合"
+ },
+ "dissertation": {
+  "ipa": "[ˌdɪsəˈteɪʃn]",
+  "mean": "n.（博士学位）论文，学术演讲，专题论文"
+ },
+ "dessert": {
+  "ipa": "[dɪˈzɜ:t]",
+  "mean": "n.（饭后的）甜食"
+ },
+ "difference": {
+  "ipa": "[ˈdɪfrəns]",
+  "mean": "n.不同；差异；区别"
+ },
+ "little": {
+  "ipa": "[ˈlɪtl]",
+  "mean": "adj.小，幼小；不多的；adv./n.不多，几乎没有"
+ },
+ "pizza": {
+  "ipa": "[ˈpi:tsə]",
+  "mean": "n.意大利肉饼，比萨饼"
+ },
+ "discuss": {
+  "ipa": "[dɪˈskʌs]",
+  "mean": "vt. 讨论；论述，辩论"
+ },
+ "discussion": {
+  "ipa": "[dɪˈskʌʃn]",
+  "mean": "n.讨论，谈论；论述"
+ },
+ "speech": {
+  "ipa": "[spi:tʃ]",
+  "mean": "n.讲话，演说"
+ },
+ "suggestion": {
+  "ipa": "[səˈdʒestʃən]",
+  "mean": "n.建议，意见；细微的迹象；暗示，联想"
+ },
+ "door": {
+  "ipa": "[dɔ:(r)]",
+  "mean": "n.门"
+ },
+ "dollar": {
+  "ipa": "[ˈdɒlə(r)]",
+  "mean": "n.美元，元(加拿大、澳大利亚等国货币单位)"
+ },
+ "floor": {
+  "ipa": "[flɔ:(r)]",
+  "mean": "n.地面；（楼的）层"
+ },
+ "poor": {
+  "ipa": "[pɔ:(r)]",
+  "mean": "adj.贫穷的；可怜的"
+ },
+ "exaggerate": {
+  "ipa": "[ɪgˈzædʒəreɪt]",
+  "mean": "vi.夸大，夸张;vt.使扩大；使增大"
+ },
+ "essay": {
+  "ipa": "[ˈeseɪ]",
+  "mean": "n.随笔，短文，评论，企图；vt.试图"
+ },
+ "embassy": {
+  "ipa": "[ˈembəsi]",
+  "mean": "n.大使馆，大使及其随员"
+ },
+ "issue": {
+  "ipa": "[ˈɪʃu:]",
+  "mean": "n.出版，发行，（报刊等）期、号，论点，问题，结果， （水，血等的）流出；vt.使流出，放出，发行（钞票等），发布（命令），出版（书等）发给；vi.发行，流出，造成...结果，进行辩护，传下"
+ },
+ "express": {
+  "ipa": "[ɪkˈspres]",
+  "mean": "vt.表达，表示，表现；压榨，榨出；n.快车，快邮，快件，速递；adj.特快的，特殊的"
+ },
+ "Congress": {
+  "ipa": "['kɔŋgres]",
+  "mean": "n.(代表)大会；(C-:美国等国的)国会，议会"
+ },
+ "pressure": {
+  "ipa": "[ˈpreʃə(r)]",
+  "mean": "n.压力，压迫，压强；vt.迫使，使增压，密封"
+ },
+ "fee": {
+  "ipa": "[fi:]",
+  "mean": "n.费（会费、学费等）；酬金，小费；所有权；vt.付费给"
+ },
+ "fossil": {
+  "ipa": "[ˈfɒsl]",
+  "mean": "n.化石，食古不化的人，老顽固"
+ },
+ "food": {
+  "ipa": "[fu:d]",
+  "mean": "n.食物"
+ },
+ "foot": {
+  "ipa": "[fʊt]",
+  "mean": "n.（[pl.]feet）脚，足；英尺；底部"
+ },
+ "football": {
+  "ipa": "[ˈfʊtbɔ:l]",
+  "mean": "n.足球，橄榄球"
+ },
+ "goods": {
+  "ipa": "[gʊdz]",
+  "mean": "n.商品，货物"
+ },
+ "gallon": {
+  "ipa": "[ˈgælən]",
+  "mean": "n.加仑(液量单位)"
+ },
+ "grammar": {
+  "ipa": "[ˈgræmə(r)]",
+  "mean": "n.语法，语法规则"
+ },
+ "hippo": {
+  "ipa": "[ˈhɪpəʊ]",
+  "mean": "n.河马"
+ },
+ "hoover": {
+  "ipa": "['hu:və]",
+  "mean": "用真空吸尘器吸尘"
+ },
+ "horror": {
+  "ipa": "[ˈhɒrə(r)]",
+  "mean": "n.惊骇，恐怖，惨事，极端厌恶"
+ },
+ "irritation": {
+  "ipa": "[ˌɪrɪ'teɪʃn]",
+  "mean": "n.激怒，恼怒，生气"
+ },
+ "innovation": {
+  "ipa": "[ˌɪnəˈveɪʃn]",
+  "mean": "n.改革，革新，新观念，新方法，新发明"
+ },
+ "lessen": {
+  "ipa": "[ˈlesn]",
+  "mean": "vt.减少，减轻；缩小"
+ },
+ "degree": {
+  "ipa": "[dɪˈgri:]",
+  "mean": "n.学位，等级，程度，度数"
+ },
+ "firewood": {
+  "ipa": "[ˈfaɪəwʊd]",
+  "mean": "n.木柴；柴火"
+ },
+ "matter": {
+  "ipa": "[ˈmætə(r)]",
+  "mean": "n.事情；问题；麻烦事，毛病；vi.有关系；要紧"
+ },
+ "mammal": {
+  "ipa": "[ˈmæml]",
+  "mean": "n.哺乳动物"
+ },
+ "mass": {
+  "ipa": "[mæs]",
+  "mean": "n.块，大多数，质量，大量，群众，弥撒；adj.群众的，大规模的，集中的；vt.使集合"
+ },
+ "massage": {
+  "ipa": "[ˈmæsɑ:ʒ]",
+  "mean": "n.按摩，揉；vt.按摩，揉，美化，奉承，篡改数据"
+ },
+ "million": {
+  "ipa": "[ˈmɪljən]",
+  "mean": "num.百万，100万；n.无数，大众"
+ },
+ "narrator": {
+  "ipa": "[nəˈreɪtə(r)]",
+  "mean": "n.讲述者；解说员；旁白者"
+ },
+ "occupational": {
+  "ipa": "[ˌɔkju'peiʃənəl]",
+  "mean": "adj. 职业的"
+ },
+ "offer": {
+  "ipa": "[ˈɒfə(r)]",
+  "mean": "n.出价，提议；vt.提供，出价；贡献，奉献；vi.提议；出现；求婚"
+ },
+ "office": {
+  "ipa": "[ˈɒfɪs]",
+  "mean": "n.办公室，办事处，事务所；职务，职责，功能"
+ },
+ "officer": {
+  "ipa": "[ˈɒfɪsə(r)]",
+  "mean": "n.军官；(政府的) 官员"
+ },
+ "pattern": {
+  "ipa": "[ˈpætn]",
+  "mean": "n.图案，模范，榜样；型，式样；样品；图样；vt.摹制，仿造；以图案装饰"
+ },
+ "paddle": {
+  "ipa": "[ˈpædl]",
+  "mean": "vi.划桨；涉水；vt.用桨划；ｎ.短浆；划浆"
+ },
+ "penny": {
+  "ipa": "[ˈpeni]",
+  "mean": "n.（英）便士，美分"
+ },
+ "personnel": {
+  "ipa": "[ˌpɜ:səˈnel]",
+  "mean": "n.[总称]人员，员工，人事部门"
+ },
+ "process": {
+  "ipa": "[ˈprəʊses]",
+  "mean": "n.程序，进行，过程；vt.加工，处理，对…处置，对…起诉；adj.经加工的，三色版的"
+ },
+ "profession": {
+  "ipa": "[prəˈfeʃn]",
+  "mean": "n.职业，表白，声明，公开宣布"
+ },
+ "questionnaire": {
+  "ipa": "[ˌkwestʃəˈneə(r)]",
+  "mean": "n.问卷，调查表"
+ },
+ "possibility": {
+  "ipa": "[ˌpɒsəˈbɪləti]",
+  "mean": "n.机会，契机；可能，可能性"
+ },
+ "robber": {
+  "ipa": "[ˈrɒbə(r)]",
+  "mean": "n.抢劫者，强盗，盗贼"
+ },
+ "otter": {
+  "ipa": "[ˈɒtə(r)]",
+  "mean": "n.水獭"
+ },
+ "rubbish": {
+  "ipa": "[ˈrʌbɪʃ]",
+  "mean": "n.垃圾，废物；废话，胡说八道"
+ },
+ "Russia": {
+  "ipa": "['rʌʃə]",
+  "mean": "n.俄罗斯，俄国"
+ },
+ "school": {
+  "ipa": "[sku:l]",
+  "mean": "n.学校；学院；学派"
+ },
+ "Scottish": {
+  "ipa": "[ˈskɒtɪʃ]",
+  "mean": "adj.苏格兰(人)的；n.苏格兰(人)；苏格兰语"
+ },
+ "screen": {
+  "ipa": "[skri:n]",
+  "mean": "n.屏，幕，银幕；屏风；v.选拔；掩蔽，遮蔽"
+ },
+ "settlement": {
+  "ipa": "[ˈsetlmənt]",
+  "mean": "n.殖民，定居，殖民地；解决，决定，调停；结算，偿付"
+ },
+ "shuttle": {
+  "ipa": "[ˈʃʌtl]",
+  "mean": "n.往返汽车（列车、飞机），航天飞机，梭子，穿梭；vi.穿梭往返；vt.使穿梭般来回移动；短程穿梭般运送"
+ },
+ "shopping": {
+  "ipa": "[ˈʃɒpɪŋ]",
+  "mean": "n.买东西，购物"
+ },
+ "swimming": {
+  "ipa": "[ˈswɪmɪŋ]",
+  "mean": "n.游泳"
+ },
+ "skiing": {
+  "ipa": "['ski:iŋ]",
+  "mean": "n.滑雪运动"
+ },
+ "setting": {
+  "ipa": "[ˈsetɪŋ]",
+  "mean": "n.背景"
+ },
+ "tennis": {
+  "ipa": "[ˈtenɪs]",
+  "mean": "n.网球，网球运动"
+ },
+ "steel": {
+  "ipa": "[sti:l]",
+  "mean": "n.钢，钢制品，坚强；adj.钢的，如钢铁般的，非常坚强的；vt.包钢，使坚硬，使下定决心"
+ },
+ "steering": {
+  "ipa": "['stiəriŋ]",
+  "mean": "n.操舵装置"
+ },
+ "stress": {
+  "ipa": "[stres]",
+  "mean": "n.压力，紧迫，强调，重音，重点，应力&vt.加压力于，着重，重读"
+ },
+ "stiff": {
+  "ipa": "[stɪf]",
+  "mean": "adj.严厉的，激烈的，硬的，僵直的，不灵活的"
+ },
+ "staff": {
+  "ipa": "[stɑ:f]",
+  "mean": "n.全体人员，同事；棍棒，杆，拐杖，支柱，权杖；vt.为…配备人员"
+ },
+ "stuff": {
+  "ipa": "[stʌf]",
+  "mean": "n.原料，材料，东西；vt.填满；吃饱"
+ },
+ "success": {
+  "ipa": "[səkˈses]",
+  "mean": "n.成就，成功"
+ },
+ "session": {
+  "ipa": "[ˈseʃn]",
+  "mean": "n.会议，开庭期，市盘，学期；adj.短期的"
+ },
+ "concession": {
+  "ipa": "[kənˈseʃn]",
+  "mean": "n.让步，妥协；特许(权)"
+ },
+ "summary": {
+  "ipa": "[ˈsʌməri]",
+  "mean": "n.摘要，概要；adj.摘要的，简略的"
+ },
+ "summer": {
+  "ipa": "[ˈsʌmə(r)]",
+  "mean": "n.夏天，夏季"
+ },
+ "summit": {
+  "ipa": "[ˈsʌmɪt]",
+  "mean": "n.最高点，峰顶；最高级会议；极点"
+ },
+ "supplementary": {
+  "ipa": "[ˌsʌplɪˈmentri]",
+  "mean": "adj.补充的，附加的"
+ },
+ "supply": {
+  "ipa": "[səˈplaɪ]",
+  "mean": "n.补给，供给，供应品；vt.补给，供给，提供，补充；vi.替代"
+ },
+ "supportive": {
+  "ipa": "[səˈpɔ:tɪv]",
+  "mean": "adj.起支持作用的，支援的"
+ },
+ "tunnel": {
+  "ipa": "[ˈtʌnl]",
+  "mean": "n.隧道，地下道；vi.挖隧道；vt.掘隧道于"
+ },
+ "toothache": {
+  "ipa": "[ˈtu:θeɪk]",
+  "mean": "n.牙疼；牙痛"
+ },
+ "traffic": {
+  "ipa": "[ˈtræfɪk]",
+  "mean": "adj.交通的；n.交通；vi.交易，买卖"
+ },
+ "terraced": {
+  "ipa": "['terəst]",
+  "mean": "a.(房屋)沿斜坡建造的"
+ },
+ "terrestrial": {
+  "ipa": "[təˈrestriəl]",
+  "mean": "adj.陆地的；v.陆地生物"
+ },
+ "vaccine": {
+  "ipa": "[ˈvæksi:n]",
+  "mean": "n.牛痘苗，疫苗；adj.牛痘的，疫苗的"
+ },
+ "vacuum": {
+  "ipa": "[ˈvækjuəm]",
+  "mean": "n.真空，空间，真空吸尘器；adj.真空的，产生(利用)真空的；v.用吸尘器打扫"
+ },
+ "waitress": {
+  "ipa": "[ˈweɪtrəs]",
+  "mean": "n.女服务员；女侍者"
+ },
+ "wood": {
+  "ipa": "[wʊd]",
+  "mean": "n.木头；木材；(pl.)树林"
+ },
+ "zoo": {
+  "ipa": "[zu:]",
+  "mean": "n.动物园"
+ },
+ "anthropology": {
+  "ipa": "[ˌænθrəˈpɒlədʒi]",
+  "mean": "n.人类学"
+ },
+ "September": {
+  "ipa": "[sepˈtembə(r)]",
+  "mean": "n.九月"
+ },
+ "street": {
+  "ipa": "[stri:t]",
+  "mean": "n.街，街道；行车道"
+ },
+ "euro": {
+  "ipa": "['juərəu,'jurəu]",
+  "mean": "n. 欧元"
+ },
+ "archaeology": {
+  "ipa": "[ˌɑ:kiˈɒlədʒi]",
+  "mean": "n.考古学"
+ },
+ "astrology": {
+  "ipa": "[ə'strɔlədʒi]",
+  "mean": "n.占星学，占星术"
+ },
+ "astronomy": {
+  "ipa": "[əˈstrɒnəmi]",
+  "mean": "n.天文学"
+ },
+ "applied science": {
+  "ipa": "[əˈplaɪd ˈsaiəns]",
+  "mean": "应用科学"
+ },
+ "biology": {
+  "ipa": "[baɪˈɒlədʒi]",
+  "mean": "n.生物学"
+ },
+ "environmental science": {
+  "ipa": "[enˌvaɪərənˈmentl ˈsaiəns]",
+  "mean": "环境科学"
+ },
+ "life science": {
+  "ipa": "[]",
+  "mean": "生命科学"
+ },
+ "economics": {
+  "ipa": "[ˌi:kəˈnɒmɪks]",
+  "mean": "n.经济学，经济情况"
+ },
+ "philosophy": {
+  "ipa": "[fəˈlɒsəfi]",
+  "mean": "n.哲学，人生观，原理"
+ },
+ "physiology": {
+  "ipa": "[ˌfɪziˈɒlədʒi]",
+  "mean": "n.生理学，生理机能"
+ },
+ "planet": {
+  "ipa": "[ˈplænɪt]",
+  "mean": "n.行星"
+ },
+ "medical science": {
+  "ipa": "[]",
+  "mean": "医学科学\n医"
+ },
+ "geography": {
+  "ipa": "[dʒiˈɒgrəfi]",
+  "mean": "n.地理学；地形，地势"
+ },
+ "chemistry": {
+  "ipa": "[ˈkemɪstri]",
+  "mean": "n.化学，化学作用"
+ },
+ "law": {
+  "ipa": "[lɔ:]",
+  "mean": "n.法(律，规，学)；律师业；规律，定律"
+ },
+ "linguistics": {
+  "ipa": "[lɪŋˈgwɪstɪks]",
+  "mean": "n.语言学"
+ },
+ "politics": {
+  "ipa": "[ˈpɒlətɪks]",
+  "mean": "n.政治，政治学；政纲，政见，策略"
+ },
+ "finance": {
+  "ipa": "[ˈfaɪnæns]",
+  "mean": "n.财务管理，财政，金融，财源，资金"
+ },
+ "mass media": {
+  "ipa": "[mæs ˈmi:djə]",
+  "mean": "n.传媒工具，新闻界"
+ },
+ "statistics": {
+  "ipa": "[stə'tɪstɪks]",
+  "mean": "n.统计，统计数字，统计学"
+ },
+ "mining": {
+  "ipa": "[ˈmaɪnɪŋ]",
+  "mean": "n.采矿（业）v.在…中开采，开采(mine的现在分词)；在…中[下]布雷；以地雷[水雷]炸毁"
+ },
+ "engineering": {
+  "ipa": "[ˌendʒɪˈnɪərɪŋ]",
+  "mean": "n.工程，工程学，管理，操纵"
+ },
+ "fine art": {
+  "ipa": "[]",
+  "mean": "美的艺术, 精细工艺"
+ },
+ "January": {
+  "ipa": "[ˈdʒænjuəri]",
+  "mean": "n.一月"
+ },
+ "February": {
+  "ipa": "[ˈfebruəri]",
+  "mean": "n.二月"
+ },
+ "March": {
+  "ipa": "[mɑ:tʃ]",
+  "mean": "n.三月"
+ },
+ "April": {
+  "ipa": "[ˈeɪprəl]",
+  "mean": "n.四月"
+ },
+ "may": {
+  "ipa": "[meɪ]",
+  "mean": "v./aux.可能；可以；祝"
+ },
+ "June": {
+  "ipa": "[dʒu:n]",
+  "mean": "n.六月"
+ },
+ "July": {
+  "ipa": "[dʒuˈlaɪ]",
+  "mean": "n.七月"
+ },
+ "August": {
+  "ipa": "[ˈɔ:gəst]",
+  "mean": "n.八月"
+ },
+ "October": {
+  "ipa": "[ɒkˈtəʊbə(r)]",
+  "mean": "n.十月"
+ },
+ "November": {
+  "ipa": "[nəʊˈvembə(r)]",
+  "mean": "n.十一月"
+ },
+ "December": {
+  "ipa": "[dɪˈsembə(r)]",
+  "mean": "n.十二月"
+ },
+ "Monday": {
+  "ipa": "[ˈmʌndeɪ]",
+  "mean": "n.星期一"
+ },
+ "Tuesday": {
+  "ipa": "[ˈtju:zdeɪ]",
+  "mean": "n.星期二"
+ },
+ "Friday": {
+  "ipa": "[ˈfraɪdeɪ]",
+  "mean": "n.星期五"
+ },
+ "Wednesday": {
+  "ipa": "[ˈwenzdeɪ]",
+  "mean": "n.星期三"
+ },
+ "Thursday": {
+  "ipa": "[ˈθɜ:zdeɪ]",
+  "mean": "n.星期四"
+ },
+ "Saturday": {
+  "ipa": "[ˈsætədeɪ]",
+  "mean": "n.星期六"
+ },
+ "Sunday": {
+  "ipa": "[ˈsʌndeɪ]",
+  "mean": "n.星期日，礼拜日"
+ },
+ "avenue": {
+  "ipa": "[ˈævənju:]",
+  "mean": "n.林荫道；大街；途径，手段"
+ },
+ "lane": {
+  "ipa": "[leɪn]",
+  "mean": "n.(乡间)小路(巷)；车(跑，泳)道；航道"
+ },
+ "drive": {
+  "ipa": "[draɪv]",
+  "mean": "vi. 开车；猛击；飞跑；vt. 推动，发动（机器等）；驾驶（马车，汽车等）；驱赶"
+ },
+ "square": {
+  "ipa": "[skweə(r)]",
+  "mean": "adj.正方形的；平方的；n.正方形；广场；vt. 使成方形；vi. 一致；成方形"
+ },
+ "road": {
+  "ipa": "[rəʊd]",
+  "mean": "n.道路，公路"
+ },
+ "house": {
+  "ipa": "[haʊs]",
+  "mean": "n.房屋"
+ },
+ "district": {
+  "ipa": "[ˈdɪstrɪkt]",
+  "mean": "n.区，地区，行政区；vt.区，区域，地区"
+ },
+ "cash": {
+  "ipa": "[kæʃ]",
+  "mean": "n.现金，现款；vt.兑换现款，付现款"
+ },
+ "credit card": {
+  "ipa": "['kredit ˌkɑ:d]",
+  "mean": "信用证（卡）"
+ },
+ "transfer": {
+  "ipa": "[trænsˈfɜ:(r)]",
+  "mean": "n. 迁移, 移动, 换车; vi. 转移, 调转, 调任；vt.使转移；调任"
+ },
+ "phone": {
+  "ipa": "[fəʊn]",
+  "mean": "n.(口语telephone)电话，电话机；vt.&vi.打电话"
+ },
+ "pound": {
+  "ipa": "[paʊnd]",
+  "mean": "n.英镑(英国货币单位，符号为￡)"
+ },
+ "pence": {
+  "ipa": "[pens]",
+  "mean": "n.便士；名词penny的复数形式"
+ },
+ "yen": {
+  "ipa": "[jen]",
+  "mean": "n. 日元；热望"
+ },
+ "spring": {
+  "ipa": "[sprɪŋ]",
+  "mean": "n.春天，春季"
+ },
+ "autumn": {
+  "ipa": "[ˈɔ:təm]",
+  "mean": "n.秋天，秋季"
+ },
+ "winter": {
+  "ipa": "[ˈwɪntə(r)]",
+  "mean": "n.冬天，冬季"
+ },
+ "abbreviate": {
+  "ipa": "[əˈbri:vieɪt]",
+  "mean": "vt.缩写，使...简略，缩短；vi.使用缩写词"
+ },
+ "convince": {
+  "ipa": "[kənˈvɪns]",
+  "mean": "vt.使确认，使信服；使认识错误"
+ },
+ "experience": {
+  "ipa": "[ɪkˈspɪəriəns]",
+  "mean": "n.经历，经验；v.经历，体验"
+ },
+ "mill": {
+  "ipa": "[mɪl]",
+  "mean": "n.磨坊，碾磨机；制造厂，工厂；vt.磨，碾"
+ },
+ "repeat": {
+  "ipa": "[rɪˈpi:t]",
+  "mean": "n.重复，反复；vt.重复，复述；vi.重复；adj.重复的，反复的"
+ },
+ "train": {
+  "ipa": "[treɪn]",
+  "mean": "n.火车"
+ },
+ "abuse": {
+  "ipa": "[əˈbju:s]",
+  "mean": "vt.滥用；辱骂；诋毁；n.滥用；恶习；弊端"
+ },
+ "administrate": {
+  "ipa": "[əd'ministreit]",
+  "mean": "v.掌管;实施,执行;给予,投(药)"
+ },
+ "adopt": {
+  "ipa": "[əˈdɒpt]",
+  "mean": "vt.采纳，采用；正式通过；领养；vi.采取；过继"
+ },
+ "advertise": {
+  "ipa": "[ˈædvətaɪz]",
+  "mean": "vt. 通知；为…做广告；使突出 vi. 做广告，登广告；作宣传"
+ },
+ "ban": {
+  "ipa": "[bæn]",
+  "mean": "n.禁令；vt.禁止，取缔"
+ },
+ "beat": {
+  "ipa": "[bi:t]",
+  "mean": "n.打，敲打声，拍子；v.打，打败"
+ },
+ "break": {
+  "ipa": "[breɪk]",
+  "mean": "n.休息，中断，破裂；vt.打破，弄破，弄坏；vi. （嗓音）突变；突破；破晓；（价格）突然下跌"
+ },
+ "breed": {
+  "ipa": "[bri:d]",
+  "mean": "n.品种，种类；vi.繁殖，产仔；vt.养殖，产生，养育"
+ },
+ "cater": {
+  "ipa": "[ˈkeɪtə(r)]",
+  "mean": "vi.(for/to)满足，迎合；(for)提供饮食及服务"
+ },
+ "cheer": {
+  "ipa": "[tʃɪə(r)]",
+  "mean": "n.愉快，激励，欢呼；v.加油，鼓舞，快活起来"
+ },
+ "cite": {
+  "ipa": "[saɪt]",
+  "mean": "vt.引用，引证，举例"
+ },
+ "conquer": {
+  "ipa": "[ˈkɒŋkə(r)]",
+  "mean": "vt.克服，征服，战胜，占领；vi.得胜"
+ },
+ "construct": {
+  "ipa": "[kənˈstrʌkt]",
+  "mean": "vt.构造，建造，想出，作图；n.构成物"
+ },
+ "contain": {
+  "ipa": "[kənˈteɪn]",
+  "mean": "vt.包含，包括，容纳；遏制，抑制，克制；vi.含有；自制"
+ },
+ "contaminate": {
+  "ipa": "[kənˈtæmɪneɪt]",
+  "mean": "v.弄污，弄脏，毒害，传染，染污"
+ },
+ "cook": {
+  "ipa": "[kʊk]",
+  "mean": "n.厨师；vt.烹调，烧煮；纂改（账目），捏造；vi. 烹调，做菜"
+ },
+ "counsel": {
+  "ipa": "[ˈkaʊnsl]",
+  "mean": "n.忠告，劝告，律师，法律顾问；vt.劝告"
+ },
+ "cover": {
+  "ipa": "[ˈkʌvə(r)]",
+  "mean": "n.盖子，覆盖物；v.覆盖…，扩及，掩饰"
+ },
+ "decide": {
+  "ipa": "[dɪˈsaɪd]",
+  "mean": "vi./vt.决定；下决心"
+ },
+ "dedicate": {
+  "ipa": "[ˈdedɪkeɪt]",
+  "mean": "vt.献身，致力于，把（时间、精力等）用于"
+ },
+ "deliver": {
+  "ipa": "[dɪˈlɪvə(r)]",
+  "mean": "vt.投递（信件，邮包等）；给…接生；vi.实现；传送；履行；投递"
+ },
+ "depend": {
+  "ipa": "[dɪˈpend]",
+  "mean": "vi.依靠，相信，指望"
+ },
+ "dial": {
+  "ipa": "[ˈdaɪəl]",
+  "mean": "n.(钟表等的)针盘；刻度盘；vt.拨(电话号码)；vi. 拨号"
+ },
+ "dictate": {
+  "ipa": "[dɪkˈteɪt]",
+  "mean": "vt.口授；(使)听写；指令，指示，命令；vi.口述；听写"
+ },
+ "donate": {
+  "ipa": "[dəʊˈneɪt]",
+  "mean": "vt. 捐赠；捐献 vi. 捐赠；捐献"
+ },
+ "doze": {
+  "ipa": "[dəʊz]",
+  "mean": "vi. 打瞌睡；假寐 vt. 打瞌睡度过 n. 瞌睡"
+ },
+ "employ": {
+  "ipa": "[ɪmˈplɔɪ]",
+  "mean": "vt.雇用，用，使用；n.雇用"
+ },
+ "enhance": {
+  "ipa": "[ɪnˈhɑ:ns]",
+  "mean": "vt.提高（强度、力量、数量等），增加（进）"
+ },
+ "exist": {
+  "ipa": "[ɪgˈzɪst]",
+  "mean": "vi.存在，生存，生活，继续存在"
+ },
+ "expand": {
+  "ipa": "[ɪkˈspænd]",
+  "mean": "vt.使膨胀，详述，扩张；vi.张开，发展"
+ },
+ "export": {
+  "ipa": "[ˈekspɔ:t]",
+  "mean": "vt.输出，出口 n.出口，出口企业，出口品"
+ },
+ "filter": {
+  "ipa": "[ˈfɪltə(r)]",
+  "mean": "n.滤器，过滤嘴；vt.过滤，透过；vi.滤过；渗入；慢慢传开"
+ },
+ "fire": {
+  "ipa": "[ˈfaɪə(r)]",
+  "mean": "n.火；火灾，失火；炉火；vi.开火；vt.放(枪)"
+ },
+ "focus": {
+  "ipa": "[ˈfəʊkəs]",
+  "mean": "n.焦点，焦距；vi.聚焦，注视；vt.使聚焦，调焦，集中"
+ },
+ "foster": {
+  "ipa": "[ˈfɒstə(r)]",
+  "mean": "vt.收养，培养，促进；adj.收养的，收养孩子的"
+ },
+ "ignore": {
+  "ipa": "[ɪgˈnɔ:(r)]",
+  "mean": "vt. 不理睬, 忽视, 驳回, 忽略;"
+ },
+ "improve": {
+  "ipa": "[ɪmˈpru:v]",
+  "mean": "vt. 改善，增进；提高…的价值 vi. 增加；变得更好"
+ },
+ "instruct": {
+  "ipa": "[ɪnˈstrʌkt]",
+  "mean": "vt.教，教育；通知；指示，命令"
+ },
+ "interview": {
+  "ipa": "[ˈɪntəvju:]",
+  "mean": "n.面谈，访问，接见；v.接见，会谈"
+ },
+ "invest": {
+  "ipa": "[ɪnˈvest]",
+  "mean": "vt.投资；投入(时间等)；授予，赋予；vi.投资，入股；花钱买"
+ },
+ "irrigate": {
+  "ipa": "[ˈɪrɪgeɪt]",
+  "mean": "vt.灌溉，修水利，冲洗伤口，使潮湿"
+ },
+ "lack": {
+  "ipa": "[læk]",
+  "mean": "n.缺乏，不足；vi.缺乏，短少，没有缺乏，短少，没有；需要"
+ },
+ "leak": {
+  "ipa": "[li:k]",
+  "mean": "vi.漏，渗；泄漏；vt.使渗漏，使泄漏；n.漏洞，漏隙；泄漏，漏出"
+ },
+ "lend": {
+  "ipa": "[lend]",
+  "mean": "vt. 贷；增添，提供；把……借给 vi. 贷款"
+ },
+ "maintain": {
+  "ipa": "[meɪnˈteɪn]",
+  "mean": "vt.支撑；赡养，抚养；维持，保有"
+ },
+ "meet": {
+  "ipa": "[mi:t]",
+  "mean": "vt.满足；遇见；vi.相遇；接触；n.集会"
+ },
+ "memorise": {
+  "ipa": "['meməraɪz]",
+  "mean": "vt.记住，熟记"
+ },
+ "monitor": {
+  "ipa": "[ˈmɒnɪtə(r)]",
+  "mean": "n. 班长；显示屏；[计]显示器；vt. 监控；记录；测定；vi. 监视"
+ },
+ "narrate": {
+  "ipa": "[nəˈreɪt]",
+  "mean": "vt.讲，叙述；vi.叙述；讲述"
+ },
+ "observe": {
+  "ipa": "[əbˈzɜ:v]",
+  "mean": "vt.观察，遵守，注意到，纪念；vi.注意，评论"
+ },
+ "overcome": {
+  "ipa": "[ˌəʊvəˈkʌm]",
+  "mean": "vt.战胜，克服，胜过；vi.得胜"
+ },
+ "pay": {
+  "ipa": "[peɪ]",
+  "mean": "vt. 支付，付；偿还，补偿；给予 vi. 付款；偿还 n. 工资，薪水；付款；报答"
+ },
+ "polish": {
+  "ipa": "[ˈpɒlɪʃ]",
+  "mean": "vt.修正；文饰；（涂蜡等）打光滑；使（人、举止、仪表等）变得优雅；n.擦亮剂；擦亮，磨光；优美，优雅，精良；adj.使完美，使优美，使精炼；vi.得到改进，变得完美"
+ },
+ "prepare": {
+  "ipa": "[prɪˈpeə(r)]",
+  "mean": "vt.为...做好准备，整合；vi.做好准备"
+ },
+ "prescribe": {
+  "ipa": "[prɪˈskraɪb]",
+  "mean": "vi.规定，开药方；vt.规定，命令，开处方"
+ },
+ "recall": {
+  "ipa": "[rɪˈkɔ:l]",
+  "mean": "n.回忆，召回，取消；vt.回想起，召回，与...相似，恢复"
+ },
+ "refund": {
+  "ipa": "[ˈri:fʌnd]",
+  "mean": "vt.&vi.退还，偿还；n.归还，偿还额，退款"
+ },
+ "register": {
+  "ipa": "[ˈredʒɪstə(r)]",
+  "mean": "n.登记簿，花名册，注册员；vi.登记，注册；vt. 登记；注册；记录；挂号邮寄；把…挂号；正式提出"
+ },
+ "reinvest": {
+  "ipa": "[]",
+  "mean": "vt. 再投资, 再授给"
+ },
+ "relax": {
+  "ipa": "[rɪˈlæks]",
+  "mean": "v.放松；轻松"
+ },
+ "relieve": {
+  "ipa": "[rɪˈli:v]",
+  "mean": "vt.缓解，减轻，解除(痛苦、忧虑、麻烦)"
+ },
+ "repair": {
+  "ipa": "[rɪˈpeə(r)]",
+  "mean": "n.修理，补救；v.修理，补救，补偿"
+ },
+ "resit": {
+  "ipa": "[ˌri:ˈsɪt]",
+  "mean": "（尤指考试不及格后）再参加（考试），（考试不及格后）再考，重考"
+ },
+ "revise": {
+  "ipa": "[rɪˈvaɪz]",
+  "mean": "vt.修订，校订，修正"
+ },
+ "roll": {
+  "ipa": "[rəʊl]",
+  "mean": "vi.卷；摇晃；vt.使滚动；使摇摆；n.卷；名册"
+ },
+ "rush": {
+  "ipa": "[rʌʃ]",
+  "mean": "n.匆促，冲进，急流，灯心草；vi. 冲，奔，闯，赶紧，匆促行事，涌现；vt.使冲"
+ },
+ "shear": {
+  "ipa": "[ʃɪə(r)]",
+  "mean": "n.修剪，剪下的东西，羊的一岁；vt.剪掉，割，剥夺；vi.修剪，切割，剥夺，穿越"
+ },
+ "shift": {
+  "ipa": "[ʃɪft]",
+  "mean": "n.交换，变化，移动，接班者；vt.更替，移转，变声；vi.改变，定责，更衣"
+ },
+ "solve": {
+  "ipa": "[sɒlv]",
+  "mean": "vt. 解决；解答；溶解 vi. 作解答"
+ },
+ "stare": {
+  "ipa": "[steə(r)]",
+  "mean": "vt.凝视，显眼，变硬；vi.凝视；n.凝视"
+ },
+ "steal": {
+  "ipa": "[sti:l]",
+  "mean": "vi.偷，偷偷行动，(棒球等)偷垒；vt.偷，走私，偷垒；n.偷东西，诈取，砍价"
+ },
+ "study": {
+  "ipa": "[ˈstʌdi]",
+  "mean": "vt.学习；研究；细看；vi.读书；n.学习；研究"
+ },
+ "summarize": {
+  "ipa": "[ˈsʌməraɪz]",
+  "mean": "vt.概括，概述，总结"
+ },
+ "supervise": {
+  "ipa": "[ˈsu:pəvaɪz]",
+  "mean": "vt. 监督，管理；指导 vi. 监督，管理；指导"
+ },
+ "test": {
+  "ipa": "[test]",
+  "mean": "n.测试，试验；vt.测试，试验，接受测验；vi.试验；测试"
+ },
+ "touch": {
+  "ipa": "[tʌtʃ]",
+  "mean": "n.触觉，触摸；v.触摸；感动；轻击"
+ },
+ "transport": {
+  "ipa": "[ˈtrænspɔ:t]",
+  "mean": "n.运输、运输工具；(常用复数）强烈的情绪、狂喜或狂怒； vt.运输；流放；为强烈的情绪所激动"
+ },
+ "treat": {
+  "ipa": "[tri:t]",
+  "mean": "n.宴请，款待，请客；vt.视为，对待，论述，治疗，款待；vi.交涉，谈判，协商，款待，作东"
+ },
+ "understand": {
+  "ipa": "[ˌʌndəˈstænd]",
+  "mean": "vt.理解，闻知；vi.理解，相信，表示同情"
+ },
+ "unite": {
+  "ipa": "[juˈnaɪt]",
+  "mean": "vt.(使)联合，(使)团结，(使)统一；(使)接合，(使)混合；vi.团结；联合；混合"
+ },
+ "update": {
+  "ipa": "[ˌʌpˈdeɪt]",
+  "mean": "vt.更新，使现代化，补充最新资料；n.更新"
+ },
+ "vary": {
+  "ipa": "[ˈveəri]",
+  "mean": "vi.变化，有不同；vt.改变，使不同"
+ },
+ "wear": {
+  "ipa": "[weə(r)]",
+  "mean": "vt.穿，戴"
+ },
+ "actually": {
+  "ipa": "[ˈæktʃuəli]",
+  "mean": "adv.实际上，事实上，竟然，居然，如今"
+ },
+ "in other words": {
+  "ipa": "[]",
+  "mean": "换句话说，也就是说"
+ },
+ "yet": {
+  "ipa": "[jet]",
+  "mean": "adv.还，仍然，即刻；conj.尽管，然而"
+ },
+ "after that": {
+  "ipa": "[]",
+  "mean": "然后，从那以后"
+ },
+ "also": {
+  "ipa": "[ˈɔ:lsəʊ]",
+  "mean": "adv.也，亦；并且；同样；而且，还"
+ },
+ "although": {
+  "ipa": "[ɔ:lˈðəu]",
+  "mean": "conj（=though）虽然，即使，纵然，尽管"
+ },
+ "as a result": {
+  "ipa": "[æz ə riˈzʌlt]",
+  "mean": "作为结果；因此"
+ },
+ "at the moment": {
+  "ipa": "[æt ðə ˈməumənt]",
+  "mean": "此刻，现在"
+ },
+ "basically": {
+  "ipa": "[ˈbeɪsɪkli]",
+  "mean": "adv.基本上，从根本上说"
+ },
+ "besides": {
+  "ipa": "[bɪˈsaɪdz]",
+  "mean": "adv.此外；并且；prep.于…之外；除…以外"
+ },
+ "certainly": {
+  "ipa": "[ˈsɜ:tnli]",
+  "mean": "adv.当然，无疑；一定，肯定，必定"
+ },
+ "despite": {
+  "ipa": "[dɪˈspaɪt]",
+  "mean": "n.轻视，憎恨；prep.虽然，尽管"
+ },
+ "especially": {
+  "ipa": "[ɪˈspeʃəli]",
+  "mean": "adv.特别，尤其，格外；专门地，主要地"
+ },
+ "even": {
+  "ipa": "[ˈi:vn]",
+  "mean": "adj.平坦的，偶数的，相等的；adv.甚至，恰好，正当"
+ },
+ "eventually": {
+  "ipa": "[ɪˈventʃuəli]",
+  "mean": "adv.终于，最后"
+ },
+ "first of all": {
+  "ipa": "[fə:st ɔv ɔ:l]",
+  "mean": "首先，第一"
+ },
+ "for example": {
+  "ipa": "[fɔ: iɡˈzɑ:mpl]",
+  "mean": "例如"
+ },
+ "for instance": {
+  "ipa": "[fɔ: ˈinstəns]",
+  "mean": "例如；比如"
+ },
+ "however": {
+  "ipa": "[haʊˈevə(r)]",
+  "mean": "adv.然而；conj.然而，可是，不过"
+ },
+ "in a word": {
+  "ipa": "[in ə wə:d]",
+  "mean": "一句话；简言之"
+ },
+ "in addition": {
+  "ipa": "[ˌinə'diʃən]",
+  "mean": "另外，加之"
+ },
+ "in general": {
+  "ipa": "[in ˈdʒenərəl]",
+  "mean": "大体上；通常，一般说来"
+ },
+ "in that case": {
+  "ipa": "[in ðæt keis]",
+  "mean": "如果那样；在那种情况下"
+ },
+ "in the second place": {
+  "ipa": "[in ðə ˈsekənd pleis]",
+  "mean": "第二，其次"
+ },
+ "instead": {
+  "ipa": "[ɪnˈsted]",
+  "mean": "adv.代替；顶替"
+ },
+ "last but not least": {
+  "ipa": "[lɑ:st bʌt nɔt li:st]",
+  "mean": "最后但并不是最不重要的（一点）"
+ },
+ "like": {
+  "ipa": "[laɪk]",
+  "mean": "vt.喜欢；prep.像，比如；adj.相像的；n.像...一样"
+ },
+ "meanwhile": {
+  "ipa": "[ˈmi:nwaɪl]",
+  "mean": "adv.当时，在那当中；n.其时，其间"
+ },
+ "mainly": {
+  "ipa": "[ˈmeɪnli]",
+  "mean": "adv.主要地，大抵，大概"
+ },
+ "namely": {
+  "ipa": "[ˈneɪmli]",
+  "mean": "adv.即，也就是"
+ },
+ "obviously": {
+  "ipa": "[ˈɒbviəsli]",
+  "mean": "adv.显然；明白地"
+ },
+ "of course": {
+  "ipa": "[əv'kɔ:s]",
+  "mean": "当然；自然；无疑"
+ },
+ "particularly": {
+  "ipa": "[pəˈtɪkjələli]",
+  "mean": "adv.特别地，尤其"
+ },
+ "rather": {
+  "ipa": "[ˈrɑ:ðə(r)]",
+  "mean": "adv.宁愿，宁可；相当"
+ },
+ "such as": {
+  "ipa": "[sʌtʃ æz]",
+  "mean": "例如"
+ },
+ "that is to say": {
+  "ipa": "[ðæt iz tu: sei]",
+  "mean": "就是说，即，换言之"
+ },
+ "what&#39;s more": {
+  "ipa": "[]",
+  "mean": "(常用作插入语)更重要的是，而且"
+ },
+ "whereas": {
+  "ipa": "[ˌweərˈæz]",
+  "mean": "conj.而，却，反之"
+ },
+ "while": {
+  "ipa": "[waɪl]",
+  "mean": "conj.当…的时候；而；虽然；尽管 n.一会儿"
+ }
+}

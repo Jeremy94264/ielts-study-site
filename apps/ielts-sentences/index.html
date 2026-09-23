@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100个句子记完7000个雅思单词 · Sentence 01–10</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>/* 被「我的雅思学习站」以 iframe 嵌入时（?embed=1）隐藏自身品牌区，保留单元导航 */
+if (new URLSearchParams(location.search).get('embed') === '1') document.body.classList.add('embed');</script>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">IELTS</span>
+    <div class="brand-text">
+      <h1>100个句子记完7000个雅思单词</h1>
+      <p>Sentence 01 – 10 &nbsp;·&nbsp; 每句一单元：翻译 / 语法结构 / 重点单词 / 主题单词</p>
+    </div>
+  </div>
+
+  <nav class="unit-nav" aria-label="句子单元选择">
+    <button class="nav-arrow" id="prevUnit" title="上一句（←）">‹</button>
+    <div class="nav-chips" id="unitChips"></div>
+    <button class="nav-arrow" id="nextUnit" title="下一句（→）">›</button>
+  </nav>
+</header>
+
+<main class="stage">
+
+  <!-- ===================== 上半部分：句子块 ===================== -->
+  <section class="sentence-panel" id="sentencePanel">
+    <div class="panel-head">
+      <span class="pill" id="unitLabel">Sentence 01</span>
+      <span class="pill ghost" id="sourceLabel">剑桥雅思9</span>
+      <span class="hint" id="modeHint">点击下方按钮切换学习模式</span>
+    </div>
+    <div class="sentence-block" id="sentenceBlock"></div>
+
+    <!-- 语法结构模式的图例 -->
+    <div class="legend" id="legend" hidden></div>
+  </section>
+
+  <!-- ===================== 中间：4 个按钮 ===================== -->
+  <section class="mode-bar" id="modeBar">
+    <button class="mode-btn" data-mode="translation">
+      <span class="mode-ico">译</span><span class="mode-txt">句子翻译</span>
+    </button>
+    <button class="mode-btn" data-mode="grammar">
+      <span class="mode-ico">法</span><span class="mode-txt">语法结构</span>
+    </button>
+    <button class="mode-btn" data-mode="vocab">
+      <span class="mode-ico">词</span><span class="mode-txt">重点单词</span>
+    </button>
+    <button class="mode-btn" data-mode="theme">
+      <span class="mode-ico">题</span><span class="mode-txt">主题单词</span>
+    </button>
+  </section>
+
+  <!-- ===================== 下半部分：内容块 ===================== -->
+  <section class="content-panel" id="contentPanel">
+    <div class="panel-head content-head">
+      <span class="pill accent" id="contentTitle">内容块</span>
+      <span class="hint" id="contentSub"></span>
+    </div>
+    <div class="content-block" id="contentBlock"></div>
+  </section>
+
+</main>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

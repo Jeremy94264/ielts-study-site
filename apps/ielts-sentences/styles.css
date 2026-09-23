@@ -1,0 +1,331 @@
+/* =====================================================================
+   100个句子记完7000个雅思单词 · 学习页样式
+   ===================================================================== */
+
+:root{
+  --bg:#eef2f7;
+  --panel:#ffffff;
+  --ink:#1e2a3a;
+  --ink-soft:#5b6b80;
+  --ink-faint:#93a1b3;
+  --line:#dde5ee;
+  --accent:#2f6fed;
+  --accent-soft:#e8f0ff;
+  --gold:#e8a33d;
+  --red:#d92d20;
+  --radius:16px;
+  --shadow:0 10px 30px rgba(24,44,74,.08);
+  --shadow-sm:0 2px 10px rgba(24,44,74,.06);
+  --mono:"Cascadia Mono","SF Mono",Consolas,"Courier New",monospace;
+  --sans:"Segoe UI","Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Georgia,"Times New Roman",serif;
+}
+
+*{box-sizing:border-box;}
+/* 关键：类选择器里的 display 会覆盖浏览器默认的 [hidden]{display:none}，
+   因此显式声明，确保 hidden 元素（如荧光笔图例）真正不渲染、不占位 */
+[hidden]{display:none !important;}
+html,body{height:100%;}
+body{
+  margin:0;
+  font-family:var(--sans);
+  color:var(--ink);
+  background:
+    radial-gradient(1200px 500px at 12% -10%, #e3ecff 0%, transparent 60%),
+    radial-gradient(900px 420px at 92% 0%, #fdf0e2 0%, transparent 55%),
+    var(--bg);
+  display:flex; flex-direction:column;
+  min-height:100vh;
+}
+
+/* ---------------- 顶部栏 ---------------- */
+.topbar{
+  flex:0 0 auto;
+  display:flex; flex-wrap:wrap; gap:14px 24px;
+  align-items:center; justify-content:space-between;
+  padding:14px 22px;
+  background:rgba(255,255,255,.86);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  position:sticky; top:0; z-index:30;
+}
+.brand{display:flex; align-items:center; gap:14px; min-width:0;}
+.brand-mark{
+  flex:0 0 auto;
+  font:800 13px/1 var(--sans); letter-spacing:.14em;
+  color:#fff; background:linear-gradient(140deg,#2f6fed,#7a4df0);
+  padding:11px 12px; border-radius:12px;
+  box-shadow:0 6px 16px rgba(47,111,237,.32);
+}
+.brand-text h1{margin:0; font-size:16px; font-weight:700; letter-spacing:.01em;}
+.brand-text p{margin:3px 0 0; font-size:12px; color:var(--ink-faint);}
+
+.unit-nav{display:flex; align-items:center; gap:8px; min-width:0;}
+.nav-chips{display:flex; gap:6px; overflow-x:auto; padding:2px; scrollbar-width:thin;}
+.nav-chips::-webkit-scrollbar{height:5px;}
+.nav-chips::-webkit-scrollbar-thumb{background:#c9d6e6; border-radius:9px;}
+.chip{
+  flex:0 0 auto; cursor:pointer; border:1px solid var(--line); background:#fff;
+  color:var(--ink-soft); font:600 12.5px/1 var(--sans);
+  padding:8px 11px; border-radius:10px; transition:.16s;
+}
+.chip:hover{border-color:#b9cdf0; color:var(--accent); transform:translateY(-1px);}
+.chip.on{background:var(--accent); border-color:var(--accent); color:#fff; box-shadow:0 5px 14px rgba(47,111,237,.3);}
+.nav-arrow{
+  flex:0 0 auto; cursor:pointer; width:34px; height:34px; border-radius:10px;
+  border:1px solid var(--line); background:#fff; color:var(--ink-soft);
+  font:600 19px/1 var(--sans); transition:.16s;
+}
+.nav-arrow:hover{background:var(--accent-soft); border-color:#b9cdf0; color:var(--accent);}
+/* 每 10 句一组的组号标记 */
+.chip-group{
+  flex:0 0 auto; align-self:center;
+  font:700 10.5px/1 var(--mono); letter-spacing:.06em;
+  color:var(--ink-faint); background:#f2f6fb;
+  padding:5px 6px; border-radius:7px; user-select:none;
+}
+
+/* ---------------- 主舞台 ---------------- */
+.stage{
+  flex:1 1 auto; min-height:0;
+  width:min(1180px,100%); margin:0 auto; padding:12px 22px 14px;
+  display:grid;
+  /* 句子块限高在视口的 32%，剩余空间全部留给内容块 */
+  grid-template-rows:minmax(116px,32vh) auto minmax(240px,1fr);
+  gap:10px;
+}
+
+/* ---------------- 面板通用 ---------------- */
+.sentence-panel,.content-panel{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+  box-shadow:var(--shadow); display:flex; flex-direction:column; min-height:0; overflow:hidden;
+}
+.content-panel{min-height:0;}
+.panel-head{
+  flex:0 0 auto; display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  padding:8px 14px; border-bottom:1px dashed var(--line);
+}
+.pill{
+  font:700 12px/1 var(--sans); letter-spacing:.04em;
+  padding:6px 10px; border-radius:999px; background:var(--accent-soft); color:var(--accent);
+}
+.pill.ghost{background:#f4f7fb; color:var(--ink-soft);}
+.pill.accent{background:linear-gradient(120deg,#2f6fed,#7a4df0); color:#fff;}
+.hint{font-size:12px; color:var(--ink-faint); margin-left:auto;}
+
+/* ---------------- 句子块 ---------------- */
+.sentence-block{
+  flex:1 1 auto; min-height:0; overflow:auto;
+  padding:18px clamp(16px,3.4vw,44px);
+  display:flex; align-items:center; justify-content:center;
+}
+.sentence-text{
+  font-family:var(--serif);
+  font-size:clamp(19px,2.1vw,29px);
+  line-height:1.95; text-align:center; max-width:960px;
+  letter-spacing:.005em;
+  transition:opacity .18s ease;
+}
+/* 各模式下的句子样式差异 */
+.sentence-text.mode-translation{font-size:clamp(18px,1.95vw,26px); color:#22354d;}
+.sentence-text.mode-grammar{text-align:left; font-size:clamp(18px,1.9vw,26px); line-height:2.5;}
+.sentence-text.mode-vocab{font-size:clamp(18px,1.95vw,26px);}
+.sentence-text.mode-theme{font-size:clamp(18px,1.95vw,26px); color:#2b3d55;}
+
+.seg{padding:2px 1px; border-radius:4px; transition:background .2s;}
+.seg.plain{background:transparent;}
+
+/* 语法荧光笔 */
+.hl{
+  border-radius:6px; padding:.08em .3em; margin:0 .08em;
+  box-decoration-break:clone; -webkit-box-decoration-break:clone;
+  transition:filter .16s, transform .16s;
+}
+.hl:hover{filter:saturate(1.35) brightness(.97);}
+
+/* 重点单词：红色下划线 */
+.word{cursor:default; border-radius:4px; padding:.02em .06em; transition:background .14s;}
+.word.key{
+  cursor:pointer;
+  color:var(--red);
+  border-bottom:2px solid var(--red);
+  font-weight:700;
+}
+.word.key:hover{background:#fff2f0;}
+.word.key.active{background:#ffe4e1; box-shadow:0 0 0 2px #ffd3ce inset;}
+.word.filler{color:#8f9db0;}
+
+/* 图例 */
+.legend{
+  flex:0 0 auto; display:flex; flex-wrap:wrap; gap:6px 10px;
+  padding:8px 14px 10px; border-top:1px dashed var(--line);
+  background:#fbfdff; max-height:84px; overflow:auto;
+}
+.legend-item{display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--ink-soft);}
+.swatch{width:14px; height:14px; border-radius:4px; border:1px solid rgba(0,0,0,.09);}
+.legend-note{font-size:12px; color:var(--ink-faint); margin-right:auto;}
+
+/* ---------------- 中间四个按钮 ---------------- */
+.mode-bar{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:12px;
+}
+.mode-btn{
+  cursor:pointer; position:relative;
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  padding:14px 12px; border-radius:14px;
+  border:1px solid var(--line); background:#fff; color:var(--ink);
+  font:700 15px/1 var(--sans); letter-spacing:.03em;
+  box-shadow:var(--shadow-sm); transition:.18s;
+}
+.mode-btn:hover{transform:translateY(-2px); border-color:#b9cdf0; box-shadow:0 10px 22px rgba(47,111,237,.16);}
+.mode-btn:active{transform:translateY(0);}
+.mode-ico{
+  display:grid; place-items:center; width:26px; height:26px; border-radius:8px;
+  background:#f1f5fb; color:var(--ink-soft); font:700 13px/1 var(--sans); transition:.18s;
+}
+.mode-btn.on{
+  background:linear-gradient(135deg,#2f6fed,#7a4df0); border-color:transparent; color:#fff;
+  box-shadow:0 12px 26px rgba(60,90,220,.32);
+}
+.mode-btn.on .mode-ico{background:rgba(255,255,255,.22); color:#fff;}
+.mode-btn.on::after{
+  content:""; position:absolute; left:50%; top:-6px; width:9px; height:9px;
+  border-radius:2px; background:linear-gradient(135deg,#2f6fed,#7a4df0);
+  transform:translateX(-50%) rotate(45deg);
+}
+
+/* ---------------- 内容块 ---------------- */
+.content-block{
+  flex:1 1 auto; min-height:0; overflow:auto;
+  padding:16px 20px 22px;
+}
+.content-block::-webkit-scrollbar{width:9px;}
+.content-block::-webkit-scrollbar-thumb{background:#cfdcec; border-radius:9px;}
+.content-block::-webkit-scrollbar-track{background:transparent;}
+
+/* 空状态 */
+.empty{
+  height:100%; min-height:130px; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; gap:8px; text-align:center;
+  color:var(--ink-faint); font-size:13.5px;
+}
+.empty b{color:var(--ink-soft); font-size:14px;}
+.empty .big{font-size:34px; opacity:.5;}
+
+/* 翻译 */
+.trans-card{max-width:900px; margin:0 auto; display:grid; gap:14px;}
+.trans-label{
+  font:700 12px/1 var(--sans); letter-spacing:.12em; color:var(--ink-faint);
+  text-transform:uppercase;
+}
+.trans-cn{
+  font-size:clamp(17px,1.7vw,22px); line-height:1.9; color:#22354d;
+  padding:18px 22px; border-radius:14px;
+  background:linear-gradient(180deg,#f7faff,#eff5ff);
+  border:1px solid #e2ecfb; border-left:5px solid var(--accent);
+}
+
+/* 语法结构 */
+.grammar-wrap{display:grid; gap:16px;}
+.grammar-note{
+  padding:16px 18px; border-radius:14px; background:#fffdf5;
+  border:1px solid #f4e6c4; border-left:5px solid var(--gold);
+  font-size:15px; line-height:1.95; color:#5a4620;
+}
+.grammar-note .t{font:700 12px/1 var(--sans); letter-spacing:.1em; color:#b5852c; display:block; margin-bottom:8px;}
+.struct-list{display:grid; gap:9px;}
+.struct-row{
+  display:grid; grid-template-columns:minmax(96px,150px) 1fr; gap:12px; align-items:start;
+  padding:11px 14px; border-radius:12px; background:#f8fafd; border:1px solid #e8eff8;
+}
+.struct-tag{
+  display:inline-block; font:700 12px/1.4 var(--sans);
+  padding:5px 9px; border-radius:8px; color:#3a4b60;
+}
+.struct-text{font-family:var(--serif); font-size:15.5px; line-height:1.7; color:#22354d;}
+
+/* 重点单词 */
+.vocab-wrap{display:grid; gap:14px;}
+.vocab-strip{display:flex; flex-wrap:wrap; gap:8px;}
+.word-chip{
+  cursor:pointer; border:1px solid #ffd9d4; background:#fff8f7; color:var(--red);
+  font:700 13.5px/1 var(--sans); padding:9px 12px; border-radius:10px; transition:.16s;
+}
+.word-chip:hover{background:#ffeceb; transform:translateY(-1px);}
+.word-chip.active{background:var(--red); border-color:var(--red); color:#fff; box-shadow:0 8px 18px rgba(217,45,32,.28);}
+
+.detail-card{
+  border:1px solid #ffd9d4; border-radius:14px; background:#fffdfd; overflow:hidden;
+  box-shadow:0 8px 22px rgba(217,45,32,.07);
+}
+.detail-head{
+  padding:14px 18px; background:linear-gradient(120deg,#fff5f4,#fff);
+  border-bottom:1px dashed #ffd9d4; display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+}
+.detail-word{font:800 24px/1.2 var(--serif); color:var(--red); letter-spacing:.01em;}
+.detail-ph{font-family:var(--mono); font-size:14px; color:var(--ink-soft);}
+.detail-body{padding:14px 18px 18px; display:grid; gap:10px;}
+.detail-pos{font-size:15.5px; line-height:1.8; color:#20344c;}
+.extra{display:grid; grid-template-columns:auto 1fr; gap:8px 12px; align-items:baseline;}
+.extra-k{
+  font:700 11.5px/1.6 var(--sans); letter-spacing:.06em; color:#8a5a12;
+  background:#fdf3df; border:1px solid #f3e2bd; padding:3px 8px; border-radius:7px; white-space:nowrap;
+}
+.extra-v{font-size:14.5px; line-height:1.75; color:#33475e;}
+
+/* 主题单词 */
+.theme-wrap{display:grid; gap:14px;}
+.theme-tabs{display:flex; flex-wrap:wrap; gap:8px;}
+.theme-tab{
+  cursor:pointer; border:1px solid var(--line); background:#fff; color:var(--ink-soft);
+  font:700 13px/1 var(--sans); padding:10px 13px; border-radius:11px; transition:.16s;
+  display:inline-flex; align-items:center; gap:8px;
+}
+.theme-tab:hover{border-color:#b9cdf0; color:var(--accent); transform:translateY(-1px);}
+.theme-tab.on{background:linear-gradient(135deg,#2f6fed,#7a4df0); border-color:transparent; color:#fff; box-shadow:0 8px 18px rgba(60,90,220,.26);}
+.theme-tab .n{
+  font:700 11px/1 var(--mono); padding:3px 6px; border-radius:6px;
+  background:#f1f5fb; color:var(--ink-faint);
+}
+.theme-tab.on .n{background:rgba(255,255,255,.24); color:#fff;}
+
+.word-grid{
+  display:grid; gap:10px;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+}
+.word-card{
+  border:1px solid #e6edf7; border-radius:12px; background:#fbfdff; padding:12px 14px;
+  display:grid; gap:6px; transition:.16s;
+}
+.word-card:hover{border-color:#c8daf5; background:#f7fbff; transform:translateY(-1px); box-shadow:0 8px 18px rgba(24,44,74,.06);}
+.wc-top{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;}
+.wc-word{font:700 15.5px/1.3 var(--serif); color:#1d3352;}
+.wc-ph{font-family:var(--mono); font-size:12px; color:var(--ink-faint);}
+.wc-pos{font-size:13.5px; line-height:1.7; color:#42566f;}
+.wc-extra{font-size:12.5px; line-height:1.65; color:#6c8098;}
+.wc-extra .k{font-weight:700; color:#8a5a12;}
+
+.section-title{
+  display:flex; align-items:center; gap:10px;
+  font:700 14px/1 var(--sans); color:var(--ink); margin:2px 0 2px;
+}
+.section-title .bar{width:4px; height:15px; border-radius:3px; background:linear-gradient(#2f6fed,#7a4df0);}
+
+/* 响应式 */
+@media (max-width:820px){
+  .stage{padding:9px 10px 11px; gap:9px; grid-template-rows:minmax(104px,28vh) auto minmax(200px,1fr);}
+  .mode-bar{grid-template-columns:repeat(2,1fr);}
+  .mode-btn{padding:11px 10px; font-size:14px;}
+  .sentence-block{padding:14px 12px;}
+  .content-block{padding:12px 14px 16px;}
+  .panel-head{padding:7px 12px;}
+  .hint{display:none;}
+  .struct-row{grid-template-columns:1fr;}
+}
+
+/* ================= 嵌入「我的雅思学习站」时（?embed=1） =================
+ * 隐藏本模块自己的品牌区，只保留句子单元导航（‹ 1 2 3 … ›）。
+ * 直接双击打开 ielts-sentences/index.html 时不受影响（无 embed 参数）。 */
+body.embed .topbar{padding:9px 14px; justify-content:flex-start;}
+body.embed .brand{display:none;}
+body.embed .stage{padding-top:8px;}

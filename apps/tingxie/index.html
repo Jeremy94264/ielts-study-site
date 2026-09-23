@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>雅思听力语料库 · 听写训练营</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script>/* 被「我的雅思学习站」以 iframe 嵌入时（?embed=1）隐藏自身品牌栏，保留功能按钮 */
+if (new URLSearchParams(location.search).get('embed') === '1') document.body.classList.add('embed');</script>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-logo">听写</span>
+      <span class="brand-name">雅思王听力语料库 · 听写训练营</span>
+    </div>
+    <button class="ghost-btn" id="btn-help" title="快捷键说明">⌨️ 快捷键</button>
+  </div>
+</header>
+
+<main>
+  <!-- ============ 设置页 ============ -->
+  <section id="view-setup" class="view active">
+    <div class="setup-wrap">
+
+      <div class="panel">
+        <div class="panel-title">1 · 选择 Test Paper</div>
+        <div class="paper-grid" id="paper-grid"></div>
+        <div class="paper-actions">
+          <button class="mini-btn" id="btn-all-papers">全选</button>
+          <button class="mini-btn" id="btn-clear-papers">清空</button>
+          <span class="paper-summary" id="paper-summary">已选 0 个 Test Paper · 0 个单词</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">2 · 每次听写单词数 <span class="hint">（整十递增）</span></div>
+        <div class="count-row">
+          <button class="step-btn" id="btn-count-minus" title="减少 10">−</button>
+          <div class="count-display"><span id="count-value">30</span><small>词 / 组</small></div>
+          <button class="step-btn" id="btn-count-plus" title="增加 10">＋</button>
+        </div>
+        <div class="count-presets" id="count-presets"></div>
+        <div class="count-note" id="count-note"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">3 · 出题方式</div>
+        <div class="mode-choices">
+          <label class="choice active" data-mode="smart">
+            <input type="radio" name="mode" value="smart" checked>
+            <span class="choice-name">🧠 智能复习</span>
+            <span class="choice-desc">按正确率与熟练度安排顺序：到期的先考、错得多的优先、不熟的权重高</span>
+          </label>
+          <label class="choice" data-mode="weak">
+            <input type="radio" name="mode" value="weak">
+            <span class="choice-name">🎯 只练不熟的</span>
+            <span class="choice-desc">跳过已熟练的词，只抽正确率低、刚学过的词</span>
+          </label>
+          <label class="choice" data-mode="new">
+            <input type="radio" name="mode" value="new">
+            <span class="choice-name">✨ 只学新词</span>
+            <span class="choice-desc">只抽从来没听写过的词</span>
+          </label>
+          <label class="choice" data-mode="order">
+            <input type="radio" name="mode" value="order">
+            <span class="choice-name">📖 按书顺序</span>
+            <span class="choice-desc">不按算法，严格按语料库原书顺序</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">4 · 朗读设置</div>
+        <div class="setting-row">
+          <label class="switch"><input type="checkbox" id="opt-auto" checked><span></span> 自动朗读</label>
+          <label class="switch"><input type="checkbox" id="opt-repeat" checked><span></span> 答错后自动重读</label>
+          <label class="switch"><input type="checkbox" id="opt-accents"><span></span> 英美双音（先英后美）</label>
+        </div>
+        <div class="setting-row">
+          <label class="slider-label">语速 <b id="rate-label">0.9×</b>
+            <input type="range" id="opt-rate" min="0.5" max="1.3" step="0.05" value="0.9">
+          </label>
+          <label class="slider-label">音量 <b id="vol-label">100%</b>
+            <input type="range" id="opt-vol" min="0" max="1" step="0.05" value="1">
+          </label>
+        </div>
+        <div class="setting-row voice-row">
+          <label class="slider-label">发音人
+            <select id="opt-voice"></select>
+          </label>
+          <button class="mini-btn" id="btn-test-voice">🔊 试听</button>
+        </div>
+      </div>
+
+      <div class="start-row">
+        <div class="overview" id="overview"></div>
+        <button class="primary-btn" id="btn-start">开始听写 &nbsp;⏎</button>
+      </div>
+
+      <div class="link-row">
+        <button class="link-btn accent" id="btn-exam">📝 拼写小测</button>
+        <button class="link-btn" id="btn-browse">📚 查看词表（核对提取结果）</button>
+        <button class="link-btn danger" id="btn-reset">♻️ 清空全部学习进度</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 听写页 ============ -->
+  <section id="view-practice" class="view">
+    <div class="practice-wrap">
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+      <div class="practice-top">
+        <span id="session-label">—</span>
+        <span id="session-pos">0 / 0</span>
+      </div>
+
+      <div class="speaker-zone">
+        <button class="speaker-btn" id="btn-play" title="朗读（空格）">
+          <span class="speaker-icon">🔊</span>
+          <span class="speaker-text">空格键 重听</span>
+        </button>
+        <div class="speaker-sub" id="speaker-sub">按 Enter 提交答案</div>
+      </div>
+
+      <div class="input-zone">
+        <input type="text" id="answer-input" class="answer-input"
+               placeholder="听到什么就拼什么…" autocomplete="off" autocorrect="off"
+               autocapitalize="off" spellcheck="false">
+      </div>
+
+      <div class="feedback" id="feedback"></div>
+
+      <div class="practice-actions" id="practice-actions">
+        <button class="ghost-btn small" id="btn-giveup" title="不会，直接看答案（Ctrl+Enter）">👀 不会，看答案</button>
+        <button class="ghost-btn small" id="btn-skip" title="不会，跳过并看答案；本题按错误处理（Tab）">⏭ 不会，跳过</button>
+        <button class="ghost-btn small" id="btn-end" title="结束本组">⏹ 结束本组</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 结果页 ============ -->
+  <section id="view-summary" class="view">
+    <div class="summary-wrap">
+      <div class="summary-hero">
+        <div class="hero-icon" id="summary-icon">🎉</div>
+        <div class="hero-score" id="summary-score">0%</div>
+        <div class="hero-sub" id="summary-sub">—</div>
+      </div>
+      <div class="summary-stats" id="summary-stats"></div>
+      <div class="summary-list-title">本组明细</div>
+      <div class="summary-list" id="summary-list"></div>
+      <div class="summary-actions">
+        <button class="primary-btn" id="btn-again">再来一组 ⏎</button>
+        <button class="ghost-btn" id="btn-back">返回设置</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 词表页 ============ -->
+  <section id="view-browse" class="view">
+    <div class="browse-wrap">
+      <div class="browse-toolbar">
+        <select id="browse-paper"></select>
+        <select id="browse-sort" title="排序方式">
+          <option value="alpha">🔤 字母顺序</option>
+          <option value="prof-desc">📈 熟练度 高 → 低</option>
+          <option value="prof-asc">📉 熟练度 低 → 高</option>
+        </select>
+        <input type="text" id="browse-search" placeholder="🔍 搜索单词…">
+        <button class="ghost-btn small" id="btn-browse-back">返回</button>
+      </div>
+      <div class="browse-note">
+        词表由扫描版 PDF 经 OCR 提取并清理；生僻复数已自动回退到单数形式的释义。
+        标注「补充」的释义不在公开词表内、由人工补充，欢迎核对。
+      </div>
+      <div class="browse-list" id="browse-list"></div>
+    </div>
+  </section>
+
+  <!-- ============ 拼写小测：选择 Test Paper ============ -->
+  <section id="view-exam" class="view">
+    <div class="exam-wrap">
+      <div class="exam-intro">
+        <h2>📝 拼写小测</h2>
+        <p>
+          每次选 <b>一个 Test Paper</b>，测完该篇<b>全部单词</b>。<br>
+          拼错或跳过的词<b>不会在本轮重复出现</b>，会记入错题本并降低熟练度。
+        </p>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">选择要测验的 Test Paper</div>
+        <div class="exam-grid" id="exam-grid"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">出题顺序</div>
+        <div class="setting-row">
+          <label class="switch"><input type="checkbox" id="exam-shuffle" checked><span></span> 打乱顺序</label>
+          <label class="switch"><input type="checkbox" id="exam-feedback" checked><span></span> 每答完立即显示对错</label>
+          <label class="switch"><input type="checkbox" id="exam-skipleak"><span></span> 允许跳过（跳过的也算错题）</label>
+        </div>
+      </div>
+
+      <div class="exam-history-entry">
+        <button class="ghost-btn" id="btn-exam-history">📈 查看测验记录与正确率曲线</button>
+        <button class="ghost-btn" id="btn-mistakes">📕 错题本 <b id="mistake-badge">0</b></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 拼写小测：本轮结果 ============ -->
+  <section id="view-examdone" class="view">
+    <div class="summary-wrap">
+      <div class="summary-hero">
+        <div class="hero-icon" id="examdone-icon">🎉</div>
+        <div class="hero-score" id="examdone-score">0%</div>
+        <div class="hero-sub" id="examdone-sub">—</div>
+      </div>
+
+      <div class="summary-stats" id="examdone-stats"></div>
+
+      <div class="examdone-compare panel" id="examdone-compare"></div>
+
+      <div class="summary-list-title" id="examdone-list-title">本轮错题</div>
+      <div class="summary-list" id="examdone-list"></div>
+
+      <div class="summary-actions">
+        <button class="primary-btn" id="btn-exam-again">再测一次 ⏎</button>
+        <button class="ghost-btn" id="btn-exam-history2">📈 记录与曲线</button>
+        <button class="ghost-btn" id="btn-exam-back">返回设置</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 拼写小测：记录与正确率曲线 ============ -->
+  <section id="view-examlog" class="view">
+    <div class="examlog-wrap">
+      <div class="browse-toolbar">
+        <select id="log-paper">
+          <option value="">全部 Test Paper</option>
+        </select>
+        <span class="log-stat" id="log-stat"></span>
+        <button class="ghost-btn small" id="btn-log-back">返回</button>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">正确率变化曲线</div>
+        <div class="chart-host" id="chart-host"></div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">测验记录 <span class="hint" id="log-count"></span></div>
+        <div class="log-list" id="log-list"></div>
+        <div class="log-actions">
+          <button class="link-btn danger" id="btn-log-clear">清空测验记录</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 错题本 ============ -->
+  <section id="view-mistakes" class="view">
+    <div class="examlog-wrap">
+      <div class="browse-toolbar">
+        <select id="mk-paper"></select>
+        <label class="switch"><input type="checkbox" id="mk-onlyopen" checked><span></span> 只看未订正</label>
+        <button class="ghost-btn small primary-lite" id="btn-mk-practice">🎧 练习这些错词</button>
+        <button class="ghost-btn small" id="btn-mk-back">返回</button>
+      </div>
+      <div class="browse-note">
+        拼错和跳过的词都会进这里，熟练度同时降一级。在「练习这些错词」里答对即视为订正。
+      </div>
+      <div class="mistake-list" id="mistake-list"></div>
+    </div>
+  </section>
+</main>
+
+<!-- 快捷键面板 -->
+<div class="modal-mask" id="modal-help">
+  <div class="modal">
+    <div class="modal-title">⌨️ 快捷键</div>
+    <table class="keys">
+      <tr><td><kbd>空格</kbd></td><td>重听当前单词</td></tr>
+      <tr><td><kbd>Enter</kbd></td><td>提交答案；判分后再按一次进入下一个单词</td></tr>
+      <tr><td><kbd>Ctrl</kbd>+<kbd>Enter</kbd></td><td>不会，直接看答案（按错误处理）</td></tr>
+      <tr><td><kbd>Tab</kbd></td><td>不会，跳过；显示答案并按<b>错误</b>处理，稍后重考</td></tr>
+      <tr><td><kbd>1</kbd></td><td>判对（答案被误判为错时）</td></tr>
+      <tr><td><kbd>2</kbd></td><td>判错（自己知道拼错了）</td></tr>
+      <tr><td><kbd>3</kbd></td><td>标记「太简单」· 直接跳到熟练</td></tr>
+      <tr><td><kbd>Esc</kbd></td><td>结束本组</td></tr>
+      <tr><td><kbd>↑</kbd> / <kbd>↓</kbd></td><td>调整语速</td></tr>
+      <tr><td><kbd>?</kbd></td><td>打开 / 关闭本说明</td></tr>
+    </table>
+    <button class="primary-btn" id="btn-help-close">知道了</button>
+  </div>
+</div>
+
+<script src="data/paper1.js"></script>
+<script src="data/paper2.js"></script>
+<script src="data/paper3.js"></script>
+<script src="data/paper4.js"></script>
+<script src="data/paper5.js"></script>
+<script src="data/paper6.js"></script>
+<script src="data/paper7.js"></script>
+<script src="data/paper8.js"></script>
+<script src="data/paper9.js"></script>
+<script src="js/srs.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/exam.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

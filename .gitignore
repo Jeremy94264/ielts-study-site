@@ -1,0 +1,32 @@
+# ============================================================
+# 我的雅思学习站 · git 忽略规则
+# ============================================================
+
+# ---- 版权资料：不纳入版本库 ----
+# materials/pdf/ 下为商业雅思教材的电子版/扫描件，仅供本地个人学习。
+# 公开仓库传播会涉及版权问题（可能被 DMCA 下架），因此默认不提交。
+# 如需在私有仓库中保留，可执行： git add -f materials/pdf/xxx.pdf
+materials/pdf/*.pdf
+
+# 由上述 PDF 生成的页面扫描图（版权内容的图像形式，且体积大）
+tools/extraction/pdf_pages_hi/
+
+# ---- 大体积中间产物（可由脚本重新生成）----
+tools/kaodianciku_full_decoded.txt
+tools/kaodianciku_text.txt
+
+# ---- 本机环境文件（与项目无关）----
+dsh-web-restart*
+restart-dsh-web.cmd
+
+# ---- 通用忽略 ----
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.obsidian/
+*.log
+~$*

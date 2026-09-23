@@ -1,0 +1,38 @@
+{
+ "1": {
+  "count": 110,
+  "file": "paper1.js"
+ },
+ "2": {
+  "count": 140,
+  "file": "paper2.js"
+ },
+ "3": {
+  "count": 113,
+  "file": "paper3.js"
+ },
+ "4": {
+  "count": 111,
+  "file": "paper4.js"
+ },
+ "5": {
+  "count": 143,
+  "file": "paper5.js"
+ },
+ "6": {
+  "count": 111,
+  "file": "paper6.js"
+ },
+ "7": {
+  "count": 101,
+  "file": "paper7.js"
+ },
+ "8": {
+  "count": 146,
+  "file": "paper8.js"
+ },
+ "9": {
+  "count": 139,
+  "file": "paper9.js"
+ }
+}
