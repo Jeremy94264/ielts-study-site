@@ -221,7 +221,10 @@ index.html  ← 站点外壳：七大模块导航 + 模块路由（地址栏 #�
   - `ielts_scope_v1` — 上次选择的复习范围
   - `ielts_sort_v1` — 词汇表排序方式
   - （听力模块的听写进度由 `apps/tingxie/` 应用自行管理）
-- 目录结构见上文「模块结构 → 目录结构」；测试运行方式：`node tools/test_words.js`（74 项）
+- 目录结构见上文「模块结构 → 目录结构」
+- 自动化脚本（均可在项目根目录或其他目录直接运行，路径自动解析）：
+  - `node tools/test_words.js` — 单词模块功能测试（74 项：SRS 调度、星级换算、三色进度、排序筛选、发音、模块路由等）
+  - `node tools/check_pages.js` — 上线前检查（12 项：HTML 标签配平、**站内引用大小写**、Pages 必备条件、域名无关性、在线/本地模式判定）
 - 子应用的内嵌协议：`?embed=1` 使子应用隐藏自身品牌栏（详见各自 README）
 
 ## 学习记录的存储与跨设备同步
@@ -278,17 +281,23 @@ copy(JSON.stringify(Object.fromEntries(
 
 ## 上传到 GitHub
 
-本仓库已推送到私有仓库：**https://github.com/Jeremy94264/ielts-study-site**（分支 `main`）。
+代码仓库：**https://github.com/Jeremy94264/ielts-study-site**（分支 `main`，当前为**公开**仓库）
+在线站点：**https://jeremy94264.github.io/ielts-study-site/**（GitHub Pages，由 `main` 分支根目录发布）
 
 ### 将来更新时的推送命令
 
 ```powershell
-cd "D:\Deepseek Harness Workspace\ielts-study-site"
-$env:GIT_SSH = 'C:\Windows\System32\OpenSSH\ssh.exe'   # 必须：本机需绕过 git 自带的 sh
+cd <项目根目录>
+git pull --rebase                                      # 重要：先同步远端（多环境协作必做）
+$env:GIT_SSH = 'C:\Windows\System32\OpenSSH\ssh.exe'   # 仅本机受限环境需要，见下方说明
 git add -A
 git commit -m "更新说明"
 git push
 ```
+
+> ⚠️ **多环境协作提醒**：本项目在不止一个环境里被编辑过（不同 git 身份 / 不同路径）。
+> 任何一处开工前先 `git pull`，提交推送前再 `git pull --rebase` 一次，
+> 否则会出现"远端领先本地若干提交、本地推送被拒（non-fast-forward）"的分叉。
 
 ### 本机网络环境说明
 
