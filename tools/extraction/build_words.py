@@ -2,8 +2,10 @@ import json, re, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gloss
 
-OCR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ocr_out")
-QSD = json.load(open(r"D:\dsh workspace\tools\extraction\qs_dict.json", encoding="utf-8"))
+# 输入与输出都按本脚本所在位置解析，避免写死机器上的绝对路径
+HERE = os.path.dirname(os.path.abspath(__file__))
+OCR = os.path.join(HERE, "ocr_out")
+QSD = json.load(open(os.path.join(HERE, "qs_dict.json"), encoding="utf-8"))
 BY_LOWER = gloss.build_index(QSD)
 
 TP_START = {1:1, 4:2, 8:3, 11:4, 14:5, 18:6, 21:7, 24:8, 28:9}
@@ -117,6 +119,6 @@ qs_union = set(w.lower() for w in QSD)
 mine = set(e["w"].lower() for tp in final for e in final[tp])
 print(f"\nwords also found in published word list: {len(mine & qs_union)}/{len(mine)}")
 
-json.dump(final, open(r"D:\dsh workspace\tools\extraction\words_by_paper.json", "w", encoding="utf-8"),
+json.dump(final, open(os.path.join(HERE, "words_by_paper.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=1)
 print("saved words_by_paper.json")

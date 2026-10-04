@@ -3,7 +3,10 @@
  */
 const fs = require('fs');
 const vm = require('vm');
-const BASE = 'D:/dsh workspace';
+const path = require('path');
+/* 以本文件所在目录为基准定位项目根目录：
+   无论从哪个工作目录执行、项目被放在哪台机器的哪个路径下都能直接跑 */
+const BASE = path.resolve(__dirname, '..');
 
 class FakeClassList {
   constructor() { this.set = new Set(); this.log = []; }

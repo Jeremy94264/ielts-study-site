@@ -2,7 +2,8 @@ import urllib.request, re, json, time, os
 
 BASE = "http://book.qsbdc.com/word_list.php"
 BOOK = 1787
-OUT = r"D:\dsh workspace\tools\extraction\qs_groups.json"
+# 输出路径按本脚本所在位置解析，避免写死机器上的绝对路径
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "qs_groups.json")
 
 def get(url, tries=3):
     for t in range(tries):

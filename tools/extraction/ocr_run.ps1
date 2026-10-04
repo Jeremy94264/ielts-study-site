@@ -1,10 +1,14 @@
 param(
-  [string]$ImageDir = "D:\dsh workspace\tools\extraction\pdf_pages_hi",
-  [string]$OutDir   = "D:\dsh workspace\tools\extraction\ocr_out",
+  [string]$ImageDir,
+  [string]$OutDir,
   [string]$Lang     = "en-US"
 )
 
 $ErrorActionPreference = 'Stop'
+
+# 默认目录按本脚本所在位置解析，避免写死机器上的绝对路径；仍可用 -ImageDir / -OutDir 覆盖
+if (-not $ImageDir) { $ImageDir = Join-Path $PSScriptRoot 'pdf_pages_hi' }
+if (-not $OutDir)   { $OutDir   = Join-Path $PSScriptRoot 'ocr_out' }
 
 # ---------- WinRT async helper ----------
 Add-Type -AssemblyName System.Runtime.WindowsRuntime

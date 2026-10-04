@@ -23,7 +23,8 @@ start index.html
 或启动本地服务器（**推荐**，内嵌的子应用加载更稳定）：
 
 ```
-python -m http.server 8080 --directory "D:\dsh workspace"
+# 在项目根目录执行
+python -m http.server 8080
 # 浏览器访问 http://127.0.0.1:8080/
 ```
 
@@ -45,7 +46,7 @@ index.html  ← 站点外壳：七大模块导航 + 模块路由（地址栏 #�
 ### 目录结构
 
 ```
-D:\dsh workspace\
+<项目根目录>\
 ├── index.html              站点入口（七大模块外壳）
 ├── README.md               本说明
 ├── css/style.css           外壳样式
@@ -282,7 +283,7 @@ copy(JSON.stringify(Object.fromEntries(
 ### 将来更新时的推送命令
 
 ```powershell
-cd "D:\dsh workspace"
+cd "D:\Deepseek Harness Workspace\ielts-study-site"
 $env:GIT_SSH = 'C:\Windows\System32\OpenSSH\ssh.exe'   # 必须：本机需绕过 git 自带的 sh
 git add -A
 git commit -m "更新说明"
