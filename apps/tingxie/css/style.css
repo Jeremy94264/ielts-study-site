@@ -194,6 +194,51 @@ main { max-width: 1180px; margin: 0 auto; padding: 24px 20px 60px; }
 }
 .panel-title .hint { font-weight: 400; color: var(--text-mute); font-size: 12.5px; }
 
+/* 章节标签（Chapter 选择） */
+.chapter-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.chapter-tab {
+  flex: 1 1 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+  background: var(--bg-soft);
+  border: 1.5px solid var(--line);
+  border-radius: 11px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text-dim);
+  transition: .15s;
+}
+.chapter-tab:hover { border-color: var(--brand); transform: translateY(-1px); }
+.chapter-tab.active {
+  border-color: var(--brand);
+  background: linear-gradient(160deg, rgba(79, 110, 247, .12), rgba(79, 110, 247, .03));
+  color: var(--text);
+}
+.chapter-tab b { font-size: 14px; font-weight: 700; }
+.chapter-tab .ct-desc { font-size: 11.5px; color: var(--text-mute); }
+.chapter-tab .ct-sel { font-size: 11.5px; font-weight: 600; color: var(--brand); }
+
+/* 试卷卡片上的「不完整」徽标（如 Chapter 4 副词部分本 PDF 只含首页） */
+.pc-warn {
+  font-style: normal;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #a86400;
+  background: #fff7e6;
+  border: 1px solid #ffe0a3;
+  border-radius: 999px;
+  padding: 1px 6px;
+  margin-left: 6px;
+}
+
 /* Test Paper 卡片 */
 .paper-grid {
   display: grid;

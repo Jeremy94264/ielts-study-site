@@ -1,0 +1,1719 @@
+{
+ "10": [
+  {
+   "w": "abnormal",
+   "m": "adj.反常的，不正常的，不规则的",
+   "ipa": "[æbˈnɔ:ml]"
+  },
+  {
+   "w": "academic",
+   "m": "adj.专科院校的，研究院的，学会的；学术的，理论的",
+   "ipa": "[ˌækəˈdemɪk]"
+  },
+  {
+   "w": "accessible",
+   "m": "adj.易于得到的，易于进入的，可处理的，可存取的",
+   "ipa": "[əkˈsesəbl]"
+  },
+  {
+   "w": "accountable",
+   "m": "a.负有责任的",
+   "ipa": "[ə'kauntəbəl]"
+  },
+  {
+   "w": "accurate",
+   "m": "adj.正确无误的；准确的，精确的",
+   "ipa": "[ˈækjərət]"
+  },
+  {
+   "w": "additional",
+   "m": "adj.添加的，额外的，另外的",
+   "ipa": "[əˈdɪʃənl]"
+  },
+  {
+   "w": "adequate",
+   "m": "adj.充足的，足够的；适当的，胜任的",
+   "ipa": "[ˈædɪkwət]"
+  },
+  {
+   "w": "advanced",
+   "m": "adj.高等的，在前的，老的；",
+   "ipa": "[ədˈvɑ:nst]"
+  },
+  {
+   "w": "advisable",
+   "m": "adj.可取的，适当的，明智的",
+   "ipa": "[ədˈvaɪzəbl]"
+  },
+  {
+   "w": "allergic",
+   "m": "adj.过敏的，变态的",
+   "ipa": "[əˈlɜ:dʒɪk]"
+  },
+  {
+   "w": "alternative",
+   "m": "n.两者挑一的，可供选择的；adj.选择性的，二中择一的",
+   "ipa": "[ɔ:lˈtɜ:nətɪv]"
+  },
+  {
+   "w": "amazing",
+   "m": "adj.令人吃惊的；令人惊异的",
+   "ipa": "[əˈmeɪzɪŋ]"
+  },
+  {
+   "w": "ambiguous",
+   "m": "adj.引起歧义的，模棱两可的，含糊不清的",
+   "ipa": "[æmˈbɪgjuəs]"
+  },
+  {
+   "w": "ambitious",
+   "m": "adj.有雄心的，劲头十足的，有野心的",
+   "ipa": "[æmˈbɪʃəs]"
+  },
+  {
+   "w": "analytical",
+   "m": "adj.分析的；用分析法的",
+   "ipa": "[ˌænəˈlɪtɪkl]"
+  },
+  {
+   "w": "ancient",
+   "m": "adj.古代的，古老的；n.古人",
+   "ipa": "[ˈeɪnʃənt]"
+  },
+  {
+   "w": "angry",
+   "m": "adj.生气的，愤怒的；（天气）风雨交加的",
+   "ipa": "[ˈæŋgri]"
+  },
+  {
+   "w": "applied",
+   "m": "adj.应用的；v.应用，适用",
+   "ipa": "[əˈplaɪd]"
+  },
+  {
+   "w": "archaeological",
+   "m": "adj. 考古学的",
+   "d": 1
+  },
+  {
+   "w": "artificial",
+   "m": "adj. 人造的，人工的；虚假的",
+   "d": 1
+  },
+  {
+   "w": "artistic",
+   "m": "adj.艺术(家)的，美术(家)的；善于艺术创作的",
+   "ipa": "[ɑ:ˈtɪstɪk]"
+  },
+  {
+   "w": "ascending",
+   "m": "adj.上升的，向上的",
+   "ipa": "[ə'sendiŋ]"
+  },
+  {
+   "w": "atmospheric",
+   "m": "adj.大气的，空气的；大气层的；大气所引起的",
+   "ipa": "[ˌætməsˈferɪk]"
+  },
+  {
+   "w": "attentive",
+   "m": "adj.注意的，专心的；关心(别人)的，殷勤的",
+   "ipa": "[əˈtentɪv]"
+  },
+  {
+   "w": "audio",
+   "m": "n./adj.音频(响)(的)；声音(的)，听觉(的)",
+   "ipa": "[ˈɔ:diəʊ]"
+  },
+  {
+   "w": "auto",
+   "m": "n.(=automobile)(口语)汽车",
+   "ipa": "[ˈɔ:təʊ]"
+  },
+  {
+   "w": "available",
+   "m": "adj.可用到的，可利用的，有用的，有空的，接受探访的",
+   "ipa": "[əˈveɪləbl]"
+  },
+  {
+   "w": "aware",
+   "m": "adj.意识到的，知道的，明白的，发觉的",
+   "ipa": "[əˈweə(r)]"
+  },
+  {
+   "w": "awful",
+   "m": "adj.极坏的；极讨厌的；令人畏惧的，可怕的；威严的，庄重的；极度的，非常的",
+   "ipa": "[ˈɔ:fl]"
+  },
+  {
+   "w": "bald",
+   "m": "adj.秃头的；无发的或少发的",
+   "ipa": "[bɔ:ld]"
+  },
+  {
+   "w": "barren",
+   "m": "adj.贫瘠的，不（生）育的，没有结果的",
+   "ipa": "[ˈbærən]"
+  },
+  {
+   "w": "basic",
+   "m": "adj.基本的；n.基本；要素",
+   "ipa": "[ˈbeɪsɪk]"
+  },
+  {
+   "w": "beautiful",
+   "m": "adj.美的，美丽的；出色的，完美的",
+   "ipa": "[ˈbju:tɪfl]"
+  },
+  {
+   "w": "biological",
+   "m": "adj.生物学的；n.生物制品，生物制剂",
+   "ipa": "[ˌbaɪəˈlɒdʒɪkl]"
+  },
+  {
+   "w": "blind",
+   "m": "adj.盲目的，瞎的；n.百叶窗；v.使失明",
+   "ipa": "[blaɪnd]"
+  },
+  {
+   "w": "blond",
+   "m": "adj.金发的；n.白肤碧眼金发的人",
+   "ipa": "[blɒnd]"
+  },
+  {
+   "w": "British",
+   "m": "adj.英国的；大不列颠的；英国人的",
+   "ipa": "[ˈbrɪtɪʃ]"
+  },
+  {
+   "w": "broad",
+   "m": "adj.宽的；辽阔的；广大的",
+   "ipa": "[brɔ:d]"
+  },
+  {
+   "w": "buried",
+   "m": "adj. 埋藏的，埋葬的（bury 的过去分词）",
+   "d": 1
+  },
+  {
+   "w": "calculating",
+   "m": "a.深谋远虑的，精明的",
+   "ipa": "['kælkjuleitiŋ]"
+  },
+  {
+   "w": "casual",
+   "m": "adj.漠不关心，冷漠的；随便的，非正式的；偶然的，碰巧的",
+   "ipa": "[ˈkæʒuəl]"
+  },
+  {
+   "w": "central",
+   "m": "adj.中心的，位于中心的；中央的；主要的，最重要的",
+   "ipa": "[ˈsentrəl]"
+  },
+  {
+   "w": "challenging",
+   "m": "adj.大胆的(复杂的，有前途的，挑战的)；n.复杂(有前途，大胆，挑战)",
+   "ipa": "[ˈtʃælɪndʒɪŋ]"
+  },
+  {
+   "w": "cheaper",
+   "m": "adj. 更便宜的（cheap 的比较级）",
+   "d": 1
+  },
+  {
+   "w": "cheerful",
+   "m": "adj.快活的，高兴的，兴高采烈",
+   "ipa": "[ˈtʃɪəfl]"
+  },
+  {
+   "w": "children's",
+   "m": "adj. 儿童的（children 的所有格）",
+   "d": 1
+  },
+  {
+   "w": "classical",
+   "m": "adj.古典的；古典文学的；正统派的；古典主义的",
+   "ipa": "[ˈklæsɪkl]"
+  },
+  {
+   "w": "clean",
+   "m": "vt.打扫；vi. 打扫，清扫；adj.清洁的，干净的",
+   "ipa": "[kli:n]"
+  },
+  {
+   "w": "cleanest",
+   "m": "adj. 最干净的（clean 的最高级）",
+   "d": 1
+  },
+  {
+   "w": "clear",
+   "m": "adj. 清楚的；清澈的；晴朗的；无罪的 vt. 通过；清除；使干净；跳过 vi. 放晴；变清澈",
+   "ipa": "[klɪə(r)]"
+  },
+  {
+   "w": "clever",
+   "m": "adj.机灵的，聪明的",
+   "ipa": "[ˈklevə(r)]"
+  },
+  {
+   "w": "co-operative",
+   "m": "adj.有合作意向的，合作的；n.合作社（企业）等",
+   "ipa": "[kəʊ'ɒpərətɪv]"
+  },
+  {
+   "w": "coastal",
+   "m": "adj.海岸的，沿海的，沿岸的",
+   "ipa": "[ˈkəʊstl]"
+  },
+  {
+   "w": "comfortable",
+   "m": "adj.舒适的，舒服的",
+   "ipa": "[ˈkʌmftəbl]"
+  },
+  {
+   "w": "common",
+   "m": "adj.共同的，平常的，普通的；n.平民，普通，公地，公园",
+   "ipa": "[ˈkɒmən]"
+  },
+  {
+   "w": "commonsense",
+   "m": "adj.有常识的；明白事理的；注重实际的",
+   "ipa": "['kɒmən'sens]"
+  },
+  {
+   "w": "complete",
+   "m": "adj.彻底的，完整的，已完成的；v.完成，使完整",
+   "ipa": "[kəmˈpli:t]"
+  },
+  {
+   "w": "completed",
+   "m": "adj.彻底的，完整的，已完成的；v.完成，使完整",
+   "ipa": "[kəmˈpli:t]",
+   "ipad": 1
+  },
+  {
+   "w": "confident",
+   "m": "adj.确信的，自信的，有信心的",
+   "ipa": "[ˈkɒnfɪdənt]"
+  },
+  {
+   "w": "conservative",
+   "m": "adj.保守的，守旧的；n.保守的人，保守派",
+   "ipa": "[kənˈsɜ:vətɪv]"
+  },
+  {
+   "w": "convenient",
+   "m": "adj.便利的，方便的",
+   "ipa": "[kənˈvi:niənt]"
+  },
+  {
+   "w": "corrupt",
+   "m": "vi.贿赂，收买；vt.使腐烂；使堕落，使恶化；adj.腐败的，贪污的",
+   "ipa": "[kəˈrʌpt]"
+  },
+  {
+   "w": "costly",
+   "m": "adj.昂贵的，价值高的，豪华的",
+   "ipa": "[ˈkɒstli]"
+  },
+  {
+   "w": "cream",
+   "m": "n.乳脂，(鲜)奶油；奶油色",
+   "ipa": "[kri:m]"
+  },
+  {
+   "w": "critical",
+   "m": "adj.批评的，评论的；危急的，紧要的；临界的",
+   "ipa": "[ˈkrɪtɪkl]"
+  },
+  {
+   "w": "crucial",
+   "m": "adj.极重要的，决定性的，关键性的",
+   "ipa": "[ˈkru:ʃl]"
+  },
+  {
+   "w": "cultural",
+   "m": "adj. 文化的，文化上的",
+   "d": 1
+  },
+  {
+   "w": "curly",
+   "m": "adj.卷曲的，卷缩的",
+   "ipa": "[ˈkɜ:li]"
+  },
+  {
+   "w": "current",
+   "m": "n.涌流，趋势，电流，水流，气流；adj.当前的，通用的，流通的，现在的，草写的，最近的",
+   "ipa": "[ˈkʌrənt]"
+  },
+  {
+   "w": "daily",
+   "m": "adj.每日的，日常的；adv.每日地，日常地；n.日报",
+   "ipa": "[ˈdeɪli]"
+  },
+  {
+   "w": "dairy",
+   "m": "n.牛奶场，乳品店；adj.乳制品的",
+   "ipa": "[ˈdeəri]"
+  },
+  {
+   "w": "dangerous",
+   "m": "adj.危险的，不安全的",
+   "ipa": "[ˈdeɪndʒərəs]"
+  },
+  {
+   "w": "dark",
+   "m": "adj.黑色的；暗的；黑暗的",
+   "ipa": "[dɑ:k]"
+  },
+  {
+   "w": "departmental",
+   "m": "adj. 部门的, 各部的"
+  },
+  {
+   "w": "dependent",
+   "m": "adj.依靠的，依赖的，依赖他人生活者",
+   "ipa": "[dɪˈpendənt]"
+  },
+  {
+   "w": "detailed",
+   "m": "adj.详细的，详尽的，极注意细节的，完全的",
+   "ipa": "[ˈdi:teɪld]"
+  },
+  {
+   "w": "different",
+   "m": "adj.不同的，有区别的，不一致的",
+   "ipa": "[ˈdɪfrənt]"
+  },
+  {
+   "w": "direct",
+   "m": "adj.直接的；直达的；v.指挥；知道；监督；管理",
+   "ipa": "[dəˈrekt]"
+  },
+  {
+   "w": "disabled",
+   "m": "adj.肢体有残疾的，伤残的；残疾的",
+   "ipa": "[dɪsˈeɪbld]"
+  },
+  {
+   "w": "distant",
+   "m": "adj.远的，久远的，远隔的",
+   "ipa": "[ˈdɪstənt]"
+  },
+  {
+   "w": "distinct",
+   "m": "adj.种类不同的，有区别的，清楚的，明显的",
+   "ipa": "[dɪˈstɪŋkt]"
+  },
+  {
+   "w": "domestic",
+   "m": "adj.家里的，国内的，本国的；n.家仆，佣人",
+   "ipa": "[dəˈmestɪk]"
+  },
+  {
+   "w": "dominant",
+   "m": "adj.支配的，统治的；占优势的；显性的；n.主因，要素，主要的人(或物)；显性基因",
+   "ipa": "[ˈdɒmɪnənt]"
+  },
+  {
+   "w": "eastern",
+   "m": "adj.东部的，东方的",
+   "ipa": "[ˈi:stən]"
+  },
+  {
+   "w": "economic",
+   "m": "adj.经济上的，实用的，节省的",
+   "ipa": "[ˌi:kəˈnɒmɪk]"
+  },
+  {
+   "w": "educational",
+   "m": "adj.教育的，教育方面的；有教育意义的",
+   "ipa": "[ˌedʒuˈkeɪʃənl]"
+  },
+  {
+   "w": "effective",
+   "m": "adj.有效的，有力的，实际的；n.有生力量",
+   "ipa": "[ɪˈfektɪv]"
+  },
+  {
+   "w": "efficient",
+   "m": "adj.有效的，效率高的；有能力的，能胜任的",
+   "ipa": "[ɪˈfɪʃnt]"
+  },
+  {
+   "w": "empty",
+   "m": "n.空的东西，空物；adj.空的，空虚的，空腹的；v.倒空，使...空；（计算机）空的",
+   "ipa": "[ˈempti]"
+  },
+  {
+   "w": "enormous",
+   "m": "adj.巨大的；庞大的",
+   "ipa": "[ɪˈnɔ:məs]"
+  },
+  {
+   "w": "enthusiastic",
+   "m": "adj.热情的，热心的，热烈的",
+   "ipa": "[ɪnˌθju:ziˈæstɪk]"
+  },
+  {
+   "w": "environmental",
+   "m": "adj.环境的",
+   "ipa": "[ɪnˌvaɪrənˈmentl]"
+  },
+  {
+   "w": "essential",
+   "m": "adj.必要的，必不可少的；本质的，基本的；n.要素，要点",
+   "ipa": "[ɪˈsenʃl]"
+  },
+  {
+   "w": "excited",
+   "m": "adj.激动的；兴奋的",
+   "ipa": "[ɪkˈsaɪtɪd]"
+  },
+  {
+   "w": "exciting",
+   "m": "adj.使激动的；兴奋的",
+   "ipa": "[ɪkˈsaɪtɪŋ]"
+  },
+  {
+   "w": "existent",
+   "m": "a.存在的，目前的，现行的",
+   "ipa": "[ig'zistənt]"
+  },
+  {
+   "w": "expensive",
+   "m": "adj.昂贵的，花钱多的",
+   "ipa": "[ɪkˈspensɪv]"
+  },
+  {
+   "w": "experienced",
+   "m": "adj.有经验的；经验丰富的，熟练的",
+   "ipa": "[ɪkˈspɪəriənst]"
+  },
+  {
+   "w": "experimental",
+   "m": "adj.实验的，用作实验的，根据实验的",
+   "ipa": "[ɪkˌsperɪˈmentl]"
+  },
+  {
+   "w": "extensive",
+   "m": "adj.广泛的，广阔的，广大的",
+   "ipa": "[ɪkˈstensɪv]"
+  },
+  {
+   "w": "extra",
+   "m": "adj.额外的，外加的；特大的",
+   "ipa": "[ˈekstrə]"
+  },
+  {
+   "w": "fair",
+   "m": "adj.公平的，晴朗的，美丽的；(皮肤，毛发等)浅色的；白皙的；n.展览会，市集",
+   "ipa": "[feə(r)]"
+  },
+  {
+   "w": "fake",
+   "m": "vt.伪造，造假，假装；n.假货，赝品",
+   "ipa": "[feɪk]"
+  }
+ ],
+ "11": [
+  {
+   "w": "famed",
+   "m": "a.著名的",
+   "ipa": "[feimd]"
+  },
+  {
+   "w": "familiar",
+   "m": "adj.熟悉的，常见的，亲密的；n.熟友，常客",
+   "ipa": "[fəˈmɪliə(r)]"
+  },
+  {
+   "w": "famous",
+   "m": "adj.著名的，驰名的，闻名遐迩的；极好的；擅长的",
+   "ipa": "[ˈfeɪməs]"
+  },
+  {
+   "w": "fancy",
+   "m": "n.想像力，幻想；喜好，爱；adj.想像的，时髦的，华丽装饰的，奢侈的；技巧的；vt.想象，自认为，喜好",
+   "ipa": "[ˈfænsi]"
+  },
+  {
+   "w": "fashionable",
+   "m": "adj.时髦的，上流社会的，流行的",
+   "ipa": "[ˈfæʃnəbl]"
+  },
+  {
+   "w": "favourite",
+   "m": "adj.最喜爱的；n.最喜爱的人/物（=favorite）",
+   "ipa": "[ˈfeɪvərɪt]"
+  },
+  {
+   "w": "final",
+   "m": "adj.最后的；n.决赛",
+   "ipa": "[ˈfaɪnl]"
+  },
+  {
+   "w": "financial",
+   "m": "adj.财政的，经济的，财务的，金融的",
+   "ipa": "[faɪˈnænʃl]"
+  },
+  {
+   "w": "fine",
+   "m": "adj.好的，上等的；纤细的，精致的；健康的；晴朗的；n.罚款；vt.罚款；澄清",
+   "ipa": "[faɪn]"
+  },
+  {
+   "w": "firm",
+   "m": "n.公司，商号；adj.坚定的，坚强的，牢固的，结实的，坚硬的，坚挺的，严格的",
+   "ipa": "[fɜ:m]"
+  },
+  {
+   "w": "flexible",
+   "m": "adj.易曲的，灵活的，柔软的，能变形的，可通融的",
+   "ipa": "[ˈfleksəbl]"
+  },
+  {
+   "w": "foreign",
+   "m": "adj.外国的；在外国的；来自外国的",
+   "ipa": "[ˈfɒrən]"
+  },
+  {
+   "w": "formal",
+   "m": "adj.正式的，正规的，形式的",
+   "ipa": "[ˈfɔ:ml]"
+  },
+  {
+   "w": "former",
+   "m": "adj.从前的，前者的；n.形成者，模型，样板",
+   "ipa": "[ˈfɔ:mə(r)]"
+  },
+  {
+   "w": "free",
+   "m": "adj.自由的，免费的；v.使自由；adv.随意地",
+   "ipa": "[fri:]"
+  },
+  {
+   "w": "frequent",
+   "m": "adj.经常的，频繁的；vt.常到，常去",
+   "ipa": "[ˈfri:kwənt]"
+  },
+  {
+   "w": "fundamental",
+   "m": "adj.基本的，主要的；基本原则，基本法则",
+   "ipa": "[ˌfʌndəˈmentl]"
+  },
+  {
+   "w": "further",
+   "m": "adv.（在时间或空间上）距离更大地；更远地",
+   "ipa": "[ˈfɜ:ðə(r)]"
+  },
+  {
+   "w": "general",
+   "m": "n.一般，将军，大体；adj. 一般的，普遍的；v.指挥，作...将军",
+   "ipa": "[ˈdʒenrəl]"
+  },
+  {
+   "w": "genetic",
+   "m": "adj.遗传的，遗传学的",
+   "ipa": "[dʒəˈnetɪk]"
+  },
+  {
+   "w": "geographical",
+   "m": "adj.地理的；地区(性)的",
+   "ipa": "[ˌdʒi:ə'ɡræfɪkl]"
+  },
+  {
+   "w": "global",
+   "m": "adj.全球的；球形的；世界的",
+   "ipa": "[ˈgləʊbl]"
+  },
+  {
+   "w": "handy",
+   "m": "adj.方便的；手边的，近便的；手巧的",
+   "ipa": "[ˈhændi]"
+  },
+  {
+   "w": "harmful",
+   "m": "adj.有害的",
+   "ipa": "[ˈhɑ:mfl]"
+  },
+  {
+   "w": "hazardous",
+   "m": "adj.(有)危险的，冒险的；碰运气的",
+   "ipa": "[ˈhæzədəs]"
+  },
+  {
+   "w": "healthy",
+   "m": "adj.健康的，健壮的；有益健康的，合乎卫生的",
+   "ipa": "[ˈhelθi]"
+  },
+  {
+   "w": "heavier",
+   "m": "adj. 更重的，更沉的（heavy 的比较级）",
+   "d": 1
+  },
+  {
+   "w": "heavy",
+   "m": "adj.重的，重型的；沉重的，大量的，猛烈的；adv. 大量地；笨重地",
+   "ipa": "[ˈhevi]"
+  },
+  {
+   "w": "helpful",
+   "m": "adj.有帮助的，有用的，",
+   "ipa": "[ˈhelpfl]"
+  },
+  {
+   "w": "herbivorous",
+   "m": "a.食草的",
+   "ipa": "[hə:'bivərəs]"
+  },
+  {
+   "w": "higher",
+   "m": "adj. 更高的（high 的比较级）",
+   "d": 1
+  },
+  {
+   "w": "highly-trained",
+   "m": "adj. 训练有素的",
+   "d": 1
+  },
+  {
+   "w": "historical",
+   "m": "adj.历史的，史实的，历史上的",
+   "ipa": "[hɪˈstɒrɪkl]"
+  },
+  {
+   "w": "illegal",
+   "m": "adj.不合法的，非法的，犯法的",
+   "ipa": "[ɪˈli:gl]"
+  },
+  {
+   "w": "immune",
+   "m": "adj.免疫的，有免疫力的，不受影响的，免除的",
+   "ipa": "[ɪˈmju:n]"
+  },
+  {
+   "w": "important",
+   "m": "adj.重要的；重大的；严重的",
+   "ipa": "[ɪmˈpɔ:tnt]"
+  },
+  {
+   "w": "impossible",
+   "m": "adj.不可能的，不容易的，令人无法忍受的",
+   "ipa": "[ɪmˈpɒsəbl]"
+  },
+  {
+   "w": "inaccurate",
+   "m": "adj.错误的，不正确的，不准确的",
+   "ipa": "[ɪnˈækjərət]"
+  },
+  {
+   "w": "inadequate",
+   "m": "adj.(for,to)不充足的，不适当的",
+   "ipa": "[ɪnˈædɪkwət]"
+  },
+  {
+   "w": "individual",
+   "m": "adj.个人的，个体的，单独的；独特的；n.个人，个体；人",
+   "ipa": "[ˌɪndɪˈvɪdʒuəl]"
+  },
+  {
+   "w": "industrial",
+   "m": "adj.工业的，产业的，实业的；从事工业的；工业高度发达的",
+   "ipa": "[ɪnˈdʌstriəl]"
+  },
+  {
+   "w": "informative",
+   "m": "adj.提供资料的，增进知识的",
+   "ipa": "[ɪnˈfɔ:mətɪv]"
+  },
+  {
+   "w": "initial",
+   "m": "adj.最初的，开始的，词首的；n.首字母，姓名的开头字母；vt.标注姓名的首字母于",
+   "ipa": "[ɪˈnɪʃl]"
+  },
+  {
+   "w": "inspiring",
+   "m": "adj.鼓舞人心的",
+   "ipa": "[in'spaiəriŋ]"
+  },
+  {
+   "w": "intact",
+   "m": "adj.完整无缺的，未经触动的，未受损伤的",
+   "ipa": "[ɪnˈtækt]"
+  },
+  {
+   "w": "intelligent",
+   "m": "adj.聪明的，伶俐的，有才智的",
+   "ipa": "[ɪnˈtelɪdʒənt]"
+  },
+  {
+   "w": "intensive",
+   "m": "adj.加强的，密集的；精工细作的，集约的",
+   "ipa": "[ɪnˈtensɪv]"
+  },
+  {
+   "w": "interesting",
+   "m": "adj.有趣的，有意思的",
+   "ipa": "[ˈɪntrəstɪŋ]"
+  },
+  {
+   "w": "intermediate",
+   "m": "adj.中间的，居间的，中级的；n.中间体，媒介物",
+   "ipa": "[ˌɪntəˈmi:diət]"
+  },
+  {
+   "w": "internal",
+   "m": "adj.内的，内部的；国内的，内政的",
+   "ipa": "[ɪnˈtɜ:nl]"
+  },
+  {
+   "w": "international",
+   "m": "adj.国际的",
+   "ipa": "[ˌɪntəˈnæʃnəl]"
+  },
+  {
+   "w": "irregular",
+   "m": "n.不合规格之物；adj.不规则的，不整齐的，不合法的",
+   "ipa": "[ɪˈregjələ(r)]"
+  },
+  {
+   "w": "irritable",
+   "m": "adj.急躁的；过敏的；易怒的",
+   "ipa": "[ˈɪrɪtəbl]"
+  },
+  {
+   "w": "isolated",
+   "m": "adj.与世隔绝的",
+   "ipa": "['aisəleitid]"
+  },
+  {
+   "w": "key",
+   "m": "n.答案；钥匙；关键；adj.基本的",
+   "ipa": "[ki:]"
+  },
+  {
+   "w": "latest",
+   "m": "adj.最新的，最近的，最后的，最迟的",
+   "ipa": "[ˈleɪtɪst]"
+  },
+  {
+   "w": "least",
+   "m": "adj.最小(少)的；adv.最少(小；不)；n.最小(少)",
+   "ipa": "[li:st]"
+  },
+  {
+   "w": "legal",
+   "m": "adj.法律的，依照法律的，合法的，法定的，正当的",
+   "ipa": "[ˈli:gl]"
+  },
+  {
+   "w": "little-known",
+   "m": "adj. 很少人知的",
+   "ipa": "['lɪtln'əʊn]"
+  },
+  {
+   "w": "loyal",
+   "m": "adj.忠诚的，忠心的",
+   "ipa": "[ˈlɔɪəl]"
+  },
+  {
+   "w": "magic",
+   "m": "adj.有魔力的；n.魔法",
+   "ipa": "[ˈmædʒɪk]"
+  },
+  {
+   "w": "magical",
+   "m": "adj.魔术的，有魔力的，不可思议的",
+   "ipa": "[ˈmædʒɪkl]"
+  },
+  {
+   "w": "magnificent",
+   "m": "adj.壮丽的，宏伟的；华丽的；极好的",
+   "ipa": "[mægˈnɪfɪsnt]"
+  },
+  {
+   "w": "major",
+   "m": "n.主修，成年人，陆军少校；adj.主要的，较多的，大部份的；v.主修",
+   "ipa": "[ˈmeɪdʒə(r)]"
+  },
+  {
+   "w": "martial",
+   "m": "adj.战争的，军事的，尚武的，威武的",
+   "ipa": "[ˈmɑ:ʃl]"
+  },
+  {
+   "w": "mature",
+   "m": "adj.成熟的，到期的，充分考虑的；vt.使成熟；vi.成熟，到期",
+   "ipa": "[məˈtʃʊə(r)]"
+  },
+  {
+   "w": "medical",
+   "m": "adj.医学的；医疗的",
+   "ipa": "[ˈmedɪkl]"
+  },
+  {
+   "w": "mental",
+   "m": "adj.精神的，思想的，内心的；智力的，脑力的；精神病的",
+   "ipa": "[ˈmentl]"
+  },
+  {
+   "w": "mid",
+   "m": "adj. 中间的，中部的",
+   "d": 1
+  },
+  {
+   "w": "migratory",
+   "m": "n.候鸟，迁移",
+   "ipa": "[ˈmaɪgrətri]"
+  },
+  {
+   "w": "military",
+   "m": "n.军队；adj.军事的，军人的，好战的",
+   "ipa": "[ˈmɪlətri]"
+  },
+  {
+   "w": "miserable",
+   "m": "adj.悲惨的，痛苦的；可怜的，糟糕的",
+   "ipa": "[ˈmɪzrəbl]"
+  },
+  {
+   "w": "mobile",
+   "m": "adj.可移动的，易变的，机动的；n.运动物体",
+   "ipa": "[ˈməʊbaɪl]"
+  },
+  {
+   "w": "moderate",
+   "m": "adj.适度的，稳健的，温和的，中等的；vt.节制，使...稳定，使...缓和；vi. 变缓和，变弱；",
+   "ipa": "[ˈmɒdərət]"
+  },
+  {
+   "w": "modern",
+   "m": "n.现代人，有思想的人；adj.现代的，时髦的",
+   "ipa": "[ˈmɒdn]"
+  },
+  {
+   "w": "musical",
+   "m": "adj.音乐的，爱好音乐的；悦耳的；有音乐才能的",
+   "ipa": "[ˈmju:zɪkl]"
+  },
+  {
+   "w": "natural",
+   "m": "adj.自然的，正常的，天生的；n.有天赋的人",
+   "ipa": "[ˈnætʃrəl]"
+  },
+  {
+   "w": "negative",
+   "m": "adj.否定的；消极的；负面的",
+   "ipa": "[ˈnegətɪv]"
+  },
+  {
+   "w": "neighbouring",
+   "m": "a.邻近的，接壤的",
+   "ipa": "['neibəriŋ]"
+  },
+  {
+   "w": "nervous",
+   "m": "adj.神经的；紧张不安的，神经过敏的",
+   "ipa": "[ˈnɜ:vəs]"
+  },
+  {
+   "w": "noble",
+   "m": "n.贵族；adj.高贵的，高尚的，贵族的，辉煌的",
+   "ipa": "[ˈnəʊbl]"
+  },
+  {
+   "w": "noisy",
+   "m": "adj.嘈杂的，喧闹的",
+   "ipa": "[ˈnɔɪzi]"
+  },
+  {
+   "w": "non-active",
+   "m": "adj. 不活跃的，非主动的",
+   "d": 1
+  },
+  {
+   "w": "normal",
+   "m": "adj.正常的，正规的，标准的；n.正规；常态",
+   "ipa": "[ˈnɔ:ml]"
+  },
+  {
+   "w": "northern",
+   "m": "adj.在北方的；北方的",
+   "ipa": "[ˈnɔ:ðən]"
+  },
+  {
+   "w": "objective",
+   "m": "adj.客观的；n.目标，目的",
+   "ipa": "[əbˈdʒektɪv]"
+  },
+  {
+   "w": "occupational",
+   "m": "adj. 职业的",
+   "ipa": "[ˌɔkju'peiʃənəl]"
+  },
+  {
+   "w": "Olympic",
+   "m": "adj. 奥林匹克的（Olympic Games 奥运会）",
+   "d": 1
+  },
+  {
+   "w": "optic",
+   "m": "adj. 光学的；眼的（optic nerve 视神经）",
+   "d": 1
+  },
+  {
+   "w": "optional",
+   "m": "adj. 可选的，非强制的",
+   "d": 1
+  },
+  {
+   "w": "oral",
+   "m": "n.口试；adj.口头的，口述的，口部的",
+   "ipa": "[ˈɔ:rəl]"
+  },
+  {
+   "w": "organic",
+   "m": "adj.有机的，有机物的；有组织的",
+   "ipa": "[ɔ:ˈgænɪk]"
+  },
+  {
+   "w": "overall",
+   "m": "n.工作服，工装裤；全面的，全体的",
+   "ipa": "[ˌəʊvərˈɔ:l]"
+  },
+  {
+   "w": "overhead",
+   "m": "adj.在头顶上的，悬空的；n.间接开支",
+   "ipa": "[ˌəʊvəˈhed]"
+  },
+  {
+   "w": "overseas",
+   "m": "adj.海外的；adv.在海外",
+   "ipa": "[ˌəʊvəˈsi:z]"
+  },
+  {
+   "w": "parental",
+   "m": "adj.父母的；父的；母的",
+   "ipa": "[pəˈrentl]"
+  },
+  {
+   "w": "payable",
+   "m": "adj.可付的，应付的，有利益的",
+   "ipa": "[ˈpeɪəbl]"
+  },
+  {
+   "w": "perfect",
+   "m": "n.完成式；adj.完美的，全然的，理想的，熟练的，正确的，完成式的；vt.使完美，修改",
+   "ipa": "[ˈpɜ:fɪkt]"
+  },
+  {
+   "w": "personal",
+   "m": "adj.个人的，私人的；本人的；身体的，容貌的",
+   "ipa": "[ˈpɜ:sənl]"
+  },
+  {
+   "w": "physical",
+   "m": "adj.物理的，物质的，体力的，身体的，自然的",
+   "ipa": "[ˈfɪzɪkl]"
+  },
+  {
+   "w": "pleasant",
+   "m": "adj.令人愉快的，舒适的；vi.满意，喜欢；vt.使高兴",
+   "ipa": "[ˈpleznt]"
+  },
+  {
+   "w": "political",
+   "m": "adj.政治上的，政党的，政略性的，政治的",
+   "ipa": "[pəˈlɪtɪkl]"
+  },
+  {
+   "w": "pop",
+   "m": "n.取出，砰然声，流行乐曲；adj.流行的，热门的，通俗的；v.取出，发出爆裂声，突然伸出",
+   "ipa": "[pɒp]"
+  }
+ ],
+ "12": [
+  {
+   "w": "popular",
+   "m": "adj.受欢迎的；流行的；通俗的",
+   "ipa": "[ˈpɒpjələ(r)]"
+  },
+  {
+   "w": "positive",
+   "m": "adj.肯定的；正面的，积极的；n.正片",
+   "ipa": "[ˈpɒzətɪv]"
+  },
+  {
+   "w": "possible",
+   "m": "adj.可能的",
+   "ipa": "[ˈpɒsəbl]"
+  },
+  {
+   "w": "potential",
+   "m": "n.潜在性，可能性，潜力，潜能，势，位；adj.有潜力的，可能的，潜在的",
+   "ipa": "[pəˈtenʃl]"
+  },
+  {
+   "w": "practical",
+   "m": "adj.实际的，实践的；实用的，应用的；有实际经验的",
+   "ipa": "[ˈpræktɪkl]"
+  },
+  {
+   "w": "precious",
+   "m": "adj.宝贵的，珍贵的，过于精致的，珍爱的",
+   "ipa": "[ˈpreʃəs]"
+  },
+  {
+   "w": "predictable",
+   "m": "a.可预言的；可预料的；(贬)按老一套办事的",
+   "ipa": "[pri'diktəbəl]"
+  },
+  {
+   "w": "present",
+   "m": "n.礼物，现在；adj.当面的，出席的，现在的；vt.赠送，提出，呈现",
+   "ipa": "[ˈpreznt]"
+  },
+  {
+   "w": "previous",
+   "m": "adj.早先的，前面的，过急的；adv.早先，前面；",
+   "ipa": "[ˈpri:viəs]"
+  },
+  {
+   "w": "printed",
+   "m": "adj. 印刷的，印制的（print 的过去分词）",
+   "d": 1
+  },
+  {
+   "w": "private",
+   "m": "adj.私人的，私有的，个人的",
+   "ipa": "[ˈpraɪvət]"
+  },
+  {
+   "w": "professional",
+   "m": "adj.专业的；职业的；n.专业人员；职业运动员",
+   "ipa": "[prəˈfeʃənl]"
+  },
+  {
+   "w": "promising",
+   "m": "adj.有希望的，有前途的",
+   "ipa": "[ˈprɒmɪsɪŋ]"
+  },
+  {
+   "w": "psychiatric",
+   "m": "adj.精神病的",
+   "ipa": "[ˌsaɪkiˈætrɪk]"
+  },
+  {
+   "w": "psychological",
+   "m": "adj.心理的，精神上的",
+   "ipa": "[ˌsaɪkəˈlɒdʒɪkl]"
+  },
+  {
+   "w": "public",
+   "m": "adj.公开的，众所周知的，公众的；n.公共场合，公众，同好者",
+   "ipa": "[ˈpʌblɪk]"
+  },
+  {
+   "w": "pure",
+   "m": "adj.纯的，纯粹的，纯净的，无垢的，纯洁的，完美的，抽象的",
+   "ipa": "[pjʊə(r)]"
+  },
+  {
+   "w": "purest",
+   "m": "adj. 最纯的（pure 的最高级）",
+   "d": 1
+  },
+  {
+   "w": "queen's",
+   "m": "adj. 女王的（queen 的所有格）",
+   "d": 1
+  },
+  {
+   "w": "random",
+   "m": "adj.随机的；任意的；n.偶然的(或随便的)行动",
+   "ipa": "[ˈrændəm]"
+  },
+  {
+   "w": "rapid",
+   "m": "adj.迅速的，急促的；n.急流",
+   "ipa": "[ˈræpɪd]"
+  },
+  {
+   "w": "rare",
+   "m": "adj.稀罕的，罕有的，珍贵的，稀薄的，半熟的，非常的；adv.非常",
+   "ipa": "[reə(r)]"
+  },
+  {
+   "w": "raw",
+   "m": "adj.生的，未煮过的，未加工的",
+   "ipa": "[rɔ:]"
+  },
+  {
+   "w": "recycled",
+   "m": "vt. 使再循环；使…重新利用 vi. 重复利用",
+   "ipa": "[ˌri:ˈsaɪkl]",
+   "ipad": 1
+  },
+  {
+   "w": "redundant",
+   "m": "adj.多余的，过剩的；(食物)丰富的；被解雇的",
+   "ipa": "[rɪˈdʌndənt]"
+  },
+  {
+   "w": "regional",
+   "m": "a.区域的，地区性的",
+   "ipa": "['ri:dʒənəl]"
+  },
+  {
+   "w": "regular",
+   "m": "adj.有规律的，有规则的，整齐的，正规的",
+   "ipa": "[ˈregjələ(r)]"
+  },
+  {
+   "w": "reinforced",
+   "m": "adj. 加强的，加固的（reinforce 的过去分词）",
+   "d": 1
+  },
+  {
+   "w": "related",
+   "m": "adj.有关系的，有关联的，叙述的，讲述的",
+   "ipa": "[rɪˈleɪtɪd]"
+  },
+  {
+   "w": "relevant",
+   "m": "adj.有关的，贴切的",
+   "ipa": "[ˈreləvənt]"
+  },
+  {
+   "w": "reliable",
+   "m": "adj.可信赖的；可靠的",
+   "ipa": "[rɪˈlaɪəbl]"
+  },
+  {
+   "w": "remote",
+   "m": "adj.遥远的，僻远的；细微的，稀少的，漠然的",
+   "ipa": "[rɪˈməʊt]"
+  },
+  {
+   "w": "resistant",
+   "m": "adj.(to)抵抗的，有抵抗力的",
+   "ipa": "[rɪˈzɪstənt]"
+  },
+  {
+   "w": "reverse",
+   "m": "n. 背面；相反；倒退；失败 vt. 颠倒；倒转 adj. 反面的；颠倒的；反身的 vi. 倒退；逆叫",
+   "ipa": "[rɪˈvɜ:s]"
+  },
+  {
+   "w": "rising",
+   "m": "adj. 上升的，上涨的（rise 的现在分词）",
+   "d": 1
+  },
+  {
+   "w": "royal",
+   "m": "adj.王室的，皇家的；堂皇的，盛大的；极大的，第一流的",
+   "ipa": "[ˈrɔɪəl]"
+  },
+  {
+   "w": "rural",
+   "m": "adj.乡下的，田园的，乡村风味的",
+   "ipa": "[ˈrʊərəl]"
+  },
+  {
+   "w": "sacked",
+   "m": "n.袋子，劫掠；vt.解雇，劫掠，把...装入袋子",
+   "ipa": "[sæk]",
+   "ipad": 1
+  },
+  {
+   "w": "safe",
+   "m": "adj.安全的，可靠的，平安的，无害的，稳健的，有把握的；n.保险箱，冷藏室",
+   "ipa": "[seɪf]"
+  },
+  {
+   "w": "satisfactory",
+   "m": "adj.令人满意的；可喜的；恰当的",
+   "ipa": "[ˌsætɪsˈfæktəri]"
+  },
+  {
+   "w": "scarce",
+   "m": "adj.缺乏的，不足的；稀少的，罕见的",
+   "ipa": "[skeəs]"
+  },
+  {
+   "w": "scientific",
+   "m": "adj.科学的；符合科学规律的，精确的",
+   "ipa": "[ˌsaɪənˈtɪfɪk]"
+  },
+  {
+   "w": "seasonal",
+   "m": "adj.季节的，季节性的",
+   "ipa": "[ˈsi:zənl]"
+  },
+  {
+   "w": "seasoned",
+   "m": "adj.调过味的；成熟的，老练的v.“season”的过去式和过去分词",
+   "ipa": "[ˈsi:znd]"
+  },
+  {
+   "w": "second-hand",
+   "m": "adj.用过的，旧的，二手的",
+   "ipa": "[ˈsekəndˈhænd]"
+  },
+  {
+   "w": "secondary",
+   "m": "adj.中级的，中等的，次要的；n.次要位置，副手",
+   "ipa": "[ˈsekəndri]"
+  },
+  {
+   "w": "self-funded",
+   "m": "adj. 自筹资金的，自费的",
+   "d": 1
+  },
+  {
+   "w": "self-sufficient",
+   "m": "adj.自给自足的",
+   "ipa": "['selfsə'fiʃənt]"
+  },
+  {
+   "w": "senior",
+   "m": "adj.年长的；资格较老的，地位较高的；n.年长者，前辈；大学高年级学生",
+   "ipa": "[ˈsi:niə(r)]"
+  },
+  {
+   "w": "sensible",
+   "m": "adj.可察觉的，意识到的，实用的；n.可感知物",
+   "ipa": "[ˈsensəbl]"
+  },
+  {
+   "w": "serial",
+   "m": "n.连本影片，连本电视节目；电视连续剧；adj.连续的",
+   "ipa": "[ˈsɪəriəl]"
+  },
+  {
+   "w": "serious",
+   "m": "adj.认真的，严肃的，重大的，严重的",
+   "ipa": "[ˈsɪəriəs]"
+  },
+  {
+   "w": "seven-screen",
+   "m": "n.屏，幕，银幕；屏风；v.选拔；掩蔽，遮蔽",
+   "ipa": "[skri:n]",
+   "ipad": 1
+  },
+  {
+   "w": "several",
+   "m": "adj.几个，若干，数个；各个的，各自的",
+   "ipa": "[ˈsevrəl]"
+  },
+  {
+   "w": "shared",
+   "m": "adj. 共享的，共用的（share 的过去分词）",
+   "d": 1
+  },
+  {
+   "w": "sharp",
+   "m": "adj.刺耳的，锋利的，急剧的；adv.[时刻]正，准；夏普(财富500强公司之一，总部所在地日本，主要经营电子电气)",
+   "ipa": "[ʃɑ:p]"
+  },
+  {
+   "w": "short",
+   "m": "adj.短的；矮的",
+   "ipa": "[ʃɔ:t]"
+  },
+  {
+   "w": "sick",
+   "m": "adj.有病的，患病的；恶心的；厌恶的",
+   "ipa": "[sɪk]"
+  },
+  {
+   "w": "silent",
+   "m": "adj.安静的，不吵闹的，沉默的，无言的；n.(复数)默剧",
+   "ipa": "[ˈsaɪlənt]"
+  },
+  {
+   "w": "silver",
+   "m": "adj.银色的，银的；n.银，银币，银器；vt.镀银，变成银白色",
+   "ipa": "[ˈsɪlvə(r)]"
+  },
+  {
+   "w": "similar",
+   "m": "adj.类似的；同样的",
+   "ipa": "[ˈsɪmələ(r)]"
+  },
+  {
+   "w": "simple",
+   "m": "adj. 简单的；朴素的",
+   "d": 1
+  },
+  {
+   "w": "sleepy",
+   "m": "adj. 困倦的，想睡的",
+   "d": 1
+  },
+  {
+   "w": "smart",
+   "m": "adj. 聪明的；时髦的；智能的",
+   "d": 1
+  },
+  {
+   "w": "smelly",
+   "m": "adj.(口)有臭味的，发出臭气的",
+   "ipa": "[ˈsmeli]"
+  },
+  {
+   "w": "social",
+   "m": "adj.社会的，群居的，社团的",
+   "ipa": "[ˈsəʊʃl]"
+  },
+  {
+   "w": "solar",
+   "m": "adj.太阳的，日光的；利用太阳能的；根据太阳决定或测定的 n.日光浴室",
+   "ipa": "[ˈsəʊlə(r)]"
+  },
+  {
+   "w": "soundproof",
+   "m": "a.隔音的",
+   "ipa": "['saundpru:f]"
+  },
+  {
+   "w": "southern",
+   "m": "adj.南部的，南方的，来自南方的",
+   "ipa": "[ˈsʌðən]"
+  },
+  {
+   "w": "spacious",
+   "m": "adj.广阔的，宽敞的",
+   "ipa": "[ˈspeɪʃəs]"
+  },
+  {
+   "w": "spare",
+   "m": "adj.空闲的，多余的",
+   "ipa": "[speə(r)]"
+  },
+  {
+   "w": "special",
+   "m": "adj.特别的；特征的，特殊的",
+   "ipa": "[ˈspeʃl]"
+  },
+  {
+   "w": "specialised",
+   "m": "adj. 专门的，专业的（specialise 的过去分词）",
+   "d": 1
+  },
+  {
+   "w": "species",
+   "m": "n.物种，种群",
+   "ipa": "[ˈspi:ʃi:z]"
+  },
+  {
+   "w": "specific",
+   "m": "adj.明确的；具体的；特定的",
+   "ipa": "[spəˈsɪfɪk]"
+  },
+  {
+   "w": "spiral",
+   "m": "adj.螺旋的；n.螺旋（线）；vi.盘旋上升（或下降）",
+   "ipa": "[ˈspaɪrəl]"
+  },
+  {
+   "w": "stable",
+   "m": "adj. 稳定的；牢固的",
+   "d": 1
+  },
+  {
+   "w": "steady",
+   "m": "adj.稳定的，不动摇的，沉着的，稳固的，坚定的，可靠的；vt.使稳定",
+   "ipa": "[ˈstedi]"
+  },
+  {
+   "w": "stout",
+   "m": "adj.强壮的，结实的，勇猛的，矮胖的",
+   "ipa": "[staʊt]"
+  },
+  {
+   "w": "strained",
+   "m": "adj. 紧张的, 不自然的; 动词strain的过去式和过去分词",
+   "ipa": "[streind]"
+  },
+  {
+   "w": "stressful",
+   "m": "adj.紧张的，压力重的",
+   "ipa": "[ˈstresfl]"
+  },
+  {
+   "w": "stretching",
+   "m": "adj. 伸展的；n. 拉伸（stretch 的现在分词）",
+   "d": 1
+  },
+  {
+   "w": "strong",
+   "m": "adj.坚固的，强壮的",
+   "ipa": "[strɒŋ]"
+  },
+  {
+   "w": "stronger",
+   "m": "adj.坚固的，强壮的",
+   "ipa": "[strɒŋ]",
+   "ipad": 1
+  },
+  {
+   "w": "subjective",
+   "m": "a.主观(上)的，个人的",
+   "ipa": "[səbˈdʒektɪv]"
+  },
+  {
+   "w": "successful",
+   "m": "adj.成功的，一帆风顺的，飞黄腾达的",
+   "ipa": "[səkˈsesfl]"
+  },
+  {
+   "w": "sufficient",
+   "m": "adj.充足的，充分的",
+   "ipa": "[səˈfɪʃnt]"
+  },
+  {
+   "w": "suitable",
+   "m": "adj.合适的，适当的，适宜的",
+   "ipa": "[ˈsu:təbl]"
+  },
+  {
+   "w": "super",
+   "m": "adj.超级的，极好的",
+   "ipa": "[ˈsu:pə(r)]"
+  },
+  {
+   "w": "surprised",
+   "m": "adj.感到惊讶的，感到惊奇的",
+   "ipa": "[səˈpraɪzd]"
+  },
+  {
+   "w": "systematic",
+   "m": "adj.有系统的，有计划的，有方法的",
+   "ipa": "[ˌsɪstəˈmætɪk]"
+  },
+  {
+   "w": "technical",
+   "m": "adj.技术上的，专门的，工业的，工艺的，根据法律的",
+   "ipa": "[ˈteknɪkl]"
+  },
+  {
+   "w": "theoretical",
+   "m": "adj.理论的，假设的；根据理论的",
+   "ipa": "[ˌθɪəˈretɪkl]"
+  },
+  {
+   "w": "traditional",
+   "m": "adj.传统的，惯例的",
+   "ipa": "[trəˈdɪʃənl]"
+  },
+  {
+   "w": "troublesome",
+   "m": "adj.伤脑筋的，麻烦的",
+   "ipa": "[ˈtrʌblsəm]"
+  },
+  {
+   "w": "typical",
+   "m": "adj.典型的，象征的，有代表性的",
+   "ipa": "[ˈtɪpɪkl]"
+  },
+  {
+   "w": "unanimous",
+   "m": "adj.全体一致的，一致同意的",
+   "ipa": "[juˈnænɪməs]"
+  },
+  {
+   "w": "uncomfortable",
+   "m": "adj.不舒服的，不合意的，不安的",
+   "ipa": "[ʌnˈkʌmftəbl]"
+  },
+  {
+   "w": "unconvincing",
+   "m": "adj.不足以令人相信的",
+   "ipa": "[ʌnkən'vinsiŋ]"
+  },
+  {
+   "w": "underground",
+   "m": "n.地下，地铁，地道；秘密活动；adj.地下的，秘密的；adv.在地下，秘密地",
+   "ipa": "[ˈʌndəgraʊnd]"
+  },
+  {
+   "w": "unfair",
+   "m": "adj.不公正的；不公平的； 违反规则或准则的",
+   "ipa": "[ˌʌnˈfeə(r)]"
+  },
+  {
+   "w": "unhealthy",
+   "m": "adj.不健康的；不卫生的",
+   "ipa": "[ʌnˈhelθi]"
+  },
+  {
+   "w": "unique",
+   "m": "adj.独一无二的，独特的；罕见的",
+   "ipa": "[juˈni:k]"
+  },
+  {
+   "w": "united",
+   "m": "adj.和谐的；团结的；联合的，统一的",
+   "ipa": "[juˈnaɪtɪd]"
+  },
+  {
+   "w": "unreliable",
+   "m": "a.不可靠的，靠不住的；不可信赖的",
+   "ipa": "[ˌʌnri'laiəbl]"
+  },
+  {
+   "w": "unsocial",
+   "m": "adj. 非社会的，不合群的，不善交际的",
+   "ipa": "[ˈʌnˈsəuʃəl]"
+  },
+  {
+   "w": "unusual",
+   "m": "adj.不平常的，异常的；与众不同的，独特的",
+   "ipa": "[ʌnˈju:ʒuəl]"
+  },
+  {
+   "w": "useful",
+   "m": "adj.有用的；有益的",
+   "ipa": "[ˈju:sfl]"
+  },
+  {
+   "w": "useless",
+   "m": "adj.无用的，无效的，无益的",
+   "ipa": "[ˈju:sləs]"
+  },
+  {
+   "w": "usual",
+   "m": "adj.通常的；平常的",
+   "ipa": "[ˈju:ʒuəl]"
+  },
+  {
+   "w": "various",
+   "m": "adj.各种各样的，不同的；多方面的，多种的",
+   "ipa": "[ˈveəriəs]"
+  },
+  {
+   "w": "violent",
+   "m": "adj.暴力的，猛烈的，激烈的，极端的，凶暴的，歪曲的",
+   "ipa": "[ˈvaɪələnt]"
+  },
+  {
+   "w": "virtual",
+   "m": "adj.实质上的，事实上的，实际上的",
+   "ipa": "[ˈvɜ:tʃuəl]"
+  },
+  {
+   "w": "visible",
+   "m": "adj.看得见的，明显的，显然的；n.可见物",
+   "ipa": "[ˈvɪzəbl]"
+  },
+  {
+   "w": "visual",
+   "m": "adj.视力的，视觉的，观看的，直观的，看得见的，光学的",
+   "ipa": "[ˈvɪʒuəl]"
+  },
+  {
+   "w": "warm",
+   "m": "adj.温暖的，暖和的",
+   "ipa": "[wɔ:m]"
+  },
+  {
+   "w": "washable",
+   "m": "adj. 可洗的，耐洗的",
+   "d": 1
+  },
+  {
+   "w": "wealthy",
+   "m": "adj.富有的，丰裕的，充分的",
+   "ipa": "[ˈwelθi]"
+  },
+  {
+   "w": "whole",
+   "m": "adj.整整的；全部的；完整的",
+   "ipa": "[həʊl]"
+  },
+  {
+   "w": "wide",
+   "m": "adj.广泛的，宽阔的；adv.广大地，全部地",
+   "ipa": "[waɪd]"
+  },
+  {
+   "w": "wise",
+   "m": "adj.明智的，有学问的，有智慧的，聪明的",
+   "ipa": "[waɪz]"
+  },
+  {
+   "w": "worthwhile",
+   "m": "adj.值得花时间的，值得做的，相宜的",
+   "ipa": "[ˌwɜ:θˈwaɪl]"
+  },
+  {
+   "w": "worthy",
+   "m": "adj.(of)值得的，配得上的；有价值的",
+   "ipa": "[ˈwɜ:ði]"
+  }
+ ],
+ "13": [
+  {
+   "w": "almost",
+   "m": "adv.几乎，差不多",
+   "ipa": "[ˈɔ:lməʊst]"
+  },
+  {
+   "w": "currently",
+   "m": "adv.通常地，普遍地，当前",
+   "ipa": "[ˈkʌrəntli]"
+  },
+  {
+   "w": "directly",
+   "m": "adv.直接地，径直地；马上，立即",
+   "ipa": "[dəˈrektli]"
+  },
+  {
+   "w": "effectively",
+   "m": "adv.有效地，有力地，实际上",
+   "ipa": "[ɪˈfektɪvli]"
+  },
+  {
+   "w": "efficiently",
+   "m": "adv. 高效地，有效率地",
+   "d": 1
+  },
+  {
+   "w": "originally",
+   "m": "adv.本来，原来，最初，就起源而论，独创地",
+   "ipa": "[əˈrɪdʒənəli]"
+  },
+  {
+   "w": "physically",
+   "m": "adj.物质上，体格上，身体上，按自然规律",
+   "ipa": "[ˈfɪzɪkli]"
+  },
+  {
+   "w": "professionally",
+   "m": "adv.职业地；专业地",
+   "ipa": "[prəˈfeʃənəli]"
+  },
+  {
+   "w": "rapidly",
+   "m": "adv.快地，迅速地",
+   "ipa": "['ræpɪdlɪ]"
+  },
+  {
+   "w": "regularly",
+   "m": "adv.有规则地，一丝不苟地，正式地",
+   "ipa": "[ˈregjələli]"
+  },
+  {
+   "w": "scarcely",
+   "m": "adv.几乎不，简直没有，勉强",
+   "ipa": "[ˈskeəsli]"
+  },
+  {
+   "w": "virtually",
+   "m": "adv.实际上，事实上",
+   "ipa": "[ˈvɜ:tʃuəli]"
+  }
+ ]
+}

@@ -65,8 +65,11 @@ index.html  ← 站点外壳：七大模块导航 + 模块路由（地址栏 #�
 │   └── data/               结构化数据 words_pdf_only.json
 │
 └── tools/                  数据提取与调研工具（站点运行不需要）
-    ├── test_words.js       自动化测试（74 项）
-    ├── extraction/         听力语料库 OCR 提取管线
+    ├── test_words.js       单词模块自动化测试（74 项）
+    ├── check_pages.js      上线前检查（12 项：HTML 结构 / 路径大小写 / Pages 必备条件 等）
+    ├── extraction/         词库提取管线（OCR → 清洗 → 补释义 → 生成 data/*.js）
+    │                       Chapter 3：ocr_run.ps1 + build_words.py + gen_data.py
+    │                       Chapter 4：ocr_run.ps1 -Rotate CW90 + build_ch4.py + gen_data_ch4.py
     ├── kaodianciku_*.txt   538 词库 PDF 解码文本
     └── bili_*.*            538 考点词第一讲视频信息获取脚本与结果
 ```
@@ -188,7 +191,10 @@ index.html  ← 站点外壳：七大模块导航 + 模块路由（地址栏 #�
 
 内嵌「雅思听力语料库 · 听写训练营」（独立应用 `tingxie/`）：
 
-- **词库**：《雅思王听力语料库》Chapter 3，按 Test Paper 1–9 分组，共 **1114 词**（全部含中文释义）
+- **词库**：两册扫描版 PDF 经 OCR 提取，共 **13 套 Test Paper / 1455 词**（全部含中文释义）
+  - Chapter 3 · 通用词汇（Test Paper 1–9）· 1114 词
+  - Chapter 4 · 形容词 / 副词（形容词 TP1–3 + 副词 TP1）· 341 词
+- **章节与试卷选择**：首页先按章节筛选（Chapter 3 / Chapter 4），再勾选要练的 Test Paper，可跨章节混选；全选/清空只作用于当前章节
 - **玩法**：只听发音不看词，键盘拼写，Enter 提交自动判分（忽略大小写、允许冠词冗余）
 - **出题方式**：智能复习 / 只练不熟的 / 新词优先
 - **进度**：按正确率与熟练度安排顺序，到期的先考、错得多的优先
@@ -200,7 +206,7 @@ index.html  ← 站点外壳：七大模块导航 + 模块路由（地址栏 #�
 
 | 分组 | 内容 |
 |------|------|
-| 📄 **已处理的 PDF 原文** | `materials/pdf/` — 4 份 PDF，**均已提取为站内可用的学习数据**：538词库、雅思王听力语料库、100句记7000词两册 |
+| 📄 **已处理的 PDF 原文** | `materials/pdf/` — 5 份 PDF，**均已提取为站内可用的学习数据**：538词库、雅思王听力语料库 Chapter 3 与 Chapter 4、100句记7000词两册 |
 | 🗺 思维导图 | `materials/mindmap/` — 538考点词第一讲导图（`.md` / `.mm`） |
 | 🧩 结构化数据 | `materials/data/` — `words_pdf_only.json`（376 词条，`js/words-data.js` 的生成来源） |
 | 📖 站点说明 | `README.md` |

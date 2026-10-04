@@ -1,7 +1,11 @@
 # 雅思听力语料库 · 听写训练营
 
-从《雅思王听力语料库-3》扫描版 PDF 提取的 **Chapter 3** 单词，按 **Test Paper 1–9** 分组，
-做成「**只听发音、键盘拼写、自动判分**」的听写练习网页。
+从《雅思王听力语料库》扫描版 PDF 提取的单词，做成「**只听发音、键盘拼写、自动判分**」的听写练习网页。
+
+- **Chapter 3 · 通用词汇**（`雅思王听力语料库-3.pdf`，31 页）→ Test Paper 1–9，1114 词
+- **Chapter 4 · 形容词 / 副词**（`雅思王听力语料库-4.pdf`，11 页）→ 形容词 TP1–3 + 副词 TP1，341 词
+
+共 **13 套 Test Paper / 1455 词**，首页可按**章节**筛选后再勾选要练的 Test Paper（也可跨章节混选）。
 
 ## 快速开始
 
@@ -22,8 +26,10 @@ python -m http.server 8080
 
 ## 词库数据
 
-来源：`雅思王听力语料库-3.pdf`（31 页 A5 扫描版，**无文字层**，纯图片）。
-已用 Windows OCR（`Windows.Media.Ocr`）+ 人工清理提取，并与网络公开词表交叉校验（覆盖率 92–96%）。
+来源为两册扫描版 PDF（**无文字层**，纯图片），用 Windows OCR（`Windows.Media.Ocr`）提取 + 人工清理，
+并与网络公开词表交叉校验。两册在站内合并为 **13 套 Test Paper / 1455 词**：
+
+### Chapter 3 · 通用词汇（`materials/pdf/雅思王听力语料库-3.pdf`，31 页）
 
 | Test Paper | 词数 | PDF 页码 |
 |-----------|------|---------|
@@ -40,26 +46,45 @@ python -m http.server 8080
 
 词表按原书字母顺序排列（TP1 = a~c，TP2 = c~d，…，TP9 = t~z）。
 
+### Chapter 4 · 形容词 / 副词（`materials/pdf/雅思王听力语料库-4.pdf`，11 页 = 书内页 79–89）
+
+| 编号 | Test Paper | 词数 | PDF 页码 | 说明 |
+|-----|-----------|------|---------|------|
+| 10 | 形容词 TP1 | 103 | 1–3 | |
+| 11 | 形容词 TP2 | 103 | 4–6 | |
+| 12 | 形容词 TP3 | 123 | 7–10 | |
+| 13 | 副词 TP1 | 12 | 11 | ⚠️ 本 PDF 范围内**不完整**（副词部分仅含首页） |
+| **合计** | | **341** | | |
+
+> **编号规则**：Chapter 3 用 1–9，Chapter 4 接续 10–13。
+> 应用内以编号为主键（SRS 与错题本记录 key = `p<编号>|<单词>`），新增章节只能往后接续。
+>
+> **扫描件旋转**：该 PDF 的内嵌页面图是侧躺的（页面带 `/Rotate 90`），
+> OCR 前必须先旋转，见 `tools/extraction/ocr_run.ps1 -Rotate CW90`。
+
 ### 释义与音标补全
 
-**1114 个词全部有中文释义（100%）**。公开词表未收录的词按以下顺序自动回退补全：
+**1455 个词全部有中文释义（100%）**。公开词表未收录的词按以下顺序自动回退补全：
 
 | 顺序 | 方式 | 数量 | 说明 |
 |-----|------|------|------|
-| 1 | exact | 1011 | 精确命中公开词表 |
+| 1 | exact | 1011 + 305 | 精确命中公开词表 |
 | 2 | singular | 61 | **复数回退到单数释义**（`batteries` ← `battery`，`switches` ← `switch`） |
-| 3 | derived | 6 | 派生词回退（`recycling` ← `recycle`，`baldness` ← `bald`） |
-| 4 | curated | 36 | 公开词表确实没有，人工补充 |
+| 3 | derived | 6 + 4 | 派生词回退（`recycling` ← `recycle`；`stronger` ← `strong`） |
+| 4 | flat | 1 | 去空格/连字符后命中 |
+| 5 | curated | 36 + 30 | 公开词表确实没有，人工补充（Chapter 4 含比较级、所有格、`optic`、`mid` 等） |
 
 界面会对不精确的来源做标注，方便复核：
 
-- 复数词的音标取自单数形式（共 67 个）→ 灰字 **「单数音标」**
-- 人工补充的释义（36 个）→ 橙字 **「补充」**，且**不给音标**（避免编造发音）
+- 复数词的音标取自单数形式 → 灰字 **「单数音标」**
+- 人工补充的释义 → 橙字 **「补充」**，且**不给音标**（避免编造发音）
 
 > ⚠️ **关于词表准确率**：本书是影印扫描版，词表由 OCR 提取。已清除全部明显的识别噪声
-> （如 `nkffi`、`teievision`、`fiJ` 等字形噪声，以及 `even t`→`event` 之类的截断）。
+> （Chapter 3：`nkffi`、`teievision`、`fiJ` 等；Chapter 4：`fikj`、`dlfrontl`、`nnlfi`、`skeoslll` 等
+> 被 OCR 成纯字母的音标碎片），并修正了误识（Chapter 3：`even t`→`event`；
+> Chapter 4：`cheelful`→`cheerful`、`visibie`→`visible`、`finel`→`final`，均经音标行核对）。
 > 但 OCR 仍可能有个别偏差。**请用首页的「📚 查看词表」核对**，发现的错词可手动修正
-> `data/paperN.js` 中的 `w` 字段。
+> `data/paperN.js`（Chapter 3）或 `data/ch4_paperN.js`（Chapter 4）中的 `w` 字段。
 
 ## 功能
 
@@ -226,18 +251,22 @@ tingxie/
 │   ├── chart.js        纯 SVG 折线图（无依赖）
 │   └── app.js          UI 逻辑、快捷键、听写与小测两条流程
 ├── data/
-│   ├── paper1..9.js    9 个 Test Paper 的词表（含音标、释义、来源标记）
-│   └── manifest.json   词数清单
+│   ├── paper1..9.js       Chapter 3 的 9 个 Test Paper 词表（含音标、释义、来源标记）
+│   ├── ch4_paper10..13.js Chapter 4 的 4 个 Test Paper 词表（编号接续 Ch3）
+│   ├── meta.js            章节与试卷元数据（window.CORPUS_META：章节名、试卷标签、不完整标记）
+│   └── manifest.json      词数清单（按章节分组）
 └── test_srs.js         单元测试（node test_srs.js）
 
-extraction/             （上一级目录）词表提取与生成脚本
-├── render_hi.py        PDF → 300dpi PNG
-├── ocr_run.ps1         Windows OCR
+tools/extraction/        （站点上一级目录）词表提取与生成脚本
+├── ocr_run.ps1         Windows OCR（支持 -Rotate CW90 处理侧躺扫描页）
 ├── qs_crawl.py         ┐
 ├── qs_dict.py          ├ 抓取公开词表
-├── gloss.py            ┘ 释义回退模块（含 36 条人工补充）
-├── build_words.py      OCR 清洗 + 分组 + 释义补全
-└── gen_data.py         生成 data/paperN.js
+├── gloss.py            ┘ 释义回退模块（含人工补充）
+├── build_words.py      Chapter 3：OCR 清洗 + 分组 + 释义补全
+├── gen_data.py         Chapter 3：生成 data/paperN.js
+├── analyze_ch4.py      Chapter 4：候选词审查报告
+├── build_ch4.py        Chapter 4：OCR 清洗（含 drop/fix 清单）+ 释义补全
+└── gen_data_ch4.py     Chapter 4：生成 data/ch4_paperN.js + meta.js
 ```
 
 ## 测试

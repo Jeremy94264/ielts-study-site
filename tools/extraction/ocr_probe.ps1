@@ -1,37 +1,35 @@
-﻿param(
-  [string]$ImageDir,
-  [string]$OutDir,
-  [string]$Lang     = "en-US",
-  # 扫描件的页面图可能是侧躺的（PDF 页面带 /Rotate 时），OCR 前需要旋转：
-  #   None | CW90 | CW180 | CW270   （对应 Windows.Graphics.Imaging.BitmapRotation）
-  [string]$Rotate   = "None"
+# Probe WinRT OCR capability: try 4 rotations of one scanned page and score which is upright.
+# Use this when a scanned PDF's page images are stored sideways (page dict has /Rotate 90):
+# run it first to learn the correct -Rotate value for ocr_run.ps1 (Chapter 4 needed CW90).
+# ASCII-only on purpose: Windows PowerShell 5.1 reads BOM-less .ps1 as ANSI.
+param(
+  # 不指定时自动取 ch4_pages/p01.jpg 或 pdf_pages_hi/p01.png
+  [string]$Image,
+  [string]$Lang  = "en-US"
 )
-
 $ErrorActionPreference = 'Stop'
 
-# 默认目录按本脚本所在位置解析，避免写死机器上的绝对路径；仍可用 -ImageDir / -OutDir 覆盖
-if (-not $ImageDir) { $ImageDir = Join-Path $PSScriptRoot 'pdf_pages_hi' }
-if (-not $OutDir)   { $OutDir   = Join-Path $PSScriptRoot 'ocr_out' }
-
-# WinRT 投影只支持 Windows PowerShell 5.1（pwsh 7 无 System.Runtime.WindowsRuntime）
-if ($PSVersionTable.PSVersion.Major -ge 6) {
-  Write-Warning "当前 PowerShell 主版本 $($PSVersionTable.PSVersion.Major)：WinRT 投影可能不可用，建议改用 powershell.exe (5.1) 运行本脚本。"
+if (-not $Image) {
+  foreach ($c in @((Join-Path $PSScriptRoot 'ch4_pages\p01.jpg'),
+                   (Join-Path $PSScriptRoot 'pdf_pages_hi\p01.png'))) {
+    if (Test-Path $c) { $Image = $c; break }
+  }
+}
+if (-not $Image -or -not (Test-Path $Image)) {
+  throw "找不到待测图片：请用 -Image 指定（例如 -Image <dir>\p01.jpg）"
 }
 
-# ---------- WinRT async helper ----------
 Add-Type -AssemblyName System.Runtime.WindowsRuntime
 $asTaskGeneric = ([System.WindowsRuntimeSystemExtensions].GetMethods() | Where-Object {
     $_.Name -eq 'AsTask' -and $_.GetParameters().Count -eq 1 -and
     $_.GetParameters()[0].ParameterType.Name -eq 'IAsyncOperation`1'
 })[0]
-
 function Await($op, $resultType) {
   $task = $asTaskGeneric.MakeGenericMethod($resultType).Invoke($null, @($op))
   $task.Wait(-1) | Out-Null
   return $task.Result
 }
 
-# ---------- load WinRT types ----------
 [Windows.Storage.StorageFile,                  Windows.Storage,          ContentType=WindowsRuntime] | Out-Null
 [Windows.Storage.Streams.IRandomAccessStream,  Windows.Storage.Streams,  ContentType=WindowsRuntime] | Out-Null
 [Windows.Graphics.Imaging.BitmapDecoder,       Windows.Graphics.Imaging, ContentType=WindowsRuntime] | Out-Null
@@ -45,34 +43,29 @@ function Await($op, $resultType) {
 [Windows.Media.Ocr.OcrEngine,                  Windows.Foundation,       ContentType=WindowsRuntime] | Out-Null
 [Windows.Globalization.Language,               Windows.Globalization,    ContentType=WindowsRuntime] | Out-Null
 
+$language = New-Object Windows.Globalization.Language($Lang)
+$engine   = [Windows.Media.Ocr.OcrEngine]::TryCreateFromLanguage($language)
+if ($null -eq $engine) {
+  Write-Output "ERROR: cannot create OCR engine for $Lang (language pack missing?)"
+  Write-Output ("available languages: " + (([Windows.Media.Ocr.OcrEngine]::AvailableRecognizerLanguages | ForEach-Object { $_.LanguageTag }) -join ', '))
+  exit 2
+}
+Write-Output ("OCR engine: " + $engine.RecognizerLanguage.LanguageTag + "  maxDim=" + $engine.MaxImageDimension)
+
 $rotMap = @{
   'None'  = [Windows.Graphics.Imaging.BitmapRotation]::None
   'CW90'  = [Windows.Graphics.Imaging.BitmapRotation]::Clockwise90Degrees
+  'CCW90' = [Windows.Graphics.Imaging.BitmapRotation]::Counterclockwise90Degrees
   'CW180' = [Windows.Graphics.Imaging.BitmapRotation]::Clockwise180Degrees
-  'CW270' = [Windows.Graphics.Imaging.BitmapRotation]::Clockwise270Degrees
 }
-if (-not $rotMap.ContainsKey($Rotate)) { throw "Rotate 参数无效: $Rotate（可选 None/CW90/CW180/CW270）" }
 
-$language = New-Object Windows.Globalization.Language($Lang)
-$engine   = [Windows.Media.Ocr.OcrEngine]::TryCreateFromLanguage($language)
-if ($null -eq $engine) { throw "Could not create OCR engine for $Lang" }
-Write-Output "engine lang: $($engine.RecognizerLanguage.LanguageTag)  maxDim: $($engine.MaxImageDimension)  rotate: $Rotate"
-
-New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
-
-# 支持 png 与 jpg（扫描件内嵌图常为 DCTDecode/JPEG）
-$files = Get-ChildItem $ImageDir -File |
-         Where-Object { $_.Extension -match '^\.(png|jpe?g)$' } |
-         Sort-Object Name
-Write-Output "found $($files.Count) image(s) in $ImageDir"
-
-foreach ($f in $files) {
-  $sf     = Await ([Windows.Storage.StorageFile]::GetFileFromPathAsync($f.FullName)) ([Windows.Storage.StorageFile])
+foreach ($k in @('None','CW90','CCW90','CW180')) {
+  $sf     = Await ([Windows.Storage.StorageFile]::GetFileFromPathAsync($Image)) ([Windows.Storage.StorageFile])
   $stream = Await ($sf.OpenAsync([Windows.Storage.FileAccessMode]::Read)) ([Windows.Storage.Streams.IRandomAccessStream])
   $dec    = Await ([Windows.Graphics.Imaging.BitmapDecoder]::CreateAsync($stream)) ([Windows.Graphics.Imaging.BitmapDecoder])
 
   $tf = New-Object Windows.Graphics.Imaging.BitmapTransform
-  $tf.Rotation = $rotMap[$Rotate]
+  $tf.Rotation = $rotMap[$k]
   $bmp = Await ($dec.GetSoftwareBitmapAsync(
       [Windows.Graphics.Imaging.BitmapPixelFormat]::Bgra8,
       [Windows.Graphics.Imaging.BitmapAlphaMode]::Premultiplied,
@@ -80,14 +73,17 @@ foreach ($f in $files) {
       [Windows.Graphics.Imaging.ExifOrientationMode]::IgnoreExifOrientation,
       [Windows.Graphics.Imaging.ColorManagementMode]::DoNotColorManage)) ([Windows.Graphics.Imaging.SoftwareBitmap])
 
-  $res = Await ($engine.RecognizeAsync($bmp)) ([Windows.Media.Ocr.OcrResult])
+  $res  = Await ($engine.RecognizeAsync($bmp)) ([Windows.Media.Ocr.OcrResult])
+  $text = ($res.Lines | ForEach-Object { $_.Text }) -join "`n"
 
-  $sb = New-Object System.Text.StringBuilder
-  foreach ($line in $res.Lines) { [void]$sb.AppendLine($line.Text) }
-  $outPath = Join-Path $OutDir ($f.BaseName + ".txt")
-  [System.IO.File]::WriteAllText($outPath, $sb.ToString(), (New-Object System.Text.UTF8Encoding($false)))
+  $lower  = [regex]::Matches($text, '\b[a-z]{3,}\b')
+  $allTok = [regex]::Matches($text, '\S+')
+  $score  = 0
+  if ($allTok.Count -gt 0) { $score = [math]::Round(100.0 * $lower.Count / $allTok.Count, 1) }
+  $first3 = (($res.Lines | Select-Object -First 3 | ForEach-Object { $_.Text }) -join ' | ')
+  if ($first3.Length -gt 90) { $first3 = $first3.Substring(0, 90) }
 
+  Write-Output ("{0,-6} {1,-12} lines={2,-4} chars={3,-6} lowerWords={4,-5} ratio={5}%  | {6}" -f `
+      $k, "$($bmp.PixelWidth)x$($bmp.PixelHeight)", $res.Lines.Count, $text.Length, $lower.Count, $score, $first3)
   $bmp.Dispose(); $stream.Dispose()
-  Write-Output ("{0}: {1} lines, {2} chars" -f $f.BaseName, @($res.Lines).Count, $sb.Length)
 }
-Write-Output "DONE -> $OutDir"

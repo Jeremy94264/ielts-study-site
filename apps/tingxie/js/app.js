@@ -6,13 +6,37 @@
 
   var $ = function (id) { return document.getElementById(id); };
 
-  /* ---------- 1. 组装词库 ---------- */
-  var PAPERS = [];                 // [{no, items:[{paper,index,w,m,ipa}]}]
+  /* ---------- 1. 组装词库 ----------
+     试卷编号全局唯一：Chapter 3 = 1-9，Chapter 4 = 10-13；
+     SRS 与错题本都以「编号」为键（"p<编号>|<单词>"），新增章节只能往后接续。
+     章节与试卷标签来自 data/meta.js（window.CORPUS_META），缺失时退化为单一分组。 */
+  var PAPERS = [];                 // [{no, items:[{paper,index,w,m,ipa}], label, chapter, incomplete}]
   var ALL_ITEMS = [];
+  var PAPER_BY_NO = {};            // 编号 -> paper
+  var PAPER_NOS = [];              // 升序编号列表
+  var CHAPTERS = [];               // [{id, name, short, desc, papers:[编号...]}]
+
+  function paperOf(no) { return PAPER_BY_NO[no] || null; }
+  function itemsOf(no) { var p = PAPER_BY_NO[no]; return p ? p.items : []; }
+  function labelOf(no) { var p = PAPER_BY_NO[no]; return p ? p.label : ('Test Paper ' + no); }
+
+  function activeChapter() {
+    if (!CHAPTERS.length) return null;
+    for (var i = 0; i < CHAPTERS.length; i++) {
+      if (CHAPTERS[i].id === state.chapter) return CHAPTERS[i];
+    }
+    return CHAPTERS[0];
+  }
 
   (function buildPool() {
     var data = window.CORPUS_DATA || {};
-    for (var p = 1; p <= 9; p++) {
+    var meta = window.CORPUS_META || {};
+
+    var nos = Object.keys(data).map(function (k) { return parseInt(k, 10); })
+      .filter(function (n) { return !isNaN(n) && n > 0; })
+      .sort(function (a, b) { return a - b; });
+
+    nos.forEach(function (p) {
       var arr = data[p] || [];
       var items = [];
       for (var i = 0; i < arr.length; i++) {
@@ -21,14 +45,39 @@
           ipa: arr[i].ipa || '', d: arr[i].d || 0, ipad: arr[i].ipad || 0
         });
       }
-      PAPERS.push({ no: p, items: items });
+      var info = (meta.papers && meta.papers[String(p)]) || {};
+      var pp = {
+        no: p, items: items,
+        label: info.label || ('Test Paper ' + p),
+        chapter: info.chapter || '',
+        incomplete: !!info.incomplete
+      };
+      PAPERS.push(pp);
+      PAPER_BY_NO[p] = pp;
+      PAPER_NOS.push(p);
       ALL_ITEMS = ALL_ITEMS.concat(items);
+    });
+
+    if (meta.chapters && meta.chapters.length) {
+      meta.chapters.forEach(function (ch) {
+        var list = (ch.papers || []).filter(function (n) { return !!PAPER_BY_NO[n]; });
+        if (list.length) {
+          CHAPTERS.push({
+            id: ch.id, name: ch.name || ch.id, short: ch.short || '',
+            desc: ch.desc || '', papers: list
+          });
+        }
+      });
+    }
+    if (!CHAPTERS.length) {
+      CHAPTERS.push({ id: 'all', name: '全部课', short: '', desc: '', papers: PAPER_NOS.slice() });
     }
   })();
 
   /* ---------- 2. 状态 ---------- */
   var state = {
     selected: {},          // {paperNo: true}
+    chapter: '',           // 当前选中的章节 id（空 = 用第一个章节）
     count: 30,
     mode: 'smart',
     autoSpeak: true,
@@ -61,6 +110,7 @@
     try {
       var s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}');
       if (s.selected) state.selected = s.selected;
+      if (s.chapter) state.chapter = s.chapter;
       if (s.count) state.count = s.count;
       if (s.mode) state.mode = s.mode;
       if (s.autoSpeak != null) state.autoSpeak = s.autoSpeak;
@@ -77,7 +127,8 @@
   function saveSettings() {
     try {
       localStorage.setItem(SETTINGS_KEY, JSON.stringify({
-        selected: state.selected, count: state.count, mode: state.mode,
+        selected: state.selected, chapter: state.chapter,
+        count: state.count, mode: state.mode,
         autoSpeak: state.autoSpeak, repeatOnWrong: state.repeatOnWrong,
         dual: state.dual, rate: state.rate, volume: state.volume,
         browseSort: state.browseSort,
@@ -100,23 +151,56 @@
   /* ---------- 4. 设置页 ---------- */
   function selectedItems() {
     var out = [];
-    for (var p = 1; p <= 9; p++) {
-      if (state.selected[p]) out = out.concat(PAPERS[p - 1].items);
-    }
+    PAPER_NOS.forEach(function (p) {
+      if (state.selected[p]) out = out.concat(itemsOf(p));
+    });
     return out;
+  }
+
+  /* ---- 章节标签 ---- */
+  function renderChapterTabs() {
+    var box = $('chapter-tabs');
+    if (!box) return;
+    box.innerHTML = '';
+    if (CHAPTERS.length < 2) { box.style.display = 'none'; return; }
+    box.style.display = '';
+    var cur = activeChapter();
+    CHAPTERS.forEach(function (ch) {
+      var cnt = 0;
+      ch.papers.forEach(function (n) { cnt += itemsOf(n).length; });
+      var sel = 0;
+      ch.papers.forEach(function (n) { if (state.selected[n]) sel++; });
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chapter-tab' + (cur && cur.id === ch.id ? ' active' : '');
+      b.innerHTML = '<b>' + esc(ch.name) + '</b>' +
+        '<span class="ct-desc">' + esc(ch.desc || '') + '</span>' +
+        (sel ? '<span class="ct-sel">已选 ' + sel + '/' + ch.papers.length + '</span>' : '');
+      b.addEventListener('click', function () {
+        state.chapter = ch.id;
+        saveSettings();
+        renderPapers();
+      });
+      box.appendChild(b);
+    });
   }
 
   function renderPapers() {
     var grid = $('paper-grid');
+    renderChapterTabs();
     grid.innerHTML = '';
-    PAPERS.forEach(function (pp) {
+    var ch = activeChapter();
+    var nos = ch ? ch.papers : PAPER_NOS;
+    nos.forEach(function (no) {
+      var pp = paperOf(no);
+      if (!pp) return;
       var btn = document.createElement('button');
       btn.className = 'paper-card' + (state.selected[pp.no] ? ' active' : '');
       btn.type = 'button';
       var st = SRS.statsFor(pp.items);
-      var donePct = Math.round((st.total - st['new']) / st.total * 100);
+      var donePct = st.total ? Math.round((st.total - st['new']) / st.total * 100) : 0;
       btn.innerHTML =
-        '<span class="pc-no">Test Paper ' + pp.no + '</span>' +
+        '<span class="pc-no">' + esc(pp.label) + (pp.incomplete ? '<i class="pc-warn" title="本 PDF 范围内该部分不完整">不完整</i>' : '') + '</span>' +
         '<span class="pc-count">' + pp.items.length + ' 词</span>' +
         '<span class="pc-bar"><i style="width:' + donePct + '%"></i></span>' +
         '<span class="pc-meta">已练 ' + (st.total - st['new']) + ' · 熟练 ' + st.mastered + '</span>';
@@ -125,6 +209,7 @@
         saveSettings();
         renderPapers();
         updateSummaryLine();
+        renderCount();          // 同步「当前可选 N 词」，否则勾选后该提示会停留在旧值
       });
       grid.appendChild(btn);
     });
@@ -228,7 +313,7 @@
    * @param {string} [label]  自定义标签
    */
   function startExam(paper, items, label) {
-    var pool = items && items.length ? items.slice() : PAPERS[paper - 1].items.slice();
+    var pool = items && items.length ? items.slice() : itemsOf(paper).slice();
     if (!pool.length) { alert('这个 Test Paper 没有单词'); return; }
 
     if (state.examShuffle) {
@@ -241,7 +326,7 @@
 
     state.exam = {
       paper: paper,
-      label: label || ('Test Paper ' + paper),
+      label: label || labelOf(paper),
       total: pool.length,
       startedAt: Date.now(),
       fromMistakes: !!(items && items.length)
@@ -277,7 +362,7 @@
 
     $('session-label').textContent = state.exam
       ? ('📝 ' + state.exam.label + (state.exam.fromMistakes ? ' · 错题练习' : ' · 小测'))
-      : ('Test Paper ' + q.it.paper + (q.requeued ? ' · 错题重练' : ''));
+      : (labelOf(q.it.paper) + (q.requeued ? ' · 错题重练' : ''));
     updateProgress();
     $('speaker-sub').textContent = '按 Enter 提交答案';
     $('answer-input').focus();
@@ -654,17 +739,18 @@
   function renderBrowse() {
     var sel = $('browse-paper');
     if (!sel.options.length) {
-      for (var p = 1; p <= 9; p++) {
+      PAPER_NOS.forEach(function (p) {
         var o = document.createElement('option');
-        o.value = p; o.textContent = 'Test Paper ' + p + '（' + PAPERS[p - 1].items.length + ' 词）';
+        o.value = p;
+        o.textContent = labelOf(p) + '（' + itemsOf(p).length + ' 词）';
         sel.appendChild(o);
-      }
+      });
       $('browse-sort').value = state.browseSort;
     }
-    var p = parseInt(sel.value || '1', 10);
+    var p = parseInt(sel.value || String(PAPER_NOS[0] || 1), 10);
     var kw = SRS.normalize($('browse-search').value);
 
-    var items = PAPERS[p - 1].items.filter(function (it) {
+    var items = itemsOf(p).filter(function (it) {
       return !kw || it.w.toLowerCase().indexOf(kw) >= 0 || (it.m || '').indexOf(kw) >= 0;
     });
     items = sortBrowseItems(items, state.browseSort);
@@ -774,7 +860,7 @@
       btn.className = 'exam-card';
       btn.innerHTML =
         '<span class="ec-head">' +
-          '<span class="ec-no">Test Paper ' + pp.no + '</span>' +
+          '<span class="ec-no">' + esc(pp.label) + '</span>' +
           '<span class="ec-words">' + pp.items.length + ' 词</span>' +
         '</span>' +
         (st.count
@@ -801,12 +887,12 @@
     var sel = $('log-paper');
     if (!sel || sel.options.length > 1) return sel;
     /* 第一个 option 是 HTML 里的「全部 Test Paper」占位，不要重复添加 */
-    for (var p = 1; p <= 9; p++) {
+    PAPER_NOS.forEach(function (p) {
       var o = document.createElement('option');
       o.value = String(p);
-      o.textContent = 'Test Paper ' + p;
+      o.textContent = labelOf(p);
       sel.appendChild(o);
-    }
+    });
     return sel;
   }
 
@@ -895,13 +981,13 @@
   function renderMistakes() {
     var sel = $('mk-paper');
     if (sel && !sel.options.length) {
-      for (var p = 1; p <= 9; p++) {
+      PAPER_NOS.forEach(function (p) {
         var o = document.createElement('option');
-        o.value = p; o.textContent = 'Test Paper ' + p;
+        o.value = p; o.textContent = labelOf(p);
         sel.appendChild(o);
-      }
+      });
     }
-    var paper = sel ? parseInt(sel.value, 10) : 1;
+    var paper = sel ? parseInt(sel.value, 10) : PAPER_NOS[0];
     var onlyOpen = $('mk-onlyopen') ? $('mk-onlyopen').checked : true;
     var list = ExamStore.listMistakes({ paper: paper, onlyOpen: onlyOpen });
 
@@ -917,7 +1003,7 @@
 
     list.forEach(function (m) {
       var r = SRS.peek(m.paper, m.w);
-      var item = (PAPERS[m.paper - 1].items.filter(function (x) { return x.w === m.w; })[0]) || { w: m.w, m: '' };
+      var item = (itemsOf(m.paper).filter(function (x) { return x.w === m.w; })[0]) || { w: m.w, m: '' };
       var d = document.createElement('div');
       d.className = 'mk-row' + (m.cleared ? ' cleared' : '');
       d.innerHTML =
@@ -961,10 +1047,10 @@
     if (!list.length) { alert('这个 Test Paper 没有待订正的错词'); return; }
     var words = {};
     list.forEach(function (m) { words[m.w] = true; });
-    var items = PAPERS[paper - 1].items.filter(function (it) { return words[it.w]; });
+    var items = itemsOf(paper).filter(function (it) { return words[it.w]; });
     if (!items.length) { alert('没找到对应单词'); return; }
     /* 用错题练习模式：答对即从错题本订正 */
-    startExam(paper, items, 'Test Paper ' + paper + ' 错题');
+    startExam(paper, items, labelOf(paper) + ' 错题');
   }
 
   /* ---------- 9. 语音音色 ---------- */
@@ -1070,11 +1156,14 @@
     $('btn-count-minus').addEventListener('click', function () { setCount(state.count - 10); });
     $('btn-count-plus').addEventListener('click', function () { setCount(state.count + 10); });
     $('btn-all-papers').addEventListener('click', function () {
-      for (var p = 1; p <= 9; p++) state.selected[p] = true;
+      /* 全选/清空 只作用于当前章节，避免误把别的章节也选上 */
+      var ch = activeChapter();
+      (ch ? ch.papers : PAPER_NOS).forEach(function (p) { state.selected[p] = true; });
       saveSettings(); renderPapers(); updateSummaryLine(); renderCount();
     });
     $('btn-clear-papers').addEventListener('click', function () {
-      state.selected = {};
+      var ch = activeChapter();
+      (ch ? ch.papers : PAPER_NOS).forEach(function (p) { delete state.selected[p]; });
       saveSettings(); renderPapers(); updateSummaryLine(); renderCount();
     });
 
@@ -1193,12 +1282,15 @@
     if (!ALL_ITEMS.length) {
       document.body.innerHTML =
         '<div style="padding:40px;font-family:sans-serif">' +
-        '<h2>数据未加载</h2><p>请确认 <code>tingxie/data/paper1.js … paper9.js</code> 存在。</p></div>';
+        '<h2>数据未加载</h2><p>请确认 <code>tingxie/data/paper1.js … paper9.js</code>、' +
+        '<code>meta.js</code>、<code>ch4_paper10.js … ch4_paper13.js</code> 存在。</p></div>';
       return;
     }
     loadSettings();
+    if (!state.chapter) state.chapter = CHAPTERS[0].id;          // 默认第一个章节
     if (!Object.keys(state.selected).length) {
-      for (var p = 1; p <= 9; p++) state.selected[p] = true;   // 默认全选
+      /* 默认只全选第一个章节（Chapter 3），避免一上来就把所有章节都选上 */
+      CHAPTERS[0].papers.forEach(function (p) { state.selected[p] = true; });
     }
     Speech.setSettings({ rate: state.rate, volume: state.volume, dual: state.dual });
 

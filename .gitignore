@@ -10,6 +10,7 @@ materials/pdf/*.pdf
 
 # 由上述 PDF 生成的页面扫描图（版权内容的图像形式，且体积大）
 tools/extraction/pdf_pages_hi/
+tools/extraction/ch4_pages/
 
 # ---- 大体积中间产物（可由脚本重新生成）----
 tools/kaodianciku_full_decoded.txt
