@@ -8,14 +8,14 @@
 不需要任何依赖。**推荐用 Chrome 或 Edge 打开**（需要 Web Speech API 朗读单词）：
 
 ```
-直接双击：tingxie\index.html
+直接双击：apps\tingxie\index.html
 ```
 
-或启动本地服务器：
+或启动本地服务器（在站点根目录执行）：
 
 ```
-python -m http.server 8080 --directory "D:\dsh workspace"
-# 浏览器访问 http://127.0.0.1:8080/tingxie/
+python -m http.server 8080
+# 浏览器访问 http://127.0.0.1:8080/apps/tingxie/
 ```
 
 > 也可以用 `file://` 直接打开，本模块不依赖 fetch，所有数据用 `<script>` 载入，无跨域问题。
@@ -218,7 +218,7 @@ prio = 0.85 × 应付系数 + 0.70 × 到期系数 + 0.25 × 新鲜度
 ```
 tingxie/
 ├── index.html          页面骨架（设置 / 听写 / 结果 / 词表 / 小测 / 小测结果 / 记录 / 错题本）
-├── css/style.css       样式（深色主题）
+├── css/style.css       样式（浅色主题，与站点外壳同一套配色）
 ├── js/
 │   ├── srs.js          间隔重复调度 + 判分 + promote/lower（纯逻辑，可单测）
 │   ├── speech.js       Web Speech API 朗读封装
